@@ -1,0 +1,227 @@
+{
+  "collection_date": "2026-10-27",
+  "funding_window_start": "2025-10-27",
+  "funding_window_end": "2026-10-27",
+  "records": [
+    {
+      "date_added": "2026-10-27",
+      "company": "Quilt",
+      "website": "https://www.quilt.com/",
+      "industry": "Home climate / hardware",
+      "funding_date": "2025-12-08",
+      "round_amount": "Series B / $20M",
+      "funding_source": "https://www.quilt.com/news/this-milestone-belongs-to-you-quilt-raises-20m-series-b",
+      "design_inspiration": "Warm, full-width room photography makes HVAC feel like home decor. Large serif headline and clear homeowner/installer CTAs.",
+      "review_method": "Visual + text"
+    },
+    {
+      "date_added": "2026-10-27",
+      "company": "On Me",
+      "website": "https://onme.com/",
+      "industry": "Consumer gifting / fintech",
+      "funding_date": "2025-12-11",
+      "round_amount": "Seed / $6M",
+      "funding_source": "https://www.prnewswire.com/news-releases/the-future-of-gifting-is-digital-on-me-closes-6m-seed-round-to-redefine-the-gift-card-302639285.html",
+      "design_inspiration": "Soft pink-peach hero, bold black headline, bright pink CTA, and a phone mockup make a digital gift card tangible. Merchant logos explain coverage.",
+      "review_method": "Visual + text"
+    },
+    {
+      "date_added": "2026-10-27",
+      "company": "Boom Supersonic",
+      "website": "https://boomsupersonic.com/",
+      "industry": "Aviation / energy",
+      "funding_date": "2025-12-09",
+      "round_amount": "Funding round / $300M",
+      "funding_source": "https://boomsupersonic.com/press-release/boom-supersonic-to-power-ai-data-centers",
+      "design_inspiration": "A chronological story connects the lost promise of supersonic travel to today's aircraft and energy products. Clear product-family navigation.",
+      "review_method": "Text"
+    },
+    {
+      "date_added": "2026-10-27",
+      "company": "Zipline",
+      "website": "https://www.zipline.com/",
+      "industry": "Robotics / drone delivery",
+      "funding_date": "2026-01-21",
+      "round_amount": "Funding round / more than $600M",
+      "funding_source": "https://www.zipline.com/newsroom/zipline-surpasses-2-million-deliveries-raises-more-than-600m-to-power-next-phase-of-growth-and-expands-operations-to-houston-and-phoenix",
+      "design_inspiration": "Benefits before technical detail: food, medicine, and essentials lead into a simple three-step ordering story. Separate customer and partner paths.",
+      "review_method": "Text"
+    },
+    {
+      "date_added": "2026-10-27",
+      "company": "Chai Discovery",
+      "website": "https://www.chaidiscovery.com/",
+      "industry": "Biotech / AI molecular design",
+      "funding_date": "2026-07-14",
+      "round_amount": "Series C / $400M",
+      "funding_source": "https://www.chaidiscovery.com/news/series-c",
+      "design_inspiration": "A concise molecular-engineering headline leads to research, platform, and pharmaceutical collaboration stories. Useful model for making deep science navigable.",
+      "review_method": "Text"
+    },
+    {
+      "date_added": "2026-10-27",
+      "company": "Function Health",
+      "website": "https://www.functionhealth.com/",
+      "industry": "Preventive health / medical AI",
+      "funding_date": "2025-11-19",
+      "round_amount": "Series B / $298M",
+      "funding_source": "https://www.functionhealth.com/article/function-announcement",
+      "design_inspiration": "Makes the offer concrete with test count and annual/day pricing, then explains testing, results, and next steps in three numbered stages.",
+      "review_method": "Text"
+    },
+    {
+      "date_added": "2026-10-27",
+      "company": "Lovable",
+      "website": "https://lovable.dev/",
+      "industry": "AI app creation",
+      "funding_date": "2025-12-18",
+      "round_amount": "Series B / $330M",
+      "funding_source": "https://lovable.dev/blog/series-b",
+      "design_inspiration": "Plain-language building prompt leads into create, refine, and deploy stages. Useful example of showing a product workflow instead of listing features.",
+      "review_method": "Text"
+    },
+    {
+      "date_added": "2026-10-27",
+      "company": "Cursor",
+      "website": "https://cursor.com/",
+      "industry": "AI software development",
+      "funding_date": "2025-11-13",
+      "round_amount": "Series D / $2.3B",
+      "funding_source": "https://cursor.com/blog/series-d",
+      "design_inspiration": "Product-interface demos show concrete tasks and review states before customer quotes. Study how a complex agent workflow becomes an understandable homepage story.",
+      "review_method": "Text"
+    },
+    {
+      "date_added": "2026-10-27",
+      "company": "Luma",
+      "website": "https://lumalabs.ai/app",
+      "industry": "AI creative tools",
+      "funding_date": "2025-11-19",
+      "round_amount": "Series C / $900M",
+      "funding_source": "https://lumalabs.ai/news/series-c",
+      "design_inspiration": "Minimal black-and-white hero with a large centered headline, generous whitespace, and one prominent rounded CTA. A simple reference for keeping creative tooling approachable.",
+      "review_method": "Visual + text"
+    },
+    {
+      "date_added": "2026-10-27",
+      "company": "Gamma",
+      "website": "https://gamma.app/",
+      "industry": "AI visual communication",
+      "funding_date": "2025-11-10",
+      "round_amount": "Series B / $68M, includes secondary",
+      "funding_source": "https://gamma.app/insights/how-we-built-a-usd100m-business-differently",
+      "design_inspiration": "Organizes the product story around brainstorm, design, refine, and connect. Role-specific solution links and repeated start-free CTAs keep navigation actionable.",
+      "review_method": "Text"
+    },
+    {
+      "date_added": "2026-10-27",
+      "company": "Suno",
+      "website": "https://suno.com/about",
+      "industry": "AI music / consumer creativity",
+      "funding_date": "2026-06-03",
+      "round_amount": "Series D / more than $400M",
+      "funding_source": "https://suno.com/blog/series-d-announcement",
+      "design_inspiration": "The about page mixes the team's musical identity, product capabilities, and artist programs. Study how community stories add credibility beyond product claims.",
+      "review_method": "Text"
+    },
+    {
+      "date_added": "2026-10-27",
+      "company": "ElevenLabs",
+      "website": "https://elevenlabs.io/",
+      "industry": "AI audio / voice agents",
+      "funding_date": "2026-02-04",
+      "round_amount": "Series D / $500M",
+      "funding_source": "https://elevenlabs.io/blog/series-d",
+      "design_inspiration": "Splits a broad offering into Creative, Agents, and API paths. Voice-use categories and customer stories help different audiences find a relevant entry point.",
+      "review_method": "Text"
+    },
+    {
+      "date_added": "2026-10-27",
+      "company": "WisdomAI",
+      "website": "https://www.wisdom.ai/",
+      "industry": "Enterprise data analytics",
+      "funding_date": "2025-11-12",
+      "round_amount": "Series A / $50M",
+      "funding_source": "https://www.wisdom.ai/blog/announcing-our-series-a-funding",
+      "design_inspiration": "Leads with the buyer's accuracy concern, then walks through a sample business question and validation checks. Useful trust-building structure for technical products.",
+      "review_method": "Text"
+    },
+    {
+      "date_added": "2026-10-27",
+      "company": "Baseten",
+      "website": "https://www.baseten.co/",
+      "industry": "AI infrastructure / inference",
+      "funding_date": "2026-01-23",
+      "round_amount": "Series E / $300M",
+      "funding_source": "https://www.baseten.co/blog/announcing-baseten-s-300m-series-e/",
+      "design_inspiration": "Short inference-first positioning and two distinct CTAs: self-serve start or talk to an engineer. Customer logos quickly establish production relevance.",
+      "review_method": "Text"
+    },
+    {
+      "date_added": "2026-10-27",
+      "company": "fal",
+      "website": "https://fal.ai/",
+      "industry": "Generative media infrastructure",
+      "funding_date": "2025-12-09",
+      "round_amount": "Series D / $140M",
+      "funding_source": "https://fal.ai/blog/our-series-d-scaling-fal",
+      "design_inspiration": "A single full-stack promise connects model APIs, serverless, and compute. Model exploration, docs, and pricing give developers clear next steps.",
+      "review_method": "Text"
+    },
+    {
+      "date_added": "2026-10-27",
+      "company": "Replit",
+      "website": "https://replit.com/",
+      "industry": "AI app creation",
+      "funding_date": "2026-03-11",
+      "round_amount": "Funding round / $400M",
+      "funding_source": "https://replit.com/blog/replit-raises-400-million-dollars",
+      "design_inspiration": "Starts with what the visitor wants to build and example prompts, then separates role and use-case navigation. Good model for reducing blank-page friction.",
+      "review_method": "Text"
+    },
+    {
+      "date_added": "2026-10-27",
+      "company": "PhysicsX",
+      "website": "https://www.physicsx.ai/",
+      "industry": "Industrial AI / engineering",
+      "funding_date": "2026-06-08",
+      "round_amount": "Series C / $300M",
+      "funding_source": "https://www.physicsx.ai/newsroom/physicsx-announces-300m-series-c-to-accelerate-physics-ai-for-industrial-engineering",
+      "design_inspiration": "Numbered mission, platform, and impact sections translate a complex engineering proposition into a clear progression, with embedded video explainers.",
+      "review_method": "Text"
+    },
+    {
+      "date_added": "2026-10-27",
+      "company": "Modal",
+      "website": "https://modal.com/",
+      "industry": "AI cloud infrastructure",
+      "funding_date": "2026-10-14",
+      "round_amount": "Series D / $750M",
+      "funding_source": "https://modal.com/blog/1-billion-annualized-run-rate-series-d",
+      "design_inspiration": "Defines products by developer jobs: inference, sandboxes, and training. Practical tools, engineering articles, and customer examples deepen the simple core pitch.",
+      "review_method": "Text"
+    },
+    {
+      "date_added": "2026-10-27",
+      "company": "Ricursive Intelligence",
+      "website": "https://www.ricursive.com/",
+      "industry": "AI semiconductor design",
+      "funding_date": "2026-01-26",
+      "round_amount": "Series A / $300M",
+      "funding_source": "https://www.prnewswire.com/news-releases/ricursive-intelligence-raises-300-million-series-a-at-4-billion-valuation-to-accelerate-ai-driven-semiconductor-design-302670061.html",
+      "design_inspiration": "A deliberately short page focuses on the mission, research credentials, recent coverage, and careers. Useful reference for a research-led company with a narrow message.",
+      "review_method": "Text"
+    },
+    {
+      "date_added": "2026-10-27",
+      "company": "Port",
+      "website": "https://www.port.io/",
+      "industry": "Developer platform / AI operations",
+      "funding_date": "2025-12-11",
+      "round_amount": "Series C / $100M",
+      "funding_source": "https://www.port.io/blog/port-100m-series-c",
+      "design_inspiration": "Organizes the platform into context, orchestration, governance, and metrics, then maps it to specific engineering jobs. Trial and guided-demo paths serve different buyers.",
+      "review_method": "Text"
+    }
+  ]
+}
