@@ -32,3 +32,12 @@ Dates use ISO 8601 (`YYYY-MM-DD`). Funding amounts are quoted descriptions, not 
 ## Validation for 2026-10-27
 
 The source tracker was read back and the export checked: 20 records, 20 distinct domains, all funding dates within the collection window, all nine fields populated. Design notes and funding descriptions are preserved from that research; no additional visual review is implied by exporting them here.
+
+## October 28 collection
+
+- [2026-10-28 data (JSON)](data/2026-10-28.json) — 20 additional companies; 40 distinct company domains across both collections.
+- Funding announcements dated October 28, 2025–October 28, 2026; all backed by company announcements or company-issued releases.
+- 2 sites visually reviewed (Enveda and FLORA); 18 reviewed by text. Text notes describe messaging and information architecture, not verified visual appearance.
+- Includes biotechnology, consumer wearables, energy, construction robotics, financial services, creative tools, and AI infrastructure.
+- Financing descriptions preserve extensions, conditional future investment, non-dilutive financing, employee liquidity, and initial-close qualifiers. Funding eligibility is assessed as of collection, not a claim that every company remains privately held or independent.
+- Validation: 20 records, nine populated fields each, 20 new canonical domains, qualifying dates, and no private workspace identifiers in this snapshot. The working tracker append was read back successfully.
