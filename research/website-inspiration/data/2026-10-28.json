@@ -1,0 +1,222 @@
+[
+  {
+    "date_added": "2026-10-28",
+    "company": "Harvey",
+    "website": "https://www.harvey.ai/",
+    "industry": "Legal AI",
+    "funding_date": "2026-09-09",
+    "round_amount": "Funding round / $550M",
+    "funding_source": "https://www.harvey.ai/blog/harvey-raises-dollar550m-at-a-dollar155b-valuation-to-help-legal-teams-own-their-intelligence",
+    "design_inspiration": "Segments navigation by product, buyer type, industry, and practice area. A useful model for making a broad enterprise platform relevant to distinct audiences.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-28",
+    "company": "World Labs",
+    "website": "https://www.worldlabs.ai/",
+    "industry": "Spatial AI / 3D creation",
+    "funding_date": "2026-02-18",
+    "round_amount": "Funding round / $1B",
+    "funding_source": "https://www.worldlabs.ai/blog/funding-2026",
+    "design_inspiration": "Moves from a spatial-intelligence mission to concrete Marble creation capabilities, then separates community showcases, case studies, and tutorials. Strong learn-by-example structure.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-28",
+    "company": "Decagon",
+    "website": "https://decagon.ai/",
+    "industry": "AI customer service",
+    "funding_date": "2026-01-27",
+    "round_amount": "Series D / $250M",
+    "funding_source": "https://decagon.ai/blog/series-d-announcement",
+    "design_inspiration": "Opens with specific concierge actions instead of abstract AI claims; customer quotations sit beside outcome metrics. Study how examples make a broad service tangible.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-28",
+    "company": "Terra Industries",
+    "website": "https://www.terraindustries.co/",
+    "industry": "Autonomous infrastructure security",
+    "funding_date": "2026-08-17",
+    "round_amount": "Seed extension / $18M additional; $52M total seed",
+    "funding_source": "https://www.terraindustries.co/newsroom/funding-52m-london",
+    "design_inspiration": "Pairs a geographically specific mission with named hardware products and comparable specifications. Useful reference for turning a hardware portfolio into a scannable catalog.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-28",
+    "company": "Bedrock Robotics",
+    "website": "https://bedrockrobotics.com/",
+    "industry": "Construction robotics",
+    "funding_date": "2026-10-26",
+    "round_amount": "Series C / $600M",
+    "funding_source": "https://www.globenewswire.com/news-release/2026/10/26/3388197/0/en/bedrock-robotics-raises-600-million-series-c-to-scale-autonomous-construction-equipment-across-u-s-sites.html",
+    "design_inspiration": "Frames autonomy around existing fleets and crews, then offers a named contractor video case study. Useful operator-first messaging rather than research jargon.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-28",
+    "company": "Waabi",
+    "website": "https://waabi.ai/",
+    "industry": "Autonomous transportation",
+    "funding_date": "2026-01-28",
+    "round_amount": "Series C / $750M closed; additional milestone-based Uber investment",
+    "funding_source": "https://www.waabi.ai/insights/waabi-secures-1-billion-in-new-funding-to-lead-physical-ai-revolution",
+    "design_inspiration": "A short trucking-focused headline leads into safe/scalable/practical benefits, technology links, and a dedicated safety section. Clear progression from promise to evidence.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-28",
+    "company": "Skild AI",
+    "website": "https://www.skild.ai/",
+    "industry": "Robotics foundation models",
+    "funding_date": "2026-01-14",
+    "round_amount": "Series C / $1.4B",
+    "funding_source": "https://www.skild.ai/blogs/series-c",
+    "design_inspiration": "Explains its unified robotic-brain thesis, then grounds it in inspection, manipulation, and packing applications. Study the abstract-to-concrete narrative sequence.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-28",
+    "company": "Runway",
+    "website": "https://runway.com/",
+    "industry": "Creative AI / world models",
+    "funding_date": "2026-02-10",
+    "round_amount": "Series E / $315M",
+    "funding_source": "https://runway.com/news/runway-series-e-funding",
+    "design_inspiration": "Organizes one technology foundation into Creative, Dev, and Robotics platforms, each with its own next step. A useful architecture for serving creators and technical buyers together.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-28",
+    "company": "WHOOP",
+    "website": "https://www.whoop.com/us/en/",
+    "industry": "Consumer health wearable",
+    "funding_date": "2026-03-31",
+    "round_amount": "Series G / $575M",
+    "funding_source": "https://www.whoop.com/us/en/press-center/whoop-announces-series-g-funding/",
+    "design_inspiration": "Benefit headings explain when to recover, sleep, and train before presenting membership options. Study the progression from everyday outcomes to package comparison.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-28",
+    "company": "Crusoe",
+    "website": "https://www.crusoe.ai/",
+    "industry": "AI infrastructure / energy",
+    "funding_date": "2026-09-17",
+    "round_amount": "Series F / initial close of anticipated $3.9B round",
+    "funding_source": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding",
+    "design_inspiration": "Separates cloud services from physical infrastructure and gives developers a dedicated documentation route. Useful navigation for a vertically integrated business with very different buyers.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-28",
+    "company": "Airwallex",
+    "website": "https://www.airwallex.com/",
+    "industry": "Global payments / fintech",
+    "funding_date": "2025-12-08",
+    "round_amount": "Series G / $330M",
+    "funding_source": "https://www.airwallex.com/global/newsroom/awx-raises-usd330m-series-g-at-usd8b-valuation-establishes-sf-as-dual-global-hq",
+    "design_inspiration": "Groups products into accounts, spend, payments, billing, and APIs, each with a plain-language descriptor. Industry routes and a product tour help visitors self-select. EU landing page reviewed.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-28",
+    "company": "Deepgram",
+    "website": "https://deepgram.com/",
+    "industry": "Voice AI infrastructure",
+    "funding_date": "2026-01-13",
+    "round_amount": "Series C / $130M",
+    "funding_source": "https://deepgram.com/learn/press-release-deepgram-raises-series-c",
+    "design_inspiration": "Breaks a voice-agent system into audio input, transcription, orchestration, speech output, and business logic. A useful pattern for explaining complex infrastructure before offering builder paths.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-28",
+    "company": "Valar Atomics",
+    "website": "https://www.valaratomics.com/",
+    "industry": "Nuclear energy",
+    "funding_date": "2026-08-04",
+    "round_amount": "Series B / $1B equity; separate $200M credit facility",
+    "funding_source": "https://www.valaratomics.com/docs/Announcing-our-1B-Series-B-Led-By-Sequoia",
+    "design_inspiration": "Structures the story as industry problem, new operating model, technology, then product markets. Short fuel/moderator/coolant labels make technical content easier to scan.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-28",
+    "company": "FLORA",
+    "website": "https://flora.ai/",
+    "industry": "Creative AI workspace",
+    "funding_date": "2026-01-27",
+    "round_amount": "Series A / $42M",
+    "funding_source": "https://flora.ai/blog/the-creative-environment-for-the-generative-era",
+    "design_inspiration": "Black canvas, floating fashion/product imagery, expressive serif headline, and a green primary button create a studio-like hero. Workflow sections connect inspiration to reusable techniques.",
+    "review_method": "Visual + text"
+  },
+  {
+    "date_added": "2026-10-28",
+    "company": "Enveda",
+    "website": "https://enveda.com/",
+    "industry": "AI drug discovery / biotech",
+    "funding_date": "2026-09-23",
+    "round_amount": "Series E / $311M",
+    "funding_source": "https://enveda.com/news/enveda-raises-311-million/",
+    "design_inspiration": "A vivid botanical hero blends a large petal, spectral gradients, and subtle chemistry diagrams. The simple life-inspired headline leads directly to the pipeline: science without a sterile visual tone.",
+    "review_method": "Visual + text"
+  },
+  {
+    "date_added": "2026-10-28",
+    "company": "Beacon Biosignals",
+    "website": "https://beacon.bio/",
+    "industry": "Neurotechnology / diagnostics",
+    "funding_date": "2025-11-13",
+    "round_amount": "Series B / $86M",
+    "funding_source": "https://beacon.bio/news/beacon-biosignals-raises-86m-to-accelerate-ai-driven-insights-into-brain-health",
+    "design_inspiration": "Splits the homepage into life-sciences research and provider/patient sleep-testing paths, followed by adoption metrics. Useful audience separation for one platform serving research and clinical needs.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-28",
+    "company": "Mirage / Captions",
+    "website": "https://captions.ai/",
+    "industry": "AI video editing",
+    "funding_date": "2026-03-24",
+    "round_amount": "Non-dilutive growth financing / $75M",
+    "funding_source": "https://captions.ai/blog/announcing-mirages-usd75m-growth-financing-with-general-catalyst",
+    "design_inspiration": "Puts footage upload, editing-style choices, and a create-video action ahead of the feature explanation. Useful product-first onboarding pattern; no upload or signup performed.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-28",
+    "company": "Higgsfield",
+    "website": "https://higgsfield.ai/",
+    "industry": "AI creative suite",
+    "funding_date": "2026-10-23",
+    "round_amount": "Series B extension / amount undisclosed",
+    "funding_source": "https://higgsfield.ai/blog/higgsfield-series-b-extension-tcv-nvidia",
+    "design_inspiration": "An explore-first homepage groups launches, creative tools, presets, and community examples with direct action links. Study discovery through outputs rather than a long corporate pitch.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-28",
+    "company": "Supabase",
+    "website": "https://supabase.com/",
+    "industry": "Developer database platform",
+    "funding_date": "2026-06-04",
+    "round_amount": "Series F / $500M; includes employee liquidity purpose",
+    "funding_source": "https://supabase.com/blog/supabase-series-f",
+    "design_inspiration": "Pairs an ambitious build-and-scale promise with modular product descriptions, a real React code example, and starter templates. Strong progression from value proposition to a practical first build.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-28",
+    "company": "Fervo Energy",
+    "website": "https://fervoenergy.com/",
+    "industry": "Geothermal energy",
+    "funding_date": "2025-12-10",
+    "round_amount": "Series E / $462M",
+    "funding_source": "https://fervoenergy.com/fervo-energy-raises-462-million-series-e-to-accelerate-geothermal-development-and-meet-surging-energy-demand-with-clean-firm-power/",
+    "design_inspiration": "Leads with dependable clean power, then uses explainer videos and misconception sections on geography, competitiveness, and safety. Useful structure for educating buyers about unfamiliar technology.",
+    "review_method": "Text"
+  }
+]
