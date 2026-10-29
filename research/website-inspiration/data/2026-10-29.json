@@ -1,0 +1,222 @@
+[
+  {
+    "date_added": "2026-10-29",
+    "company": "ProducePay",
+    "website": "https://producepay.com/",
+    "industry": "Agriculture / supply-chain finance",
+    "funding_date": "2026-09-01",
+    "round_amount": "Equity + lending capital / over $140M combined",
+    "funding_source": "https://producepay.com/news/producepay-funding-140m-expansion/",
+    "design_inspiration": "Organizes a complex offer into financing, sourcing, and visibility, followed by product-specific sections and named customer stories. A clear outcomes-first structure.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-29",
+    "company": "Amca",
+    "website": "https://www.amca.com/",
+    "industry": "Aerospace / industrial manufacturing",
+    "funding_date": "2026-05-20",
+    "round_amount": "Series B / $300M",
+    "funding_source": "https://www.prnewswire.com/news-releases/amca-closes-300m-series-b-at-1b-valuation-to-strengthen-americas-critical-component-supply-chain-302776943.html",
+    "design_inspiration": "Minimal Home, About, Catalog, and Careers navigation supports a problem-to-mission narrative. A $10,000-part bottleneck example makes industrial supply-chain stakes concrete.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-29",
+    "company": "Venus Aerospace",
+    "website": "https://www.venusaero.com/",
+    "industry": "Aerospace / propulsion",
+    "funding_date": "2026-07-08",
+    "round_amount": "Series B / $91M",
+    "funding_source": "https://www.prnewswire.com/news-releases/venus-aerospace-raises-91m-to-mature-the-worlds-first-flight-proven-high-thrust-rdre-into-full-propulsion-systems-302820195.html",
+    "design_inspiration": "Separate RDRE and VDR product narratives pair short headlines, explanations, and exploration links. Benefits are organized around capability, scale, and affordability.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-29",
+    "company": "JetZero",
+    "website": "https://www.jetzero.aero/",
+    "industry": "Aerospace / efficient aircraft",
+    "funding_date": "2026-01-13",
+    "round_amount": "Series B / approximately $175M",
+    "funding_source": "https://www.prnewswire.com/news-releases/jetzero-raises-175-million-in-series-b-financing-to-transform-aircraft-innovation-302659230.html",
+    "design_inspiration": "Leads with concrete aircraft attributes, including 250 seats and international range. Milestone/news modules establish credibility before efficiency, passenger-experience, and team sections.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-29",
+    "company": "Senra Systems",
+    "website": "https://senrasystems.us/",
+    "industry": "Manufacturing / wire harnesses",
+    "funding_date": "2026-07-15",
+    "round_amount": "Series B / $65M",
+    "funding_source": "https://www.prnewswire.com/news-releases/senra-systems-announces-65-million-series-b-plans-for-third-manufacturing-facility-302825664.html",
+    "design_inspiration": "Paired quote and careers CTAs separate buyer and recruiting journeys. Manufacturing capabilities lead into a three-step Amp workflow, followed by news and investor proof.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-29",
+    "company": "Cambium",
+    "website": "https://cambiumglobal.com/",
+    "industry": "Advanced materials / manufacturing",
+    "funding_date": "2026-01-05",
+    "round_amount": "Series B / $100M",
+    "funding_source": "https://www.prnewswire.com/news-releases/cambium-secures-100-million-series-b-to-accelerate-the-discovery-and-scaling-of-advanced-materials-302649717.html",
+    "design_inspiration": "Explains discovery, development, and qualified production before three product verticals with technical bullets. Distinct buying-materials and co-development paths clarify the next step.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-29",
+    "company": "Mafix",
+    "website": "https://www.mafix.ag/",
+    "industry": "Climate / agriculture / carbon removal",
+    "funding_date": "2026-08-20",
+    "round_amount": "Pre-seed / $5.4M",
+    "funding_source": "https://www.globenewswire.com/news-release/2026/08/20/3348294/0/en/mafix-raises-5-4-million-to-commercialize-silicon-fertilizers-that-remove-co2.html",
+    "design_inspiration": "Connects crop yield and carbon removal in one proposition, then explains mineral conversion in four numbered steps. Market statistics and scientific links deepen the simple introduction.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-29",
+    "company": "Cyera",
+    "website": "https://www.cyera.com/",
+    "industry": "Data, identity and AI security",
+    "funding_date": "2026-01-08",
+    "round_amount": "Series F / $400M",
+    "funding_source": "https://www.cyera.com/press-releases/cyera-raises-400m-to-meet-rapidly-growing-demand-for-ai-security-among-enterprises",
+    "design_inspiration": "A trust-led hero is followed by latest updates and enterprise-logo proof. Useful structure for establishing credibility before explaining a broad security platform.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-29",
+    "company": "Jump",
+    "website": "https://jump.ai/",
+    "industry": "Wealthtech / financial-advisor software",
+    "funding_date": "2026-02-20",
+    "round_amount": "Series B / $80M",
+    "funding_source": "https://jump.ai/press/series-b-announcement",
+    "design_inspiration": "Navigation organizes capabilities around meetings, onboarding, and growing a firm. Demo and free-trial CTAs serve different readiness levels; compliance has its own entry.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-29",
+    "company": "Bretton AI",
+    "website": "https://www.bretton.com/",
+    "industry": "Fintech / financial operations",
+    "funding_date": "2026-02-10",
+    "round_amount": "Series B / $75M",
+    "funding_source": "https://www.bretton.com/blog/bretton-raises-75m-series-b-to-modernize-aml-kyc-staffing",
+    "design_inspiration": "Contrasts bank growth with back-office growth, then offers platform and managed-service paths. An ROI calculator and specific fraud and loan-review use cases make the offer concrete.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-29",
+    "company": "Astelia",
+    "website": "https://www.astelia.io/",
+    "industry": "Cybersecurity / exposure management",
+    "funding_date": "2026-02-24",
+    "round_amount": "Combined seed + Series A / $35M",
+    "funding_source": "https://www.astelia.io/newsroom/astelia-raises-35m-to-turn-exposure-management-from-guesswork-into-ai-powered-precision",
+    "design_inspiration": "Centers on a memorable reachable-1% proposition, then explains vulnerability reachability. Customer logos and a named CISO testimonial substantiate the technical story.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-29",
+    "company": "Upwind",
+    "website": "https://www.upwind.io/",
+    "industry": "Cloud security",
+    "funding_date": "2026-01-26",
+    "round_amount": "Series B / $250M",
+    "funding_source": "https://www.upwind.io/feed/building-next-wave-cloud-security-upwind",
+    "design_inspiration": "Divides the product story into inventory, risk detection, response, and agentic security. Named customer testimonials follow; emergency-response and demo paths address different urgency levels.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-29",
+    "company": "Rain",
+    "website": "https://www.rain.xyz/",
+    "industry": "Fintech / stablecoin payments infrastructure",
+    "funding_date": "2026-01-09",
+    "round_amount": "Series C / $250M",
+    "funding_source": "https://www.prnewswire.com/news-releases/rain-raises-250m-series-c-to-scale-stablecoin-powered-payments-infrastructure-for-global-enterprises-302657084.html",
+    "design_inspiration": "Groups products into accounts, cards, and money movement, with a separate buyer-use-case taxonomy. The single-API proposition leads into partner-logo proof.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-29",
+    "company": "Mesh Security",
+    "website": "https://mesh.security/",
+    "industry": "Cybersecurity / security-stack orchestration",
+    "funding_date": "2026-01-28",
+    "round_amount": "Series A / $12M",
+    "funding_source": "https://www.prnewswire.com/news-releases/mesh-security-raises-12-million-series-a-to-power-autonomous-execution-for-cybersecurity-mesh-at-enterprise-scale-302672708.html",
+    "design_inspiration": "Explains tool fragmentation after a two-part outcome headline. Demo and two-minute-video CTAs offer different commitment levels; market-change sections lead into remediation benefits.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-29",
+    "company": "Precede Biosciences",
+    "website": "https://www.precede.bio/",
+    "industry": "Precision diagnostics / biotechnology",
+    "funding_date": "2026-01-12",
+    "round_amount": "Series B / $63.5M equity + $20M credit facility",
+    "funding_source": "https://www.precede.bio/press-releases/seriesb-financing/",
+    "design_inspiration": "A five-step narrative moves from blood draw through molecular techniques and machine learning to actionable readouts. Separate Insight and Dx descriptions lead into a partnership CTA.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-29",
+    "company": "Angle Health",
+    "website": "https://www.anglehealth.com/",
+    "industry": "Health insurance / healthtech",
+    "funding_date": "2026-09-18",
+    "round_amount": "Announced $200M Series C + $400M tender offer; expected close later September",
+    "funding_source": "https://www.anglehealth.com/post/angle-health-secures-series-c-financing",
+    "design_inspiration": "An I-am-a selector routes members, employers, brokers, and providers. Procurement, management, and member-experience sections explain the journey; Start Quoting is a specific conversion action.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-29",
+    "company": "Isomorphic Labs",
+    "website": "https://www.isomorphiclabs.com/",
+    "industry": "AI drug discovery",
+    "funding_date": "2026-05-12",
+    "round_amount": "Series B / $2.1B",
+    "funding_source": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round",
+    "design_inspiration": "A short disease-focused mission leads into explanatory copy, leadership, culture, and AlphaFold heritage. Separate team, career, and technology routes support different visitor interests.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-29",
+    "company": "Apella",
+    "website": "https://apella.io/",
+    "industry": "Operating-room AI / healthtech",
+    "funding_date": "2026-01-08",
+    "round_amount": "Series B / $80M equity and venture debt combined",
+    "funding_source": "https://apella.io/blog/apella-raises-80-million-in-series-b-to-transform-the-hospital-with-ambient-ai-and-computer-vision",
+    "design_inspiration": "A quantified two-more-cases-per-OR proposition leads into a demo and impact calculator. Role-specific sections address leaders, nurses, physicians, schedulers, and turnover staff.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-29",
+    "company": "Diagonal Therapeutics",
+    "website": "https://diagonaltx.com/",
+    "industry": "Biotechnology / antibody therapeutics",
+    "funding_date": "2026-01-08",
+    "round_amount": "Series B / $125M",
+    "funding_source": "https://www.globenewswire.com/news-release/2026/01/08/3215162/0/en/Diagonal-Therapeutics-Announces-Oversubscribed-125-Million-Series-B-Financing-to-Advance-Clinical-Development-of-Disease-Modifying-Clustering-Antibody-Pipeline.html",
+    "design_inspiration": "Combines a development-stage pipeline with a seven-step platform explanation and Prev/Next and Play All controls. A useful structure for exploring science at different levels of detail.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-29",
+    "company": "Optellum",
+    "website": "https://optellum.com/",
+    "industry": "Lung-cancer diagnostic AI / medtech",
+    "funding_date": "2026-01-08",
+    "round_amount": "Series B / amount undisclosed",
+    "funding_source": "https://optellum.com/news/welcomes-new-investors",
+    "design_inspiration": "Separates discovery, cancer prediction, and triage/tracking into three modules. Footnoted impact metrics precede partner, provider, and patient pathways, with certification and institution proof.",
+    "review_method": "Text"
+  }
+]
