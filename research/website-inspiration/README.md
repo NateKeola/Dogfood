@@ -41,3 +41,12 @@ The source tracker was read back and the export checked: 20 records, 20 distinct
 - Includes biotechnology, consumer wearables, energy, construction robotics, financial services, creative tools, and AI infrastructure.
 - Financing descriptions preserve extensions, conditional future investment, non-dilutive financing, employee liquidity, and initial-close qualifiers. Funding eligibility is assessed as of collection, not a claim that every company remains privately held or independent.
 - Validation: 20 records, nine populated fields each, 20 new canonical domains, qualifying dates, and no private workspace identifiers in this snapshot. The working tracker append was read back successfully.
+
+## October 29 collection
+
+- [2026-10-29 data (JSON)](data/2026-10-29.json) — 20 additional companies; 60 distinct company domains across all three collections.
+- Funding announcements fall within October 29, 2025–October 29, 2026 and are backed by company announcements or company-issued releases.
+- All 20 sites reviewed by text only. Observations describe content, navigation, and messaging; no rendered visual assessment is implied.
+- Includes agriculture, advanced materials, aerospace, financial operations, cybersecurity, diagnostics, insurance, and biotechnology.
+- Funding descriptions retain combined debt/equity, tender-offer, expected-close, approximate-amount, and undisclosed-amount qualifiers.
+- Validation: 20 new canonical domains, nine populated fields per record, qualifying dates, and working-tracker readback. Public research only; no private workspace identifiers.
