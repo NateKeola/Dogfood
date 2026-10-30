@@ -1,0 +1,222 @@
+[
+  {
+    "date_added": "2026-10-30",
+    "company": "Mecka",
+    "website": "https://www.mecka.ai/",
+    "industry": "Robotics / physical AI data",
+    "funding_date": "2026-10-07",
+    "round_amount": "Series B / $60M",
+    "funding_source": "https://www.mecka.ai/news/series-b",
+    "design_inspiration": "A numbered document index leads visitors through the challenge, deployment loop, platform and FAQ. Engineering drawing labels and separate data-tool, enterprise and research paths give the technical story a distinctive structure.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-30",
+    "company": "Sunday Robotics",
+    "website": "https://www.sunday.ai/",
+    "industry": "Consumer robotics / home hardware",
+    "funding_date": "2026-03-12",
+    "round_amount": "Series B / $165M",
+    "funding_source": "https://www.sunday.ai/blog/series-b",
+    "design_inspiration": "Introduces Memo through specific household chores before explaining its learning technology. Labeled uncut demonstrations, privacy and safety sections, and a clear beta route address common buyer questions in sequence.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-30",
+    "company": "Voya Energy",
+    "website": "https://www.voya.energy/",
+    "industry": "Energy / metal-fueled generators",
+    "funding_date": "2026-08-26",
+    "round_amount": "Series A / $35M",
+    "funding_source": "https://www.voya.energy/news/voya-energy-unveils-a-new-metal-fuels-energy-system-closes-35-million-series-a",
+    "design_inspiration": "A five-step explanation follows aluminum from fuel production through transport, generation and byproduct recovery. Section navigation lets technical readers jump directly to core technology, system overview and applications.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-30",
+    "company": "Epyr",
+    "website": "https://www.epyr.co/",
+    "industry": "Energy / industrial thermal storage",
+    "funding_date": "2026-10-13",
+    "round_amount": "Series A / €15M",
+    "funding_source": "https://www.epyr.co/news-studies/news-series-a",
+    "design_inspiration": "Connects the industrial-heat problem to an Estimate Your Savings simulator, then explains four practical benefits. A named WEPA deployment gives visitors a concrete project to explore before making contact.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-30",
+    "company": "Scalvy",
+    "website": "https://scalvy.com/",
+    "industry": "Power electronics / energy infrastructure",
+    "funding_date": "2026-03-26",
+    "round_amount": "Series A / $13.9M",
+    "funding_source": "https://www.prnewswire.com/news-releases/scalvy-raises-13-9m-series-a-to-solve-the-power-delivery-bottleneck-for-ai-data-centers-grid-and-mobility-302725233.html",
+    "design_inspiration": "Explains centralized versus distributed power before segmenting the offer into data centers, energy storage and electric mobility. Each application gets concise technical-benefit bullets rather than one undifferentiated feature list.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-30",
+    "company": "Certain Energy",
+    "website": "https://www.certainenergy.com/",
+    "industry": "Energy / long-duration storage",
+    "funding_date": "2026-08-26",
+    "round_amount": "Series A / £10M",
+    "funding_source": "https://www.certainenergy.com/post/british-grid-battery-company-rfcpower-closes-ps10m-series-a-and-rebrands-as-certain-energy",
+    "design_inspiration": "Builds the opening story around uncertainty in wind and solar, then introduces storage technology and separate commercial, grid and renewable-generation use cases. The plain-language bigger-tanks-not-bigger-factories comparison makes scaling easier to understand.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-30",
+    "company": "Peak Energy",
+    "website": "https://peakenergy.com/",
+    "industry": "Energy / sodium-ion grid storage",
+    "funding_date": "2026-10-21",
+    "round_amount": "Series B / $108M in new financing",
+    "funding_source": "https://www.prnewswire.com/news-releases/peak-energy-raises-108-million-in-new-capital-announces-oversubscribed-series-b-to-scale-next-generation-energy-infrastructure-302914879.html",
+    "design_inspiration": "Separates AI data-center buyers from utilities and independent power producers, giving each a dedicated case and outcome. Product, deployment strategy and updates form a compact navigation structure around a cost-focused proposition.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-30",
+    "company": "Unbox Robotics",
+    "website": "https://unboxrobotics.com/",
+    "industry": "Warehouse robotics / logistics",
+    "funding_date": "2026-01-21",
+    "round_amount": "Series B / $28M; primary and secondary capital",
+    "funding_source": "https://www.prnewswire.com/news-releases/unbox-robotics-secures-us28-million-in-series-b-fundraise-led-by-icici-venture-302665476.html",
+    "design_inspiration": "Leads with installation, ROI and space-density claims alongside a demo CTA, then introduces the flagship product and logistics customer logos. Detailed FAQs answer compatibility, parcel types and incremental scaling questions.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-30",
+    "company": "Sychedelic",
+    "website": "https://www.sychedelic.com/",
+    "industry": "Consumer neurotechnology / audio wearable",
+    "funding_date": "2026-05-27",
+    "round_amount": "Seed / $3.5M",
+    "funding_source": "https://www.prnewswire.com/news-releases/sychedelic-closes-3-5-million-seed-round-to-launch-the-first-closed-loop-neurostimulation-headphones-302783088.html",
+    "design_inspiration": "Groups the product story around everyday use cases, followed by a numbered sensing-to-action sequence and familiar headphone specifications. Reservation pricing and shipping timing are explicit. This is a messaging review, not validation of health claims.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-30",
+    "company": "LimX Dynamics",
+    "website": "https://www.limxdynamics.com/en",
+    "industry": "Humanoid robotics / hardware platforms",
+    "funding_date": "2026-02-02",
+    "round_amount": "Series B / $200M",
+    "funding_source": "https://www.limxdynamics.com/en/news/BK000057",
+    "design_inspiration": "Splits product navigation into hardware and platforms, then gives each robot or developer tool a short positioning line and exploration link. Documentation, downloads, videos and community are surfaced as a dedicated support path.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-30",
+    "company": "Tenovi",
+    "website": "https://www.tenovi.com/",
+    "industry": "Remote patient monitoring / connected health",
+    "funding_date": "2026-10-20",
+    "round_amount": "Series B / $20M",
+    "funding_source": "https://www.tenovi.com/tenovi-raises-20m-series-b-led-by-black-granite-capital/",
+    "design_inspiration": "Explains the patient's red/green reminder workflow, then offers a sample API and a device catalog. A useful bridge between nontechnical care benefits and developer implementation.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-30",
+    "company": "Juvena Therapeutics",
+    "website": "https://www.juvenatherapeutics.com/",
+    "industry": "Biotechnology / regenerative medicine",
+    "funding_date": "2026-01-12",
+    "round_amount": "Series B / $33.5M",
+    "funding_source": "https://www.businesswire.com/news/home/20260112318932/en/Juvena-Therapeutics-Raises-%2433.5M-Series-B-Led-by-Bison-Ventures-to-Advance-Regenerative-Biologics-Pipeline",
+    "design_inspiration": "Pairs a plain-language muscle-restoration mission with explicit clinical-development stages. Separate patient/family and science paths let audiences choose their level of detail.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-30",
+    "company": "Pasito",
+    "website": "https://pasito.ai/",
+    "industry": "Employee benefits / insurance software",
+    "funding_date": "2026-02-03",
+    "round_amount": "Series A / $21M",
+    "funding_source": "https://www.prnewswire.com/news-releases/pasito-raises-21-million-series-a-led-by-insight-partners-to-build-ai-workspace-for-the-benefits-industry-302675272.html",
+    "design_inspiration": "Organizes the workspace around back-office automation, employee guidance, and winning business rather than a feature inventory. Demo and browse-features paths offer different levels of commitment.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-30",
+    "company": "Primmune Therapeutics",
+    "website": "https://www.primmunerx.com/",
+    "industry": "Biotechnology / cancer immunotherapy",
+    "funding_date": "2026-01-26",
+    "round_amount": "Series B additional close / $8.6M; $23.3M total Series B",
+    "funding_source": "https://www.primmunerx.com/press-releases/primmune-therapeutics-announces-additional-close-of-series-b-financing/",
+    "design_inspiration": "An explanatory immunity section follows the core therapy introduction, while Science, Clinical Trials, and Publications have separate navigation entries. Useful progressive disclosure for a research-heavy product.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-30",
+    "company": "Footprint",
+    "website": "https://onefootprint.com/",
+    "industry": "Financial crime compliance / fintech",
+    "funding_date": "2026-09-16",
+    "round_amount": "Series B / $25M",
+    "funding_source": "https://www.prnewswire.com/news-releases/footprint-raises-25-million-series-b-to-scale-percy-the-ai-operating-system-for-risk--compliance-302880661.html",
+    "design_inspiration": "Explains the agent through plain-language use cases, audit-trail details and integration reassurance before customer proof. Useful trust-first structure for a regulated enterprise product.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-30",
+    "company": "OuterSignal",
+    "website": "https://www.outersignal.com/",
+    "industry": "Retail marketing / customer intelligence",
+    "funding_date": "2026-09-30",
+    "round_amount": "Series A / $22M",
+    "funding_source": "https://www.outersignal.com/blog/series-a",
+    "design_inspiration": "Uses example customer profiles, VIP alerts and purchase signals to make an abstract enrichment product concrete. A free-trial CTA is paired with no-card and quick-install reassurance.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-30",
+    "company": "Rapalogix Health",
+    "website": "https://rapalogix.com/",
+    "industry": "Biotechnology / skin longevity",
+    "funding_date": "2026-06-23",
+    "round_amount": "Series A / $20M",
+    "funding_source": "https://www.prnewswire.com/news-releases/rapalogix-health-raises-20-million-in-series-a-financing-to-redefine-the-future-of-longevity-based-skin-health-302807161.html",
+    "design_inspiration": "A numbered four-part sequence moves from focus to science, programs and news. A separate Re-Q Health link distinguishes the commercial skincare brand from the parent's research story.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-30",
+    "company": "PhotonPay",
+    "website": "https://www.photonpay.com/",
+    "industry": "Global payments / stablecoin infrastructure",
+    "funding_date": "2026-01-09",
+    "round_amount": "Series B / tens of millions of USD; exact amount undisclosed",
+    "funding_source": "https://www.prnewswire.com/news-releases/photonpay-raises-tens-of-millions-in-series-b-to-pioneer-stablecoin-centric-financial-infrastructure-302657105.html",
+    "design_inspiration": "Product navigation pairs each label with a one-line job description, then separates embedded APIs, industry solutions and getting-started documentation. A clear way to organize a broad payments stack.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-30",
+    "company": "Forage",
+    "website": "https://www.joinforage.com/",
+    "industry": "Food access / payments infrastructure",
+    "funding_date": "2026-06-03",
+    "round_amount": "Series B / $40M",
+    "funding_source": "https://www.prnewswire.com/news-releases/forage-raises-additional-40m-to-help-low-income-families-save-on-groceries-302789551.html",
+    "design_inspiration": "Connects a social-impact mission to merchant business benefits, then separates merchant integration and shopper-app journeys. Public status and developer quick-start links make trust and implementation easy to find.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-30",
+    "company": "Yuno",
+    "website": "https://y.uno/en",
+    "industry": "Payments orchestration / fintech",
+    "funding_date": "2026-08-12",
+    "round_amount": "Series B / $45M",
+    "funding_source": "https://www.globenewswire.com/news-release/2026/08/12/3343819/0/en/yuno-raises-45-million-series-b-to-scale-the-ai-native-operating-system-of-global-payments-and-financial-services.html",
+    "design_inspiration": "Leads with three business outcomes, then offers a guided demo or an interactive product preview. Regional integration tabs make a global infrastructure claim more concrete.",
+    "review_method": "Text"
+  }
+]

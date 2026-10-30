@@ -50,3 +50,12 @@ The source tracker was read back and the export checked: 20 records, 20 distinct
 - Includes agriculture, advanced materials, aerospace, financial operations, cybersecurity, diagnostics, insurance, and biotechnology.
 - Funding descriptions retain combined debt/equity, tender-offer, expected-close, approximate-amount, and undisclosed-amount qualifiers.
 - Validation: 20 new canonical domains, nine populated fields per record, qualifying dates, and working-tracker readback. Public research only; no private workspace identifiers.
+
+## October 30 collection
+
+- [2026-10-30 data (JSON)](data/2026-10-30.json) — 20 additional companies; 80 distinct company domains across all four collections.
+- Funding announcements fall within October 30, 2025–October 30, 2026 and are backed by company announcements or attributable company-issued releases.
+- All 20 sites reviewed by text only. Observations describe content, navigation, and messaging; no rendered visual assessment is implied.
+- Includes robotics, industrial energy, consumer neurotechnology, biotechnology, remote monitoring, insurance software, retail intelligence, and payments.
+- Funding descriptions preserve additional-close, primary/secondary, new-financing and undisclosed-amount qualifiers.
+- Validation: 20 new canonical domains, nine populated fields per record, qualifying announcement dates, and working-tracker readback with prior records preserved. Public research only; no private workspace identifiers.
