@@ -1,0 +1,222 @@
+[
+  {
+    "date_added": "2026-10-31",
+    "company": "Thea Energy",
+    "website": "https://thea.energy/",
+    "industry": "Energy / fusion power",
+    "funding_date": "2026-05-27",
+    "round_amount": "Series B / $100M",
+    "funding_source": "https://thea.energy/press-release/thea-energy-raises-100-million-series-b-funding-to-build-scalable-fusion-power-plants/",
+    "design_inspiration": "Explains the engineering simplification before introducing the named Eos system. Navigation separates the commercialization path, development milestones, fusion education and technical publications, serving both newcomers and specialist readers.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-31",
+    "company": "Origin",
+    "website": "https://origin.tech/",
+    "industry": "Construction / interior-work robotics",
+    "funding_date": "2026-10-15",
+    "round_amount": "Funding announcement / $20M total funding; round type unspecified",
+    "funding_source": "https://origin.tech/blog/origin-emerges-from-stealth-with-20-million",
+    "design_inspiration": "Moves from a one-robot/many-trades proposition into hardware, job-site intelligence and simulation-trained autonomy. Separate schedule, quality and safety sections translate the technical platform into contractor outcomes.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-31",
+    "company": "Rendezvous Robotics",
+    "website": "https://www.rdvrobotics.com/",
+    "industry": "Space / modular spacecraft",
+    "funding_date": "2026-10-28",
+    "round_amount": "Seed / $20M",
+    "funding_source": "https://www.rdvrobotics.com/news/rendezvous-robotics-seed-round-announcement/",
+    "design_inspiration": "A four-step launch, assemble, scale and adapt sequence makes orbital assembly understandable. Numbered tile-component explanations follow application sections, progressively revealing detail without leading with engineering jargon.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-31",
+    "company": "Moment Energy",
+    "website": "https://www.momentenergy.com/",
+    "industry": "Energy storage / second-life EV batteries",
+    "funding_date": "2026-05-05",
+    "round_amount": "Series B / $40M",
+    "funding_source": "https://www.momentenergy.com/news/series-b",
+    "design_inspiration": "Places safety certifications and deployment benefits before application modules for peak-demand costs, downtime, fleet charging and grid independence. The structure addresses repurposed-battery trust concerns before asking buyers to explore use cases.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-31",
+    "company": "Panthalassa",
+    "website": "https://panthalassa.com/",
+    "industry": "Ocean energy / offshore computing",
+    "funding_date": "2026-05-04",
+    "round_amount": "Series B / $140M",
+    "funding_source": "https://www.prnewswire.com/news-releases/panthalassa-raises-140-million-to-power-ai-at-sea-302761078.html",
+    "design_inspiration": "A short ocean-energy proposition leads into the team's cross-disciplinary background and an Ocean-2 pilot film. Minimal Home and Join Us navigation keeps an early-stage company site focused on mission, evidence and recruiting.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-31",
+    "company": "RoboForce",
+    "website": "https://www.roboforce.ai/",
+    "industry": "Industrial robotics / physical AI",
+    "funding_date": "2026-03-16",
+    "round_amount": "Funding round / $52M; round type unspecified",
+    "funding_source": "https://www.roboforce.ai/news/roboforce-fundraising-announcement-2026-03",
+    "design_inspiration": "Labeled Product, Markets, Team and Vision sections give the homepage a simple narrative. Distinct technology, solutions and careers links separate technical exploration, buyer needs and recruitment instead of forcing one generic conversion route.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-31",
+    "company": "Amatera",
+    "website": "https://www.amatera.bio/",
+    "industry": "Agriculture / climate-resilient crop genetics",
+    "funding_date": "2026-03-04",
+    "round_amount": "Seed / €6M equity",
+    "funding_source": "https://www.amatera.bio/wp-content/uploads/2026/03/Amatera-Seed-Press-Release-EN.pdf",
+    "design_inspiration": "Crop-specific coffee, banana and grape challenges lead into the selection bottleneck and platform solution. Named product examples are separated from an improve-your-crops partnership path, making a scientific capability relevant to different buyers.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-31",
+    "company": "Handspring Health",
+    "website": "https://www.handspringhealth.com/",
+    "industry": "Youth mental health / virtual care",
+    "funding_date": "2026-07-08",
+    "round_amount": "Series B / $19M",
+    "funding_source": "https://www.prnewswire.com/news-releases/handspring-raises-19m-series-b-to-bring-high-quality-mental-health-care-to-children-and-families-nationwide-302817364.html",
+    "design_inspiration": "Puts care timing, insurance coverage and a free-consult route near the top, then separates children, teens, young adults and parents. Condition-based navigation and a three-part care explanation reduce the work of finding a relevant path.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-31",
+    "company": "Qualified Health",
+    "website": "https://www.qualifiedhealthai.com/",
+    "industry": "Healthcare AI / enterprise infrastructure",
+    "funding_date": "2026-03-25",
+    "round_amount": "Series B / $125M",
+    "funding_source": "https://www.prnewswire.com/news-releases/qualified-health-raises-125m-series-b-to-meet-growing-demand-for-enterprise-ai-transformation-across-health-systems-302723600.html",
+    "design_inspiration": "Leads with safety and trust, followed by named health-system leaders before the platform explanation. Separate integration, deployment and ongoing-support sections turn an enterprise AI pitch into a concrete implementation story.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-31",
+    "company": "MOSH",
+    "website": "https://moshlife.com/",
+    "industry": "Consumer food / functional nutrition",
+    "funding_date": "2026-05-06",
+    "round_amount": "Series A / $13M",
+    "funding_source": "https://www.prnewswire.com/news-releases/mosh-raises-13-million-series-a-led-by-main-street-advisors-to-scale-brain-health-nutrition-brand-into-national-grocery-302763314.html",
+    "design_inspiration": "Best-seller, high-protein and variety-pack categories simplify browsing. Product cards surface review counts, one-time versus subscription pricing and delivery cadence together, while a build-your-own bundle route supports exploration.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-31",
+    "company": "Meatly",
+    "website": "https://meatly.pet/",
+    "industry": "Food biotechnology / cultivated pet food",
+    "funding_date": "2026-05-07",
+    "round_amount": "Series A / £10.4M",
+    "funding_source": "https://meatly.pet/meatly-series-a/",
+    "design_inspiration": "A coral-pink hero, playful white typography and a dog-at-bowl cutout make cultivated pet food feel familiar. Products, Process and Purpose links mirror the page story, turning unfamiliar biotechnology into a simple progression from offer to explanation to impact.",
+    "review_method": "Visual + text"
+  },
+  {
+    "date_added": "2026-10-31",
+    "company": "Breedr",
+    "website": "https://www.breedr.co/",
+    "industry": "Agriculture / livestock supply-chain software",
+    "funding_date": "2026-08-26",
+    "round_amount": "Series B / $27M",
+    "funding_source": "https://cdn-website.partechpartners.com/news/breedr-raises-27-million-to-digitize-the-global-beef-supply-chain",
+    "design_inspiration": "Organizes both solutions and pricing by operation type, from seedstock and calf raising to feedyards and packers. Lifetime-tracking explanations lead into operation-specific benefit links, with separate self-serve and demo routes.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-31",
+    "company": "Stenon",
+    "website": "https://www.stenon.io/en",
+    "industry": "Agriculture / real-time soil sensing",
+    "funding_date": "2026-07-01",
+    "round_amount": "Series B / €18M",
+    "funding_source": "https://blog.stenon.io/2026/07/01/stenon-raises-18-million-in-series-b-financing-to-scale-real-time-nitrogen-and-soil-data-management/",
+    "design_inspiration": "Two navigation routes let visitors choose by geography or business role. Role-specific benefit summaries precede the hardware, AI and software explanation, helping partners connect technical capability to their own business.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-31",
+    "company": "Foodforecast",
+    "website": "https://www.foodforecast.com/en/about",
+    "industry": "Food retail / demand forecasting",
+    "funding_date": "2026-02-26",
+    "round_amount": "Series A / €8M",
+    "funding_source": "https://shiftinvest.com/news/foodforecast-raises-8m-series-a-to-scale-ai-for-one-of-the-most-impactful-climate-solutions-reducing-food-waste-in-ultra-fresh-category",
+    "design_inspiration": "Separates in-store production planning from daily ordering forecasts, then offers a savings calculator using sector, location count, daily revenue and waste inputs. English overview page reviewed; calculator controls inspected by text, not tested.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-31",
+    "company": "Mercury",
+    "website": "https://mercury.com/",
+    "industry": "Business banking / fintech",
+    "funding_date": "2026-05-20",
+    "round_amount": "Series D / $200M",
+    "funding_source": "https://mercury.com/blog/series-d-announcement",
+    "design_inspiration": "A full-bleed mountain landscape places a desk and laptop in the foreground, contrasting business banking with open space. Centered white copy, a vivid blue account CTA and a quieter demo route create a clear hierarchy. Product sections then group banking, cards, payments and accounting.",
+    "review_method": "Visual + text"
+  },
+  {
+    "date_added": "2026-10-31",
+    "company": "Gizmo",
+    "website": "https://gizmo.ai/",
+    "industry": "Consumer education / AI study tools",
+    "funding_date": "2026-04-15",
+    "round_amount": "Series A / $22M",
+    "funding_source": "https://www.prnewswire.com/news-releases/gizmo-raises-22-million-series-a-to-make-learning-addictive-for-13-million-learners-worldwide-302741943.html",
+    "design_inspiration": "A direct start-learning CTA follows a short quiz-based promise. Source-specific tools such as PDF-to-flashcards and YouTube-to-flashcards give visitors practical entry points, while student testimonials use the audience's own informal language.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-31",
+    "company": "DeweyLearn",
+    "website": "https://www.deweylearn.com/",
+    "industry": "Education / performance assessment",
+    "funding_date": "2026-07-16",
+    "round_amount": "Series A / $5M",
+    "funding_source": "https://www.prnewswire.com/news-releases/deweylearn-secures-5-million-in-series-a-funding-to-scale-ai-that-assesses-real-world-skill-at-expert-level-302827161.html",
+    "design_inspiration": "Explains the platform in three numbered stages: define good performance, evaluate, then reveal patterns. Separate workforce, clinical and corporate-development paths connect the abstract learning system to concrete buyer needs.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-31",
+    "company": "Listen Labs",
+    "website": "https://listenlabs.ai/",
+    "industry": "Customer research / enterprise software",
+    "funding_date": "2026-01-14",
+    "round_amount": "Series B / $69M",
+    "funding_source": "https://www.prnewswire.com/news-releases/listen-labs-raises-69-million-series-b-to-bring-customer-voices-into-every-decision-302661000.html",
+    "design_inspiration": "Makes research outputs tangible with example preference scores, interview quotations, ranked choices and hesitation moments. The examples explain what a customer learns before requiring a demo request.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-31",
+    "company": "Fora",
+    "website": "https://www.foratravel.com/",
+    "industry": "Travel / advisor platform",
+    "funding_date": "2026-07-16",
+    "round_amount": "Series D / $60M",
+    "funding_source": "https://www.foratravel.com/newsroom/fora-announces-series-d-funding",
+    "design_inspiration": "Separates becoming an advisor from finding one at the first decision point. Advisor, traveler and supplier benefits explain the marketplace, while start, scale and operate stages organize the business-building journey.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-10-31",
+    "company": "Odynn",
+    "website": "https://www.odynn.com/",
+    "industry": "Travel / loyalty infrastructure",
+    "funding_date": "2026-02-19",
+    "round_amount": "Seed / $9.5M",
+    "funding_source": "https://www.globenewswire.com/news-release/2026/02/19/3241198/0/en/Odynn-Raises-9-5M-Seed-Round-to-Disrupt-Travel-Portals-with-Personalized-AI-Infrastructure.html",
+    "design_inspiration": "Pairs concrete points-and-cash travel examples with a three-part overview of what it is, who it serves and how it works. A week-by-week implementation section and separate engineering CTA address integration questions.",
+    "review_method": "Text"
+  }
+]

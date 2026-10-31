@@ -59,3 +59,12 @@ The source tracker was read back and the export checked: 20 records, 20 distinct
 - Includes robotics, industrial energy, consumer neurotechnology, biotechnology, remote monitoring, insurance software, retail intelligence, and payments.
 - Funding descriptions preserve additional-close, primary/secondary, new-financing and undisclosed-amount qualifiers.
 - Validation: 20 new canonical domains, nine populated fields per record, qualifying announcement dates, and working-tracker readback with prior records preserved. Public research only; no private workspace identifiers.
+
+## October 31 collection
+
+- [2026-10-31 data (JSON)](data/2026-10-31.json) — 20 additional companies; 100 distinct company domains across all five collections.
+- Funding announcements fall within October 31, 2025–October 31, 2026 and are backed by company/investor announcements or attributable company-issued releases.
+- 2 sites visually reviewed (Mercury and Meatly); 18 reviewed by text only. Each record states its method. Text notes describe content, navigation and messaging, not verified visual appearance.
+- Includes fusion energy, orbital infrastructure, construction robotics, battery storage, agriculture, food, youth mental health, education, customer research and travel.
+- Funding descriptions preserve total-funding announcements, unspecified round types and equity qualifiers.
+- Validation: 20 new canonical domains, nine populated fields per record, qualifying announcement dates, and working-tracker readback with prior records preserved. Public research only; no private workspace identifiers.
