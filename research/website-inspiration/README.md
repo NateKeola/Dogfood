@@ -68,3 +68,12 @@ The source tracker was read back and the export checked: 20 records, 20 distinct
 - Includes fusion energy, orbital infrastructure, construction robotics, battery storage, agriculture, food, youth mental health, education, customer research and travel.
 - Funding descriptions preserve total-funding announcements, unspecified round types and equity qualifiers.
 - Validation: 20 new canonical domains, nine populated fields per record, qualifying announcement dates, and working-tracker readback with prior records preserved. Public research only; no private workspace identifiers.
+
+## November 1 collection
+
+- [2026-11-01 data (JSON)](data/2026-11-01.json) — 20 additional companies; 120 distinct company domains across all six collections.
+- Funding announcements fall within November 1, 2025–November 1, 2026 and are backed by company announcements or attributable company-issued releases.
+- All 20 sites reviewed by text only. Observations describe content, navigation and messaging; no rendered visual assessment is implied.
+- Includes industrial automation, fusion power, orbital transportation, energy storage, sleep hardware, microbiome testing, biotechnology, mobile development, workforce learning, government software and home exchange.
+- Funding descriptions retain initial versus final closes, callable future equity, convertible instruments, combined rounds, primary-financing and undisclosed-round qualifiers.
+- Validation: 20 new canonical domains, nine populated fields per record, qualifying announcement dates, and working-tracker readback with prior records preserved. Public research only; no private workspace identifiers.

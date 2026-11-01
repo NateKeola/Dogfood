@@ -1,0 +1,222 @@
+[
+  {
+    "date_added": "2026-11-01",
+    "company": "Orbital Industries",
+    "website": "https://www.orbitalindustries.com/",
+    "industry": "Industrial AI / materials and hardware",
+    "funding_date": "2026-05-28",
+    "round_amount": "Series B / $50M",
+    "funding_source": "https://www.orbitalindustries.com/news/press/orbital-industries-series-b-50-million",
+    "design_inspiration": "Separates platform features and comparison from chemistry, hardware and engineering use cases. A prominent route sends data-center buyers to Orbital IT, while a longer mission narrative explains the broader industrial vision.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-01",
+    "company": "Neuron Industries",
+    "website": "https://neuronindustries.com/",
+    "industry": "Industrial automation / controller hardware",
+    "funding_date": "2026-10-29",
+    "round_amount": "Seed / $10M",
+    "funding_source": "https://www.globenewswire.com/news-release/2026/10/29/3391788/0/en/neuron-industries-raises-an-oversubscribed-10-million-seed-round-to-cut-industrial-automation-development-from-months-to-days.html",
+    "design_inspiration": "Pairs named hardware and software navigation with specifications, an explicit availability date and a concrete factory case study. Numbered workflow sections cover code generation, I/O and testing, giving engineers a path from overview to implementation detail.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-01",
+    "company": "Helion",
+    "website": "https://www.helionenergy.com/",
+    "industry": "Energy / commercial fusion",
+    "funding_date": "2026-06-04",
+    "round_amount": "Series G / $465M initial close; source updated to $500M final close in September 2026",
+    "funding_source": "https://www.helionenergy.com/newsroom/helion-raises-465-million-series-g-funding-round-to-meet-surging-global-demand-for-power",
+    "design_inspiration": "An atoms-to-electricity explanation precedes benefits organized around fuel, safety and reliability. Distinct Polaris and Orion pages separate the prototype from the power plant, making the company's development stages easier to navigate.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-01",
+    "company": "RobCo",
+    "website": "https://www.rob.co/en-us",
+    "industry": "Manufacturing / autonomous industrial robotics",
+    "funding_date": "2026-01-29",
+    "round_amount": "Series C / $100M",
+    "funding_source": "https://www.rob.co/en-us/resources/news/press/robco-series-c",
+    "design_inspiration": "Contrasts buying robots outright with subscribing to outcomes, then separates named robot, embedded-platform and integrated-service offers. Industry and application routes let buyers explore by factory type or specific job rather than hardware alone.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-01",
+    "company": "Impulse Space",
+    "website": "https://www.impulsespace.com/",
+    "industry": "Space / orbital transportation",
+    "funding_date": "2026-06-03",
+    "round_amount": "Series D / $500M",
+    "funding_source": "https://www.impulsespace.com/updates/impulse-space-raises-500-million-dollar-series-d-to-build-in-space-mobility-infrastructure-for-the-space-economy",
+    "design_inspiration": "A concise in-space-mobility introduction leads directly to three offer paths: Helios for distance, Mira for maneuverability and rideshare for economical access. Short job-focused descriptions distinguish products before readers enter technical pages.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-01",
+    "company": "Quino Energy",
+    "website": "https://quinoenergy.com/",
+    "industry": "Energy storage / organic flow batteries",
+    "funding_date": "2025-11-10",
+    "round_amount": "Series A / $10M closed plus $6M additional equity callable if needed",
+    "funding_source": "https://www.globenewswire.com/news-release/2025/11/10/3184516/0/en/Quino-Energy-Closes-10M-6M-in-Series-A-Funding-from-Atri-Energy-Transition.html",
+    "design_inspiration": "Defines the unfamiliar quinone chemistry through a familiar dye analogy, then moves from the practical-storage mission to the production approach. Parallel About, Technology and Team links provide distinct ways to assess the company without a dense technical opening.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-01",
+    "company": "Ozlo",
+    "website": "https://ozlosleep.com/",
+    "industry": "Consumer hardware / sleep technology",
+    "funding_date": "2026-10-29",
+    "round_amount": "Series B / $22M, including previously issued convertible instruments",
+    "funding_source": "https://www.globenewswire.com/news-release/2026/10/29/3391321/0/en/ozlo-raises-22-million-series-b-led-by-modi-ventures-to-expand-its-sleep-technology-ecosystem.html",
+    "design_inspiration": "Organizes noise-masking examples around familiar disruptions such as snoring, traffic and pets, with labeled on/off controls. A structured comparison against active noise cancellation addresses mechanism, suitable sounds, comfort and overnight use before the purchase decision.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-01",
+    "company": "Tiny Health",
+    "website": "https://www.tinyhealth.com/",
+    "industry": "Consumer health / microbiome testing",
+    "funding_date": "2026-09-29",
+    "round_amount": "Series B / $33M",
+    "funding_source": "https://www.globenewswire.com/news-release/2026/09/29/3370894/0/en/tiny-health-raises-33m-series-b-to-establish-microbiome-intelligence-as-the-standard-of-care.html",
+    "design_inspiration": "Separates tests by adults, babies, children and women, with visible pricing and learn-more paths. A numbered collect, return, report and resample sequence explains the service, while quiz and shopping routes serve different levels of readiness.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-01",
+    "company": "Biolevate",
+    "website": "https://www.biolevate.com/",
+    "industry": "Life sciences / regulated workflow software",
+    "funding_date": "2026-09-22",
+    "round_amount": "Series A / €30M",
+    "funding_source": "https://www.biolevate.com/news/series-a-2026",
+    "design_inspiration": "The solutions catalog offers industry and development-stage categories, then pairs specific workflow problems with proposed outcomes and detail links. A useful way to make a broad platform navigable without relying on a generic feature list.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-01",
+    "company": "Remepy",
+    "website": "https://www.remepy.com/",
+    "industry": "Biotechnology / drug-software therapeutics",
+    "funding_date": "2026-08-12",
+    "round_amount": "Series A / $36M",
+    "funding_source": "https://www.prnewswire.com/news-releases/remepy-raises-36-million-series-a-to-expand-its-hybrid-drug-pipeline-through-pharmaceutical-partnerships-and-advance-phase-iii-of-hybridopa-for-parkinsons-disease-302849683.html",
+    "design_inspiration": "Defines its unfamiliar Hybrid Drugs category with a simple molecule-plus-software explanation before introducing a named Parkinson's program. Scientific-publication links and a separate patient-community route distinguish research detail from patient engagement.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-01",
+    "company": "Think Bioscience",
+    "website": "https://thinkbioscience.com/",
+    "industry": "Biotechnology / small-molecule drug discovery",
+    "funding_date": "2026-01-20",
+    "round_amount": "Series A / $55M",
+    "funding_source": "https://www.prnewswire.com/news-releases/think-bioscience-raises-55m-in-oversubscribed-series-a-302665119.html",
+    "design_inspiration": "A brief homepage states the drug-discovery thesis, then presents separate partnership and recruiting actions. The Science menu breaks deeper reading into challenges, platform advantages, targets and publications rather than a single dense overview.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-01",
+    "company": "Pumpkinseed",
+    "website": "https://www.pumpkinseed.bio/",
+    "industry": "Biotechnology / proteomic data infrastructure",
+    "funding_date": "2026-05-05",
+    "round_amount": "Series A / $20M",
+    "funding_source": "https://www.pumpkinseed.bio/news/pumpkinseed-raises-20m-series-a-to-unlock-biologys-most-valuable-hidden-data-layer",
+    "design_inspiration": "A consistent biology-mining metaphor introduces the measurement problem before the named deSIPHR platform. Separate biopharma, biosecurity and bio-AI application sections connect the technical explanation to clear partnership areas.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-01",
+    "company": "Biotia",
+    "website": "https://biotia.io/",
+    "industry": "Diagnostics / infectious disease genomics",
+    "funding_date": "2026-10-01",
+    "round_amount": "New financing / $9M; round type unspecified",
+    "funding_source": "https://biotia.io/press/biotia-raises-new-oversubscribed-9m-financing-and-expands-board",
+    "design_inspiration": "Patient, provider and health-system entry points appear before the product catalog. A comparison table organizes the company's testing claims by turnaround, price and resolution, while evidence and technical-note links give specialist readers a deeper route.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-01",
+    "company": "Xsensio",
+    "website": "https://xsensio.com/",
+    "industry": "Medical technology / wearable biosensing",
+    "funding_date": "2026-03-03",
+    "round_amount": "Series A / $7M",
+    "funding_source": "https://www.prnewswire.co.uk/news-releases/xsensio-sa-raises-7m-oversubscribed-series-a-accelerates-clinical-deployment-of-continuous-biosensing-302700872.html",
+    "design_inspiration": "The concise homepage moves from the patient-monitoring use case to the Lab-on-Skin technology explanation, then recent milestones and supporters. Naming critical-care, oncology and recovery settings makes the sensing-platform story concrete.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-01",
+    "company": "Expo",
+    "website": "https://expo.dev/",
+    "industry": "Developer tools / mobile infrastructure",
+    "funding_date": "2026-04-16",
+    "round_amount": "Series B / $45M",
+    "funding_source": "https://www.prnewswire.com/news-releases/expo-raises-45m-series-b-and-launches-expo-agent-to-close-the-gap-from-idea-to-production-ready-mobile-apps-302744423.html",
+    "design_inspiration": "Organizes its developer journey into develop, test, deploy and monitor stages, connecting each to named tools. Separate documentation, self-serve and enterprise paths make a large infrastructure suite easier to navigate.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-01",
+    "company": "Scholé AI",
+    "website": "https://schole.ai/",
+    "industry": "Education / workforce learning",
+    "funding_date": "2026-01-28",
+    "round_amount": "Funding round / $3M; round type undisclosed",
+    "funding_source": "https://www.prnewswire.com/news-releases/schole-ai-raises-3m-to-transform-workforce-learning-in-the-age-of-ai-302671763.html",
+    "design_inspiration": "Demonstrates learning formats with concrete examples such as code exercises, role-play choices and task checklists. Catalog browsing, personal trial and team routes let visitors choose an entry point before committing.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-01",
+    "company": "Forerunner",
+    "website": "https://www.withforerunner.com/",
+    "industry": "Government software / geospatial intelligence",
+    "funding_date": "2026-02-05",
+    "round_amount": "Series B / $26.3M plus previously unannounced Series A / $12.7M; $39M combined",
+    "funding_source": "https://www.withforerunner.com/post/building-stronger-safer-communities-forerunners-39m-in-funding",
+    "design_inspiration": "Separates navigation by public-sector job, platform capability and industry. Short descriptors explain each destination, while named agencies and prominent security and AI-principles links address institutional trust.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-01",
+    "company": "Kindred",
+    "website": "https://livekindred.com/",
+    "industry": "Travel / home exchange",
+    "funding_date": "2026-02-03",
+    "round_amount": "Series B / $40M and Series C / $85M; $125M combined announcement",
+    "funding_source": "https://www.prnewswire.com/news-releases/kindred-announces-125m-in-funding-as-modern-home-swapping-breaks-into-the-travel-mainstream-302676973.html",
+    "design_inspiration": "Uses an Is my home a fit? entry point rather than a generic signup prompt. Destination browsing sits alongside a simple give-a-night/get-a-night explanation, then verification, cleaning and host-control sections answer trust concerns.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-01",
+    "company": "Casap",
+    "website": "https://www.casap.ai/",
+    "industry": "Financial services / operations automation",
+    "funding_date": "2026-10-28",
+    "round_amount": "Series B / $56M",
+    "funding_source": "https://www.prnewswire.com/news-releases/casap-raises-56m-series-b-to-deliver-agentic-outcomes-for-financial-services-302921778.html",
+    "design_inspiration": "Organizes its explanation around onboarding, expertise, control and transparency before detailing use cases. Explicit Copilot versus Autopilot choices and documented-decision messaging address buyer concerns about delegating regulated work.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-01",
+    "company": "Ramp",
+    "website": "https://ramp.com/",
+    "industry": "Fintech / spend management",
+    "funding_date": "2026-06-04",
+    "round_amount": "Series F / $750M primary financing",
+    "funding_source": "https://www.prnewswire.com/news-releases/ramp-raises-series-f-at-44-billion-valuation-302791103.html",
+    "design_inspiration": "Maps a broad finance platform to concrete jobs such as card expenses, approvals and accounting. A company-context recommendation prompt offers a personalized route, while migration guidance and customer stories support the demo path.",
+    "review_method": "Text"
+  }
+]
