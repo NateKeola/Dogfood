@@ -19,9 +19,9 @@ The archive keeps no user data, makes no form submissions, and saves no browsing
 
 ## What's here
 
-The November 2, 2026 collection contains **13 public references and 13 original planned briefs**:
+The November 2, 2026 collection contains **15 public references and 15 original planned briefs**:
 
-- **5 Instagram Reels:** sampled playing frames and visible captions, reviewed muted. Audio was not reviewed. One is explicitly an AI-labeled café visual concept; another is a design-tool workflow. None establishes a working backend or a completed prototype.
+- **7 Instagram Reels:** sampled playing frames and visible captions, reviewed muted. Audio was not reviewed. One is explicitly an AI-labeled café visual concept; another is a design-tool workflow. None establishes a working backend or a completed prototype.
 - **3 supplemental website references:** WILDE and Greyparrot retain their published **Visual + text** methods; Podium Automation retains **Text only**. These observations come from the existing [November 2 research snapshot](../../research/website-inspiration/data/2026-11-02.json), not a new site inspection.
 - **0 uncited concepts, 0 completed builds.** The separate untested-concepts collection is intentionally empty. The café concept remains an observed Reel reference, with its conceptual nature explicitly identified.
 - **0 pending intake examples.** The intake template is not rendered as a collected example.
@@ -35,7 +35,7 @@ The service-estimate brief is a practical first interactive prototype. Its demo 
 
 Every record separates **Reach**, **Implementation evidence**, **Business evidence**, and an original **Practical fit** assessment. Source attribution/public visibility, observed content, functioning artifacts, reproducibility, outcomes, and AI labeling are independent dimensions. `unverified` means untested, not proven broken. Unknown AI labeling does not mean non-AI provenance.
 
-The five Reel records contain site-displayed engagement and follower snapshots observed November 2, 2026. Each metric stores its numeric value (or null), raw display, `exact`/`rounded`/`hidden`/`unavailable`/`unknown` status, individual UTC timestamp, and public source URL. Exact follower counts came from visible accessibility labels; rounded profile headings are retained alongside them. Rounded K counts are approximate, not audited exact counts. Views were not displayed and remain null. The design-workflow Reel's like count was not displayed and remains null. Unknown values are never substituted with zero.
+The seven Reel records contain site-displayed engagement and follower snapshots observed November 2, 2026. Each metric stores its numeric value (or null), raw display, `exact`/`rounded`/`hidden`/`unavailable`/`unknown` status, individual UTC timestamp, and public source URL. Exact follower counts came from visible accessibility labels; rounded profile headings are retained alongside them. Rounded K counts are approximate, not audited exact counts. Views were not displayed and remain null. The design-workflow Reel's like count was not displayed and remains null. Unknown values are never substituted with zero.
 
 The five YouTube records retain observed views/likes and rounded subscriber displays. Their review supplied a shared observation window, **November 2, 2026, 20:50–21:02 UTC**, rather than per-metric instants. `observedAt` therefore remains null and `observedWindow` records minute-precision bounds. The UI shows the range explicitly. Comments and other unsupplied metrics remain unknown. A readable transcript or existing public artifact does not establish a reproduced workflow, functioning backend, or commercial outcome.
 
@@ -93,3 +93,17 @@ With the local server running, open `/tests/security-browser.html` to exercise t
 ## Repository context
 
 This project follows the repository's standalone-project convention under `projects/idea-archive/`. No AGENTS.md, Software Factory workflow, or `.agents/skills` was present in the repository at creation. It introduces no framework, external fonts, analytics, runtime dependencies, or deployment configuration. Existing research is preserved unchanged.
+
+## Prototype directions and the research engine
+
+`data/clusters.json` groups the 15 references (including all 13 earlier records) into six original prototype directions. Every group includes source video links, a proposed customer need and value, what would be built, exclusions, a scoped price hypothesis and the next validation. Distinct credited creators are not assumed independent; same-creator repeats and evidence-backed repost/independence claims have separate fields. Unknown origins stay unknown. All six directions remain briefs, with zero built customer demos.
+
+Prices use explicitly illustrative hours × USD 75/hour and scope assumptions, not market quotes or proven revenue. Validate scope and business need before offering a price. Copied/downloaded briefs include their related source videos and these limits.
+
+The separate [business research engine](../business-research-engine/README.md) turns permitted private candidate records into reviewed evidence and original offer briefs. Run it separately on loopback port 4174. The archive navigation opens that default local URL in a new tab. No live provider, account connection, prospect crawl or outreach runs.
+
+### SEO planning handoff
+
+Website prototype briefs reference the [reviewed build checklist](https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md) on unmerged [draft PR #2](https://github.com/NateKeola/Dogfood/pull/2). These are planning/acceptance instructions, not completed SEO audits. Research and GTM worksheet briefs are not forced into website gates. Absolute branch URLs remain valid independently of merge order; recheck them if that branch is deleted. No other branch files were copied or edited.
+
+Two additional sampled Reels cover a marina presentation and a distinct 3D property-viewer evaluation. Publication dates and views are unknown. Guide-comment incentives and third-party footage ownership limits remain explicit. Instagram route aliases deduplicate by platform content ID; counts are unique source records, not independent market validation.

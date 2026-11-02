@@ -1,0 +1,30 @@
+name: Business research engine
+on:
+  pull_request:
+    paths:
+      - 'projects/business-research-engine/**'
+      - 'projects/idea-archive/**'
+      - '.github/workflows/business-research-engine.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'projects/business-research-engine/**'
+      - 'projects/idea-archive/**'
+      - '.github/workflows/business-research-engine.yml'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/business-research-engine
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm run lint
+      - run: npm run validate
+      - run: npm test
+      - run: npm run build

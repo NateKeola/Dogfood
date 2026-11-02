@@ -1,7 +1,8 @@
 import { readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
-import { safeExternalUrl } from '../archive.js';
+import { validateClusters } from '../clusters.js';
+import { safeExternalUrl, sourceIdentityKey } from '../archive.js';
 
 // Dependency-free validation of the JSON Schema keywords used by this project's schema.
 export function validateSchema(value, schema, path = '$') {
@@ -48,8 +49,9 @@ export function validateRecords(records, schema) {
     if (idea.source) {
       const safeUrl = safeExternalUrl(idea.source.url);
       if (!safeUrl) errors.push(`${path}: source must be a safe absolute HTTPS URL without credentials`);
-      if (sources.has(idea.source.url)) errors.push(`${path}: duplicate source URL`);
-      sources.add(idea.source.url);
+      const identity = sourceIdentityKey(idea.source);
+      if (sources.has(identity)) errors.push(`${path}: duplicate platform content ID or source URL`);
+      sources.add(identity);
     }
     const urls = [idea.source?.url, idea.source?.creator?.url, idea.review.evidenceUrl, ...(idea.review.supportingSources || []).map(source => source.url), idea.build.url, idea.freshness.publicationEvidenceUrl, idea.freshness.toolVersionEvidenceUrl, idea.novelty.evidenceUrl, ...Object.values(idea.popularity).map(metric => metric.sourceUrl)].filter(Boolean);
     if (urls.some(url => !safeExternalUrl(url))) errors.push(`${path}: unsafe external URL`);
@@ -94,7 +96,8 @@ export function validateRecords(records, schema) {
 export async function validateArchive() {
   const root = new URL('../', import.meta.url);
   const [records, schema] = await Promise.all(['data/ideas.json', 'idea.schema.json'].map(async path => JSON.parse(await readFile(new URL(path, root), 'utf8'))));
-  const errors = validateRecords(records, schema);
+  const clusters = JSON.parse(await readFile(new URL('data/clusters.json', root), 'utf8'));
+  const errors = [...validateRecords(records, schema), ...validateClusters(clusters, records)];
   if (errors.length) throw new Error(errors.join('\n'));
   return records;
 }

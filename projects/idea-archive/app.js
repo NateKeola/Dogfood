@@ -1,8 +1,11 @@
 import { collectionCounts, defaultFilters, filterIdeas, formatBrief, reviewLabels } from './archive.js';
+import { clusterSummary, priceLabel, formatClusterContext } from './clusters.js';
 import { node, externalLink } from './dom.js';
 
 const $ = selector => document.querySelector(selector);
 let ideas = [];
+let clusters = [];
+const fullBrief = idea => formatBrief(idea) + clusters.filter(group => group.members.some(member => member.referenceId === idea.id)).map(group => formatClusterContext(group, ideas)).join('\n');
 let state = { ...defaultFilters };
 let lastTrigger;
 const dialog = $('#idea-dialog');
@@ -152,6 +155,7 @@ function openIdea(idea) {
   sectionList(brief, 'Done when', idea.brief.acceptance);
   sectionList(brief, 'Required integrations', idea.integrations);
   sectionList(brief, 'Keep out of the first version', idea.brief.outOfScope);
+  for (const group of clusters.filter(group => group.members.some(member => member.referenceId === idea.id))) brief.append(groupCard(group));
   if (idea.build.status === 'built' && idea.build.url) brief.append(externalLink('Open completed prototype ↗', idea.build.url));
   const actions = node('div', undefined, 'detail-actions');
   const copy = node('button', 'Copy prototype brief', 'button button-dark'); copy.type = 'button';
@@ -167,7 +171,7 @@ function openIdea(idea) {
       // Some browsers leave clipboard requests pending when a tab lacks focus.
       // Keep manual copying available instead of leaving the action disabled.
       await Promise.race([
-        navigator.clipboard.writeText(formatBrief(idea)),
+        navigator.clipboard.writeText(fullBrief(idea)),
         new Promise((_, reject) => { timeout = setTimeout(() => reject(new Error('Clipboard did not respond')), 1500); }),
       ]);
       status.textContent = 'Brief copied. Ready for your next prototype.';
@@ -176,13 +180,13 @@ function openIdea(idea) {
     } catch {
       status.textContent = 'Clipboard unavailable. Select and copy the brief below, or download it.';
       manual.hidden = false;
-      manual.value = formatBrief(idea);
+      manual.value = fullBrief(idea);
       manual.focus();
       manual.select();
     } finally { clearTimeout(timeout); copy.disabled = false; }
   });
   download.addEventListener('click', () => {
-    const url = URL.createObjectURL(new Blob([formatBrief(idea)], { type: 'text/markdown;charset=utf-8' }));
+    const url = URL.createObjectURL(new Blob([fullBrief(idea)], { type: 'text/markdown;charset=utf-8' }));
     const link = node('a'); link.href = url; link.download = `${idea.id}-brief.md`;
     document.body.append(link); link.click(); link.remove();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
@@ -225,12 +229,31 @@ dialog.addEventListener('close', () => {
 window.addEventListener('hashchange', openHash);
 $('#retry').addEventListener('click', () => location.reload());
 
+function groupCard(group) {
+  const card = node('article', undefined, 'group-card');
+  const summary = clusterSummary(group, ideas);
+  card.append(node('p', 'PROTOTYPE DIRECTION · BRIEF READY', 'eyebrow'), node('h3', group.title), node('p', group.prototype.whatIsBuilt, 'group-status'), node('p', group.prototype.scope), node('h4', priceLabel(group)), node('p', `${group.pricing.hoursLow}–${group.pricing.hoursHigh} hours × ${group.pricing.currency} ${group.pricing.hourlyRate}/hour. Illustrative planning basis; not a quote or market benchmark.`, 'small'), node('h4', `${summary.uniqueContent} unique source ${summary.uniqueContent === 1 ? 'video' : 'videos'} · ${summary.distinctCreators} distinct credited ${summary.distinctCreators === 1 ? 'creator' : 'creators'}`));
+  const links = node('ul');
+  for (const { reference } of summary.videos) { const item = node('li'); item.append(externalLink(`${reference.source.creator.name}: ${reference.title} ↗`, reference.source.url)); links.append(item); }
+  card.append(links);
+  const more = node('details'); more.append(node('summary', 'Need, value, scope & review gates'), node('h4', 'Customer need to validate'), node('p', group.customerNeed), node('h4', 'Value hypothesis'), node('p', group.valueHypothesis));
+  sectionList(more, 'Scope assumptions', group.pricing.assumptions);
+  sectionList(more, 'Excluded from this prototype', group.prototype.exclusions);
+  more.append(node('p', `${summary.sameCreatorRepeats} same-creator repeats · ${summary.verifiedIndependent} independently verified origins · ${summary.verifiedReposts} verified reposts. Unverified origins remain unknown.`, 'small'), node('p', group.groupingRationale, 'small'), node('p', group.corroborationCaveat, 'small'), node('h4', 'Next validation'), node('p', group.nextValidation));
+  if (group.seo) more.append(node('h4', 'SEO planning · no audit pass'), externalLink('Reviewed build checklist ↗', group.seo.checklistUrl), node('p', group.seo.planning, 'small'), node('p', group.seo.acceptance, 'small'), node('p', group.seo.limits, 'small'));
+  card.append(more); return card;
+}
+
 async function load() {
   try {
     const response = await fetch('data/ideas.json');
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     ideas = await response.json();
     if (!Array.isArray(ideas)) throw new Error('Invalid archive');
+    const groupsResponse = await fetch('data/clusters.json');
+    if (!groupsResponse.ok) throw new Error('Groups unavailable');
+    clusters = await groupsResponse.json();
+    $('#groups').replaceChildren(...clusters.map(groupCard));
     const counts = collectionCounts(ideas);
     document.querySelectorAll('[data-count]').forEach(item => { item.textContent = counts[item.dataset.count]; });
     document.querySelectorAll('[data-stat]').forEach(item => { item.textContent = String(counts[item.dataset.stat]).padStart(2, '0'); });

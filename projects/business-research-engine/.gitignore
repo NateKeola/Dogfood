@@ -1,0 +1,7 @@
+dist/
+private/
+imports/
+exports/
+*.local.*
+.env*
+!templates/*

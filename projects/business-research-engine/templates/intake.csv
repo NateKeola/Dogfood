@@ -1,0 +1,4 @@
+name,city,region,dba,branch,website,sourceUrl,checkedOn,sourceMeaning,license,publicationAllowance,registrationDate
+FICTIONAL Cedar Example Cleaning,Exampleton,ZZ,,Example north branch,,https://registry.example/cedar,2026-11-02,Fictional registry row with a blank website field; no real research performed,"Synthetic test fixture, original",Fictional demonstration only,2015-04-12
+FICTIONAL Moss Example Café,Sampleville,ZZ,,Example central branch,https://moss-cafe.example/,https://registry.example/moss,2026-11-02,Fictional directory row; website has not been checked,"Synthetic test fixture, original",Fictional demonstration only,
+FICTIONAL Cedar Example Cleaning,Exampleton,ZZ,Cedar Example Services,Possible duplicate / DBA fixture,,https://directory.example/cedar,2026-11-02,Fictional duplicate to demonstrate cautious name and locality matching,"Synthetic test fixture, original",Fictional demonstration only,

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "FICTIONAL Cedar Example Cleaning",
+    "city": "Exampleton",
+    "region": "ZZ",
+    "dba": "",
+    "branch": "Example north branch",
+    "website": "",
+    "sourceUrl": "https://registry.example/cedar",
+    "checkedOn": "2026-11-02",
+    "sourceMeaning": "Fictional registry row with a blank website field; no real research performed",
+    "license": "Synthetic test fixture, original",
+    "publicationAllowance": "Fictional demonstration only",
+    "registrationDate": "2015-04-12"
+  },
+  {
+    "name": "FICTIONAL Moss Example Café",
+    "city": "Sampleville",
+    "region": "ZZ",
+    "dba": "",
+    "branch": "Example central branch",
+    "website": "https://moss-cafe.example/",
+    "sourceUrl": "https://registry.example/moss",
+    "checkedOn": "2026-11-02",
+    "sourceMeaning": "Fictional directory row; website has not been checked",
+    "license": "Synthetic test fixture, original",
+    "publicationAllowance": "Fictional demonstration only",
+    "registrationDate": ""
+  },
+  {
+    "name": "FICTIONAL Cedar Example Cleaning",
+    "city": "Exampleton",
+    "region": "ZZ",
+    "dba": "Cedar Example Services",
+    "branch": "Possible duplicate / DBA fixture",
+    "website": "",
+    "sourceUrl": "https://directory.example/cedar",
+    "checkedOn": "2026-11-02",
+    "sourceMeaning": "Fictional duplicate to demonstrate cautious name and locality matching",
+    "license": "Synthetic test fixture, original",
+    "publicationAllowance": "Fictional demonstration only",
+    "registrationDate": ""
+  }
+]

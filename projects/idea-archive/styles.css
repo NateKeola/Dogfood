@@ -817,3 +817,7 @@
   color:var(--muted);
   margin:-3px 0 12px;
 }
+
+.groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.group-card{background:#fffdf7;border:1px solid #d8ddcf;border-radius:14px;padding:26px;overflow-wrap:anywhere}.group-card h3{font-size:25px;margin:12px 0}.group-card h4{margin:22px 0 8px;font-size:15px}.group-card p,.group-card li{line-height:1.6}.group-status{padding:12px;border-left:3px solid #60856d;background:#f0f3e7}.detail-section .group-card{margin-top:30px}.topbar nav{flex-wrap:wrap}@media(max-width:760px){.groups{grid-template-columns:1fr}.group-card{padding:20px}}
+
+.group-card details{border-top:1px solid #d8ddcf;margin-top:22px;padding-top:14px}.group-card summary{cursor:pointer;font-weight:600;font-size:14px}.groups{align-items:start}

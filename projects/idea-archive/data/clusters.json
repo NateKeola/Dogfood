@@ -1,0 +1,336 @@
+[
+  {
+    "id": "service-quote-path",
+    "title": "Show the result. Make the next step clear.",
+    "members": [
+      {
+        "referenceId": "interactive-cleaning-showcase",
+        "relationship": "unknown-origin",
+        "originEvidence": null
+      },
+      {
+        "referenceId": "transparent-service-estimate",
+        "relationship": "unknown-origin",
+        "originEvidence": null
+      },
+      {
+        "referenceId": "local-service-quote-route",
+        "relationship": "unknown-origin",
+        "originEvidence": null
+      },
+      {
+        "referenceId": "choose-your-service-path",
+        "relationship": "supporting-website",
+        "originEvidence": null
+      },
+      {
+        "referenceId": "confident-first-quote",
+        "relationship": "supporting-website",
+        "originEvidence": null
+      }
+    ],
+    "groupingRationale": "Shared service-to-enquiry pattern. The samples differ: visual showcases, an estimate UI, audience routing and process copy. They do not corroborate one working backend.",
+    "customerNeed": "A local service owner with validated enquiry friction and capacity for appropriate jobs.",
+    "valueHypothesis": "Visitors may understand services and prepare better enquiries when results, coverage, scope and next steps are clear.",
+    "prototype": {
+      "status": "brief-ready",
+      "builtArtifactUrl": null,
+      "whatIsBuilt": "No customer demo has been built. This is a scoped prototype plan.",
+      "scope": "A static service page with three service cards, owned before/after media, coverage details and a local quote-outline demo.",
+      "does": [
+        "Explains a specific service or research task using original content.",
+        "Demonstrates the core interaction with fictional data and no live submission."
+      ],
+      "exclusions": [
+        "Hosting, domains, subscriptions, paid media, live integrations and ongoing support.",
+        "Customer outreach, production deployment and business-outcome guarantees."
+      ]
+    },
+    "pricing": {
+      "type": "scoped-hypothesis",
+      "currency": "USD",
+      "hoursLow": 8,
+      "hoursHigh": 14,
+      "hourlyRate": 75,
+      "assumptions": [
+        "Illustrative planning rate of USD 75/hour; not a market benchmark or client quote.",
+        "Client supplies approved facts and owned/licensed assets; one review round.",
+        "Static local prototype and documented handoff only; confirm scope and budget before quoting."
+      ]
+    },
+    "nextValidation": "Test whether three representative buyers can identify the right service and complete a fictional enquiry without help.",
+    "corroborationCaveat": "Distinct credited creators are not automatically independent origins. No repost or independent-origin claim is verified without specific evidence. Multiple examples suggest what to investigate, not demand or proven results.",
+    "seo": {
+      "status": "planning-reference-only",
+      "reviewedOn": "2026-11-02",
+      "checklistUrl": "https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md",
+      "integrationUrl": "https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/INTEGRATION.md",
+      "planning": "Define page intent, owner-verified business facts, index/privacy policy and conversion goals before implementation. Keep private prototypes protected.",
+      "acceptance": "Before an authorized launch, record evidence, checked dates, owner decisions and exceptions for applicable checklist gates G1–G7. Unknown is not pass; no site has passed an SEO audit here.",
+      "limits": "No ranking, indexing or sales promises. Live SEO/profile edits, search submissions and deployment require separate authorization. Toolkit is on unmerged draft PR #2; use these absolute branch links until merge."
+    }
+  },
+  {
+    "id": "local-food-page",
+    "title": "Make the visit or enquiry effortless.",
+    "members": [
+      {
+        "referenceId": "cafe-motion-with-fallback",
+        "relationship": "unknown-origin",
+        "originEvidence": null
+      },
+      {
+        "referenceId": "restaurant-workflow-with-real-content",
+        "relationship": "unknown-origin",
+        "originEvidence": null
+      },
+      {
+        "referenceId": "two-clear-shopping-paths",
+        "relationship": "supporting-website",
+        "originEvidence": null
+      },
+      {
+        "referenceId": "cinematic-marina-enquiry",
+        "relationship": "unknown-origin",
+        "originEvidence": null
+      }
+    ],
+    "groupingRationale": "Café, restaurant and marina videos overlap in cinematic presentation and a practical visitor action. This is a design-pattern grouping, not proof of the same implementation or market demand. WILDE adds a supporting navigation reference.",
+    "customerNeed": "A food, venue or visitor-service business with verified visitor-information or enquiry friction.",
+    "valueHypothesis": "Readable, accurate essentials may remove avoidable questions and help a visitor choose a next step.",
+    "prototype": {
+      "status": "brief-ready",
+      "builtArtifactUrl": null,
+      "whatIsBuilt": "No customer demo has been built. This is a scoped prototype plan.",
+      "scope": "An original café, restaurant or visitor-service page with readable menu or service details, location, a local enquiry action and optional motion with a static fallback.",
+      "does": [
+        "Explains a specific service or research task using original content.",
+        "Demonstrates the core interaction with fictional data and no live submission."
+      ],
+      "exclusions": [
+        "Hosting, domains, subscriptions, paid media, live integrations and ongoing support.",
+        "Customer outreach, production deployment and business-outcome guarantees."
+      ]
+    },
+    "pricing": {
+      "type": "scoped-hypothesis",
+      "currency": "USD",
+      "hoursLow": 6,
+      "hoursHigh": 12,
+      "hourlyRate": 75,
+      "assumptions": [
+        "Illustrative planning rate of USD 75/hour; not a market benchmark or client quote.",
+        "Client supplies approved facts and owned/licensed assets; one review round.",
+        "Static local prototype and documented handoff only; confirm scope and budget before quoting."
+      ]
+    },
+    "nextValidation": "Verify business facts, then test finding an item, opening hours and the inquiry route with motion disabled.",
+    "corroborationCaveat": "Distinct credited creators are not automatically independent origins. No repost or independent-origin claim is verified without specific evidence. Multiple examples suggest what to investigate, not demand or proven results.",
+    "seo": {
+      "status": "planning-reference-only",
+      "reviewedOn": "2026-11-02",
+      "checklistUrl": "https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md",
+      "integrationUrl": "https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/INTEGRATION.md",
+      "planning": "Define page intent, owner-verified business facts, index/privacy policy and conversion goals before implementation. Keep private prototypes protected.",
+      "acceptance": "Before an authorized launch, record evidence, checked dates, owner decisions and exceptions for applicable checklist gates G1–G7. Unknown is not pass; no site has passed an SEO audit here.",
+      "limits": "No ranking, indexing or sales promises. Live SEO/profile edits, search submissions and deployment require separate authorization. Toolkit is on unmerged draft PR #2; use these absolute branch links until merge."
+    }
+  },
+  {
+    "id": "maintainable-service-portfolio",
+    "title": "Show proof the owner can keep current.",
+    "members": [
+      {
+        "referenceId": "service-design-system",
+        "relationship": "unknown-origin",
+        "originEvidence": null
+      },
+      {
+        "referenceId": "authentic-portfolio-quote-path",
+        "relationship": "unknown-origin",
+        "originEvidence": null
+      }
+    ],
+    "groupingRationale": "Shared maintainable-service-site goal across a design-tool workflow and a portfolio build. Tools and outputs differ.",
+    "customerNeed": "A studio or service operator with authentic work to show and a verified difficulty maintaining useful project information.",
+    "valueHypothesis": "Reusable components and genuine project evidence may make updates easier and enquiries more specific.",
+    "prototype": {
+      "status": "brief-ready",
+      "builtArtifactUrl": null,
+      "whatIsBuilt": "No customer demo has been built. This is a scoped prototype plan.",
+      "scope": "A three-page static service/portfolio design system with editable project data and a local inquiry demo.",
+      "does": [
+        "Explains a specific service or research task using original content.",
+        "Demonstrates the core interaction with fictional data and no live submission."
+      ],
+      "exclusions": [
+        "Hosting, domains, subscriptions, paid media, live integrations and ongoing support.",
+        "Customer outreach, production deployment and business-outcome guarantees."
+      ]
+    },
+    "pricing": {
+      "type": "scoped-hypothesis",
+      "currency": "USD",
+      "hoursLow": 12,
+      "hoursHigh": 20,
+      "hourlyRate": 75,
+      "assumptions": [
+        "Illustrative planning rate of USD 75/hour; not a market benchmark or client quote.",
+        "Client supplies approved facts and owned/licensed assets; one review round.",
+        "Static local prototype and documented handoff only; confirm scope and budget before quoting."
+      ]
+    },
+    "nextValidation": "Ask an owner to update a fictional project and ask a buyer to identify a relevant example and next step.",
+    "corroborationCaveat": "Distinct credited creators are not automatically independent origins. No repost or independent-origin claim is verified without specific evidence. Multiple examples suggest what to investigate, not demand or proven results.",
+    "seo": {
+      "status": "planning-reference-only",
+      "reviewedOn": "2026-11-02",
+      "checklistUrl": "https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md",
+      "integrationUrl": "https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/INTEGRATION.md",
+      "planning": "Define page intent, owner-verified business facts, index/privacy policy and conversion goals before implementation. Keep private prototypes protected.",
+      "acceptance": "Before an authorized launch, record evidence, checked dates, owner decisions and exceptions for applicable checklist gates G1–G7. Unknown is not pass; no site has passed an SEO audit here.",
+      "limits": "No ranking, indexing or sales promises. Live SEO/profile edits, search submissions and deployment require separate authorization. Toolkit is on unmerged draft PR #2; use these absolute branch links until merge."
+    }
+  },
+  {
+    "id": "local-intent-worksheet",
+    "title": "Research useful pages before making them.",
+    "members": [
+      {
+        "referenceId": "local-intent-service-worksheet",
+        "relationship": "unknown-origin",
+        "originEvidence": null
+      }
+    ],
+    "groupingRationale": "One foundational video. No multi-source corroboration is claimed.",
+    "customerNeed": "A local operator with an observed gap between real customer questions and useful service/location information.",
+    "valueHypothesis": "An evidence-linked worksheet may focus effort on genuinely useful pages rather than thin location variants.",
+    "prototype": {
+      "status": "brief-ready",
+      "builtArtifactUrl": null,
+      "whatIsBuilt": "No customer demo has been built. This is a scoped prototype plan.",
+      "scope": "A local worksheet for services, intent, page gaps, questions, evidence dates and grouped page outlines.",
+      "does": [
+        "Explains a specific service or research task using original content.",
+        "Demonstrates the core interaction with fictional data and no live submission."
+      ],
+      "exclusions": [
+        "Hosting, domains, subscriptions, paid media, live integrations and ongoing support.",
+        "Customer outreach, production deployment and business-outcome guarantees."
+      ]
+    },
+    "pricing": {
+      "type": "scoped-hypothesis",
+      "currency": "USD",
+      "hoursLow": 4,
+      "hoursHigh": 8,
+      "hourlyRate": 75,
+      "assumptions": [
+        "Illustrative planning rate of USD 75/hour; not a market benchmark or client quote.",
+        "Client supplies approved facts and owned/licensed assets; one review round.",
+        "Static local prototype and documented handoff only; confirm scope and budget before quoting."
+      ]
+    },
+    "nextValidation": "Check five fictional questions for evidence quality and whether they map to useful pages without duplication.",
+    "corroborationCaveat": "Distinct credited creators are not automatically independent origins. No repost or independent-origin claim is verified without specific evidence. Multiple examples suggest what to investigate, not demand or proven results."
+  },
+  {
+    "id": "qualification-before-concept",
+    "title": "Find a real problem before offering a concept.",
+    "members": [
+      {
+        "referenceId": "service-prospect-qualification",
+        "relationship": "unknown-origin",
+        "originEvidence": null
+      },
+      {
+        "referenceId": "honest-concept-before-outreach",
+        "relationship": "unknown-origin",
+        "originEvidence": null
+      }
+    ],
+    "groupingRationale": "Shared discovery/qualification theme across different creators. Selected demonstrations and unverified outcome claims are investigation signals only.",
+    "customerNeed": "A service provider evaluating fit, need, decision-making and capacity before a separately authorized pilot.",
+    "valueHypothesis": "Qualification and honest concept labeling may prevent unsuitable pitches and clarify what should be validated next.",
+    "prototype": {
+      "status": "brief-ready",
+      "builtArtifactUrl": null,
+      "whatIsBuilt": "No customer demo has been built. This is a scoped prototype plan.",
+      "scope": "A local qualification worksheet, clearly labeled concept outline and measured-pilot plan; no sending or dialing.",
+      "does": [
+        "Explains a specific service or research task using original content.",
+        "Demonstrates the core interaction with fictional data and no live submission."
+      ],
+      "exclusions": [
+        "Hosting, domains, subscriptions, paid media, live integrations and ongoing support.",
+        "Customer outreach, production deployment and business-outcome guarantees."
+      ]
+    },
+    "pricing": {
+      "type": "scoped-hypothesis",
+      "currency": "USD",
+      "hoursLow": 4,
+      "hoursHigh": 8,
+      "hourlyRate": 75,
+      "assumptions": [
+        "Illustrative planning rate of USD 75/hour; not a market benchmark or client quote.",
+        "Client supplies approved facts and owned/licensed assets; one review round.",
+        "Static local prototype and documented handoff only; confirm scope and budget before quoting."
+      ]
+    },
+    "nextValidation": "Use fictional scenarios including no need, fully booked and uncertain fit; verify that the workflow can disqualify them.",
+    "corroborationCaveat": "Distinct credited creators are not automatically independent origins. No repost or independent-origin claim is verified without specific evidence. Multiple examples suggest what to investigate, not demand or proven results."
+  },
+  {
+    "id": "permissioned-property-viewer",
+    "title": "Let visitors evaluate a space.",
+    "members": [
+      {
+        "referenceId": "permissioned-property-tour",
+        "relationship": "unknown-origin",
+        "originEvidence": null
+      }
+    ],
+    "groupingRationale": "One third-party explainer suggests a spatial viewer. This is a distinct functional category, not corroborated by cinematic hero videos.",
+    "customerNeed": "A property or venue operator with a verified need for remote space evaluation and permission to use the sample.",
+    "valueHypothesis": "A usable spatial preview may answer questions before an enquiry; test whether it improves on a simple image walkthrough.",
+    "prototype": {
+      "status": "brief-ready",
+      "builtArtifactUrl": null,
+      "whatIsBuilt": "No customer demo has been built. This is a scoped prototype plan.",
+      "scope": "A one-sample local viewer evaluation with room navigation, accessible fallback images and a fictional enquiry action.",
+      "does": [
+        "Shows one permissioned sample with room navigation and documented capture limitations.",
+        "Keeps equivalent information and the enquiry action available without 3D."
+      ],
+      "exclusions": [
+        "Production capture, unapproved property imagery, live bookings and deployment.",
+        "Rehosting creator footage and unverified capability, performance or revenue claims."
+      ]
+    },
+    "pricing": {
+      "type": "scoped-hypothesis",
+      "currency": "USD",
+      "hoursLow": 16,
+      "hoursHigh": 28,
+      "hourlyRate": 75,
+      "assumptions": [
+        "Illustrative planning rate of USD 75/hour; not a market benchmark or client quote.",
+        "Client supplies approved facts and owned/licensed assets; one review round.",
+        "Static local prototype and documented handoff only; confirm scope and budget before quoting.",
+        "Evaluation only; capture, model preparation, licensing and hosting are separately scoped unknowns."
+      ]
+    },
+    "nextValidation": "Compare a permissioned sample viewer with a still-image walkthrough on mobile; record task success, loading, capture gaps, licensing and hosting cost.",
+    "corroborationCaveat": "One source, no independently verified origin, implementation or demand. Do not infer a market trend or ease of delivery.",
+    "seo": {
+      "status": "planning-reference-only",
+      "reviewedOn": "2026-11-02",
+      "checklistUrl": "https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md",
+      "integrationUrl": "https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/INTEGRATION.md",
+      "planning": "Define page intent, owner-verified business facts, index/privacy policy and conversion goals before implementation. Keep private prototypes protected.",
+      "acceptance": "Before an authorized launch, record evidence, checked dates, owner decisions and exceptions for applicable checklist gates G1–G7. Unknown is not pass; no site has passed an SEO audit here.",
+      "limits": "No ranking, indexing or sales promises. Live SEO/profile edits, search submissions and deployment require separate authorization. Toolkit is on unmerged draft PR #2; use these absolute branch links until merge."
+    }
+  }
+]

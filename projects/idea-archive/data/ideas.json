@@ -65,17 +65,20 @@
         "Create fictional service copy and choose two owned or licensed comparison images.",
         "Build the static page and complete the quote-request demo before adding motion.",
         "Add the accessible comparison control and optional scroll transitions.",
-        "Test touch, keyboard, reduced motion, and repeated comparison/reset interactions."
+        "Test touch, keyboard, reduced motion, and repeated comparison/reset interactions.",
+        "Plan page intent, verified business facts, index/privacy policy and conversion goals with the reviewed SEO build checklist: https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md (unmerged draft toolkit; planning reference only)."
       ],
       "acceptance": [
         "A visitor can understand the result and request a quote with animation disabled.",
         "The comparison control has a readable label, visible focus, and keyboard support.",
         "The persistent bar never covers form fields or the footer at 375px width.",
-        "The request confirmation explicitly says nothing was sent."
+        "The request confirmation explicitly says nothing was sent.",
+        "Record evidence and owner decisions for applicable checklist gates G1–G7 before an authorized launch. Keep unknowns explicit; no SEO audit pass, rankings, indexing or business outcomes are claimed."
       ],
       "outOfScope": [
         "Live quote submissions, customer records, and animation that blocks content.",
-        "Reusing the creator’s scenes, artwork, assets, or code."
+        "Reusing the creator’s scenes, artwork, assets, or code.",
+        "Live SEO/profile edits, search submissions and deployment without separate authorization."
       ],
       "existingPattern": "Observed reference pattern: Before / after, Scroll storytelling, Persistent CTA. Visible examples are evidence of a design pattern, not proof of a working product or market demand.",
       "specificImprovement": "Let a before-and-after result explain a cleaning service, with an easy action always within reach.",
@@ -85,7 +88,8 @@
       "missingEvidence": [
         "Independent proof that the source implementation works end to end.",
         "Evidence of demand from the target buyer and a measured improvement over their current process.",
-        "Verified publication and relevant tool/version dates."
+        "Verified publication and relevant tool/version dates.",
+        "Owner-approved publishable facts, index/privacy decisions, target release environment and authorized measurement scope."
       ]
     },
     "popularity": {
@@ -247,17 +251,20 @@
         "Define content and a small set of type, spacing, and color tokens.",
         "Design and implement reusable components; a design tool is optional.",
         "Compose the three pages and connect navigation and a local contact demo.",
-        "Document three routine owner edits and validate each on phone and desktop."
+        "Document three routine owner edits and validate each on phone and desktop.",
+        "Plan page intent, verified business facts, index/privacy policy and conversion goals with the reviewed SEO build checklist: https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md (unmerged draft toolkit; planning reference only)."
       ],
       "acceptance": [
         "All three pages use the same component styles and working navigation.",
         "Editing one shared navigation label updates every page.",
         "The maintenance guide explains how to replace content without editing layout code.",
-        "The contact demo clearly confirms that no message was sent."
+        "The contact demo clearly confirms that no message was sent.",
+        "Record evidence and owner decisions for applicable checklist gates G1–G7 before an authorized launch. Keep unknowns explicit; no SEO audit pass, rankings, indexing or business outcomes are claimed."
       ],
       "outOfScope": [
         "Purchasing a builder subscription, relying on plugin export, or connecting a live contact endpoint.",
-        "Copying the reference’s branding, portrait collage, artwork, or layout."
+        "Copying the reference’s branding, portrait collage, artwork, or layout.",
+        "Live SEO/profile edits, search submissions and deployment without separate authorization."
       ],
       "existingPattern": "Observed reference pattern: Reusable components, Editorial type, Client handoff. Visible examples are evidence of a design pattern, not proof of a working product or market demand.",
       "specificImprovement": "Turn a visual direction into reusable page sections and a practical handoff, so future edits stay consistent.",
@@ -267,7 +274,8 @@
       "missingEvidence": [
         "Independent proof that the source implementation works end to end.",
         "Evidence of demand from the target buyer and a measured improvement over their current process.",
-        "Verified publication and relevant tool/version dates."
+        "Verified publication and relevant tool/version dates.",
+        "Owner-approved publishable facts, index/privacy decisions, target release environment and authorized measurement scope."
       ]
     },
     "popularity": {
@@ -425,17 +433,20 @@
         "Write fictional café content and prepare a lightweight original still image.",
         "Implement the static page and test menu and location navigation.",
         "Optionally add a compressed short clip, pause control, and reduced-motion handling.",
-        "Check loading behavior, contrast, no-video mode, and small-screen readability."
+        "Check loading behavior, contrast, no-video mode, and small-screen readability.",
+        "Plan page intent, verified business facts, index/privacy policy and conversion goals with the reviewed SEO build checklist: https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md (unmerged draft toolkit; planning reference only)."
       ],
       "acceptance": [
         "Menu, hours, and location remain available if video fails or is disabled.",
         "Reduced-motion preference prevents autoplay; a static image remains visible.",
         "The page never implies that a sample order was submitted.",
-        "Hero text is readable over every video frame and on the static fallback."
+        "Hero text is readable over every video frame and on the static fallback.",
+        "Record evidence and owner decisions for applicable checklist gates G1–G7 before an authorized launch. Keep unknowns explicit; no SEO audit pass, rankings, indexing or business outcomes are claimed."
       ],
       "outOfScope": [
         "Replicating depicted 3D effects or claiming they are implemented in the reference.",
-        "Live ordering, a paid media service, or reusing the creator’s AI imagery."
+        "Live ordering, a paid media service, or reusing the creator’s AI imagery.",
+        "Live SEO/profile edits, search submissions and deployment without separate authorization."
       ],
       "existingPattern": "Observed reference pattern: Optional hero motion, Menu clarity, Reduced-motion fallback. Visible examples are evidence of a design pattern, not proof of a working product or market demand.",
       "specificImprovement": "Use a little motion to set the mood, while the menu, hours, and ordering route stay immediate.",
@@ -445,7 +456,8 @@
       "missingEvidence": [
         "Independent proof that the source implementation works end to end.",
         "Evidence of demand from the target buyer and a measured improvement over their current process.",
-        "Verified publication and relevant tool/version dates."
+        "Verified publication and relevant tool/version dates.",
+        "Owner-approved publishable facts, index/privacy decisions, target release environment and authorized measurement scope."
       ]
     },
     "popularity": {
@@ -604,17 +616,20 @@
         "Define demo service/rate fixtures and state the assumptions beside the result.",
         "Implement validated inputs and a pure calculation function with lower/upper bounds.",
         "Add editable review, reset, and an explicit local request confirmation.",
-        "Test invalid numbers, boundary values, unit labels, switching services, extras, and repeated edits."
+        "Test invalid numbers, boundary values, unit labels, switching services, extras, and repeated edits.",
+        "Plan page intent, verified business facts, index/privacy policy and conversion goals with the reviewed SEO build checklist: https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md (unmerged draft toolkit; planning reference only)."
       ],
       "acceptance": [
         "Blank, negative, nonnumeric, and oversized values produce helpful validation instead of misleading totals.",
         "Changing any valid input updates the breakdown and range consistently.",
         "Demo rates and the nonbinding result are clearly labeled before the request action.",
-        "Business-approved pricing rules are a release prerequisite; the prototype sends no requests."
+        "Business-approved pricing rules are a release prerequisite; the prototype sends no requests.",
+        "Record evidence and owner decisions for applicable checklist gates G1–G7 before an authorized launch. Keep unknowns explicit; no SEO audit pass, rankings, indexing or business outcomes are claimed."
       ],
       "outOfScope": [
         "Binding prices, payments, CRM integration, or using unapproved pricing rules in production.",
-        "Treating the caption’s live-calculator claim as verified functionality."
+        "Treating the caption’s live-calculator claim as verified functionality.",
+        "Live SEO/profile edits, search submissions and deployment without separate authorization."
       ],
       "existingPattern": "Observed reference pattern: Service picker, Estimate range, Review before request. Visible examples are evidence of a design pattern, not proof of a working product or market demand.",
       "specificImprovement": "Let customers describe the job, see an understandable range, and review the assumptions before asking for help.",
@@ -624,7 +639,8 @@
       "missingEvidence": [
         "Independent proof that the source implementation works end to end.",
         "Evidence of demand from the target buyer and a measured improvement over their current process.",
-        "Verified publication and relevant tool/version dates."
+        "Verified publication and relevant tool/version dates.",
+        "Owner-approved publishable facts, index/privacy decisions, target release environment and authorized measurement scope."
       ]
     },
     "popularity": {
@@ -784,17 +800,20 @@
         "Write sample service and coverage records and choose licensed or owned imagery.",
         "Build the mobile service sequence and coverage section.",
         "Connect each service card to the same request form with the service preselected.",
-        "Test changing services, validation, unsupported coverage, and repeated submissions."
+        "Test changing services, validation, unsupported coverage, and repeated submissions.",
+        "Plan page intent, verified business facts, index/privacy policy and conversion goals with the reviewed SEO build checklist: https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md (unmerged draft toolkit; planning reference only)."
       ],
       "acceptance": [
         "Every service CTA reaches the same form with the correct service selected.",
         "Unsupported locations receive a clear next-step explanation.",
         "The confirmation states that no request was sent and no appointment was booked.",
-        "All controls are keyboard accessible and remain readable at 375px width."
+        "All controls are keyboard accessible and remain readable at 375px width.",
+        "Record evidence and owner decisions for applicable checklist gates G1–G7 before an authorized launch. Keep unknowns explicit; no SEO audit pass, rankings, indexing or business outcomes are claimed."
       ],
       "outOfScope": [
         "Actual scheduling, payments, customer-data storage, and live submissions.",
-        "Reusing the creator’s branding, photos, copy, or code."
+        "Reusing the creator’s branding, photos, copy, or code.",
+        "Live SEO/profile edits, search submissions and deployment without separate authorization."
       ],
       "existingPattern": "Observed reference pattern: Service cards, Service-area detail, Single enquiry path. Visible examples are evidence of a design pattern, not proof of a working product or market demand.",
       "specificImprovement": "Put services, results, and coverage in a simple mobile sequence, then offer a single request form.",
@@ -804,7 +823,8 @@
       "missingEvidence": [
         "Independent proof that the source implementation works end to end.",
         "Evidence of demand from the target buyer and a measured improvement over their current process.",
-        "Verified publication and relevant tool/version dates."
+        "Verified publication and relevant tool/version dates.",
+        "Owner-approved publishable facts, index/privacy decisions, target release environment and authorized measurement scope."
       ]
     },
     "popularity": {
@@ -959,17 +979,20 @@
         "Write the two shopper journeys and create six fictional product records.",
         "Build the hero, category sections, and location cards using original typography and simple shapes.",
         "Wire category navigation and the location filter; show a clear no-location state.",
-        "Test both journeys on a narrow phone screen and with a keyboard."
+        "Test both journeys on a narrow phone screen and with a keyboard.",
+        "Plan page intent, verified business facts, index/privacy policy and conversion goals with the reviewed SEO build checklist: https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md (unmerged draft toolkit; planning reference only)."
       ],
       "acceptance": [
         "Each hero button reaches its matching category and preserves a clear heading.",
         "Filtering pickup locations returns matching results and a helpful empty state.",
         "All sample prices, locations, and availability are clearly identified as demo data.",
-        "The page works at 375px width without horizontal overflow and all controls are keyboard accessible."
+        "The page works at 375px width without horizontal overflow and all controls are keyboard accessible.",
+        "Record evidence and owner decisions for applicable checklist gates G1–G7 before an authorized launch. Keep unknowns explicit; no SEO audit pass, rankings, indexing or business outcomes are claimed."
       ],
       "outOfScope": [
         "Live checkout, inventory, maps, and order submissions.",
-        "Reusing WILDE branding, packaging, typography treatments, assets, or code."
+        "Reusing WILDE branding, packaging, typography treatments, assets, or code.",
+        "Live SEO/profile edits, search submissions and deployment without separate authorization."
       ],
       "existingPattern": "Observed reference pattern: Two product paths, Retail discovery, Bold hierarchy. Visible examples are evidence of a design pattern, not proof of a working product or market demand.",
       "specificImprovement": "Help visitors choose between two product families, then make the nearest stockist easy to find.",
@@ -979,7 +1002,8 @@
       "missingEvidence": [
         "Independent proof that the source implementation works end to end.",
         "Evidence of demand from the target buyer and a measured improvement over their current process.",
-        "Verified publication and relevant tool/version dates."
+        "Verified publication and relevant tool/version dates.",
+        "Owner-approved publishable facts, index/privacy decisions, target release environment and authorized measurement scope."
       ]
     },
     "popularity": {
@@ -1134,17 +1158,20 @@
         "Define two sample audiences, three packages, and the contents of each checklist.",
         "Design an original calm service page with simple icons and a visible audience selection.",
         "Connect the audience controls to matching content and the local request demo.",
-        "Test switching audiences repeatedly, completing the demo, and returning to the first choice."
+        "Test switching audiences repeatedly, completing the demo, and returning to the first choice.",
+        "Plan page intent, verified business facts, index/privacy policy and conversion goals with the reviewed SEO build checklist: https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md (unmerged draft toolkit; planning reference only)."
       ],
       "acceptance": [
         "Changing the audience updates both package details and the request label without stale content.",
         "Each route explains the next step and offers a way back to the other audience.",
         "The request demo validates its required choices and announces confirmation to assistive technology.",
-        "The page makes no network submission and clearly labels all schedules as samples."
+        "The page makes no network submission and clearly labels all schedules as samples.",
+        "Record evidence and owner decisions for applicable checklist gates G1–G7 before an authorized launch. Keep unknowns explicit; no SEO audit pass, rankings, indexing or business outcomes are claimed."
       ],
       "outOfScope": [
         "Calendar integration, real bookings, payments, and customer records.",
-        "Using Greyparrot imagery, branding, exact layouts, or proprietary code."
+        "Using Greyparrot imagery, branding, exact layouts, or proprietary code.",
+        "Live SEO/profile edits, search submissions and deployment without separate authorization."
       ],
       "existingPattern": "Observed reference pattern: Audience routing, How it works, Clear next step. Visible examples are evidence of a design pattern, not proof of a working product or market demand.",
       "specificImprovement": "Make a broad service feel specific with a clear audience choice and a short explanation of what happens next.",
@@ -1154,7 +1181,8 @@
       "missingEvidence": [
         "Independent proof that the source implementation works end to end.",
         "Evidence of demand from the target buyer and a measured improvement over their current process.",
-        "Verified publication and relevant tool/version dates."
+        "Verified publication and relevant tool/version dates.",
+        "Owner-approved publishable facts, index/privacy decisions, target release environment and authorized measurement scope."
       ]
     },
     "popularity": {
@@ -1309,17 +1337,20 @@
         "Define sample choices and validation rules for the project outline.",
         "Build the process section and FAQs with native accessible disclosure controls.",
         "Implement forward, back, edit, reset, and summary download in browser memory.",
-        "Test invalid steps, repeated edits, resets, and the full mobile flow."
+        "Test invalid steps, repeated edits, resets, and the full mobile flow.",
+        "Plan page intent, verified business facts, index/privacy policy and conversion goals with the reviewed SEO build checklist: https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md (unmerged draft toolkit; planning reference only)."
       ],
       "acceptance": [
         "Visitors cannot advance past required choices without a specific inline error.",
         "Back and edit actions preserve choices; reset clears the whole outline.",
         "The downloaded summary matches the final choices and says that no request was submitted.",
-        "No price, lead time, or testimonial is presented as a verified business claim."
+        "No price, lead time, or testimonial is presented as a verified business claim.",
+        "Record evidence and owner decisions for applicable checklist gates G1–G7 before an authorized launch. Keep unknowns explicit; no SEO audit pass, rankings, indexing or business outcomes are claimed."
       ],
       "outOfScope": [
         "Binding estimates, file uploads, CRM submissions, deposits, and live availability.",
-        "Copying Podium's claims, case studies, brand, page design, or code."
+        "Copying Podium's claims, case studies, brand, page design, or code.",
+        "Live SEO/profile edits, search submissions and deployment without separate authorization."
       ],
       "existingPattern": "Observed reference pattern: Process sequence, Quote builder, Buyer FAQs. Visible examples are evidence of a design pattern, not proof of a working product or market demand.",
       "specificImprovement": "Reduce the unknowns before an enquiry with a visible process, useful FAQs, and a lightweight quote builder.",
@@ -1329,7 +1360,8 @@
       "missingEvidence": [
         "Independent proof that the source implementation works end to end.",
         "Evidence of demand from the target buyer and a measured improvement over their current process.",
-        "Verified publication and relevant tool/version dates."
+        "Verified publication and relevant tool/version dates.",
+        "Owner-approved publishable facts, index/privacy decisions, target release environment and authorized measurement scope."
       ]
     },
     "popularity": {
@@ -1601,17 +1633,20 @@
         "Collect and verify content fields using fictional fixtures for the prototype.",
         "Build the static menu/services, hours, location, and inquiry demo.",
         "Add optional lightweight media only after the core route works.",
-        "Test mobile readability, reduced motion, media failure, and inquiry validation."
+        "Test mobile readability, reduced motion, media failure, and inquiry validation.",
+        "Plan page intent, verified business facts, index/privacy policy and conversion goals with the reviewed SEO build checklist: https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md (unmerged draft toolkit; planning reference only)."
       ],
       "acceptance": [
         "Core business details remain accessible with all media disabled.",
         "Generated imagery cannot be mistaken for documentary customer or product evidence.",
         "No demo inquiry is sent; release requires separately scoped form-delivery testing.",
-        "The page works on a 375px viewport and with keyboard navigation."
+        "The page works on a 375px viewport and with keyboard navigation.",
+        "Record evidence and owner decisions for applicable checklist gates G1–G7 before an authorized launch. Keep unknowns explicit; no SEO audit pass, rankings, indexing or business outcomes are claimed."
       ],
       "outOfScope": [
         "Live reservations, orders, payments, or production deployment.",
-        "Repeating promotional prices or treating the tutorial as a proven sales outcome."
+        "Repeating promotional prices or treating the tutorial as a proven sales outcome.",
+        "Live SEO/profile edits, search submissions and deployment without separate authorization."
       ],
       "existingPattern": "Observed pattern: Content-first build, Local preview, Optional illustrative motion. This supports learning, not proof of demand or a reproduced result.",
       "specificImprovement": "Keep the useful AI-assisted workflow, then make the menu, facts, and inquiry path dependable before adding motion.",
@@ -1621,7 +1656,8 @@
       "missingEvidence": [
         "Independent end-to-end verification or reproduction of the source workflow.",
         "Measured usefulness and demand from the actual target buyer.",
-        "Current tool/version details and production integration behavior."
+        "Current tool/version details and production integration behavior.",
+        "Owner-approved publishable facts, index/privacy decisions, target release environment and authorized measurement scope."
       ]
     }
   },
@@ -1807,17 +1843,20 @@
         "Define the buyer, project proof, and the information needed for a useful inquiry.",
         "Build the static project cards and quote route.",
         "Iterate with screenshots at desktop and phone widths.",
-        "Test form validation locally; scope real delivery verification only after an approved integration exists."
+        "Test form validation locally; scope real delivery verification only after an approved integration exists.",
+        "Plan page intent, verified business facts, index/privacy policy and conversion goals with the reviewed SEO build checklist: https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md (unmerged draft toolkit; planning reference only)."
       ],
       "acceptance": [
         "Every project claim has an attributable public source or is clearly labeled a fictional demo.",
         "Disabling motion preserves all text, links, and actions.",
         "The inquiry demo announces errors and a no-send confirmation.",
-        "No bypassed permission or automatic deployment is part of the workflow."
+        "No bypassed permission or automatic deployment is part of the workflow.",
+        "Record evidence and owner decisions for applicable checklist gates G1–G7 before an authorized launch. Keep unknowns explicit; no SEO audit pass, rankings, indexing or business outcomes are claimed."
       ],
       "outOfScope": [
         "Unapproved media connectors, live forms, paid hosting, and deployment.",
-        "Treating a fast build or public artifact as proof of business results."
+        "Treating a fast build or public artifact as proof of business results.",
+        "Live SEO/profile edits, search submissions and deployment without separate authorization."
       ],
       "existingPattern": "Observed pattern: Authentic project cards, Screenshot iteration, Persistent quote action. This supports learning, not proof of demand or a reproduced result.",
       "specificImprovement": "Use authentic project evidence and a dependable quote route; keep generated visuals optional and real text readable.",
@@ -1827,7 +1866,8 @@
       "missingEvidence": [
         "Independent end-to-end verification or reproduction of the source workflow.",
         "Measured usefulness and demand from the actual target buyer.",
-        "Current tool/version details and production integration behavior."
+        "Current tool/version details and production integration behavior.",
+        "Owner-approved publishable facts, index/privacy decisions, target release environment and authorized measurement scope."
       ]
     }
   },
@@ -2426,6 +2466,370 @@
         "Measured usefulness and demand from the actual target buyer.",
         "Current tool/version details and production integration behavior."
       ]
+    }
+  },
+  {
+    "id": "cinematic-marina-enquiry",
+    "title": "A cinematic welcome with a direct enquiry",
+    "summary": "Use an original marina or charter hero to set context while keeping services and availability enquiries immediately accessible.",
+    "businessTypes": [
+      "Hospitality",
+      "Local services"
+    ],
+    "businessUseCase": "A charter or marina operator with verified enquiry friction and capacity needs visitors to understand the offer and request availability.",
+    "patterns": [
+      "Cinematic hero",
+      "Accessible motion",
+      "Clear enquiry"
+    ],
+    "difficulty": "Moderate",
+    "sketch": "retail",
+    "kind": "observed",
+    "addedOn": "2026-11-02",
+    "integrations": [
+      "None for the MVP; use sample data and local interactions. Live services are separate follow-up work."
+    ],
+    "source": {
+      "type": "reel",
+      "name": "Interactive marina website showcase",
+      "url": "https://www.instagram.com/reels/DcSizPCtTom/",
+      "publicVisibility": "public",
+      "creator": {
+        "name": "@uijonah",
+        "url": "https://www.instagram.com/uijonah/"
+      },
+      "attributionNote": "Public creator attribution from sampled playing frames and visible captions; content ownership unverified.",
+      "contentType": "Filmed website showcase",
+      "observedStack": []
+    },
+    "review": {
+      "method": "video-visual-caption",
+      "reviewedOn": "2026-11-02",
+      "evidenceUrl": "https://www.instagram.com/reels/DcSizPCtTom/",
+      "notes": "Reviewed sampled playing video frames and visible captions, muted. No audio review. Public creator post accessible without a private-account gate; logged-out playback was not tested.",
+      "observations": [
+        "Sampled playing frames show a laptop with a marina/sunset hero and large typography.",
+        "Another monitor shows text or prompt-like workflow material; it does not establish a particular tool stack."
+      ],
+      "captionClaims": [
+        "The caption offers an interactive-website guide."
+      ],
+      "limitations": [
+        "No underlying live site, implementation steps or business outcomes were independently verified.",
+        "Comment-to-receive-guide incentive may affect comment activity; it is not evidence of fraud or demand.",
+        "No repost indicator was seen, but original ownership is unverified.",
+        "Sampled visual and caption review only; muted, no audio review or end-to-end playback. Logged-out playback was not tested."
+      ],
+      "audioReviewed": false
+    },
+    "build": {
+      "status": "planned",
+      "url": null
+    },
+    "brief": {
+      "goal": "Build a distinct charter or marina page with owned imagery, clear services and an accessible availability enquiry demo.",
+      "features": [
+        "Owned or licensed marina imagery with optional short motion and a static reduced-motion fallback.",
+        "Readable service and availability guidance using approved business facts.",
+        "An enquiry CTA available immediately without waiting through animation; local-only form demo."
+      ],
+      "steps": [
+        "Confirm the buyer problem, capacity and permission to use illustrative assets.",
+        "Build service information and the local enquiry demo before optional motion.",
+        "Test keyboard, mobile, reduced motion and the clarity of the availability request.",
+        "Plan page intent, verified business facts, index/privacy policy and conversion goals with the reviewed SEO build checklist: https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md (unmerged draft toolkit; planning reference only)."
+      ],
+      "acceptance": [
+        "Visitors can find services and request availability with animation disabled.",
+        "The local demo states no enquiry was sent and uses fictional data.",
+        "Record evidence and owner decisions for applicable checklist gates G1–G7 before an authorized launch. Keep unknowns explicit; no SEO audit pass, rankings, indexing or business outcomes are claimed."
+      ],
+      "outOfScope": [
+        "Reusing creator imagery, footage, branding or code.",
+        "Live booking, live enquiries and unverified tool integrations.",
+        "Live SEO/profile edits, search submissions and deployment without separate authorization."
+      ],
+      "existingPattern": "Observed presentation pattern: Cinematic hero, Accessible motion, Clear enquiry. A sampled video establishes a visual reference, not a working implementation or demand.",
+      "specificImprovement": "Keep essential service details and the enquiry action usable while a restrained visual hero establishes context.",
+      "targetBuyerProblem": "A charter or marina operator with verified enquiry friction and capacity needs visitors to understand the offer and request availability.",
+      "newCapability": "No new capability is independently verified. Evaluate the simplest useful implementation before adopting creator-described tools.",
+      "validationTest": "Build the smallest local demo and ask three representative business owners to complete its main task. Record completion, confusion, and whether the proposed improvement solves a real problem before adding integrations. This is a future validation plan, not authorization for outreach.",
+      "missingEvidence": [
+        "Independent functional artifact and reproducible implementation evidence.",
+        "Buyer problem, capacity and measured improvement over an existing alternative.",
+        "Publication date, relevant tool/version date and content rights.",
+        "Owner-approved publishable facts, index/privacy decisions, target release environment and authorized measurement scope."
+      ]
+    },
+    "popularity": {
+      "views": {
+        "value": null,
+        "display": "Not displayed",
+        "status": "unavailable",
+        "observedAt": "2026-11-02T21:52:35Z",
+        "sourceUrl": "https://www.instagram.com/reels/DcSizPCtTom/"
+      },
+      "likes": {
+        "value": 7700,
+        "display": "7,700",
+        "status": "exact",
+        "observedAt": "2026-11-02T21:52:35Z",
+        "sourceUrl": "https://www.instagram.com/reels/DcSizPCtTom/"
+      },
+      "comments": {
+        "value": 4945,
+        "display": "4945",
+        "status": "exact",
+        "observedAt": "2026-11-02T21:52:35Z",
+        "sourceUrl": "https://www.instagram.com/reels/DcSizPCtTom/"
+      },
+      "followers": {
+        "value": 5371,
+        "display": "5,371",
+        "status": "exact",
+        "observedAt": "2026-11-02T21:53:06Z",
+        "sourceUrl": "https://www.instagram.com/uijonah/"
+      },
+      "subscribers": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "reposts": {
+        "value": 156,
+        "display": "156",
+        "status": "exact",
+        "observedAt": "2026-11-02T21:52:35Z",
+        "sourceUrl": "https://www.instagram.com/reels/DcSizPCtTom/"
+      }
+    },
+    "evidence": {
+      "sourceIdentity": {
+        "status": "attributed",
+        "notes": "Public posting account identified; original footage ownership is unverified."
+      },
+      "publicVisibility": {
+        "status": "observed-public",
+        "notes": "Public post and creator grid were accessible without a private-account gate; logged-out playback was not tested."
+      },
+      "observedContent": {
+        "status": "sampled-video",
+        "notes": "Sampled playing frames and visible captions, muted; no audio review."
+      },
+      "functioningArtifact": {
+        "status": "unverified",
+        "notes": "The underlying site, interactions, and backend were not independently tested."
+      },
+      "reproducibleSteps": {
+        "status": "not-tested",
+        "notes": "No implementation steps were independently reproduced or verified."
+      },
+      "outcomeClaims": {
+        "status": "unverified",
+        "notes": "Business results unverified. A comment-to-receive-guide CTA may increase comments; popularity and incentives do not establish demand."
+      },
+      "aiContentLabel": {
+        "status": "unknown",
+        "notes": "No AI-content label was observed in the supplied sampled review; this does not establish non-AI provenance."
+      }
+    },
+    "freshness": {
+      "publishedOn": null,
+      "publicationEvidenceUrl": null,
+      "toolVersionDate": null,
+      "toolVersionLabel": null,
+      "toolVersionEvidenceUrl": null,
+      "role": "undated",
+      "caveat": "Publication and relevant tool/version dates are unverified. Review date is not publication date. Use as pattern inspiration, not current setup guidance."
+    },
+    "novelty": {
+      "status": "unassessed",
+      "notes": "No genuinely new capability or improvement over alternatives has been independently established by this review.",
+      "evidenceUrl": null
+    }
+  },
+  {
+    "id": "permissioned-property-tour",
+    "title": "Explore a space before the enquiry",
+    "summary": "Evaluate a permissioned venue sample in a lightweight viewer, with room navigation, fallback images and a clear enquiry route.",
+    "businessTypes": [
+      "Property",
+      "Hospitality"
+    ],
+    "businessUseCase": "A property or venue operator with a validated remote-evaluation problem needs an honest way to help visitors assess a space before enquiring.",
+    "patterns": [
+      "Spatial preview",
+      "Room navigation",
+      "Accessible fallback"
+    ],
+    "difficulty": "Advanced",
+    "sketch": "retail",
+    "kind": "observed",
+    "addedOn": "2026-11-02",
+    "integrations": [
+      "None for the MVP; use sample data and local interactions. Live services are separate follow-up work."
+    ],
+    "source": {
+      "type": "reel",
+      "name": "Browser-based 3D property-tour explainer",
+      "url": "https://www.instagram.com/reels/DYFGThBOqRJ/",
+      "publicVisibility": "public",
+      "creator": {
+        "name": "@marc.kaz",
+        "url": "https://www.instagram.com/marc.kaz/"
+      },
+      "attributionNote": "Public creator attribution from sampled playing frames and visible captions; content ownership unverified.",
+      "contentType": "Third-party technology commentary with demonstration footage",
+      "observedStack": []
+    },
+    "review": {
+      "method": "video-visual-caption",
+      "reviewedOn": "2026-11-02",
+      "evidenceUrl": "https://www.instagram.com/reels/DYFGThBOqRJ/",
+      "notes": "Reviewed sampled playing video frames and visible captions, muted. No audio review. Public creator post accessible without a private-account gate; logged-out playback was not tested.",
+      "observations": [
+        "Sampled footage moves from a house exterior to interior rooms and stairs."
+      ],
+      "captionClaims": [
+        "The caption describes iPhone scanning and PlayCanvas; these are creator-described tools, not independently verified integrations or capability."
+      ],
+      "limitations": [
+        "This is third-party technology commentary, not an independently verified client build.",
+        "Footage ownership, capture quality, implementation steps, hosting cost and mobile performance are unverified.",
+        "Spatial navigation is a distinct functional category; cinematic hero imagery does not corroborate the same functionality.",
+        "Sampled visual and caption review only; muted, no audio review or end-to-end playback. Logged-out playback was not tested."
+      ],
+      "audioReviewed": false
+    },
+    "build": {
+      "status": "planned",
+      "url": null
+    },
+    "brief": {
+      "goal": "Evaluate a permissioned property or venue sample in a lightweight web viewer before committing to a production tour.",
+      "features": [
+        "One licensed or owned sample with explicit capture limitations.",
+        "Simple room navigation and accessible fallback images with equivalent useful descriptions.",
+        "An enquiry CTA that works without the 3D viewer; local-only demonstration."
+      ],
+      "steps": [
+        "Verify sample licensing, capture quality and the actual buyer problem.",
+        "Compare a still-image walkthrough with a lightweight viewer using the same permitted sample.",
+        "Measure mobile loading and interaction; document hosting and capture assumptions before selling.",
+        "Plan page intent, verified business facts, index/privacy policy and conversion goals with the reviewed SEO build checklist: https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md (unmerged draft toolkit; planning reference only)."
+      ],
+      "acceptance": [
+        "Essential room information and enquiry actions remain usable without 3D rendering.",
+        "The sample is permissioned and no creator footage is reused.",
+        "Mobile performance, capture gaps and hosting costs are measured or explicitly unknown.",
+        "Record evidence and owner decisions for applicable checklist gates G1–G7 before an authorized launch. Keep unknowns explicit; no SEO audit pass, rankings, indexing or business outcomes are claimed."
+      ],
+      "outOfScope": [
+        "Unapproved property capture, rehosting third-party footage and claims of easy or proven results.",
+        "Live booking, customer data and deployment.",
+        "Live SEO/profile edits, search submissions and deployment without separate authorization."
+      ],
+      "existingPattern": "Observed presentation pattern: Spatial preview, Room navigation, Accessible fallback. A sampled video establishes a visual reference, not a working implementation or demand.",
+      "specificImprovement": "Provide equivalent fallback information and measure the viewer’s practical benefit against a simple image walkthrough.",
+      "targetBuyerProblem": "A property or venue operator with a validated remote-evaluation problem needs an honest way to help visitors assess a space before enquiring.",
+      "newCapability": "No new capability is independently verified. Evaluate the simplest useful implementation before adopting creator-described tools.",
+      "validationTest": "Build the smallest local demo and ask three representative business owners to complete its main task. Record completion, confusion, and whether the proposed improvement solves a real problem before adding integrations. This is a future validation plan, not authorization for outreach.",
+      "missingEvidence": [
+        "Independent functional artifact and reproducible implementation evidence.",
+        "Buyer problem, capacity and measured improvement over an existing alternative.",
+        "Publication date, relevant tool/version date and content rights.",
+        "Owner-approved publishable facts, index/privacy decisions, target release environment and authorized measurement scope."
+      ]
+    },
+    "popularity": {
+      "views": {
+        "value": null,
+        "display": "Not displayed",
+        "status": "unavailable",
+        "observedAt": "2026-11-02T21:53:23Z",
+        "sourceUrl": "https://www.instagram.com/reels/DYFGThBOqRJ/"
+      },
+      "likes": {
+        "value": 32700,
+        "display": "32.7K",
+        "status": "rounded",
+        "observedAt": "2026-11-02T21:53:23Z",
+        "sourceUrl": "https://www.instagram.com/reels/DYFGThBOqRJ/"
+      },
+      "comments": {
+        "value": 889,
+        "display": "889",
+        "status": "exact",
+        "observedAt": "2026-11-02T21:53:23Z",
+        "sourceUrl": "https://www.instagram.com/reels/DYFGThBOqRJ/"
+      },
+      "followers": {
+        "value": 128703,
+        "display": "128,703 (heading 128K)",
+        "status": "exact",
+        "observedAt": "2026-11-02T21:53:40Z",
+        "sourceUrl": "https://www.instagram.com/marc.kaz/"
+      },
+      "subscribers": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "reposts": {
+        "value": 425,
+        "display": "425",
+        "status": "exact",
+        "observedAt": "2026-11-02T21:53:23Z",
+        "sourceUrl": "https://www.instagram.com/reels/DYFGThBOqRJ/"
+      }
+    },
+    "evidence": {
+      "sourceIdentity": {
+        "status": "attributed",
+        "notes": "Public posting account identified; original footage ownership is unverified."
+      },
+      "publicVisibility": {
+        "status": "observed-public",
+        "notes": "Public post and creator grid were accessible without a private-account gate; logged-out playback was not tested."
+      },
+      "observedContent": {
+        "status": "sampled-video",
+        "notes": "Sampled playing frames and visible captions, muted; no audio review."
+      },
+      "functioningArtifact": {
+        "status": "unverified",
+        "notes": "The underlying site, interactions, and backend were not independently tested."
+      },
+      "reproducibleSteps": {
+        "status": "not-tested",
+        "notes": "No implementation steps were independently reproduced or verified."
+      },
+      "outcomeClaims": {
+        "status": "unverified",
+        "notes": "No business, conversion, revenue, or performance outcome is independently verified. Popularity is not proof."
+      },
+      "aiContentLabel": {
+        "status": "unknown",
+        "notes": "No AI-content label was observed in the supplied sampled review; this does not establish non-AI provenance."
+      }
+    },
+    "freshness": {
+      "publishedOn": null,
+      "publicationEvidenceUrl": null,
+      "toolVersionDate": null,
+      "toolVersionLabel": null,
+      "toolVersionEvidenceUrl": null,
+      "role": "undated",
+      "caveat": "Publication and relevant tool/version dates are unverified. Review date is not publication date. Use as pattern inspiration, not current setup guidance."
+    },
+    "novelty": {
+      "status": "unassessed",
+      "notes": "No genuinely new capability or improvement over alternatives has been independently established by this review.",
+      "evidenceUrl": null
     }
   }
 ]

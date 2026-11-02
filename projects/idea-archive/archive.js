@@ -53,3 +53,14 @@ export function formatBrief(idea) {
 export function collectionCounts(ideas) {
   return { all: ideas.length, website: ideas.filter(x => x.kind === 'observed' && x.source.type === 'website').length, reel: ideas.filter(x => x.kind === 'observed' && x.source.type === 'reel').length, youtube: ideas.filter(x => x.kind === 'observed' && x.source.type === 'youtube').length, concept: ideas.filter(x => x.kind === 'concept').length, built: ideas.filter(x => x.build.status === 'built').length };
 }
+
+// Platform identity prevents /p/, /reel/ and /reels/ aliases counting as new sources.
+export function sourceIdentityKey(source) {
+  if (!source?.url) return null;
+  const safe = safeExternalUrl(source.url); if (!safe) return null;
+  const url = new URL(safe), host = url.hostname.replace(/^www\./, '');
+  if (host === 'instagram.com') { const match = url.pathname.match(/^\/(?:p|reel|reels)\/([A-Za-z0-9_-]+)\/?$/); if (match) return `instagram:${match[1]}`; }
+  if (host === 'youtube.com' && url.searchParams.get('v')) return `youtube:${url.searchParams.get('v')}`;
+  if (host === 'youtu.be' && url.pathname.slice(1)) return `youtube:${url.pathname.slice(1).replace(/\/$/, '')}`;
+  return url.href;
+}

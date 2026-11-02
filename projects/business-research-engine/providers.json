@@ -1,0 +1,62 @@
+[
+  {
+    "name": "LA Office of Finance registry",
+    "status": "Future permitted seed · manual intake only",
+    "notes": "The official overview describes monthly business registry data; the catalog marks the all-business dataset CC0. Names, locations, NAICS and business start dates are registry observations, not proof of operation, founding date or website absence. Review the current dataset license and fields at intake. Keep real home-business addresses private. No dataset has been imported here.",
+    "sources": [
+      {
+        "label": "Official overview",
+        "url": "https://finance.lacity.gov/open-data-portal-published-information"
+      },
+      {
+        "label": "Catalog & license",
+        "url": "https://catalog.data.gov/dataset/listing-of-all-businesses"
+      }
+    ]
+  },
+  {
+    "name": "OpenStreetMap / Overpass",
+    "status": "Optional future source · disabled",
+    "notes": "ODbL attribution and database share-alike obligations require review. Shared Overpass service policy is not a production entitlement. Missing website tags identify review candidates, not businesses proven to lack websites. No requests have run.",
+    "sources": [
+      {
+        "label": "ODbL / attribution",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "label": "Shared service policy",
+        "url": "https://dev.overpass-api.de/overpass-doc/en/preface/commons.html"
+      }
+    ]
+  },
+  {
+    "name": "Google Maps / Places",
+    "status": "Disabled · terms and budget review required",
+    "notes": "No Maps scraping or default Places lead-harvesting adapter. Export, storage and directory/listing restrictions require intended-use review; official API access alone does not settle it. websiteUri is an Enterprise field requiring billing/auth. No signup, credentials or paid use is approved.",
+    "sources": [
+      {
+        "label": "Terms §3.2.3",
+        "url": "https://cloud.google.com/maps-platform/terms"
+      },
+      {
+        "label": "Places policies",
+        "url": "https://developers.google.com/maps/documentation/places/web-service/policies"
+      }
+    ]
+  },
+  {
+    "name": "Apollo",
+    "status": "Later enrichment · disabled",
+    "notes": "Access and credits are required. Redistribution rights have not been verified. Do not publish provider records or contacts by default. No authentication, credit use or enrichment has occurred.",
+    "sources": [
+      {
+        "label": "Organization search",
+        "url": "https://docs.apollo.io/reference/organization-search"
+      },
+      {
+        "label": "API access / credits",
+        "url": "https://docs.apollo.io/docs/api-pricing"
+      }
+    ]
+  }
+]

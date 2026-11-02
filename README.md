@@ -19,3 +19,5 @@ A home for public standalone research and projects that do not have a dedicated 
 ## Software Factory context
 
 On initialization, the repository was empty: no README, AGENTS.md, Software Factory instructions, or implementation workflow was available to consult. This contribution is a documentation/data collection, not an execution of a Software Factory. Follow any repository instructions added later before making future changes.
+
+- [Business research engine](projects/business-research-engine/README.md): local manual candidate intake, evidence review and original prototype offers; real prospect data stays private in browser storage. Synthetic public fixtures only.

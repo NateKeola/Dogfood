@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { collectionCounts, filterIdeas, formatBrief, safeExternalUrl } from '../archive.js';
+import { collectionCounts, filterIdeas, formatBrief, safeExternalUrl, sourceIdentityKey } from '../archive.js';
 import { validateRecords } from '../scripts/validate.mjs';
 
 const ideas = JSON.parse(await readFile(new URL('../data/ideas.json', import.meta.url)));
@@ -9,7 +9,7 @@ const schema = JSON.parse(await readFile(new URL('../idea.schema.json', import.m
 
 test('all curated records satisfy schema and evidence rules', () => assert.deepEqual(validateRecords(ideas, schema), []));
 test('collection counts distinguish references, unreviewed concepts and completed builds', () => {
-  assert.deepEqual(collectionCounts(ideas), { all: 13, website: 3, reel: 5, youtube: 5, concept: 0, built: 0 });
+  assert.deepEqual(collectionCounts(ideas), { all: 15, website: 3, reel: 7, youtube: 5, concept: 0, built: 0 });
 });
 test('YouTube review coverage and older fundamentals remain distinct', () => {
   const videos = filterIdeas(ideas, { collection: 'youtube' });
@@ -35,10 +35,10 @@ test('search finds creators, patterns, business use cases and brief features wit
 });
 test('filters intersect and empty choices do not fabricate records', () => {
   assert.deepEqual(filterIdeas(ideas, { collection: 'website', evidence: 'text', business: 'Home services' }).map(x => x.id), ['confident-first-quote']);
-  assert.equal(filterIdeas(ideas, { collection: 'reel', evidence: 'video-visual-caption' }).length, 5);
+  assert.equal(filterIdeas(ideas, { collection: 'reel', evidence: 'video-visual-caption' }).length, 7);
   assert.equal(filterIdeas(ideas, { status: 'built' }).length, 0);
   assert.equal(filterIdeas(ideas, { collection: 'concept' }).length, 0);
-  assert.equal(filterIdeas(ideas, { difficulty: 'Advanced' }).length, 0);
+  assert.equal(filterIdeas(ideas, { difficulty: 'Advanced' }).length, 1);
 });
 test('discovery uses verified publication dates, keeps fundamentals separate, and never invents dates', () => {
   const unknown = structuredClone(ideas[0]); unknown.id = 'undated';
@@ -114,4 +114,19 @@ test('uncited concepts remain explicitly unreviewed and still export a usable br
   assert.deepEqual(validateRecords([concept], schema), []);
   assert.equal(filterIdeas([concept], { collection: 'concept' }).length, 1);
   assert.ok(formatBrief(concept).includes('Original untested concept'));
+});
+
+test('Instagram route aliases and YouTube aliases deduplicate by platform content ID',()=>{
+  for(const route of ['p','reel','reels']) assert.equal(sourceIdentityKey({url:`https://www.instagram.com/${route}/DcSizPCtTom/?utm_source=test`}), 'instagram:DcSizPCtTom');
+  const a=structuredClone(ideas[0]),b=structuredClone(a);b.id='alias';b.source.url=a.source.url.replace('/p/','/reels/');
+  assert.ok(validateRecords([a,b],schema).some(e=>e.includes('duplicate platform content ID')));
+  assert.equal(sourceIdentityKey({url:'https://youtu.be/3ECSinUCaNw'}),sourceIdentityKey({url:'https://www.youtube.com/watch?v=3ECSinUCaNw'}));
+});
+test('New sources retain unknown dates, unverified tools and incentive/ownership caveats',()=>{
+ const marina=ideas.find(x=>x.id==='cinematic-marina-enquiry'),tour=ideas.find(x=>x.id==='permissioned-property-tour');
+ for(const idea of [marina,tour]){assert.equal(idea.freshness.publishedOn,null);assert.equal(idea.popularity.views.value,null);assert.equal(idea.review.audioReviewed,false);assert.deepEqual(idea.source.observedStack,[]);assert.equal(idea.build.status,'planned');}
+ assert.ok(marina.review.limitations.some(x=>x.includes('incentive')));assert.ok(tour.review.captionClaims.some(x=>x.includes('PlayCanvas')));assert.equal(tour.popularity.likes.status,'rounded');
+});
+test('Website briefs link SEO planning while research/GTM briefs keep their scope',()=>{
+ for(const idea of ideas){const brief=formatBrief(idea);const research=['local-intent-service-worksheet','service-prospect-qualification','honest-concept-before-outreach'].includes(idea.id);assert.equal(brief.includes('BUILD_CHECKLIST.md'),!research);if(!research)assert.ok(brief.includes('no SEO audit pass'));}
 });
