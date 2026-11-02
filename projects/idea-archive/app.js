@@ -49,7 +49,8 @@ function card(idea, index) {
     openIdea(idea);
   });
   footer.append(node('span', `${idea.difficulty} · ${idea.build.status === 'built' ? 'Built' : 'Planned'}`, 'difficulty'), button);
-  body.append(meta, title, node('p', idea.summary, 'card-description'), tags, source, footer);
+  const dateLabel = `${idea.freshness.role === 'fundamental' ? 'Fundamental · ' : ''}${idea.freshness.publishedOn ? `Published ${idea.freshness.publishedOn}` : 'Publication date unknown'}`;
+  body.append(meta, title, node('p', dateLabel, 'card-date'), node('p', idea.summary, 'card-description'), tags, source, footer);
   article.append(body);
   return article;
 }
@@ -106,6 +107,14 @@ function openIdea(idea) {
   review.append(node('p', `${reviewLabels[idea.review.method]}${idea.review.reviewedOn ? ` · ${idea.review.reviewedOn}` : ''}`, 'eyebrow'), node('p', idea.review.notes));
   if (idea.review.evidenceUrl) review.append(externalLink('Review provenance ↗', idea.review.evidenceUrl, 'small'));
   evidence.append(review);
+  if (idea.review.supportingSources?.length) {
+    evidence.append(node('h4', 'Supporting public evidence'));
+    for (const source of idea.review.supportingSources) {
+      const item = node('p', source.note + ' ', 'small');
+      item.append(externalLink('Open supporting source ↗', source.url));
+      evidence.append(item);
+    }
+  }
   evidence.append(node('h4', 'Freshness and new capability'), node('p', `Published: ${idea.freshness.publishedOn || 'Unknown'}. Reviewed: ${idea.review.reviewedOn || 'Not reviewed'}.`), node('p', `Tool/version date: ${idea.freshness.toolVersionDate || 'Unknown'}${idea.freshness.toolVersionLabel ? ` · ${idea.freshness.toolVersionLabel}` : ''}.`), node('p', idea.freshness.caveat, 'small'), node('p', `New capability: ${idea.novelty.status}. ${idea.novelty.notes}`, 'small'));
   if (idea.freshness.publicationEvidenceUrl) evidence.append(externalLink('Publication date evidence ↗', idea.freshness.publicationEvidenceUrl, 'small'));
   if (idea.freshness.toolVersionEvidenceUrl) evidence.append(externalLink('Tool/version evidence ↗', idea.freshness.toolVersionEvidenceUrl, 'small'));
@@ -121,8 +130,9 @@ function openIdea(idea) {
   for (const [key, metric] of Object.entries(idea.popularity)) {
     const label = key[0].toUpperCase() + key.slice(1);
     metrics.append(node('dt', `${label}: ${metric.value === null ? metric.status === 'unknown' ? 'Unknown' : metric.status : metric.display || metric.value.toLocaleString()}${metric.status === 'rounded' ? ' (rounded)' : ''}`));
-    if (metric.observedAt && metric.sourceUrl) {
-      const detail = node('dd', `${metric.observedAt} · `);
+    if ((metric.observedAt || metric.observedWindow) && metric.sourceUrl) {
+      const observed = metric.observedAt || `Between ${metric.observedWindow.start} and ${metric.observedWindow.end} (minute precision)`;
+      const detail = node('dd', `${observed} · `);
       detail.append(externalLink('Metric source ↗', metric.sourceUrl));
       metrics.append(detail);
     }

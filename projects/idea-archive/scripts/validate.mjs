@@ -51,11 +51,12 @@ export function validateRecords(records, schema) {
       if (sources.has(idea.source.url)) errors.push(`${path}: duplicate source URL`);
       sources.add(idea.source.url);
     }
-    const urls = [idea.source?.url, idea.source?.creator?.url, idea.review.evidenceUrl, idea.build.url, idea.freshness.publicationEvidenceUrl, idea.freshness.toolVersionEvidenceUrl, idea.novelty.evidenceUrl, ...Object.values(idea.popularity).map(metric => metric.sourceUrl)].filter(Boolean);
+    const urls = [idea.source?.url, idea.source?.creator?.url, idea.review.evidenceUrl, ...(idea.review.supportingSources || []).map(source => source.url), idea.build.url, idea.freshness.publicationEvidenceUrl, idea.freshness.toolVersionEvidenceUrl, idea.novelty.evidenceUrl, ...Object.values(idea.popularity).map(metric => metric.sourceUrl)].filter(Boolean);
     if (urls.some(url => !safeExternalUrl(url))) errors.push(`${path}: unsafe external URL`);
     for (const [name, metric] of Object.entries(idea.popularity)) {
       const observed = metric.status !== 'unknown';
-      if (observed && (!metric.observedAt || !metric.sourceUrl)) errors.push(`${path}.${name}: observed metric requires timestamp and source`);
+      if (observed && (!(metric.observedAt || metric.observedWindow) || !metric.sourceUrl)) errors.push(`${path}.${name}: observed metric requires timestamp or observation window and source`);
+      if (metric.observedAt && metric.observedWindow) errors.push(`${path}.${name}: use an exact timestamp or an observation window, not both`);
       if (!observed && Object.entries(metric).some(([key, value]) => key !== 'status' && value !== null)) errors.push(`${path}.${name}: unknown metric fields must be null`);
       if (['hidden', 'unavailable'].includes(metric.status) && metric.value !== null) errors.push(`${path}.${name}: hidden or unavailable values must be null`);
       if (['exact', 'rounded'].includes(metric.status) && (metric.value === null || !metric.display)) errors.push(`${path}.${name}: visible metric requires value and recorded display`);
@@ -64,11 +65,16 @@ export function validateRecords(records, schema) {
         const instant = new Date(metric.observedAt);
         if (Number.isNaN(instant.getTime()) || instant.toISOString().replace('.000Z', 'Z') !== metric.observedAt) errors.push(`${path}.${name}: invalid observation timestamp`);
       }
+      if (metric.observedWindow) {
+        const { start, end } = metric.observedWindow;
+        const valid = value => !Number.isNaN(Date.parse(value)) && new Date(value).toISOString().slice(0, 16) + 'Z' === value;
+        if (!valid(start) || !valid(end) || Date.parse(start) > Date.parse(end)) errors.push(`${path}.${name}: invalid observation window`);
+      }
     }
     if (idea.kind === 'observed' && (!idea.source || idea.review.method === 'none' || !idea.review.reviewedOn || !idea.review.evidenceUrl || !idea.review.observations.length)) errors.push(`${path}: observed examples require source, review date, method, evidence and observations`);
     if (idea.kind === 'concept' && (idea.source || idea.review.method !== 'none' || idea.review.reviewedOn || idea.review.evidenceUrl || idea.review.observations.length || idea.review.audioReviewed)) errors.push(`${path}: uncited concepts must not imply a source review`);
     if (idea.source && idea.source.type !== 'website' && (!idea.source.creator || !idea.source.contentType || !Array.isArray(idea.source.observedStack))) errors.push(`${path}: video needs creator, content type and explicit stack evidence`);
-    if (idea.source && idea.source.type !== 'website' && !['video-visual-caption', 'video'].includes(idea.review.method)) errors.push(`${path}: video intake requires video review`);
+    if (idea.source && idea.source.type !== 'website' && !['video-visual-caption', 'video-transcript', 'video-metadata', 'video'].includes(idea.review.method)) errors.push(`${path}: video intake requires video review`);
     if (idea.review.method === 'video-visual-caption' && idea.review.audioReviewed) errors.push(`${path}: muted review cannot claim audio review`);
     if (idea.review.method === 'video' && !idea.review.audioReviewed) errors.push(`${path}: video + audio method requires audio review`);
     if (idea.build.status === 'planned' && idea.build.url) errors.push(`${path}: a planned brief cannot have a completed-build URL`);

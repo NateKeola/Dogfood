@@ -156,7 +156,9 @@
             "text",
             "video-visual-caption",
             "video",
-            "none"
+            "none",
+            "video-transcript",
+            "video-metadata"
           ]
         },
         "reviewedOn": {
@@ -209,6 +211,27 @@
         },
         "audioReviewed": {
           "type": "boolean"
+        },
+        "supportingSources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "string",
+                "pattern": "^https://[^\\s]+$"
+              },
+              "note": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "url",
+              "note"
+            ],
+            "additionalProperties": false
+          }
         }
       },
       "required": [
@@ -390,6 +413,35 @@
                   "type": "null"
                 }
               ]
+            },
+            "observedWindow": {
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "start": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}Z$"
+                    },
+                    "end": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}Z$"
+                    },
+                    "precision": {
+                      "const": "minute"
+                    }
+                  },
+                  "required": [
+                    "start",
+                    "end",
+                    "precision"
+                  ],
+                  "additionalProperties": false
+                }
+              ]
             }
           },
           "required": [
@@ -454,6 +506,35 @@
                 },
                 {
                   "type": "null"
+                }
+              ]
+            },
+            "observedWindow": {
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "start": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}Z$"
+                    },
+                    "end": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}Z$"
+                    },
+                    "precision": {
+                      "const": "minute"
+                    }
+                  },
+                  "required": [
+                    "start",
+                    "end",
+                    "precision"
+                  ],
+                  "additionalProperties": false
                 }
               ]
             }
@@ -522,6 +603,35 @@
                   "type": "null"
                 }
               ]
+            },
+            "observedWindow": {
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "start": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}Z$"
+                    },
+                    "end": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}Z$"
+                    },
+                    "precision": {
+                      "const": "minute"
+                    }
+                  },
+                  "required": [
+                    "start",
+                    "end",
+                    "precision"
+                  ],
+                  "additionalProperties": false
+                }
+              ]
             }
           },
           "required": [
@@ -586,6 +696,35 @@
                 },
                 {
                   "type": "null"
+                }
+              ]
+            },
+            "observedWindow": {
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "start": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}Z$"
+                    },
+                    "end": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}Z$"
+                    },
+                    "precision": {
+                      "const": "minute"
+                    }
+                  },
+                  "required": [
+                    "start",
+                    "end",
+                    "precision"
+                  ],
+                  "additionalProperties": false
                 }
               ]
             }
@@ -654,6 +793,35 @@
                   "type": "null"
                 }
               ]
+            },
+            "observedWindow": {
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "start": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}Z$"
+                    },
+                    "end": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}Z$"
+                    },
+                    "precision": {
+                      "const": "minute"
+                    }
+                  },
+                  "required": [
+                    "start",
+                    "end",
+                    "precision"
+                  ],
+                  "additionalProperties": false
+                }
+              ]
             }
           },
           "required": [
@@ -718,6 +886,35 @@
                 },
                 {
                   "type": "null"
+                }
+              ]
+            },
+            "observedWindow": {
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "start": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}Z$"
+                    },
+                    "end": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}Z$"
+                    },
+                    "precision": {
+                      "const": "minute"
+                    }
+                  },
+                  "required": [
+                    "start",
+                    "end",
+                    "precision"
+                  ],
+                  "additionalProperties": false
                 }
               ]
             }

@@ -19,13 +19,13 @@ The archive keeps no user data, makes no form submissions, and saves no browsing
 
 ## What's here
 
-The November 2, 2026 collection contains **8 public references and 8 original planned briefs**:
+The November 2, 2026 collection contains **13 public references and 13 original planned briefs**:
 
 - **5 Instagram Reels:** sampled playing frames and visible captions, reviewed muted. Audio was not reviewed. One is explicitly an AI-labeled café visual concept; another is a design-tool workflow. None establishes a working backend or a completed prototype.
 - **3 supplemental website references:** WILDE and Greyparrot retain their published **Visual + text** methods; Podium Automation retains **Text only**. These observations come from the existing [November 2 research snapshot](../../research/website-inspiration/data/2026-11-02.json), not a new site inspection.
 - **0 uncited concepts, 0 completed builds.** The separate untested-concepts collection is intentionally empty. The café concept remains an observed Reel reference, with its conceptual nature explicitly identified.
 - **0 pending intake examples.** The intake template is not rendered as a collected example.
-- **0 reviewed YouTube entries** in this version; the collection remains empty until review evidence is available.
+- **5 reviewed YouTube entries:** two recent Claude/Higgsfield build workflows and three older local-research/sales fundamentals. All five were sampled visually, not watched end to end. Four include readable transcript coverage; the restaurant workflow uses sampled frames, metadata/chapters, and a companion article without a readable transcript. No tutorial was reproduced or source code executed.
 
 Reel public visibility was checked through public discovery, playable posts, and creator post/Reel grids without a private-account gate. Logged-out playback was not tested. Each record distinguishes direct visual observations from caption claims and lists what was not tested. Creator attribution identifies the public post author; website attribution identifies the publisher, with designer/agency attribution left unrecorded where unknown.
 
@@ -37,9 +37,13 @@ Every record separates **Reach**, **Implementation evidence**, **Business eviden
 
 The five Reel records contain site-displayed engagement and follower snapshots observed November 2, 2026. Each metric stores its numeric value (or null), raw display, `exact`/`rounded`/`hidden`/`unavailable`/`unknown` status, individual UTC timestamp, and public source URL. Exact follower counts came from visible accessibility labels; rounded profile headings are retained alongside them. Rounded K counts are approximate, not audited exact counts. Views were not displayed and remain null. The design-workflow Reel's like count was not displayed and remains null. Unknown values are never substituted with zero.
 
+The five YouTube records retain observed views/likes and rounded subscriber displays. Their review supplied a shared observation window, **November 2, 2026, 20:50–21:02 UTC**, rather than per-metric instants. `observedAt` therefore remains null and `observedWindow` records minute-precision bounds. The UI shows the range explicitly. Comments and other unsupplied metrics remain unknown. A readable transcript or existing public artifact does not establish a reproduced workflow, functioning backend, or commercial outcome.
+
 No combined truth or credibility score is calculated. Engagement can help choose what to investigate; it does not establish implementation quality, reproducible steps, earnings, conversion, or business demand. Independently tested artifacts and reproduced workflows would be stronger evidence and must be recorded separately.
 
 “Take something proven and make it better” guides discovery: existing demand and demonstrated patterns come first. The default ordering first groups independently verified artifacts, reproduced steps, or outcomes, then places fundamentals after discovery items, orders by verified publication date, and favors established new capabilities only when dates tie. These are transparent evidence groups, not a popularity or truth score. Missing publication dates sort after known dates and never borrow a review date. Collection order remains available. Publication and relevant tool/version dates for the initial eight references are unknown, so none is presented as a current release or setup guide. `freshness` stores dates, source evidence, role, and caveat; `novelty` records capability evidence independently of popularity and functionality.
+
+The YouTube build workflows were published October 7 and September 8, 2026. The local-keyword and qualification examples from 2022, 2024, and 2025 are explicitly labeled fundamentals and follow discovery items. Publication dates do not establish current model availability or tool versions. The public portfolio was corroborated by a text fetch only; its forms, accessibility, mobile behavior, and performance remain untested. Affiliate/vendor and mentorship incentives are disclosed in review limitations. Promotional value, income, response-rate, close-rate, and speed claims are not treated as verified results.
 
 Every original brief states an existing observed pattern, a specific improvement, target buyer/problem, a new capability only if relevant, a future validation test, and missing evidence. An observed design pattern is not proof of demand. The validation plans do not authorize outreach; new technology is useful only when it improves the buyer's existing workflow.
 
@@ -48,6 +52,7 @@ Every original brief states an existing observed pattern, a specific improvement
 1. Copy [templates/idea.json](templates/idea.json) into a working file. The placeholders deliberately fail validation; do not append an unfinished record.
 2. Review the public source. Record a clean source URL, public creator attribution, date, method, specific observations, caption claims separately, and limitations. Never call a caption claim verified functionality. Note AI labeling or visual-concept status. Record a tool only if established by the review.
 3. For a Reel reviewed through sampled frames and caption without audio, use `video-visual-caption` and `audioReviewed: false`. Only use `video` after audio was also reviewed. Website methods are `visual-text` or `text`; do not upgrade inherited methods.
+   For sampled YouTube review, use `video-transcript` only when a readable transcript was reviewed, or `video-metadata` when it was not. State coverage and sample timestamps in observations; do not imply full playback. Keep independent supporting-source links in `review.supportingSources`. Record an observation window instead of inventing an exact metric timestamp when only a range is known.
 4. Write an original business adaptation with a specific MVP goal, features, build order, acceptance criteria, integrations, and exclusions. Use `build.status: "planned"` and `build.url: null` until a public completed build exists.
 5. Append the completed object to [data/ideas.json](data/ideas.json). Keep stable unique IDs and source URLs. The gallery and counters update from this file.
 6. Run the checks below, inspect desktop and mobile, and review the entire diff for public suitability before opening a PR.

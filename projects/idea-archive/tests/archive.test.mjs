@@ -9,7 +9,24 @@ const schema = JSON.parse(await readFile(new URL('../idea.schema.json', import.m
 
 test('all curated records satisfy schema and evidence rules', () => assert.deepEqual(validateRecords(ideas, schema), []));
 test('collection counts distinguish references, unreviewed concepts and completed builds', () => {
-  assert.deepEqual(collectionCounts(ideas), { all: 8, website: 3, reel: 5, youtube: 0, concept: 0, built: 0 });
+  assert.deepEqual(collectionCounts(ideas), { all: 13, website: 3, reel: 5, youtube: 5, concept: 0, built: 0 });
+});
+test('YouTube review coverage and older fundamentals remain distinct', () => {
+  const videos = filterIdeas(ideas, { collection: 'youtube' });
+  assert.equal(videos.length, 5);
+  assert.equal(videos[0].id, 'restaurant-workflow-with-real-content');
+  assert.equal(videos[1].id, 'authentic-portfolio-quote-path');
+  assert.equal(videos[0].review.method, 'video-metadata');
+  assert.equal(videos.filter(x => x.review.method === 'video-transcript').length, 4);
+  assert.ok(videos.slice(2).every(x => x.freshness.role === 'fundamental'));
+  assert.ok(videos.every(x => x.evidence.functioningArtifact.status === 'unverified'));
+  assert.ok(videos.every(x => x.popularity.subscribers.observedAt === null && x.popularity.subscribers.status === 'rounded'));
+});
+test('metric time ranges preserve minute precision without inventing exact timestamps', () => {
+  const record = structuredClone(ideas.find(x => x.source.type === 'youtube'));
+  assert.deepEqual(validateRecords([record], schema), []);
+  record.popularity.views.observedWindow.end = '2026-11-02T20:00Z';
+  assert.ok(validateRecords([record], schema).some(error => error.includes('invalid observation window')));
 });
 test('search finds creators, patterns, business use cases and brief features without case sensitivity', () => {
   assert.equal(filterIdeas(ideas, { search: '  JAHFORGE1  ' }).length, 2);
@@ -58,6 +75,7 @@ test('copied briefs exclude source instructions, markup, captions, comments and 
   hostile.review.notes = payload;
   hostile.review.observations = [payload];
   hostile.review.captionClaims = [payload];
+  hostile.review.supportingSources = [{ url: 'https://example.com/reference', note: payload }];
   const brief = formatBrief(hostile);
   assert.ok(!brief.includes(payload));
   assert.ok(!brief.includes('onerror'));

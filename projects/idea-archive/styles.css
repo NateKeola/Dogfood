@@ -148,7 +148,7 @@
                                                                             max-width:310px}
                                                                             .stats{
                                                                               display:grid;
-                                                                              grid-template-columns:repeat(3,1fr);
+                                                                              grid-template-columns:repeat(4,1fr);
                                                                               gap:12px;
                                                                               margin-top:26px;
                                                                               border-top:1px solid #cbd4c0;
@@ -812,3 +812,8 @@
                                                                                                                                                                                                                                                                                                                                                                                                                                               .filters{
                                                                                                                                                                                                                                                                                                                                                                                                                                                 grid-template-columns:repeat(5,1fr)}
                                                                                                                                                                                                                                                                                                                                                                                                                                               }
+.card-date{
+  font-size:10px;
+  color:var(--muted);
+  margin:-3px 0 12px;
+}

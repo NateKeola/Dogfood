@@ -2,6 +2,8 @@ export const reviewLabels = {
   'visual-text': 'Visual + text',
   text: 'Text only',
   'video-visual-caption': 'Video + caption · no audio',
+  'video-transcript': 'Sampled video + transcript',
+  'video-metadata': 'Sampled video + metadata',
   video: 'Video + audio reviewed',
   none: 'Unreviewed concept',
 };

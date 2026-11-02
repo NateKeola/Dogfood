@@ -1420,5 +1420,1012 @@
       "notes": "No genuinely new capability or improvement over alternatives has been independently established by this review.",
       "evidenceUrl": null
     }
+  },
+  {
+    "id": "restaurant-workflow-with-real-content",
+    "title": "A restaurant site grounded in real content",
+    "summary": "Keep the useful AI-assisted workflow, then make the menu, facts, and inquiry path dependable before adding motion.",
+    "kind": "observed",
+    "addedOn": "2026-11-02",
+    "businessTypes": [
+      "Food & drink",
+      "Home services"
+    ],
+    "businessUseCase": "A neighborhood restaurant or local service owner needs accurate offerings, location/contact details, and a clear inquiry route before paying for decorative effects.",
+    "patterns": [
+      "Content-first build",
+      "Local preview",
+      "Optional illustrative motion"
+    ],
+    "difficulty": "Moderate",
+    "integrations": [
+      "None for the MVP. Use fictional sample data and local interactions; live services, purchases, and outreach require separate scope."
+    ],
+    "sketch": "retail",
+    "source": {
+      "type": "youtube",
+      "name": "Restaurant website workflow with Claude Code",
+      "url": "https://www.youtube.com/watch?v=3ECSinUCaNw",
+      "publicVisibility": "public",
+      "creator": {
+        "name": "Julian Weber",
+        "url": "https://www.youtube.com/watch?v=3ECSinUCaNw"
+      },
+      "attributionNote": "Creator attribution was observed on the public YouTube video page. Creator link points to that verified source page; no channel URL is inferred.",
+      "contentType": "Sampled build workflow",
+      "observedStack": [
+        "Claude Code",
+        "Higgsfield"
+      ]
+    },
+    "review": {
+      "method": "video-metadata",
+      "reviewedOn": "2026-11-02",
+      "evidenceUrl": "https://www.youtube.com/watch?v=3ECSinUCaNw",
+      "notes": "Sampled visual review, not watched end to end. Expanded metadata/chapters and companion article reviewed; no readable transcript export. No independent audio review or tutorial reproduction is claimed.",
+      "observations": [
+        "Sampled frames near 1:19, 3:48, 4:34, and 6:46 show a Higgsfield media interface, Claude alongside a local browser preview, and a restaurant menu frontend.",
+        "Expanded metadata and chapters, plus a public companion article, support the workflow description. No readable transcript export was available."
+      ],
+      "captionClaims": [],
+      "limitations": [
+        "Not watched end to end; no readable transcript was reviewed.",
+        "Promotional sale/value claims are unverified; production booking, ordering, and performance were not tested.",
+        "Affiliate hosting promotion was disclosed. Tool/version dates and current model availability were not verified.",
+        "No tutorial was independently reproduced and no source code was executed."
+      ],
+      "audioReviewed": false,
+      "supportingSources": [
+        {
+          "url": "https://julianweber.blog/en/claude-code-website-tutorial/",
+          "note": "Companion workflow article reviewed; not an independent result or production test."
+        }
+      ]
+    },
+    "build": {
+      "status": "planned",
+      "url": null
+    },
+    "popularity": {
+      "views": {
+        "value": 1480,
+        "display": "1,480",
+        "status": "exact",
+        "observedAt": null,
+        "observedWindow": {
+          "start": "2026-11-02T20:50Z",
+          "end": "2026-11-02T21:02Z",
+          "precision": "minute"
+        },
+        "sourceUrl": "https://www.youtube.com/watch?v=3ECSinUCaNw"
+      },
+      "likes": {
+        "value": 18,
+        "display": "18",
+        "status": "exact",
+        "observedAt": null,
+        "observedWindow": {
+          "start": "2026-11-02T20:50Z",
+          "end": "2026-11-02T21:02Z",
+          "precision": "minute"
+        },
+        "sourceUrl": "https://www.youtube.com/watch?v=3ECSinUCaNw"
+      },
+      "comments": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "followers": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "subscribers": {
+        "value": 11000,
+        "display": "11K",
+        "status": "rounded",
+        "observedAt": null,
+        "observedWindow": {
+          "start": "2026-11-02T20:50Z",
+          "end": "2026-11-02T21:02Z",
+          "precision": "minute"
+        },
+        "sourceUrl": "https://www.youtube.com/watch?v=3ECSinUCaNw"
+      },
+      "reposts": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      }
+    },
+    "evidence": {
+      "sourceIdentity": {
+        "status": "attributed",
+        "notes": "Public YouTube page attribution identifies the publishing channel; real-world identity was not independently established."
+      },
+      "publicVisibility": {
+        "status": "observed-public",
+        "notes": "Public video page and visible source metadata were reviewed."
+      },
+      "observedContent": {
+        "status": "sampled-video",
+        "notes": "Sampled playing frames plus metadata and companion article; no readable transcript."
+      },
+      "functioningArtifact": {
+        "status": "unverified",
+        "notes": "Visible demonstrations do not independently verify production functionality or later outcomes."
+      },
+      "reproducibleSteps": {
+        "status": "partial",
+        "notes": "Workflow or method steps are described and partly visible; no tutorial was independently reproduced."
+      },
+      "outcomeClaims": {
+        "status": "unverified",
+        "notes": "Sales, demand, conversion, earnings, and performance outcomes are not independently verified. Displayed engagement is not proof."
+      },
+      "aiContentLabel": {
+        "status": "unknown",
+        "notes": "A platform AI-content label was not established. Discussed generated media does not establish the provenance of every depicted asset."
+      }
+    },
+    "freshness": {
+      "publishedOn": "2026-10-07",
+      "publicationEvidenceUrl": "https://www.youtube.com/watch?v=3ECSinUCaNw",
+      "toolVersionDate": null,
+      "toolVersionLabel": null,
+      "toolVersionEvidenceUrl": null,
+      "role": "discovery",
+      "caveat": "Recent publication supports workflow discovery; exact tool/version dates, current availability and production quality remain unverified."
+    },
+    "novelty": {
+      "status": "unassessed",
+      "notes": "Recent publication is not proof of a new capability or a superior business outcome.",
+      "evidenceUrl": null
+    },
+    "brief": {
+      "goal": "Prototype a lightweight restaurant or service page using verified business facts, readable offerings, and one clear inquiry action.",
+      "features": [
+        "A menu or service list stored as editable structured content, with every sample fact labeled.",
+        "Hours, location, contact information, and an obvious inquiry route.",
+        "Optional licensed or original illustrative motion with a still fallback and pause control.",
+        "Generated media clearly labeled as illustration; never imply it shows real customer work, products, or premises."
+      ],
+      "steps": [
+        "Collect and verify content fields using fictional fixtures for the prototype.",
+        "Build the static menu/services, hours, location, and inquiry demo.",
+        "Add optional lightweight media only after the core route works.",
+        "Test mobile readability, reduced motion, media failure, and inquiry validation."
+      ],
+      "acceptance": [
+        "Core business details remain accessible with all media disabled.",
+        "Generated imagery cannot be mistaken for documentary customer or product evidence.",
+        "No demo inquiry is sent; release requires separately scoped form-delivery testing.",
+        "The page works on a 375px viewport and with keyboard navigation."
+      ],
+      "outOfScope": [
+        "Live reservations, orders, payments, or production deployment.",
+        "Repeating promotional prices or treating the tutorial as a proven sales outcome."
+      ],
+      "existingPattern": "Observed pattern: Content-first build, Local preview, Optional illustrative motion. This supports learning, not proof of demand or a reproduced result.",
+      "specificImprovement": "Keep the useful AI-assisted workflow, then make the menu, facts, and inquiry path dependable before adding motion.",
+      "targetBuyerProblem": "A neighborhood restaurant or local service owner needs accurate offerings, location/contact details, and a clear inquiry route before paying for decorative effects.",
+      "newCapability": "AI-assisted drafting or illustrative media is optional; use it only when it improves a validated content or iteration task.",
+      "validationTest": "Test the smallest local prototype against three fictional buyer scenarios first. A future separately scoped pilot should measure task completion, evidence quality and usefulness before live integrations or outreach.",
+      "missingEvidence": [
+        "Independent end-to-end verification or reproduction of the source workflow.",
+        "Measured usefulness and demand from the actual target buyer.",
+        "Current tool/version details and production integration behavior."
+      ]
+    }
+  },
+  {
+    "id": "authentic-portfolio-quote-path",
+    "title": "A portfolio that earns the next conversation",
+    "summary": "Use authentic project evidence and a dependable quote route; keep generated visuals optional and real text readable.",
+    "kind": "observed",
+    "addedOn": "2026-11-02",
+    "businessTypes": [
+      "Professional services",
+      "Local B2B"
+    ],
+    "businessUseCase": "A small creative or service studio needs credible project examples and a simple way for qualified visitors to request a conversation.",
+    "patterns": [
+      "Authentic project cards",
+      "Screenshot iteration",
+      "Persistent quote action"
+    ],
+    "difficulty": "Moderate",
+    "integrations": [
+      "None for the MVP. Use fictional sample data and local interactions; live services, purchases, and outreach require separate scope."
+    ],
+    "sketch": "service",
+    "source": {
+      "type": "youtube",
+      "name": "Portfolio workflow with Claude and Higgsfield",
+      "url": "https://www.youtube.com/watch?v=AQSPmcwlMDw",
+      "publicVisibility": "public",
+      "creator": {
+        "name": "Create a Pro Website",
+        "url": "https://www.youtube.com/watch?v=AQSPmcwlMDw"
+      },
+      "attributionNote": "Creator attribution was observed on the public YouTube video page. Creator link points to that verified source page; no channel URL is inferred.",
+      "contentType": "Sampled build workflow",
+      "observedStack": [
+        "Claude Desktop",
+        "Claude Code",
+        "Higgsfield"
+      ]
+    },
+    "review": {
+      "method": "video-transcript",
+      "reviewedOn": "2026-11-02",
+      "evidenceUrl": "https://www.youtube.com/watch?v=AQSPmcwlMDw",
+      "notes": "Sampled visual review, not watched end to end. Readable transcript coverage is specified in the observations; transcript reading does not imply full visual playback. No independent audio review or tutorial reproduction is claimed.",
+      "observations": [
+        "Sampled frames at 6:27, 17:05, and 28:53 and substantial auto-transcript sections cover a brand interview, written plan, connector media, screenshot iteration, and hosting.",
+        "The demonstration includes malformed AI text, incorrect motion, and unreliable previews, then simplifies toward screenshots linking to projects.",
+        "An independent text fetch of the linked public portfolio corroborates that an artifact exists; it does not verify its interactions or results."
+      ],
+      "captionClaims": [],
+      "limitations": [
+        "Not watched end to end; transcript coverage is substantial but partial.",
+        "Time-to-build, sales outcomes, current model availability, forms, accessibility, and mobile performance are unverified.",
+        "Affiliate promotion was disclosed. Permission-bypass and automatic-deployment suggestions are excluded from the adaptation.",
+        "No tutorial was independently reproduced and no source code was executed."
+      ],
+      "audioReviewed": false,
+      "supportingSources": [
+        {
+          "url": "https://joshbutchersites.com",
+          "note": "Public portfolio existence corroborated through text fetch; forms and production functionality not tested."
+        }
+      ]
+    },
+    "build": {
+      "status": "planned",
+      "url": null
+    },
+    "popularity": {
+      "views": {
+        "value": 46251,
+        "display": "46,251",
+        "status": "exact",
+        "observedAt": null,
+        "observedWindow": {
+          "start": "2026-11-02T20:50Z",
+          "end": "2026-11-02T21:02Z",
+          "precision": "minute"
+        },
+        "sourceUrl": "https://www.youtube.com/watch?v=AQSPmcwlMDw"
+      },
+      "likes": {
+        "value": 568,
+        "display": "568",
+        "status": "exact",
+        "observedAt": null,
+        "observedWindow": {
+          "start": "2026-11-02T20:50Z",
+          "end": "2026-11-02T21:02Z",
+          "precision": "minute"
+        },
+        "sourceUrl": "https://www.youtube.com/watch?v=AQSPmcwlMDw"
+      },
+      "comments": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "followers": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "subscribers": {
+        "value": 500000,
+        "display": "500K",
+        "status": "rounded",
+        "observedAt": null,
+        "observedWindow": {
+          "start": "2026-11-02T20:50Z",
+          "end": "2026-11-02T21:02Z",
+          "precision": "minute"
+        },
+        "sourceUrl": "https://www.youtube.com/watch?v=AQSPmcwlMDw"
+      },
+      "reposts": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      }
+    },
+    "evidence": {
+      "sourceIdentity": {
+        "status": "attributed",
+        "notes": "Public YouTube page attribution identifies the publishing channel; real-world identity was not independently established."
+      },
+      "publicVisibility": {
+        "status": "observed-public",
+        "notes": "Public video page and visible source metadata were reviewed."
+      },
+      "observedContent": {
+        "status": "sampled-video",
+        "notes": "Sampled playing frames plus the available transcript coverage stated above."
+      },
+      "functioningArtifact": {
+        "status": "unverified",
+        "notes": "A text fetch corroborates a public portfolio exists, but its forms, accessibility, performance and backend were not independently tested."
+      },
+      "reproducibleSteps": {
+        "status": "partial",
+        "notes": "Workflow or method steps are described and partly visible; no tutorial was independently reproduced."
+      },
+      "outcomeClaims": {
+        "status": "unverified",
+        "notes": "Sales, demand, conversion, earnings, and performance outcomes are not independently verified. Displayed engagement is not proof."
+      },
+      "aiContentLabel": {
+        "status": "unknown",
+        "notes": "A platform AI-content label was not established. Discussed generated media does not establish the provenance of every depicted asset."
+      }
+    },
+    "freshness": {
+      "publishedOn": "2026-09-08",
+      "publicationEvidenceUrl": "https://www.youtube.com/watch?v=AQSPmcwlMDw",
+      "toolVersionDate": null,
+      "toolVersionLabel": null,
+      "toolVersionEvidenceUrl": null,
+      "role": "discovery",
+      "caveat": "Recent publication supports workflow discovery; exact tool/version dates, current availability and production quality remain unverified."
+    },
+    "novelty": {
+      "status": "unassessed",
+      "notes": "Recent publication is not proof of a new capability or a superior business outcome.",
+      "evidenceUrl": null
+    },
+    "brief": {
+      "goal": "Build an original portfolio with authentic project cards, real HTML text, and a persistent quote action; use motion only if it supports the story.",
+      "features": [
+        "Three original project cards using owned screenshots or clearly labeled fictional fixtures, each linked to relevant evidence.",
+        "Real HTML headings and descriptions instead of AI-generated text embedded in media.",
+        "A persistent quote action and accessible local inquiry form demo.",
+        "Lightweight optional motion with static and reduced-motion modes; production form delivery is a separate release prerequisite."
+      ],
+      "steps": [
+        "Define the buyer, project proof, and the information needed for a useful inquiry.",
+        "Build the static project cards and quote route.",
+        "Iterate with screenshots at desktop and phone widths.",
+        "Test form validation locally; scope real delivery verification only after an approved integration exists."
+      ],
+      "acceptance": [
+        "Every project claim has an attributable public source or is clearly labeled a fictional demo.",
+        "Disabling motion preserves all text, links, and actions.",
+        "The inquiry demo announces errors and a no-send confirmation.",
+        "No bypassed permission or automatic deployment is part of the workflow."
+      ],
+      "outOfScope": [
+        "Unapproved media connectors, live forms, paid hosting, and deployment.",
+        "Treating a fast build or public artifact as proof of business results."
+      ],
+      "existingPattern": "Observed pattern: Authentic project cards, Screenshot iteration, Persistent quote action. This supports learning, not proof of demand or a reproduced result.",
+      "specificImprovement": "Use authentic project evidence and a dependable quote route; keep generated visuals optional and real text readable.",
+      "targetBuyerProblem": "A small creative or service studio needs credible project examples and a simple way for qualified visitors to request a conversation.",
+      "newCapability": "AI-assisted drafting or illustrative media is optional; use it only when it improves a validated content or iteration task.",
+      "validationTest": "Test the smallest local prototype against three fictional buyer scenarios first. A future separately scoped pilot should measure task completion, evidence quality and usefulness before live integrations or outreach.",
+      "missingEvidence": [
+        "Independent end-to-end verification or reproduction of the source workflow.",
+        "Measured usefulness and demand from the actual target buyer.",
+        "Current tool/version details and production integration behavior."
+      ]
+    }
+  },
+  {
+    "id": "local-intent-service-worksheet",
+    "title": "Find the service pages customers actually need",
+    "summary": "Turn service and location questions into an evidence-linked worksheet before creating pages or buying tools.",
+    "kind": "observed",
+    "addedOn": "2026-11-02",
+    "businessTypes": [
+      "Home services",
+      "Local B2B",
+      "Local retail"
+    ],
+    "businessUseCase": "A local service owner wants to identify useful page gaps and real customer questions without generating thin pages for every location keyword.",
+    "patterns": [
+      "Service inventory",
+      "Local search intent",
+      "Useful page grouping"
+    ],
+    "difficulty": "Easy",
+    "integrations": [
+      "None for the MVP. Use fictional sample data and local interactions; live services, purchases, and outreach require separate scope."
+    ],
+    "sketch": "process",
+    "source": {
+      "type": "youtube",
+      "name": "Local keyword research for small businesses",
+      "url": "https://www.youtube.com/watch?v=NPD2RnGvZDA",
+      "publicVisibility": "public",
+      "creator": {
+        "name": "Ahrefs",
+        "url": "https://www.youtube.com/watch?v=NPD2RnGvZDA"
+      },
+      "attributionNote": "Creator attribution was observed on the public YouTube video page. Creator link points to that verified source page; no channel URL is inferred.",
+      "contentType": "Sampled foundational research / sales example",
+      "observedStack": [
+        "Ahrefs"
+      ]
+    },
+    "review": {
+      "method": "video-transcript",
+      "reviewedOn": "2026-11-02",
+      "evidenceUrl": "https://www.youtube.com/watch?v=NPD2RnGvZDA",
+      "notes": "Sampled visual review, not watched end to end. Readable transcript coverage is specified in the observations; transcript reading does not imply full visual playback. No independent audio review or tutorial reproduction is claimed.",
+      "observations": [
+        "The full available transcript and sampled frames at 2:21 and 4:33 explain inventorying services, checking local intent, grouping queries into useful pages, and recording customer questions.",
+        "The official local SEO course corroborates the source and topic."
+      ],
+      "captionClaims": [],
+      "limitations": [
+        "Video was sampled visually, not watched end to end; transcript coverage does not establish reproduced execution.",
+        "This is older foundational material. Tool interfaces and examples need current verification.",
+        "The publisher sells the demonstrated tool. Search volume is not qualified demand, a booked job, or guaranteed revenue.",
+        "No tutorial was independently reproduced and no source code was executed."
+      ],
+      "audioReviewed": false,
+      "supportingSources": [
+        {
+          "url": "https://ahrefs.com/academy/local-seo-course",
+          "note": "Official course confirms the source/topic, not current UI or business outcomes."
+        }
+      ]
+    },
+    "build": {
+      "status": "planned",
+      "url": null
+    },
+    "popularity": {
+      "views": {
+        "value": 36193,
+        "display": "36,193",
+        "status": "exact",
+        "observedAt": null,
+        "observedWindow": {
+          "start": "2026-11-02T20:50Z",
+          "end": "2026-11-02T21:02Z",
+          "precision": "minute"
+        },
+        "sourceUrl": "https://www.youtube.com/watch?v=NPD2RnGvZDA"
+      },
+      "likes": {
+        "value": 793,
+        "display": "793",
+        "status": "exact",
+        "observedAt": null,
+        "observedWindow": {
+          "start": "2026-11-02T20:50Z",
+          "end": "2026-11-02T21:02Z",
+          "precision": "minute"
+        },
+        "sourceUrl": "https://www.youtube.com/watch?v=NPD2RnGvZDA"
+      },
+      "comments": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "followers": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "subscribers": {
+        "value": 681000,
+        "display": "681K",
+        "status": "rounded",
+        "observedAt": null,
+        "observedWindow": {
+          "start": "2026-11-02T20:50Z",
+          "end": "2026-11-02T21:02Z",
+          "precision": "minute"
+        },
+        "sourceUrl": "https://www.youtube.com/watch?v=NPD2RnGvZDA"
+      },
+      "reposts": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      }
+    },
+    "evidence": {
+      "sourceIdentity": {
+        "status": "attributed",
+        "notes": "Public YouTube page attribution identifies the publishing channel; real-world identity was not independently established."
+      },
+      "publicVisibility": {
+        "status": "observed-public",
+        "notes": "Public video page and visible source metadata were reviewed."
+      },
+      "observedContent": {
+        "status": "sampled-video",
+        "notes": "Sampled playing frames plus the available transcript coverage stated above."
+      },
+      "functioningArtifact": {
+        "status": "unverified",
+        "notes": "Visible demonstrations do not independently verify production functionality or later outcomes."
+      },
+      "reproducibleSteps": {
+        "status": "partial",
+        "notes": "Workflow or method steps are described and partly visible; no tutorial was independently reproduced."
+      },
+      "outcomeClaims": {
+        "status": "unverified",
+        "notes": "Sales, demand, conversion, earnings, and performance outcomes are not independently verified. Displayed engagement is not proof."
+      },
+      "aiContentLabel": {
+        "status": "unknown",
+        "notes": "A platform AI-content label was not established. Discussed generated media does not establish the provenance of every depicted asset."
+      }
+    },
+    "freshness": {
+      "publishedOn": "2022-12-21",
+      "publicationEvidenceUrl": "https://www.youtube.com/watch?v=NPD2RnGvZDA",
+      "toolVersionDate": null,
+      "toolVersionLabel": null,
+      "toolVersionEvidenceUrl": null,
+      "role": "fundamental",
+      "caveat": "Older foundational material. Verify current interfaces, examples and market conditions before using it; not current setup or conversion guidance."
+    },
+    "novelty": {
+      "status": "fundamental",
+      "notes": "Established research/qualification principles; do not promote this as a new capability.",
+      "evidenceUrl": null
+    },
+    "brief": {
+      "goal": "Create a local research worksheet connecting each service/location question to observed intent, a page gap, and dated public evidence.",
+      "features": [
+        "Editable rows for service, location, customer question, observed intent, page gap, evidence URL, and observation date.",
+        "Separate fields for search-volume signals and actual evidence of buyer need.",
+        "Group related questions into a useful page outline; flag duplicates.",
+        "Use fictional examples and manually entered public evidence; no scraping or automatic publishing."
+      ],
+      "steps": [
+        "Define the worksheet fields and create a small fictional service inventory.",
+        "Add filtering by service/location and missing-evidence status.",
+        "Add a grouped page-outline view and CSV export.",
+        "Check that duplicate queries, missing evidence, and unsupported demand claims are flagged."
+      ],
+      "acceptance": [
+        "Every intent assertion has a dated public evidence link or an explicit unknown marker.",
+        "Volume is never labeled qualified demand or revenue.",
+        "Related questions can map to one useful page rather than automatically producing doorway pages.",
+        "No external tool account or paid subscription is needed for the prototype."
+      ],
+      "outOfScope": [
+        "Mass-generated doorway pages, automated scraping, and ranking guarantees.",
+        "Presenting the 2022 interface as current setup guidance."
+      ],
+      "existingPattern": "Observed pattern: Service inventory, Local search intent, Useful page grouping. This supports learning, not proof of demand or a reproduced result.",
+      "specificImprovement": "Turn service and location questions into an evidence-linked worksheet before creating pages or buying tools.",
+      "targetBuyerProblem": "A local service owner wants to identify useful page gaps and real customer questions without generating thin pages for every location keyword.",
+      "newCapability": "None required. Improve research clarity and qualification before adding new tools.",
+      "validationTest": "Test the smallest local prototype against three fictional buyer scenarios first. A future separately scoped pilot should measure task completion, evidence quality and usefulness before live integrations or outreach.",
+      "missingEvidence": [
+        "Independent end-to-end verification or reproduction of the source workflow.",
+        "Measured usefulness and demand from the actual target buyer.",
+        "Current tool/version details and production integration behavior."
+      ]
+    }
+  },
+  {
+    "id": "service-prospect-qualification",
+    "title": "Qualify the problem before pitching the website",
+    "summary": "Learn from rejection and existing alternatives to decide whether a prospect has a useful reason to change.",
+    "kind": "observed",
+    "addedOn": "2026-11-02",
+    "businessTypes": [
+      "Professional services",
+      "Local B2B"
+    ],
+    "businessUseCase": "A service provider evaluating a local business needs to understand decision-making, capacity, current lead sources, and actual website friction before proposing work.",
+    "patterns": [
+      "Buyer qualification",
+      "Capacity check",
+      "Agreed next step"
+    ],
+    "difficulty": "Easy",
+    "integrations": [
+      "None for the MVP. Use fictional sample data and local interactions; live services, purchases, and outreach require separate scope."
+    ],
+    "sketch": "process",
+    "source": {
+      "type": "youtube",
+      "name": "Web-design prospect qualification through call examples",
+      "url": "https://www.youtube.com/watch?v=2qqFLchn7yY",
+      "publicVisibility": "public",
+      "creator": {
+        "name": "Red Panther",
+        "url": "https://www.youtube.com/watch?v=2qqFLchn7yY"
+      },
+      "attributionNote": "Creator attribution was observed on the public YouTube video page. Creator link points to that verified source page; no channel URL is inferred.",
+      "contentType": "Sampled foundational research / sales example",
+      "observedStack": []
+    },
+    "review": {
+      "method": "video-transcript",
+      "reviewedOn": "2026-11-02",
+      "evidenceUrl": "https://www.youtube.com/watch?v=2qqFLchn7yY",
+      "notes": "Sampled visual review, not watched end to end. Readable transcript coverage is specified in the observations; transcript reading does not imply full visual playback. No independent audio review or tutorial reproduction is claimed.",
+      "observations": [
+        "The complete available auto-transcript, sampled frames at 2:11 and 3:07, and chapters show rejection, satisfied incumbent customers, a gatekeeper referral, and a business already fully booked."
+      ],
+      "captionClaims": [],
+      "limitations": [
+        "Video was sampled, not watched end to end. Call authenticity, selection, and later outcomes were not independently verified.",
+        "Permission for a follow-up is not a meeting or sale; this small selected sample is not a conversion benchmark.",
+        "Older foundational example, not current conversion proof or outreach authorization.",
+        "No tutorial was independently reproduced and no source code was executed."
+      ],
+      "audioReviewed": false,
+      "supportingSources": []
+    },
+    "build": {
+      "status": "planned",
+      "url": null
+    },
+    "popularity": {
+      "views": {
+        "value": 6911,
+        "display": "6,911",
+        "status": "exact",
+        "observedAt": null,
+        "observedWindow": {
+          "start": "2026-11-02T20:50Z",
+          "end": "2026-11-02T21:02Z",
+          "precision": "minute"
+        },
+        "sourceUrl": "https://www.youtube.com/watch?v=2qqFLchn7yY"
+      },
+      "likes": {
+        "value": 285,
+        "display": "285",
+        "status": "exact",
+        "observedAt": null,
+        "observedWindow": {
+          "start": "2026-11-02T20:50Z",
+          "end": "2026-11-02T21:02Z",
+          "precision": "minute"
+        },
+        "sourceUrl": "https://www.youtube.com/watch?v=2qqFLchn7yY"
+      },
+      "comments": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "followers": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "subscribers": {
+        "value": 3810,
+        "display": "3.81K",
+        "status": "rounded",
+        "observedAt": null,
+        "observedWindow": {
+          "start": "2026-11-02T20:50Z",
+          "end": "2026-11-02T21:02Z",
+          "precision": "minute"
+        },
+        "sourceUrl": "https://www.youtube.com/watch?v=2qqFLchn7yY"
+      },
+      "reposts": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      }
+    },
+    "evidence": {
+      "sourceIdentity": {
+        "status": "attributed",
+        "notes": "Public YouTube page attribution identifies the publishing channel; real-world identity was not independently established."
+      },
+      "publicVisibility": {
+        "status": "observed-public",
+        "notes": "Public video page and visible source metadata were reviewed."
+      },
+      "observedContent": {
+        "status": "sampled-video",
+        "notes": "Sampled playing frames plus the available transcript coverage stated above."
+      },
+      "functioningArtifact": {
+        "status": "unverified",
+        "notes": "Visible demonstrations do not independently verify production functionality or later outcomes."
+      },
+      "reproducibleSteps": {
+        "status": "partial",
+        "notes": "Workflow or method steps are described and partly visible; no tutorial was independently reproduced."
+      },
+      "outcomeClaims": {
+        "status": "unverified",
+        "notes": "Sales, demand, conversion, earnings, and performance outcomes are not independently verified. Displayed engagement is not proof."
+      },
+      "aiContentLabel": {
+        "status": "unknown",
+        "notes": "A platform AI-content label was not established. Discussed generated media does not establish the provenance of every depicted asset."
+      }
+    },
+    "freshness": {
+      "publishedOn": "2024-02-05",
+      "publicationEvidenceUrl": "https://www.youtube.com/watch?v=2qqFLchn7yY",
+      "toolVersionDate": null,
+      "toolVersionLabel": null,
+      "toolVersionEvidenceUrl": null,
+      "role": "fundamental",
+      "caveat": "Older foundational material. Verify current interfaces, examples and market conditions before using it; not current setup or conversion guidance."
+    },
+    "novelty": {
+      "status": "fundamental",
+      "notes": "Established research/qualification principles; do not promote this as a new capability.",
+      "evidenceUrl": null
+    },
+    "brief": {
+      "goal": "Build a qualification worksheet that records a real buyer problem and an agreed next step, without sending messages or making calls.",
+      "features": [
+        "Fields for decision-maker role, capacity, lead sources, website friction, timing, evidence, and next step.",
+        "Separate observation from hypothesis and distinguish no need, unclear need, and a validated problem.",
+        "A demo review screen that flags missing qualification evidence.",
+        "A simple measured-pilot outline using fictional records, with separate counts for conversation, agreed follow-up, meeting, and sale."
+      ],
+      "steps": [
+        "Define qualification questions and create fictional examples including no need and fully booked.",
+        "Build the worksheet and evidence validation.",
+        "Add a review summary that makes disqualifying facts visible.",
+        "Test that permission for follow-up cannot be counted as a sale or meeting."
+      ],
+      "acceptance": [
+        "A fully booked or satisfied business can be marked not a fit without forcing a pitch.",
+        "Hypotheses and observed facts remain visibly distinct.",
+        "Outcome stages are separate and cannot be automatically promoted.",
+        "The tool has no dialing, email, social-send, or contact-scraping capability."
+      ],
+      "outOfScope": [
+        "Actual outreach or collection of private contacts.",
+        "Using a small selected video sample as a reliable response-rate benchmark."
+      ],
+      "existingPattern": "Observed pattern: Buyer qualification, Capacity check, Agreed next step. This supports learning, not proof of demand or a reproduced result.",
+      "specificImprovement": "Learn from rejection and existing alternatives to decide whether a prospect has a useful reason to change.",
+      "targetBuyerProblem": "A service provider evaluating a local business needs to understand decision-making, capacity, current lead sources, and actual website friction before proposing work.",
+      "newCapability": "None required. Improve research clarity and qualification before adding new tools.",
+      "validationTest": "Test the smallest local prototype against three fictional buyer scenarios first. A future separately scoped pilot should measure task completion, evidence quality and usefulness before live integrations or outreach.",
+      "missingEvidence": [
+        "Independent end-to-end verification or reproduction of the source workflow.",
+        "Measured usefulness and demand from the actual target buyer.",
+        "Current tool/version details and production integration behavior."
+      ]
+    }
+  },
+  {
+    "id": "honest-concept-before-outreach",
+    "title": "Make an honest concept before making a claim",
+    "summary": "Verify a business problem, prepare a clearly labeled mockup, and test whether the improvement is useful.",
+    "kind": "observed",
+    "addedOn": "2026-11-02",
+    "businessTypes": [
+      "Professional services",
+      "Local B2B"
+    ],
+    "businessUseCase": "A small web-service business needs to distinguish a relevant, researched improvement from a generic unsolicited redesign claim.",
+    "patterns": [
+      "Business-fit research",
+      "Honest concept labeling",
+      "Problem validation"
+    ],
+    "difficulty": "Easy",
+    "integrations": [
+      "None for the MVP. Use fictional sample data and local interactions; live services, purchases, and outreach require separate scope."
+    ],
+    "sketch": "process",
+    "source": {
+      "type": "youtube",
+      "name": "Web-design prospect discovery and concept planning",
+      "url": "https://www.youtube.com/watch?v=alvCIWw-KCM",
+      "publicVisibility": "public",
+      "creator": {
+        "name": "Abou Toure",
+        "url": "https://www.youtube.com/watch?v=alvCIWw-KCM"
+      },
+      "attributionNote": "Creator attribution was observed on the public YouTube video page. Creator link points to that verified source page; no channel URL is inferred.",
+      "contentType": "Sampled foundational research / sales example",
+      "observedStack": [
+        "Google Maps"
+      ]
+    },
+    "review": {
+      "method": "video-transcript",
+      "reviewedOn": "2026-11-02",
+      "evidenceUrl": "https://www.youtube.com/watch?v=alvCIWw-KCM",
+      "notes": "Sampled visual review, not watched end to end. Readable transcript coverage is specified in the observations; transcript reading does not imply full visual playback. No independent audio review or tutorial reproduction is claimed.",
+      "observations": [
+        "The complete available transcript, sampled frames at 6:08, 7:36, and 9:12, and metadata show Google Maps prospect discovery and a Relume-style sitemap/wireframe concept.",
+        "The description promotes mentorship and direct-message engagement."
+      ],
+      "captionClaims": [],
+      "limitations": [
+        "Video was sampled visually, not watched end to end. Reported response, close-rate, and income claims lack supporting measurement and are not reproduced here.",
+        "The title’s claim of a proven script does not establish verification.",
+        "The tactic of claiming a finished website exists before preparing a concept is excluded. Tool/version details and business outcomes remain unverified.",
+        "No tutorial was independently reproduced and no source code was executed."
+      ],
+      "audioReviewed": false,
+      "supportingSources": []
+    },
+    "build": {
+      "status": "planned",
+      "url": null
+    },
+    "popularity": {
+      "views": {
+        "value": 26062,
+        "display": "26,062",
+        "status": "exact",
+        "observedAt": null,
+        "observedWindow": {
+          "start": "2026-11-02T20:50Z",
+          "end": "2026-11-02T21:02Z",
+          "precision": "minute"
+        },
+        "sourceUrl": "https://www.youtube.com/watch?v=alvCIWw-KCM"
+      },
+      "likes": {
+        "value": 1261,
+        "display": "1,261",
+        "status": "exact",
+        "observedAt": null,
+        "observedWindow": {
+          "start": "2026-11-02T20:50Z",
+          "end": "2026-11-02T21:02Z",
+          "precision": "minute"
+        },
+        "sourceUrl": "https://www.youtube.com/watch?v=alvCIWw-KCM"
+      },
+      "comments": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "followers": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "subscribers": {
+        "value": 53200,
+        "display": "53.2K",
+        "status": "rounded",
+        "observedAt": null,
+        "observedWindow": {
+          "start": "2026-11-02T20:50Z",
+          "end": "2026-11-02T21:02Z",
+          "precision": "minute"
+        },
+        "sourceUrl": "https://www.youtube.com/watch?v=alvCIWw-KCM"
+      },
+      "reposts": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      }
+    },
+    "evidence": {
+      "sourceIdentity": {
+        "status": "attributed",
+        "notes": "Public YouTube page attribution identifies the publishing channel; real-world identity was not independently established."
+      },
+      "publicVisibility": {
+        "status": "observed-public",
+        "notes": "Public video page and visible source metadata were reviewed."
+      },
+      "observedContent": {
+        "status": "sampled-video",
+        "notes": "Sampled playing frames plus the available transcript coverage stated above."
+      },
+      "functioningArtifact": {
+        "status": "unverified",
+        "notes": "Visible demonstrations do not independently verify production functionality or later outcomes."
+      },
+      "reproducibleSteps": {
+        "status": "partial",
+        "notes": "Workflow or method steps are described and partly visible; no tutorial was independently reproduced."
+      },
+      "outcomeClaims": {
+        "status": "unverified",
+        "notes": "Sales, demand, conversion, earnings, and performance outcomes are not independently verified. Displayed engagement is not proof."
+      },
+      "aiContentLabel": {
+        "status": "unknown",
+        "notes": "A platform AI-content label was not established. Discussed generated media does not establish the provenance of every depicted asset."
+      }
+    },
+    "freshness": {
+      "publishedOn": "2025-05-29",
+      "publicationEvidenceUrl": "https://www.youtube.com/watch?v=alvCIWw-KCM",
+      "toolVersionDate": null,
+      "toolVersionLabel": null,
+      "toolVersionEvidenceUrl": null,
+      "role": "fundamental",
+      "caveat": "Older foundational material. Verify current interfaces, examples and market conditions before using it; not current setup or conversion guidance."
+    },
+    "novelty": {
+      "status": "fundamental",
+      "notes": "Established research/qualification principles; do not promote this as a new capability.",
+      "evidenceUrl": null
+    },
+    "brief": {
+      "goal": "Prototype a business-fit brief and a clearly labeled concept that can be evaluated for usefulness before any outreach is separately authorized.",
+      "features": [
+        "A research record for public business facts, the suspected problem, evidence URL/date, and missing information.",
+        "An original sitemap or low-fidelity wireframe labeled concept, not a finished or commissioned site.",
+        "A concise improvement statement connected to the buyer’s current process.",
+        "A future validation checklist and measured-pilot plan, using fictional prospect data only."
+      ],
+      "steps": [
+        "Define fit criteria and make a fictional business research record.",
+        "Draft a small original concept only after identifying a specific problem.",
+        "Show known facts, assumptions, and unfinished parts beside the concept.",
+        "Test with sample scenarios that prevent unsupported claims of completion, affiliation, or guaranteed outcomes."
+      ],
+      "acceptance": [
+        "The concept is visibly labeled and cannot be mistaken for an existing production build.",
+        "Every factual business claim is sourced or marked unverified.",
+        "No success-rate or earnings claim is presented as established evidence.",
+        "No outreach or bulk prospect collection occurs."
+      ],
+      "outOfScope": [
+        "Claiming work exists before creating it, false affiliation, or guaranteed outcomes.",
+        "Sending, dialing, social automation, and scraping prospect lists."
+      ],
+      "existingPattern": "Observed pattern: Business-fit research, Honest concept labeling, Problem validation. This supports learning, not proof of demand or a reproduced result.",
+      "specificImprovement": "Verify a business problem, prepare a clearly labeled mockup, and test whether the improvement is useful.",
+      "targetBuyerProblem": "A small web-service business needs to distinguish a relevant, researched improvement from a generic unsolicited redesign claim.",
+      "newCapability": "None required. Improve research clarity and qualification before adding new tools.",
+      "validationTest": "Test the smallest local prototype against three fictional buyer scenarios first. A future separately scoped pilot should measure task completion, evidence quality and usefulness before live integrations or outreach.",
+      "missingEvidence": [
+        "Independent end-to-end verification or reproduction of the source workflow.",
+        "Measured usefulness and demand from the actual target buyer.",
+        "Current tool/version details and production integration behavior."
+      ]
+    }
   }
 ]
