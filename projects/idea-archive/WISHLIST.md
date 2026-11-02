@@ -44,3 +44,11 @@ This is a project-specific record of requested capabilities and research directi
 ## 2026-11-02 — Additional source review
 
 **Added:** two public sampled Reels, for 15 unique references (7 Reels, 5 YouTube, 3 websites) and six directions. Marina presentation joins the cinematic visitor-page group; the permissioned 3D property-viewer evaluation is a separate function. No market trend or independent demand is inferred. Platform content-ID dedup prevents Instagram route aliases from inflating counts.
+
+## 2026-11-02 — Industry-agnostic research and output priorities
+
+**Planned direction:** keep an industry-agnostic research core with configurable industry/audit profiles. The existing business-web-presence workflow is the current MVP, not a completed general-purpose engine. Prefer free, permitted public datasets with recorded license, provenance, coverage and dates as candidate sources; missing fields still do not establish absence or customer need.
+
+Develop useful output-level alternatives to Ahrefs and vidIQ: evidence-linked audits, research worksheets, content/video briefs and prioritized validation actions. **Both tools remain optional, not requirements.** Do not claim to reproduce their proprietary global keyword, backlink, traffic or platform-analytics datasets. Label observed data, derived assessments and unknowns separately.
+
+The [research-engine requirements log](../business-research-engine/WISHLIST.md#2026-11-02--configurable-research-core-and-related-projects) records the profile and output validation work. Related projects are the [SEO/AI-search toolkit (PR #2)](https://github.com/NateKeola/Dogfood/pull/2), [Outreach-Engine (PR #3)](https://github.com/NateKeola/Dogfood/pull/3), and [service-market/pricing research (PR #4)](https://github.com/NateKeola/Dogfood/pull/4), all open drafts and unmerged as checked on 2026-11-02. The API spend dashboard is still in progress, with no verified PR link. These references do not imply completed integrations, outreach or proven commercial outcomes.
