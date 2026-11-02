@@ -1,0 +1,4 @@
+addon,price,support_minutes,incremental_contribution,incremental_margin_pct,break_even_support_minutes,contribution_if_support_takes_60_minutes
+extra_endpoint,10,2,7.11,71.1,9.11,-50.89
+quarterly_facts,30,10,17.83,59.4333,27.83,-32.17
+faq_upkeep,40,20,16.44,41.1,36.44,-23.56

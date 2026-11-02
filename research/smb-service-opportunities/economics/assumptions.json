@@ -1,0 +1,38 @@
+{
+  "reviewed_at": "2026-11-02",
+  "currency": "USD",
+  "status": "hypothetical unit economics; not actual spend or validated willingness to pay",
+  "payment_processing_rate": 0.029,
+  "payment_processing_fixed": 0.30,
+  "payment_source": "https://stripe.com/pricing",
+  "billing_extra_rate_assumption": 0.01,
+  "billing_extra_note": "Unverified planning allowance, not a current Stripe Billing quote. The fetched pricing page did not expose a numeric rate. Replace before quoting.",
+  "labor_hourly_cost": 60,
+  "acquisition_cost_per_new_account": 200,
+  "setup_price": 399,
+  "setup_labor_hours": 6,
+  "setup_other_cost": 30,
+  "target_economic_contribution_margin": 0.40,
+  "prices": [10, 30, 40, 79, 99, 149],
+  "scenarios": [
+    {"name": "batched_base", "support_minutes": 15, "infrastructure_monthly": 3, "shared_overhead_monthly": 10, "monthly_churn": 0.03},
+    {"name": "support_stress", "support_minutes": 45, "infrastructure_monthly": 8, "shared_overhead_monthly": 15, "monthly_churn": 0.03},
+    {"name": "five_account_pilot", "support_minutes": 30, "infrastructure_monthly": 5, "shared_overhead_monthly": 40, "monthly_churn": 0.03},
+    {"name": "high_churn", "support_minutes": 15, "infrastructure_monthly": 3, "shared_overhead_monthly": 10, "monthly_churn": 0.08}
+  ],
+  "addons": [
+    {"name": "extra_endpoint", "price": 10, "incremental_support_minutes": 2, "incremental_infrastructure": 0.5},
+    {"name": "quarterly_facts", "price": 30, "incremental_support_minutes": 10, "incremental_infrastructure": 1},
+    {"name": "faq_upkeep", "price": 40, "incremental_support_minutes": 20, "incremental_infrastructure": 2}
+  ],
+  "assumption_notes": [
+    "Labor rate includes direct operator opportunity cost. Replace with measured loaded cost.",
+    "All support minutes include planned fulfillment, triage, reporting and customer communication; implementation is setup labor.",
+    "Acquisition includes research, demos, calls, follow-up and tools. The 200 value is a hypothesis, not observed CAC.",
+    "Base overhead 10 assumes 200 monthly shared cost spread over 20 accounts; pilot overhead 40 spreads the same 200 over five.",
+    "Infrastructure includes allocated hosting and bounded per-account usage; actual provider quotes are not established.",
+    "Setup charge uses processing only; monthly charges add a 1% provisional billing allowance.",
+    "Add-ons use an existing invoice, no additional fixed transaction fee, CAC or base overhead. Their onboarding must be paid or separately added.",
+    "Model excludes taxes, financing, refunds, bad debt and extraordinary incidents. A 40% target is a planning cushion, not net profit."
+  ]
+}

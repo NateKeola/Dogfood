@@ -1,0 +1,22 @@
+{
+  "reviewed_at": "2026-11-02",
+  "status": "access_gated_not_attempted",
+  "intended_use": "commercial service opportunity research",
+  "permission_status": "no applicable written commercial authorization established; no request submitted",
+  "intended_window": {"start": "2025-11-02", "end": "2026-11-02"},
+  "policy_search_requests": 1,
+  "policy_result_slots_requested": 5,
+  "policy_pages_fetched": 4,
+  "community_queries_executed": 0,
+  "unique_threads_screened": 0,
+  "threads_included": 0,
+  "threads_excluded": 0,
+  "observations": [],
+  "future_observation_fields": ["thread_url", "post_date", "review_date", "topic", "retrieval_method", "original_paraphrase", "self_report_or_promotion", "counterevidence", "confidence", "reuse_permission_reference"],
+  "sources": [
+    "https://support.reddithelp.com/hc/en-us/articles/42728983564564-Responsible-Builder-Policy",
+    "https://support.reddithelp.com/hc/en-us/articles/14945211791892-Developer-Platform-Accessing-Reddit-Data",
+    "https://support.reddithelp.com/hc/en-us/articles/26410290525844-Public-Content-Policy",
+    "https://redditinc.com/policies/data-api-terms"
+  ]
+}
