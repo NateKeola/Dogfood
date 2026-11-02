@@ -1,0 +1,1424 @@
+[
+  {
+    "id": "interactive-cleaning-showcase",
+    "title": "Make the transformation the story",
+    "summary": "Let a before-and-after result explain a cleaning service, with an easy action always within reach.",
+    "businessTypes": [
+      "Home services"
+    ],
+    "businessUseCase": "A local exterior-cleaning business needs to show the difference its work makes and help visitors request a quote at any point.",
+    "patterns": [
+      "Before / after",
+      "Scroll storytelling",
+      "Persistent CTA"
+    ],
+    "difficulty": "Moderate",
+    "sketch": "service",
+    "kind": "observed",
+    "addedOn": "2026-11-02",
+    "integrations": [
+      "None for the MVP; use sample data and local interactions. Live services are separate follow-up work."
+    ],
+    "source": {
+      "type": "reel",
+      "name": "Interactive pressure-washing showcase",
+      "url": "https://www.instagram.com/p/DevX-_nzM_y/",
+      "publicVisibility": "public",
+      "creator": {
+        "name": "@lynam_up",
+        "url": "https://www.instagram.com/lynam_up/"
+      },
+      "attributionNote": "Public creator post reviewed through visible playing frames and caption.",
+      "contentType": "Filmed website demonstration",
+      "observedStack": []
+    },
+    "review": {
+      "method": "video-visual-caption",
+      "reviewedOn": "2026-11-02",
+      "evidenceUrl": "https://www.instagram.com/p/DevX-_nzM_y/",
+      "notes": "Reviewed sampled playing video frames and visible captions, muted. No audio review. Public creator post accessible without a private-account gate; logged-out playback was not tested.",
+      "observations": [
+        "Sampled playing frames show house, roof, and driveway scenes changing as the filmed page scrolls.",
+        "Explanatory headings change with the scenes while a bottom call-to-action bar remains visible."
+      ],
+      "captionClaims": [],
+      "limitations": [
+        "The tool stack is unknown; general creator-profile tools do not establish this build’s stack.",
+        "The filmed scrolling does not verify the underlying implementation, performance, or service-request flow.",
+        "The underlying live site and backend were not independently tested."
+      ],
+      "audioReviewed": false
+    },
+    "build": {
+      "status": "planned",
+      "url": null
+    },
+    "brief": {
+      "goal": "Build an original cleaning-service page that makes the service result clear with an accessible before/after component and a persistent call or quote action.",
+      "features": [
+        "An original hero and three short service explanations using owned or licensed example imagery.",
+        "A before/after control with visible labels and a keyboard-operable range input; provide a side-by-side alternative.",
+        "A persistent action bar that stays clear of page content and opens a local quote-request demo.",
+        "Optional lightweight scene transitions; every service and action remains accessible without animation."
+      ],
+      "steps": [
+        "Create fictional service copy and choose two owned or licensed comparison images.",
+        "Build the static page and complete the quote-request demo before adding motion.",
+        "Add the accessible comparison control and optional scroll transitions.",
+        "Test touch, keyboard, reduced motion, and repeated comparison/reset interactions."
+      ],
+      "acceptance": [
+        "A visitor can understand the result and request a quote with animation disabled.",
+        "The comparison control has a readable label, visible focus, and keyboard support.",
+        "The persistent bar never covers form fields or the footer at 375px width.",
+        "The request confirmation explicitly says nothing was sent."
+      ],
+      "outOfScope": [
+        "Live quote submissions, customer records, and animation that blocks content.",
+        "Reusing the creator’s scenes, artwork, assets, or code."
+      ],
+      "existingPattern": "Observed reference pattern: Before / after, Scroll storytelling, Persistent CTA. Visible examples are evidence of a design pattern, not proof of a working product or market demand.",
+      "specificImprovement": "Let a before-and-after result explain a cleaning service, with an easy action always within reach.",
+      "targetBuyerProblem": "A local exterior-cleaning business needs to show the difference its work makes and help visitors request a quote at any point.",
+      "newCapability": "None required. Use familiar browser capabilities first; add a newer tool only if it demonstrably improves this workflow.",
+      "validationTest": "Build the smallest local demo and ask three representative business owners to complete its main task. Record completion, confusion, and whether the proposed improvement solves a real problem before adding integrations. This is a future validation plan, not authorization for outreach.",
+      "missingEvidence": [
+        "Independent proof that the source implementation works end to end.",
+        "Evidence of demand from the target buyer and a measured improvement over their current process.",
+        "Verified publication and relevant tool/version dates."
+      ]
+    },
+    "popularity": {
+      "views": {
+        "value": null,
+        "display": "Not displayed",
+        "status": "unavailable",
+        "observedAt": "2026-11-02T20:49:13Z",
+        "sourceUrl": "https://www.instagram.com/p/DevX-_nzM_y/"
+      },
+      "likes": {
+        "value": 40500,
+        "display": "40.5K",
+        "status": "rounded",
+        "observedAt": "2026-11-02T20:49:13Z",
+        "sourceUrl": "https://www.instagram.com/p/DevX-_nzM_y/"
+      },
+      "comments": {
+        "value": 2800,
+        "display": "2.8K",
+        "status": "rounded",
+        "observedAt": "2026-11-02T20:49:13Z",
+        "sourceUrl": "https://www.instagram.com/p/DevX-_nzM_y/"
+      },
+      "followers": {
+        "value": 10496,
+        "display": "10,496 (heading 10.4K)",
+        "status": "exact",
+        "observedAt": "2026-11-02T20:35:20Z",
+        "sourceUrl": "https://www.instagram.com/lynam_up/"
+      },
+      "subscribers": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "reposts": {
+        "value": 394,
+        "display": "394",
+        "status": "exact",
+        "observedAt": "2026-11-02T20:49:13Z",
+        "sourceUrl": "https://www.instagram.com/p/DevX-_nzM_y/"
+      }
+    },
+    "evidence": {
+      "sourceIdentity": {
+        "status": "attributed",
+        "notes": "Public source attribution identifies the publishing account or company, not an independently established real-world identity."
+      },
+      "publicVisibility": {
+        "status": "observed-public",
+        "notes": "Public post and creator grid were accessible without a private-account gate; logged-out playback was not tested."
+      },
+      "observedContent": {
+        "status": "sampled-video",
+        "notes": "Sampled playing frames and visible captions, muted; no audio review."
+      },
+      "functioningArtifact": {
+        "status": "unverified",
+        "notes": "The underlying site, interactions, and backend were not independently tested."
+      },
+      "reproducibleSteps": {
+        "status": "not-tested",
+        "notes": "Source workflow steps have not been independently reproduced."
+      },
+      "outcomeClaims": {
+        "status": "unverified",
+        "notes": "No business, conversion, revenue, or performance outcome is independently verified. Popularity is not proof."
+      },
+      "aiContentLabel": {
+        "status": "unknown",
+        "notes": "AI-content labeling was not established by the supplied review."
+      }
+    },
+    "freshness": {
+      "publishedOn": null,
+      "publicationEvidenceUrl": null,
+      "toolVersionDate": null,
+      "toolVersionLabel": null,
+      "toolVersionEvidenceUrl": null,
+      "role": "undated",
+      "caveat": "Publication and relevant tool/version dates are unverified. Review date is not publication date. Use as pattern inspiration, not current setup guidance."
+    },
+    "novelty": {
+      "status": "unassessed",
+      "notes": "No genuinely new capability or improvement over alternatives has been independently established by this review.",
+      "evidenceUrl": null
+    }
+  },
+  {
+    "id": "service-design-system",
+    "title": "A service site the owner can maintain",
+    "summary": "Turn a visual direction into reusable page sections and a practical handoff, so future edits stay consistent.",
+    "businessTypes": [
+      "Professional services",
+      "Local B2B"
+    ],
+    "businessUseCase": "A small consulting or creative studio needs a home page, services page, and contact page it can update without redesigning each section.",
+    "patterns": [
+      "Reusable components",
+      "Editorial type",
+      "Client handoff"
+    ],
+    "difficulty": "Moderate",
+    "sketch": "process",
+    "kind": "observed",
+    "addedOn": "2026-11-02",
+    "integrations": [
+      "None for the MVP; use sample data and local interactions. Live services are separate follow-up work."
+    ],
+    "source": {
+      "type": "reel",
+      "name": "Design-to-builder workflow",
+      "url": "https://www.instagram.com/p/Dbph0dDM-z-/",
+      "publicVisibility": "public",
+      "creator": {
+        "name": "@designbyayelet",
+        "url": "https://www.instagram.com/designbyayelet/"
+      },
+      "attributionNote": "Public creator post reviewed through visible playing frames and caption.",
+      "contentType": "Design-tool workflow",
+      "observedStack": [
+        "Figma",
+        "Wix Studio plugin"
+      ]
+    },
+    "review": {
+      "method": "video-visual-caption",
+      "reviewedOn": "2026-11-02",
+      "evidenceUrl": "https://www.instagram.com/p/Dbph0dDM-z-/",
+      "notes": "Reviewed sampled playing video frames and visible captions, muted. No audio review. Public creator post accessible without a private-account gate; logged-out playback was not tested.",
+      "observations": [
+        "Sampled playing frames show a Figma canvas with large serif typography, burgundy/pink colors, and a portrait collage.",
+        "A Figma to Wix Studio plugin is visible in the demonstrated workflow."
+      ],
+      "captionClaims": [],
+      "limitations": [
+        "This is a design-tool workflow, not verification of a deployed website.",
+        "The plugin is visible; export fidelity, responsiveness, and editable output were not independently tested.",
+        "The underlying live site and backend were not independently tested."
+      ],
+      "audioReviewed": false
+    },
+    "build": {
+      "status": "planned",
+      "url": null
+    },
+    "brief": {
+      "goal": "Create a distinct three-page service-business design system, an editable static implementation, and a short maintenance guide.",
+      "features": [
+        "Home, services, and contact pages built from shared navigation, typography, buttons, service cards, and footer components.",
+        "Original layout, palette, writing, and owned or licensed artwork.",
+        "Content kept in a small editable data file with documented fields.",
+        "A maintenance guide explaining common text/image changes, responsive checks, and accessibility checks."
+      ],
+      "steps": [
+        "Define content and a small set of type, spacing, and color tokens.",
+        "Design and implement reusable components; a design tool is optional.",
+        "Compose the three pages and connect navigation and a local contact demo.",
+        "Document three routine owner edits and validate each on phone and desktop."
+      ],
+      "acceptance": [
+        "All three pages use the same component styles and working navigation.",
+        "Editing one shared navigation label updates every page.",
+        "The maintenance guide explains how to replace content without editing layout code.",
+        "The contact demo clearly confirms that no message was sent."
+      ],
+      "outOfScope": [
+        "Purchasing a builder subscription, relying on plugin export, or connecting a live contact endpoint.",
+        "Copying the reference’s branding, portrait collage, artwork, or layout."
+      ],
+      "existingPattern": "Observed reference pattern: Reusable components, Editorial type, Client handoff. Visible examples are evidence of a design pattern, not proof of a working product or market demand.",
+      "specificImprovement": "Turn a visual direction into reusable page sections and a practical handoff, so future edits stay consistent.",
+      "targetBuyerProblem": "A small consulting or creative studio needs a home page, services page, and contact page it can update without redesigning each section.",
+      "newCapability": "None required. Use familiar browser capabilities first; add a newer tool only if it demonstrably improves this workflow.",
+      "validationTest": "Build the smallest local demo and ask three representative business owners to complete its main task. Record completion, confusion, and whether the proposed improvement solves a real problem before adding integrations. This is a future validation plan, not authorization for outreach.",
+      "missingEvidence": [
+        "Independent proof that the source implementation works end to end.",
+        "Evidence of demand from the target buyer and a measured improvement over their current process.",
+        "Verified publication and relevant tool/version dates."
+      ]
+    },
+    "popularity": {
+      "views": {
+        "value": null,
+        "display": "Not displayed",
+        "status": "unavailable",
+        "observedAt": "2026-11-02T20:49:27Z",
+        "sourceUrl": "https://www.instagram.com/p/Dbph0dDM-z-/"
+      },
+      "likes": {
+        "value": null,
+        "display": "Not displayed",
+        "status": "unavailable",
+        "observedAt": "2026-11-02T20:49:27Z",
+        "sourceUrl": "https://www.instagram.com/p/Dbph0dDM-z-/"
+      },
+      "comments": {
+        "value": 41,
+        "display": "41",
+        "status": "exact",
+        "observedAt": "2026-11-02T20:49:27Z",
+        "sourceUrl": "https://www.instagram.com/p/Dbph0dDM-z-/"
+      },
+      "followers": {
+        "value": 124983,
+        "display": "124,983 (heading 124K)",
+        "status": "exact",
+        "observedAt": "2026-11-02T20:35:31Z",
+        "sourceUrl": "https://www.instagram.com/designbyayelet/"
+      },
+      "subscribers": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "reposts": {
+        "value": 11,
+        "display": "11",
+        "status": "exact",
+        "observedAt": "2026-11-02T20:49:27Z",
+        "sourceUrl": "https://www.instagram.com/p/Dbph0dDM-z-/"
+      }
+    },
+    "evidence": {
+      "sourceIdentity": {
+        "status": "attributed",
+        "notes": "Public source attribution identifies the publishing account or company, not an independently established real-world identity."
+      },
+      "publicVisibility": {
+        "status": "observed-public",
+        "notes": "Public post and creator grid were accessible without a private-account gate; logged-out playback was not tested."
+      },
+      "observedContent": {
+        "status": "sampled-video",
+        "notes": "Sampled playing frames and visible captions, muted; no audio review."
+      },
+      "functioningArtifact": {
+        "status": "unverified",
+        "notes": "The underlying site, interactions, and backend were not independently tested."
+      },
+      "reproducibleSteps": {
+        "status": "partial",
+        "notes": "Figma and the Wix Studio plugin are visible tool evidence. The full workflow, export fidelity, and deployed output have not been independently reproduced."
+      },
+      "outcomeClaims": {
+        "status": "unverified",
+        "notes": "No business, conversion, revenue, or performance outcome is independently verified. Popularity is not proof."
+      },
+      "aiContentLabel": {
+        "status": "unknown",
+        "notes": "AI-content labeling was not established by the supplied review."
+      }
+    },
+    "freshness": {
+      "publishedOn": null,
+      "publicationEvidenceUrl": null,
+      "toolVersionDate": null,
+      "toolVersionLabel": null,
+      "toolVersionEvidenceUrl": null,
+      "role": "undated",
+      "caveat": "Publication and relevant tool/version dates are unverified. Review date is not publication date. Use as pattern inspiration, not current setup guidance."
+    },
+    "novelty": {
+      "status": "unassessed",
+      "notes": "No genuinely new capability or improvement over alternatives has been independently established by this review.",
+      "evidenceUrl": null
+    }
+  },
+  {
+    "id": "cafe-motion-with-fallback",
+    "title": "A café atmosphere that loads lightly",
+    "summary": "Use a little motion to set the mood, while the menu, hours, and ordering route stay immediate.",
+    "businessTypes": [
+      "Food & drink"
+    ],
+    "businessUseCase": "An independent café wants a welcoming landing page that quickly answers what is served, when it is open, and where to visit.",
+    "patterns": [
+      "Optional hero motion",
+      "Menu clarity",
+      "Reduced-motion fallback"
+    ],
+    "difficulty": "Moderate",
+    "sketch": "retail",
+    "kind": "observed",
+    "addedOn": "2026-11-02",
+    "integrations": [
+      "None for the MVP; use sample data and local interactions. Live services are separate follow-up work."
+    ],
+    "source": {
+      "type": "reel",
+      "name": "Café motion concept",
+      "url": "https://www.instagram.com/p/DeStzYDMNrQ/",
+      "publicVisibility": "public",
+      "creator": {
+        "name": "@enkywebstudio",
+        "url": "https://www.instagram.com/enkywebstudio/"
+      },
+      "attributionNote": "Public creator post reviewed through visible playing frames and caption.",
+      "contentType": "Visual concept · AI-labeled",
+      "observedStack": []
+    },
+    "review": {
+      "method": "video-visual-caption",
+      "reviewedOn": "2026-11-02",
+      "evidenceUrl": "https://www.instagram.com/p/DeStzYDMNrQ/",
+      "notes": "Reviewed sampled playing video frames and visible captions, muted. No audio review. Public creator post accessible without a private-account gate; logged-out playback was not tested.",
+      "observations": [
+        "Sampled playing frames show a cream/brown café composition, large serif headings, and pouring/brewing imagery displayed on a laptop.",
+        "Instagram labels the source as AI content."
+      ],
+      "captionClaims": [],
+      "limitations": [
+        "This is a visual concept, not a verified working website.",
+        "The depicted 3D behavior, responsiveness, and implementation are unverified; the tool stack is unknown.",
+        "The underlying live site and backend were not independently tested."
+      ],
+      "audioReviewed": false
+    },
+    "build": {
+      "status": "planned",
+      "url": null
+    },
+    "brief": {
+      "goal": "Build an original lightweight café page with optional owned or licensed hero video and immediate access to menu, hours, location, and an order route.",
+      "features": [
+        "A static hero poster that works without video; a short muted owned or licensed clip is optional.",
+        "A readable sample menu, hours, location text, and one clear order action.",
+        "A pause control and static reduced-motion fallback.",
+        "A local order-preview panel using fictional products; no real checkout."
+      ],
+      "steps": [
+        "Write fictional café content and prepare a lightweight original still image.",
+        "Implement the static page and test menu and location navigation.",
+        "Optionally add a compressed short clip, pause control, and reduced-motion handling.",
+        "Check loading behavior, contrast, no-video mode, and small-screen readability."
+      ],
+      "acceptance": [
+        "Menu, hours, and location remain available if video fails or is disabled.",
+        "Reduced-motion preference prevents autoplay; a static image remains visible.",
+        "The page never implies that a sample order was submitted.",
+        "Hero text is readable over every video frame and on the static fallback."
+      ],
+      "outOfScope": [
+        "Replicating depicted 3D effects or claiming they are implemented in the reference.",
+        "Live ordering, a paid media service, or reusing the creator’s AI imagery."
+      ],
+      "existingPattern": "Observed reference pattern: Optional hero motion, Menu clarity, Reduced-motion fallback. Visible examples are evidence of a design pattern, not proof of a working product or market demand.",
+      "specificImprovement": "Use a little motion to set the mood, while the menu, hours, and ordering route stay immediate.",
+      "targetBuyerProblem": "An independent café wants a welcoming landing page that quickly answers what is served, when it is open, and where to visit.",
+      "newCapability": "None required. Use familiar browser capabilities first; add a newer tool only if it demonstrably improves this workflow.",
+      "validationTest": "Build the smallest local demo and ask three representative business owners to complete its main task. Record completion, confusion, and whether the proposed improvement solves a real problem before adding integrations. This is a future validation plan, not authorization for outreach.",
+      "missingEvidence": [
+        "Independent proof that the source implementation works end to end.",
+        "Evidence of demand from the target buyer and a measured improvement over their current process.",
+        "Verified publication and relevant tool/version dates."
+      ]
+    },
+    "popularity": {
+      "views": {
+        "value": null,
+        "display": "Not displayed",
+        "status": "unavailable",
+        "observedAt": "2026-11-02T20:49:38Z",
+        "sourceUrl": "https://www.instagram.com/p/DeStzYDMNrQ/"
+      },
+      "likes": {
+        "value": 28900,
+        "display": "28.9K",
+        "status": "rounded",
+        "observedAt": "2026-11-02T20:49:38Z",
+        "sourceUrl": "https://www.instagram.com/p/DeStzYDMNrQ/"
+      },
+      "comments": {
+        "value": 270,
+        "display": "270",
+        "status": "exact",
+        "observedAt": "2026-11-02T20:49:38Z",
+        "sourceUrl": "https://www.instagram.com/p/DeStzYDMNrQ/"
+      },
+      "followers": {
+        "value": 32187,
+        "display": "32,187 (heading 32.1K)",
+        "status": "exact",
+        "observedAt": "2026-11-02T20:35:42Z",
+        "sourceUrl": "https://www.instagram.com/enkywebstudio/"
+      },
+      "subscribers": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "reposts": {
+        "value": 662,
+        "display": "662",
+        "status": "exact",
+        "observedAt": "2026-11-02T20:49:38Z",
+        "sourceUrl": "https://www.instagram.com/p/DeStzYDMNrQ/"
+      }
+    },
+    "evidence": {
+      "sourceIdentity": {
+        "status": "attributed",
+        "notes": "Public source attribution identifies the publishing account or company, not an independently established real-world identity."
+      },
+      "publicVisibility": {
+        "status": "observed-public",
+        "notes": "Public post and creator grid were accessible without a private-account gate; logged-out playback was not tested."
+      },
+      "observedContent": {
+        "status": "sampled-video",
+        "notes": "Sampled playing frames and visible captions, muted; no audio review."
+      },
+      "functioningArtifact": {
+        "status": "unverified",
+        "notes": "The underlying site, interactions, and backend were not independently tested."
+      },
+      "reproducibleSteps": {
+        "status": "not-tested",
+        "notes": "Source workflow steps have not been independently reproduced."
+      },
+      "outcomeClaims": {
+        "status": "unverified",
+        "notes": "No business, conversion, revenue, or performance outcome is independently verified. Popularity is not proof."
+      },
+      "aiContentLabel": {
+        "status": "labeled",
+        "notes": "Instagram explicitly labels this source as AI content; the depicted site is a visual concept."
+      }
+    },
+    "freshness": {
+      "publishedOn": null,
+      "publicationEvidenceUrl": null,
+      "toolVersionDate": null,
+      "toolVersionLabel": null,
+      "toolVersionEvidenceUrl": null,
+      "role": "undated",
+      "caveat": "Publication and relevant tool/version dates are unverified. Review date is not publication date. Use as pattern inspiration, not current setup guidance."
+    },
+    "novelty": {
+      "status": "unassessed",
+      "notes": "No genuinely new capability or improvement over alternatives has been independently established by this review.",
+      "evidenceUrl": null
+    }
+  },
+  {
+    "id": "transparent-service-estimate",
+    "title": "A useful estimate before the first call",
+    "summary": "Let customers describe the job, see an understandable range, and review the assumptions before asking for help.",
+    "businessTypes": [
+      "Home services"
+    ],
+    "businessUseCase": "A pressure-washing business wants better initial enquiries without presenting an automated number as a final quote.",
+    "patterns": [
+      "Service picker",
+      "Estimate range",
+      "Review before request"
+    ],
+    "difficulty": "Moderate",
+    "sketch": "process",
+    "kind": "observed",
+    "addedOn": "2026-11-02",
+    "integrations": [
+      "None for the MVP; use sample data and local interactions. Live services are separate follow-up work."
+    ],
+    "source": {
+      "type": "reel",
+      "name": "Home-service estimate flow",
+      "url": "https://www.instagram.com/p/DdiHkfyuRU-/",
+      "publicVisibility": "public",
+      "creator": {
+        "name": "@jahforge1",
+        "url": "https://www.instagram.com/jahforge1/"
+      },
+      "attributionNote": "Public creator post reviewed through visible playing frames and caption.",
+      "contentType": "Filmed UI demo · backend unverified",
+      "observedStack": []
+    },
+    "review": {
+      "method": "video-visual-caption",
+      "reviewedOn": "2026-11-02",
+      "evidenceUrl": "https://www.instagram.com/p/DdiHkfyuRU-/",
+      "notes": "Reviewed sampled playing video frames and visible captions, muted. No audio review. Public creator post accessible without a private-account gate; logged-out playback was not tested.",
+      "observations": [
+        "Sampled playing frames show a before/after house view, a service-selection/form screen, and a prominent estimate card."
+      ],
+      "captionClaims": [
+        "The caption describes a before/after slider, a service picker, and a live estimate calculator."
+      ],
+      "limitations": [
+        "The calculator’s actual arithmetic, persistence, and request handling were not independently tested.",
+        "The tool stack is unknown; visible UI and caption claims do not verify a working backend.",
+        "The underlying live site and backend were not independently tested."
+      ],
+      "audioReviewed": false
+    },
+    "build": {
+      "status": "planned",
+      "url": null
+    },
+    "brief": {
+      "goal": "Prototype a transparent, nonbinding pressure-washing estimate with service type, approximate size, extras, and a review step. Start here for a focused interactive build.",
+      "features": [
+        "A service selector, approximate-size input with units, and a short list of optional extras.",
+        "A configurable range calculation using clearly fictional demo rates; production rates require business approval.",
+        "An estimate breakdown that explains assumptions and identifies the result as nonbinding.",
+        "A review panel and local request confirmation, with no personal details or external submission."
+      ],
+      "steps": [
+        "Define demo service/rate fixtures and state the assumptions beside the result.",
+        "Implement validated inputs and a pure calculation function with lower/upper bounds.",
+        "Add editable review, reset, and an explicit local request confirmation.",
+        "Test invalid numbers, boundary values, unit labels, switching services, extras, and repeated edits."
+      ],
+      "acceptance": [
+        "Blank, negative, nonnumeric, and oversized values produce helpful validation instead of misleading totals.",
+        "Changing any valid input updates the breakdown and range consistently.",
+        "Demo rates and the nonbinding result are clearly labeled before the request action.",
+        "Business-approved pricing rules are a release prerequisite; the prototype sends no requests."
+      ],
+      "outOfScope": [
+        "Binding prices, payments, CRM integration, or using unapproved pricing rules in production.",
+        "Treating the caption’s live-calculator claim as verified functionality."
+      ],
+      "existingPattern": "Observed reference pattern: Service picker, Estimate range, Review before request. Visible examples are evidence of a design pattern, not proof of a working product or market demand.",
+      "specificImprovement": "Let customers describe the job, see an understandable range, and review the assumptions before asking for help.",
+      "targetBuyerProblem": "A pressure-washing business wants better initial enquiries without presenting an automated number as a final quote.",
+      "newCapability": "None required. Use familiar browser capabilities first; add a newer tool only if it demonstrably improves this workflow.",
+      "validationTest": "Build the smallest local demo and ask three representative business owners to complete its main task. Record completion, confusion, and whether the proposed improvement solves a real problem before adding integrations. This is a future validation plan, not authorization for outreach.",
+      "missingEvidence": [
+        "Independent proof that the source implementation works end to end.",
+        "Evidence of demand from the target buyer and a measured improvement over their current process.",
+        "Verified publication and relevant tool/version dates."
+      ]
+    },
+    "popularity": {
+      "views": {
+        "value": null,
+        "display": "Not displayed",
+        "status": "unavailable",
+        "observedAt": "2026-11-02T20:49:57Z",
+        "sourceUrl": "https://www.instagram.com/p/DdiHkfyuRU-/"
+      },
+      "likes": {
+        "value": 120,
+        "display": "120",
+        "status": "exact",
+        "observedAt": "2026-11-02T20:49:57Z",
+        "sourceUrl": "https://www.instagram.com/p/DdiHkfyuRU-/"
+      },
+      "comments": {
+        "value": 13,
+        "display": "13",
+        "status": "exact",
+        "observedAt": "2026-11-02T20:49:57Z",
+        "sourceUrl": "https://www.instagram.com/p/DdiHkfyuRU-/"
+      },
+      "followers": {
+        "value": 2210,
+        "display": "2,210",
+        "status": "exact",
+        "observedAt": "2026-11-02T20:35:07Z",
+        "sourceUrl": "https://www.instagram.com/jahforge1/"
+      },
+      "subscribers": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "reposts": {
+        "value": 2,
+        "display": "2",
+        "status": "exact",
+        "observedAt": "2026-11-02T20:49:57Z",
+        "sourceUrl": "https://www.instagram.com/p/DdiHkfyuRU-/"
+      }
+    },
+    "evidence": {
+      "sourceIdentity": {
+        "status": "attributed",
+        "notes": "Public source attribution identifies the publishing account or company, not an independently established real-world identity."
+      },
+      "publicVisibility": {
+        "status": "observed-public",
+        "notes": "Public post and creator grid were accessible without a private-account gate; logged-out playback was not tested."
+      },
+      "observedContent": {
+        "status": "sampled-video",
+        "notes": "Partial visible behavior evidence: sampled playing frames show service selection/form UI and an estimate card. Arithmetic and implementation steps were not verified. No audio reviewed."
+      },
+      "functioningArtifact": {
+        "status": "unverified",
+        "notes": "The underlying site, interactions, and backend were not independently tested."
+      },
+      "reproducibleSteps": {
+        "status": "not-tested",
+        "notes": "Source workflow steps have not been independently reproduced."
+      },
+      "outcomeClaims": {
+        "status": "unverified",
+        "notes": "No business, conversion, revenue, or performance outcome is independently verified. Popularity is not proof."
+      },
+      "aiContentLabel": {
+        "status": "unknown",
+        "notes": "AI-content labeling was not established by the supplied review."
+      }
+    },
+    "freshness": {
+      "publishedOn": null,
+      "publicationEvidenceUrl": null,
+      "toolVersionDate": null,
+      "toolVersionLabel": null,
+      "toolVersionEvidenceUrl": null,
+      "role": "undated",
+      "caveat": "Publication and relevant tool/version dates are unverified. Review date is not publication date. Use as pattern inspiration, not current setup guidance."
+    },
+    "novelty": {
+      "status": "unassessed",
+      "notes": "No genuinely new capability or improvement over alternatives has been independently established by this review.",
+      "evidenceUrl": null
+    }
+  },
+  {
+    "id": "local-service-quote-route",
+    "title": "One clear route from service to enquiry",
+    "summary": "Put services, results, and coverage in a simple mobile sequence, then offer a single request form.",
+    "businessTypes": [
+      "Home services",
+      "Local B2B"
+    ],
+    "businessUseCase": "A cleaning business needs a concise mobile page that explains its services and coverage before visitors begin a quote or booking request.",
+    "patterns": [
+      "Service cards",
+      "Service-area detail",
+      "Single enquiry path"
+    ],
+    "difficulty": "Easy",
+    "sketch": "service",
+    "kind": "observed",
+    "addedOn": "2026-11-02",
+    "integrations": [
+      "None for the MVP; use sample data and local interactions. Live services are separate follow-up work."
+    ],
+    "source": {
+      "type": "reel",
+      "name": "Local-service conversion layout",
+      "url": "https://www.instagram.com/p/DcpPprHOYbH/",
+      "publicVisibility": "public",
+      "creator": {
+        "name": "@jahforge1",
+        "url": "https://www.instagram.com/jahforge1/"
+      },
+      "attributionNote": "Public creator post reviewed through visible playing frames and caption.",
+      "contentType": "Filmed showcase / montage",
+      "observedStack": []
+    },
+    "review": {
+      "method": "video-visual-caption",
+      "reviewedOn": "2026-11-02",
+      "evidenceUrl": "https://www.instagram.com/p/DcpPprHOYbH/",
+      "notes": "Reviewed sampled playing video frames and visible captions, muted. No audio review. Public creator post accessible without a private-account gate; logged-out playback was not tested.",
+      "observations": [
+        "Sampled playing frames show a dark/orange high-contrast service layout and a cleaning-business hero with a house/driveway result."
+      ],
+      "captionClaims": [
+        "The caption mentions online booking."
+      ],
+      "limitations": [
+        "No completed booking flow was shown or tested.",
+        "The underlying site, backend, scheduling integration, and tool stack are unverified.",
+        "The underlying live site and backend were not independently tested."
+      ],
+      "audioReviewed": false
+    },
+    "build": {
+      "status": "planned",
+      "url": null
+    },
+    "brief": {
+      "goal": "Build an original mobile-first service page with clear services, owned comparison photos, service-area details, and one quote or booking-request demo.",
+      "features": [
+        "Three concise service cards, each explaining what is included.",
+        "Owned or licensed before/after photos with useful text descriptions.",
+        "A list of fictional covered neighborhoods and a clear unsupported-area message.",
+        "A single local request form that preserves the selected service and explicitly does not reserve a slot."
+      ],
+      "steps": [
+        "Write sample service and coverage records and choose licensed or owned imagery.",
+        "Build the mobile service sequence and coverage section.",
+        "Connect each service card to the same request form with the service preselected.",
+        "Test changing services, validation, unsupported coverage, and repeated submissions."
+      ],
+      "acceptance": [
+        "Every service CTA reaches the same form with the correct service selected.",
+        "Unsupported locations receive a clear next-step explanation.",
+        "The confirmation states that no request was sent and no appointment was booked.",
+        "All controls are keyboard accessible and remain readable at 375px width."
+      ],
+      "outOfScope": [
+        "Actual scheduling, payments, customer-data storage, and live submissions.",
+        "Reusing the creator’s branding, photos, copy, or code."
+      ],
+      "existingPattern": "Observed reference pattern: Service cards, Service-area detail, Single enquiry path. Visible examples are evidence of a design pattern, not proof of a working product or market demand.",
+      "specificImprovement": "Put services, results, and coverage in a simple mobile sequence, then offer a single request form.",
+      "targetBuyerProblem": "A cleaning business needs a concise mobile page that explains its services and coverage before visitors begin a quote or booking request.",
+      "newCapability": "None required. Use familiar browser capabilities first; add a newer tool only if it demonstrably improves this workflow.",
+      "validationTest": "Build the smallest local demo and ask three representative business owners to complete its main task. Record completion, confusion, and whether the proposed improvement solves a real problem before adding integrations. This is a future validation plan, not authorization for outreach.",
+      "missingEvidence": [
+        "Independent proof that the source implementation works end to end.",
+        "Evidence of demand from the target buyer and a measured improvement over their current process.",
+        "Verified publication and relevant tool/version dates."
+      ]
+    },
+    "popularity": {
+      "views": {
+        "value": null,
+        "display": "Not displayed",
+        "status": "unavailable",
+        "observedAt": "2026-11-02T20:50:08Z",
+        "sourceUrl": "https://www.instagram.com/p/DcpPprHOYbH/"
+      },
+      "likes": {
+        "value": 8900,
+        "display": "8.9K",
+        "status": "rounded",
+        "observedAt": "2026-11-02T20:50:08Z",
+        "sourceUrl": "https://www.instagram.com/p/DcpPprHOYbH/"
+      },
+      "comments": {
+        "value": 449,
+        "display": "449",
+        "status": "exact",
+        "observedAt": "2026-11-02T20:50:08Z",
+        "sourceUrl": "https://www.instagram.com/p/DcpPprHOYbH/"
+      },
+      "followers": {
+        "value": 2210,
+        "display": "2,210",
+        "status": "exact",
+        "observedAt": "2026-11-02T20:35:07Z",
+        "sourceUrl": "https://www.instagram.com/jahforge1/"
+      },
+      "subscribers": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "reposts": {
+        "value": 93,
+        "display": "93",
+        "status": "exact",
+        "observedAt": "2026-11-02T20:50:08Z",
+        "sourceUrl": "https://www.instagram.com/p/DcpPprHOYbH/"
+      }
+    },
+    "evidence": {
+      "sourceIdentity": {
+        "status": "attributed",
+        "notes": "Public source attribution identifies the publishing account or company, not an independently established real-world identity."
+      },
+      "publicVisibility": {
+        "status": "observed-public",
+        "notes": "Public post and creator grid were accessible without a private-account gate; logged-out playback was not tested."
+      },
+      "observedContent": {
+        "status": "sampled-video",
+        "notes": "Sampled playing frames and visible captions, muted; no audio review."
+      },
+      "functioningArtifact": {
+        "status": "unverified",
+        "notes": "The underlying site, interactions, and backend were not independently tested."
+      },
+      "reproducibleSteps": {
+        "status": "not-tested",
+        "notes": "Source workflow steps have not been independently reproduced."
+      },
+      "outcomeClaims": {
+        "status": "unverified",
+        "notes": "No business, conversion, revenue, or performance outcome is independently verified. Popularity is not proof."
+      },
+      "aiContentLabel": {
+        "status": "unknown",
+        "notes": "AI-content labeling was not established by the supplied review."
+      }
+    },
+    "freshness": {
+      "publishedOn": null,
+      "publicationEvidenceUrl": null,
+      "toolVersionDate": null,
+      "toolVersionLabel": null,
+      "toolVersionEvidenceUrl": null,
+      "role": "undated",
+      "caveat": "Publication and relevant tool/version dates are unverified. Review date is not publication date. Use as pattern inspiration, not current setup guidance."
+    },
+    "novelty": {
+      "status": "unassessed",
+      "notes": "No genuinely new capability or improvement over alternatives has been independently established by this review.",
+      "evidenceUrl": null
+    }
+  },
+  {
+    "id": "two-clear-shopping-paths",
+    "title": "Two clear doors into a local shop",
+    "summary": "Help visitors choose between two product families, then make the nearest stockist easy to find.",
+    "kind": "observed",
+    "addedOn": "2026-11-02",
+    "businessTypes": [
+      "Local retail",
+      "Food & drink"
+    ],
+    "businessUseCase": "A neighborhood bakery selling daily bakes and celebration boxes needs a clear route for each shopper, plus practical pickup information.",
+    "patterns": [
+      "Two product paths",
+      "Retail discovery",
+      "Bold hierarchy"
+    ],
+    "difficulty": "Easy",
+    "integrations": [
+      "None for the MVP; use a static catalog and sample pickup locations."
+    ],
+    "sketch": "retail",
+    "source": {
+      "type": "website",
+      "name": "WILDE",
+      "url": "https://www.wildebrands.com/",
+      "publicVisibility": "public",
+      "creator": {
+        "name": "WILDE (site publisher)",
+        "url": "https://www.wildebrands.com/"
+      },
+      "attributionNote": "The published research identifies the company site. Its designer or agency was not recorded."
+    },
+    "review": {
+      "method": "visual-text",
+      "reviewedOn": "2026-11-02",
+      "evidenceUrl": "https://github.com/NateKeola/Dogfood/blob/d4b4498/research/website-inspiration/data/2026-11-02.json",
+      "notes": "Inherited from the published November 2 website research, which records Visual + text review. The archive does not imply an additional site inspection.",
+      "observations": [
+        "The recorded hero uses large cream lettering on black, colorful angled packaging, and torn-paper edges.",
+        "Separate yellow shopping buttons distinguish crackers from chips; a prominent store locator supports retail discovery."
+      ],
+      "limitations": [
+        "A website reference, not an Instagram Reel.",
+        "The research does not verify checkout behavior, conversion performance, or mobile interactions."
+      ],
+      "audioReviewed": false
+    },
+    "build": {
+      "status": "planned",
+      "url": null
+    },
+    "brief": {
+      "goal": "Create an original bakery landing page that lets visitors pick daily bakes or celebration boxes within one screen, then check where and when to collect.",
+      "features": [
+        "A simple original hero with two equally clear product routes and descriptive button labels.",
+        "Two small catalog sections with sample products, prices labeled as examples, and allergy information placeholders.",
+        "A pickup section with three fictional locations and opening hours, filterable by neighborhood.",
+        "A selected-product summary that explains pickup steps without accepting orders."
+      ],
+      "steps": [
+        "Write the two shopper journeys and create six fictional product records.",
+        "Build the hero, category sections, and location cards using original typography and simple shapes.",
+        "Wire category navigation and the location filter; show a clear no-location state.",
+        "Test both journeys on a narrow phone screen and with a keyboard."
+      ],
+      "acceptance": [
+        "Each hero button reaches its matching category and preserves a clear heading.",
+        "Filtering pickup locations returns matching results and a helpful empty state.",
+        "All sample prices, locations, and availability are clearly identified as demo data.",
+        "The page works at 375px width without horizontal overflow and all controls are keyboard accessible."
+      ],
+      "outOfScope": [
+        "Live checkout, inventory, maps, and order submissions.",
+        "Reusing WILDE branding, packaging, typography treatments, assets, or code."
+      ],
+      "existingPattern": "Observed reference pattern: Two product paths, Retail discovery, Bold hierarchy. Visible examples are evidence of a design pattern, not proof of a working product or market demand.",
+      "specificImprovement": "Help visitors choose between two product families, then make the nearest stockist easy to find.",
+      "targetBuyerProblem": "A neighborhood bakery selling daily bakes and celebration boxes needs a clear route for each shopper, plus practical pickup information.",
+      "newCapability": "None required. Use familiar browser capabilities first; add a newer tool only if it demonstrably improves this workflow.",
+      "validationTest": "Build the smallest local demo and ask three representative business owners to complete its main task. Record completion, confusion, and whether the proposed improvement solves a real problem before adding integrations. This is a future validation plan, not authorization for outreach.",
+      "missingEvidence": [
+        "Independent proof that the source implementation works end to end.",
+        "Evidence of demand from the target buyer and a measured improvement over their current process.",
+        "Verified publication and relevant tool/version dates."
+      ]
+    },
+    "popularity": {
+      "views": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "likes": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "comments": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "followers": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "subscribers": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "reposts": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      }
+    },
+    "evidence": {
+      "sourceIdentity": {
+        "status": "attributed",
+        "notes": "Public source attribution identifies the publishing account or company, not an independently established real-world identity."
+      },
+      "publicVisibility": {
+        "status": "observed-public",
+        "notes": "Public company website recorded in the published website research."
+      },
+      "observedContent": {
+        "status": "visual-text",
+        "notes": "Inherited review method retained from the published November 2 research."
+      },
+      "functioningArtifact": {
+        "status": "unverified",
+        "notes": "The underlying site, interactions, and backend were not independently tested."
+      },
+      "reproducibleSteps": {
+        "status": "not-tested",
+        "notes": "Source workflow steps have not been independently reproduced."
+      },
+      "outcomeClaims": {
+        "status": "unverified",
+        "notes": "No business, conversion, revenue, or performance outcome is independently verified. Popularity is not proof."
+      },
+      "aiContentLabel": {
+        "status": "unknown",
+        "notes": "AI-content labeling was not established by the supplied review."
+      }
+    },
+    "freshness": {
+      "publishedOn": null,
+      "publicationEvidenceUrl": null,
+      "toolVersionDate": null,
+      "toolVersionLabel": null,
+      "toolVersionEvidenceUrl": null,
+      "role": "undated",
+      "caveat": "Publication and relevant tool/version dates are unverified. Review date is not publication date. Use as pattern inspiration, not current setup guidance."
+    },
+    "novelty": {
+      "status": "unassessed",
+      "notes": "No genuinely new capability or improvement over alternatives has been independently established by this review.",
+      "evidenceUrl": null
+    }
+  },
+  {
+    "id": "choose-your-service-path",
+    "title": "One service. Two kinds of customer.",
+    "summary": "Make a broad service feel specific with a clear audience choice and a short explanation of what happens next.",
+    "kind": "observed",
+    "addedOn": "2026-11-02",
+    "businessTypes": [
+      "Home services",
+      "Local B2B"
+    ],
+    "businessUseCase": "A local cleaning company serves homeowners and small offices. Each audience needs a different checklist, schedule, and next step.",
+    "patterns": [
+      "Audience routing",
+      "How it works",
+      "Clear next step"
+    ],
+    "difficulty": "Easy",
+    "integrations": [
+      "None for the MVP; use local sample service packages and a simulated request confirmation."
+    ],
+    "sketch": "service",
+    "source": {
+      "type": "website",
+      "name": "Greyparrot",
+      "url": "https://www.greyparrot.ai/",
+      "publicVisibility": "public",
+      "creator": {
+        "name": "Greyparrot (site publisher)",
+        "url": "https://www.greyparrot.ai/"
+      },
+      "attributionNote": "The published research identifies the company site. Its designer or agency was not recorded."
+    },
+    "review": {
+      "method": "visual-text",
+      "reviewedOn": "2026-11-02",
+      "evidenceUrl": "https://github.com/NateKeola/Dogfood/blob/d4b4498/research/website-inspiration/data/2026-11-02.json",
+      "notes": "Inherited from the published November 2 website research, which records Visual + text review. The archive does not imply an additional site inspection.",
+      "observations": [
+        "The recorded hero layers large white lettering over a darkened overhead recycling image, with selective magenta accents.",
+        "A How it works action leads into separate recovery and packaging audience routes."
+      ],
+      "limitations": [
+        "A website reference, not an Instagram Reel.",
+        "Only the recorded appearance and audience structure are evidenced; downstream flows were not verified."
+      ],
+      "audioReviewed": false
+    },
+    "build": {
+      "status": "planned",
+      "url": null
+    },
+    "brief": {
+      "goal": "Build an original cleaning-service page that helps home and office customers find a relevant service package and understand the next three steps.",
+      "features": [
+        "Two audience controls, Homes and Offices, that reveal relevant package cards and checklists.",
+        "A concise process section covering choose a package, review a sample schedule, and request a conversation.",
+        "An accessible request demo with service type and preferred day; no name, email, or other personal data required.",
+        "An on-page confirmation clearly stating that no request has been sent."
+      ],
+      "steps": [
+        "Define two sample audiences, three packages, and the contents of each checklist.",
+        "Design an original calm service page with simple icons and a visible audience selection.",
+        "Connect the audience controls to matching content and the local request demo.",
+        "Test switching audiences repeatedly, completing the demo, and returning to the first choice."
+      ],
+      "acceptance": [
+        "Changing the audience updates both package details and the request label without stale content.",
+        "Each route explains the next step and offers a way back to the other audience.",
+        "The request demo validates its required choices and announces confirmation to assistive technology.",
+        "The page makes no network submission and clearly labels all schedules as samples."
+      ],
+      "outOfScope": [
+        "Calendar integration, real bookings, payments, and customer records.",
+        "Using Greyparrot imagery, branding, exact layouts, or proprietary code."
+      ],
+      "existingPattern": "Observed reference pattern: Audience routing, How it works, Clear next step. Visible examples are evidence of a design pattern, not proof of a working product or market demand.",
+      "specificImprovement": "Make a broad service feel specific with a clear audience choice and a short explanation of what happens next.",
+      "targetBuyerProblem": "A local cleaning company serves homeowners and small offices. Each audience needs a different checklist, schedule, and next step.",
+      "newCapability": "None required. Use familiar browser capabilities first; add a newer tool only if it demonstrably improves this workflow.",
+      "validationTest": "Build the smallest local demo and ask three representative business owners to complete its main task. Record completion, confusion, and whether the proposed improvement solves a real problem before adding integrations. This is a future validation plan, not authorization for outreach.",
+      "missingEvidence": [
+        "Independent proof that the source implementation works end to end.",
+        "Evidence of demand from the target buyer and a measured improvement over their current process.",
+        "Verified publication and relevant tool/version dates."
+      ]
+    },
+    "popularity": {
+      "views": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "likes": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "comments": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "followers": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "subscribers": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "reposts": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      }
+    },
+    "evidence": {
+      "sourceIdentity": {
+        "status": "attributed",
+        "notes": "Public source attribution identifies the publishing account or company, not an independently established real-world identity."
+      },
+      "publicVisibility": {
+        "status": "observed-public",
+        "notes": "Public company website recorded in the published website research."
+      },
+      "observedContent": {
+        "status": "visual-text",
+        "notes": "Inherited review method retained from the published November 2 research."
+      },
+      "functioningArtifact": {
+        "status": "unverified",
+        "notes": "The underlying site, interactions, and backend were not independently tested."
+      },
+      "reproducibleSteps": {
+        "status": "not-tested",
+        "notes": "Source workflow steps have not been independently reproduced."
+      },
+      "outcomeClaims": {
+        "status": "unverified",
+        "notes": "No business, conversion, revenue, or performance outcome is independently verified. Popularity is not proof."
+      },
+      "aiContentLabel": {
+        "status": "unknown",
+        "notes": "AI-content labeling was not established by the supplied review."
+      }
+    },
+    "freshness": {
+      "publishedOn": null,
+      "publicationEvidenceUrl": null,
+      "toolVersionDate": null,
+      "toolVersionLabel": null,
+      "toolVersionEvidenceUrl": null,
+      "role": "undated",
+      "caveat": "Publication and relevant tool/version dates are unverified. Review date is not publication date. Use as pattern inspiration, not current setup guidance."
+    },
+    "novelty": {
+      "status": "unassessed",
+      "notes": "No genuinely new capability or improvement over alternatives has been independently established by this review.",
+      "evidenceUrl": null
+    }
+  },
+  {
+    "id": "confident-first-quote",
+    "title": "From first question to confident quote",
+    "summary": "Reduce the unknowns before an enquiry with a visible process, useful FAQs, and a lightweight quote builder.",
+    "kind": "observed",
+    "addedOn": "2026-11-02",
+    "businessTypes": [
+      "Home services",
+      "Local B2B"
+    ],
+    "businessUseCase": "A small custom-cabinet workshop wants prospective customers to understand the process and assemble a useful project outline before a conversation.",
+    "patterns": [
+      "Process sequence",
+      "Quote builder",
+      "Buyer FAQs"
+    ],
+    "difficulty": "Moderate",
+    "integrations": [
+      "None for the MVP; keep the brief in browser memory and download a text summary. Add a CRM only after validating the flow."
+    ],
+    "sketch": "process",
+    "source": {
+      "type": "website",
+      "name": "Podium Automation",
+      "url": "https://www.podiumautomation.com/",
+      "publicVisibility": "public",
+      "creator": {
+        "name": "Podium Automation (site publisher)",
+        "url": "https://www.podiumautomation.com/"
+      },
+      "attributionNote": "The published research identifies the company site. Its designer or agency was not recorded."
+    },
+    "review": {
+      "method": "text",
+      "reviewedOn": "2026-11-02",
+      "evidenceUrl": "https://github.com/NateKeola/Dogfood/blob/d4b4498/research/website-inspiration/data/2026-11-02.json",
+      "notes": "Inherited from the published November 2 website research, which records Text review only. No visual assessment or quote-form interaction is implied.",
+      "observations": [
+        "The recorded copy presents a delivery promise, repeated quote links, and explanations of speed, quality, and transparency.",
+        "A quote-to-design-to-shipping sequence, customer case studies, and ownership/pricing FAQs explain the buying process."
+      ],
+      "limitations": [
+        "Text-only website reference, not an Instagram Reel.",
+        "The visual design, form behavior, and actual delivery performance have not been verified."
+      ],
+      "audioReviewed": false
+    },
+    "build": {
+      "status": "planned",
+      "url": null
+    },
+    "brief": {
+      "goal": "Create an original cabinet-workshop site that explains a realistic project process and helps visitors draft a project outline without suggesting a binding price or delivery commitment.",
+      "features": [
+        "A four-stage process: describe the space, review options, confirm measurements, and agree a build plan.",
+        "A three-step local quote outline covering room type, approximate size, and preferred finish.",
+        "An editable review screen and downloadable project summary, with no contact details requested.",
+        "FAQs explaining measurement, revisions, and what a real estimate would require; examples labeled as illustrative."
+      ],
+      "steps": [
+        "Define sample choices and validation rules for the project outline.",
+        "Build the process section and FAQs with native accessible disclosure controls.",
+        "Implement forward, back, edit, reset, and summary download in browser memory.",
+        "Test invalid steps, repeated edits, resets, and the full mobile flow."
+      ],
+      "acceptance": [
+        "Visitors cannot advance past required choices without a specific inline error.",
+        "Back and edit actions preserve choices; reset clears the whole outline.",
+        "The downloaded summary matches the final choices and says that no request was submitted.",
+        "No price, lead time, or testimonial is presented as a verified business claim."
+      ],
+      "outOfScope": [
+        "Binding estimates, file uploads, CRM submissions, deposits, and live availability.",
+        "Copying Podium's claims, case studies, brand, page design, or code."
+      ],
+      "existingPattern": "Observed reference pattern: Process sequence, Quote builder, Buyer FAQs. Visible examples are evidence of a design pattern, not proof of a working product or market demand.",
+      "specificImprovement": "Reduce the unknowns before an enquiry with a visible process, useful FAQs, and a lightweight quote builder.",
+      "targetBuyerProblem": "A small custom-cabinet workshop wants prospective customers to understand the process and assemble a useful project outline before a conversation.",
+      "newCapability": "None required. Use familiar browser capabilities first; add a newer tool only if it demonstrably improves this workflow.",
+      "validationTest": "Build the smallest local demo and ask three representative business owners to complete its main task. Record completion, confusion, and whether the proposed improvement solves a real problem before adding integrations. This is a future validation plan, not authorization for outreach.",
+      "missingEvidence": [
+        "Independent proof that the source implementation works end to end.",
+        "Evidence of demand from the target buyer and a measured improvement over their current process.",
+        "Verified publication and relevant tool/version dates."
+      ]
+    },
+    "popularity": {
+      "views": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "likes": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "comments": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "followers": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "subscribers": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      },
+      "reposts": {
+        "value": null,
+        "display": null,
+        "status": "unknown",
+        "observedAt": null,
+        "sourceUrl": null
+      }
+    },
+    "evidence": {
+      "sourceIdentity": {
+        "status": "attributed",
+        "notes": "Public source attribution identifies the publishing account or company, not an independently established real-world identity."
+      },
+      "publicVisibility": {
+        "status": "observed-public",
+        "notes": "Public company website recorded in the published website research."
+      },
+      "observedContent": {
+        "status": "text",
+        "notes": "Inherited review method retained from the published November 2 research."
+      },
+      "functioningArtifact": {
+        "status": "unverified",
+        "notes": "The underlying site, interactions, and backend were not independently tested."
+      },
+      "reproducibleSteps": {
+        "status": "not-tested",
+        "notes": "Source workflow steps have not been independently reproduced."
+      },
+      "outcomeClaims": {
+        "status": "unverified",
+        "notes": "No business, conversion, revenue, or performance outcome is independently verified. Popularity is not proof."
+      },
+      "aiContentLabel": {
+        "status": "unknown",
+        "notes": "AI-content labeling was not established by the supplied review."
+      }
+    },
+    "freshness": {
+      "publishedOn": null,
+      "publicationEvidenceUrl": null,
+      "toolVersionDate": null,
+      "toolVersionLabel": null,
+      "toolVersionEvidenceUrl": null,
+      "role": "undated",
+      "caveat": "Publication and relevant tool/version dates are unverified. Review date is not publication date. Use as pattern inspiration, not current setup guidance."
+    },
+    "novelty": {
+      "status": "unassessed",
+      "notes": "No genuinely new capability or improvement over alternatives has been independently established by this review.",
+      "evidenceUrl": null
+    }
+  }
+]

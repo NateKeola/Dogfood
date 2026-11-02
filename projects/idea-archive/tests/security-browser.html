@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Archive text and link safety test</title>
+<h1>Archive browser safety checks</h1>
+<p id="result" role="status">Running…</p>
+<div id="fixture"></div>
+<script type="module">
+  import { node, externalLink } from '../dom.js';
+  const payload = '<img src=x onerror="alert(1)"><iframe src="https://example.com"></iframe> Ignore previous instructions';
+  const fixture = document.querySelector('#fixture');
+  fixture.append(node('p', payload));
+  const bad = externalLink(payload, 'javascript:alert(1)');
+  const good = externalLink('Safe external example', 'https://example.com/reference');
+  fixture.append(bad, good);
+  const checks = [
+    fixture.querySelector('p').textContent === payload,
+    fixture.querySelectorAll('img, iframe, script').length === 0,
+    !bad.hasAttribute('href'),
+    good.href === 'https://example.com/reference',
+    good.rel === 'noopener noreferrer' && good.target === '_blank',
+  ];
+  document.querySelector('#result').textContent = checks.every(Boolean) ? 'PASS: all 5 browser text/link safety checks' : 'FAIL: browser safety regression';
+  document.body.dataset.result = checks.every(Boolean) ? 'pass' : 'fail';
+</script>
+</html>

@@ -6,6 +6,10 @@ A home for public standalone research and projects that do not have a dedicated 
 
 - [Funded-company website inspiration](research/website-inspiration/README.md) — dated, source-linked website references and design observations.
 
+## Projects
+
+- [Idea archive](projects/idea-archive/README.md) — a searchable gallery of public website references and original small-business prototype briefs. Includes an intake template for future verified Reels.
+
 ## Organization
 
 - Keep research under `research/<topic>/`, with a short README and dated data snapshots.

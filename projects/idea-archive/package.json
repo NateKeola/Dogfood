@@ -1,0 +1,14 @@
+{
+  "name": "dogfood-idea-archive",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "lint": "node --check app.js && node --check archive.js && node --check dom.js && node --check scripts/validate.mjs && node --check scripts/build.mjs && node --check scripts/serve.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "engines": { "node": ">=22" }
+}
