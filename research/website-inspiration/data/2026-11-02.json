@@ -1,0 +1,222 @@
+[
+  {
+    "date_added": "2026-11-02",
+    "company": "Flow Engineering",
+    "website": "https://www.flowengineering.com/",
+    "industry": "Hardware engineering / development software",
+    "funding_date": "2026-09-30",
+    "round_amount": "Series B / $50M",
+    "funding_source": "https://www.flowengineering.com/blog/series-b-press-release",
+    "design_inspiration": "Connects requirements, design, CAD and testing through a single systems-graph story. Numbered sections and concrete feature groups explain dependencies and change propagation, while named engineer testimonials and customer stories substantiate the workflow pitch.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-02",
+    "company": "Type One Energy",
+    "website": "https://typeoneenergy.com/",
+    "industry": "Energy / stellarator fusion",
+    "funding_date": "2026-10-06",
+    "round_amount": "Series B / $200M",
+    "funding_source": "https://typeoneenergy.com/insights-announcements/type-one-energy-completes-200m-series-b-financing/",
+    "design_inspiration": "Navigation separates an introductory What is Fusion explanation from the company's technology and commercialization strategy. The homepage connects stellarator technology to a named TVA site and timeline, giving readers a concrete project behind the broad energy mission.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-02",
+    "company": "Reverion",
+    "website": "https://reverion.com/en/",
+    "industry": "Energy / reversible fuel-cell power plants",
+    "funding_date": "2026-09-29",
+    "round_amount": "Series B / $175M",
+    "funding_source": "https://reverion.com/en/reverion-raises-175m-series-b-to-scale-production-of-its-dispatchable-carbon-negative-power-plants-tenfold/",
+    "design_inspiration": "Named Reverion M and H products sit alongside Projects and Technology navigation, separating buying and learning paths. A specific carbon-removal partnership grounds the environmental mission, with distinct team, careers and sales-contact routes for different audiences.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-02",
+    "company": "Podium Automation",
+    "website": "https://www.podiumautomation.com/",
+    "industry": "Industrial manufacturing / control panels",
+    "funding_date": "2026-06-15",
+    "round_amount": "Series A / $18M",
+    "funding_source": "https://www.prnewswire.com/news-releases/podium-automation-raises-18m-series-a-to-modernize-the-backbone-of-industrial-automation-302800209.html",
+    "design_inspiration": "Leads with a concrete delivery promise and repeated quote links, then explains speed, quality and transparency. A quote-to-design-to-shipping sequence, named customer case studies and detailed ownership/pricing FAQs reduce uncertainty for industrial buyers.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-02",
+    "company": "Gravis Robotics",
+    "website": "https://www.gravisrobotics.com/",
+    "industry": "Construction / autonomous earthmoving",
+    "funding_date": "2026-08-17",
+    "round_amount": "Series A / $200M",
+    "funding_source": "https://www.gravisrobotics.com/series-a",
+    "design_inspiration": "Explains retrofitting existing construction machines before presenting productivity, safety, predictability and simplicity benefits. A separate Gravis Rack hardware route lets technical readers go deeper without interrupting the operator-focused introduction.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-02",
+    "company": "Aina",
+    "website": "https://www.aina.com/",
+    "industry": "Consumer hardware / context-aware AI wearable",
+    "funding_date": "2026-07-16",
+    "round_amount": "Seed / $5.5M",
+    "funding_source": "https://www.globenewswire.com/news-release/2026/07/16/3328464/0/en/aina-raises-5-5m-with-new-hardware-interface-for-the-age-of-ai-beyond-touchscreens-and-keyboards.html",
+    "design_inspiration": "Everyday task categories such as rides, calls and notetaking make an unfamiliar interface tangible. Parallel Tell It and Let Aina Surface It sequences distinguish explicit commands from contextual suggestions, and both explicitly describe a human-approval step in the copy.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-02",
+    "company": "Greyparrot",
+    "website": "https://www.greyparrot.ai/",
+    "industry": "Recycling / AI waste intelligence",
+    "funding_date": "2026-07-28",
+    "round_amount": "Series B / $27M",
+    "funding_source": "https://www.greyparrot.ai/series-b",
+    "design_inspiration": "A darkened overhead recycling image supports oversized white type and selective magenta accents. A clear How it works button anchors the hero; recovery-versus-packaging audience routes then connect the broad waste-intelligence promise to specific buyers.",
+    "review_method": "Visual + text"
+  },
+  {
+    "date_added": "2026-11-02",
+    "company": "WILDE",
+    "website": "https://www.wildebrands.com/",
+    "industry": "Consumer food / protein snacks",
+    "funding_date": "2026-10-22",
+    "round_amount": "Investment / $40M; round type unspecified",
+    "funding_source": "https://www.prnewswire.com/news-releases/wilde-raises-40-million-from-s2g-investments-to-accelerate-its-rise-in-protein-snacking-302917127.html",
+    "design_inspiration": "A black hero combines oversized condensed cream type, torn-paper edges and an angled collage of brightly colored packaging. Yellow Shop Crackers and Shop Chips buttons make the two product paths distinct, while the prominent store locator supports retail discovery.",
+    "review_method": "Visual + text"
+  },
+  {
+    "date_added": "2026-11-02",
+    "company": "9amHealth",
+    "website": "https://join9am.com/",
+    "industry": "Digital health / chronic-condition care",
+    "funding_date": "2026-05-13",
+    "round_amount": "Series B / $26M",
+    "funding_source": "https://www.prnewswire.com/news-releases/9amhealth-raises-26m-to-expand-into-chronic-conditions-driving-the-majority-of-employer-pharmacy-spend-302769972.html",
+    "design_inspiration": "Separates what the service treats from how care is delivered, then walks through evaluation, care plan, prescriptions and ongoing support. Named clinicians and credentials follow the practical process, making the service less abstract.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-02",
+    "company": "Afresh",
+    "website": "https://www.afresh.com/",
+    "industry": "Food retail / grocery operations software",
+    "funding_date": "2026-04-21",
+    "round_amount": "New funding / $34M; round type unspecified",
+    "funding_source": "https://www.prnewswire.com/news-releases/afresh-raises-34m-to-scale-ai-across-the-grocery-industry--driving-fresher-food-stronger-margins-and-less-waste-302747794.html",
+    "design_inspiration": "Organizes solutions around grocery jobs such as ordering, inventory, production and recipe management. Department navigation and operations, merchandising, IT and executive benefit sections give different buyers specific routes into one broad platform.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-02",
+    "company": "Courier Health",
+    "website": "https://www.courierhealth.com/",
+    "industry": "Life sciences / patient-experience software",
+    "funding_date": "2026-04-22",
+    "round_amount": "Series B / $50M",
+    "funding_source": "https://www.prnewswire.com/news-releases/courier-health-raises-50-million-series-b-to-revolutionize-the-biopharma-patient-experience-302749752.html",
+    "design_inspiration": "Explains the platform through a three-part progression: visibility into the patient journey, workflow orchestration and engagement. Each stage has its own detail link, followed by customer outcome measures and named testimonials.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-02",
+    "company": "Estuary Biotherapeutics",
+    "website": "https://estuarybio.com/",
+    "industry": "Biotechnology / kidney gene therapies",
+    "funding_date": "2026-10-16",
+    "round_amount": "Series A / $93M; $103M total committed financing including $10M seed",
+    "funding_source": "https://estuarybio.com/news/estuary-series-a",
+    "design_inspiration": "Introduces the disease burden before explaining mechanism, local delivery and the shared pipeline approach. Named programs, linked publications and separate general, business-development and investor contacts make the scientific story easy to navigate.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-02",
+    "company": "Vista AI",
+    "website": "https://vista.ai/",
+    "industry": "Medical imaging / MRI automation",
+    "funding_date": "2026-01-14",
+    "round_amount": "Series B / $29.5M",
+    "funding_source": "https://www.prnewswire.com/news-releases/vista-ai-secures-29-5m-in-series-b-funding-as-health-systems-back-automated-mri-scanning-302660821.html",
+    "design_inspiration": "Pairs an explanation route with a demo CTA, then translates automation into staffing, throughput and consistency benefits. An overview-video link and named clinician testimony appear after the product explanation, giving buyers a clear path from promise to evidence.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-02",
+    "company": "GrubMarket",
+    "website": "https://www.grubmarket.com/hello/",
+    "industry": "Food supply chain / commerce and software",
+    "funding_date": "2026-02-02",
+    "round_amount": "Series H / approximately $50M",
+    "funding_source": "https://www.prnewswire.com/news-releases/grubmarket-raises-50-million-series-h-to-fuel-ecommerce-and-ai-transformation-of-the-american-food-supply-chain-industry-302675822.html",
+    "design_inspiration": "The landing page separates wholesale buying, ERP software, enterprise AI, delivery and sustainability before expanding each offer. Distinct commerce and software links prevent the company's broad food-supply-chain proposition from becoming a single undifferentiated pitch.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-02",
+    "company": "Convex",
+    "website": "https://www.convex.dev/",
+    "industry": "Developer infrastructure / reactive backend",
+    "funding_date": "2026-08-04",
+    "round_amount": "Series B / $57M",
+    "funding_source": "https://news.convex.dev/convex-raises-57m/",
+    "design_inspiration": "Pairs documentation and start-building routes with concrete backend guarantees, then introduces reusable components with installation snippets. Named founder credentials and an enterprise section add a separate trust path for larger buyers.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-02",
+    "company": "Rundoo",
+    "website": "https://rundoo.ai/",
+    "industry": "Retail software / independent supply stores",
+    "funding_date": "2026-08-19",
+    "round_amount": "Series B / $30M; $48M total funding",
+    "funding_source": "https://rundoo.ai/b/press-release/",
+    "design_inspiration": "Names specific store types in its opening pitch and uses a signed-client-T-shirt story to make customer relationships tangible. Dated owner feedback and a link explaining outcome measurement ground the migration promise in evidence.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-02",
+    "company": "Spring",
+    "website": "https://www.spring.ai/",
+    "industry": "Fintech / small-business working capital",
+    "funding_date": "2026-04-10",
+    "round_amount": "Equity funding / $25M; round stage not specified in announcement",
+    "funding_source": "https://www.spring.ai/blog/spring-closes-25-million-equity-funding",
+    "design_inspiration": "Explains funding as three concrete steps: answer questions, connect accounts and take an offer. Product navigation distinguishes invoice, purchase-order, demand-plan and bridge financing, with separate pricing, FAQs and product-tour routes.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-02",
+    "company": "Blacksmith",
+    "website": "https://www.blacksmith.sh/",
+    "industry": "Developer tools / CI infrastructure",
+    "funding_date": "2026-08-12",
+    "round_amount": "Series B / $45M",
+    "funding_source": "https://www.prnewswire.com/news-releases/blacksmith-raises-45m-series-b-from-peak-xv-partners-as-ai-generated-code-drives-demand-for-faster-code-validation-302849104.html",
+    "design_inspiration": "Starts with a familiar GitHub Actions configuration snippet, then breaks the benefit into hardware, caching and Docker builds. A technology-specific comparison selector and named customer stories make the performance proposition concrete.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-02",
+    "company": "Kastle",
+    "website": "https://www.kastle.ai/",
+    "industry": "Financial services / loan operations software",
+    "funding_date": "2026-09-17",
+    "round_amount": "Series A / $24M",
+    "funding_source": "https://www.prnewswire.com/news-releases/kastle-raises-24m-series-a-led-by-insight-partners-to-build-the-ai-workforce-for-banking-operations-302881290.html",
+    "design_inspiration": "Organizes agents by familiar loan-operation roles, then explains implementation through connect, preserve existing procedures and monitor stages. Example call-volume and payment metrics show what operators would track instead of relying only on abstract AI claims.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-02",
+    "company": "Mews",
+    "website": "https://www.mews.com/en",
+    "industry": "Hospitality / hotel management software",
+    "funding_date": "2026-01-22",
+    "round_amount": "Series D / $300M; subject to customary regulatory closing conditions at announcement",
+    "funding_source": "https://www.mews.com/en/press/mews-secures-300-million-investment",
+    "design_inspiration": "Offers routes by property type and by staff role, then groups the platform into property management, point of sale, payments and revenue management. Linked customer outcomes and an integrations marketplace help visitors evaluate fit before a demo.",
+    "review_method": "Text"
+  }
+]

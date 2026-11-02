@@ -77,3 +77,12 @@ The source tracker was read back and the export checked: 20 records, 20 distinct
 - Includes industrial automation, fusion power, orbital transportation, energy storage, sleep hardware, microbiome testing, biotechnology, mobile development, workforce learning, government software and home exchange.
 - Funding descriptions retain initial versus final closes, callable future equity, convertible instruments, combined rounds, primary-financing and undisclosed-round qualifiers.
 - Validation: 20 new canonical domains, nine populated fields per record, qualifying announcement dates, and working-tracker readback with prior records preserved. Public research only; no private workspace identifiers.
+
+## November 2 collection
+
+- [2026-11-02 data (JSON)](data/2026-11-02.json) — 20 additional companies; 140 distinct company domains across all seven collections.
+- Funding announcements fall within November 2, 2025–November 2, 2026 and are backed by company announcements or attributable company-issued releases.
+- 2 sites visually reviewed (WILDE and Greyparrot); 18 reviewed by text only. Each record states its method. Text notes describe content, navigation and messaging, not verified visual appearance.
+- Includes hardware engineering, fusion power, industrial energy, construction robotics, recycling, food, chronic-condition care, biotechnology, retail software, finance and hospitality.
+- Funding descriptions retain unspecified round types, approximate amounts, total-committed-financing and closing-condition qualifiers. Reverion's funding date follows the September 29 release dateline; its page publication label says September 28.
+- Validation: 20 new canonical domains, nine populated fields per record, qualifying announcement dates, and working-tracker readback with prior records preserved. Public research only; no private workspace identifiers.
