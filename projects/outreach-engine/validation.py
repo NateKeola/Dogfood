@@ -139,6 +139,11 @@ def validate(value, kind):
         if type(data) in (int, float):
             require(schema.get('minimum', float('-inf')) <= data <= schema.get('maximum', float('inf')), location + ': out of range')
     visit(value, SCHEMA['$defs'][kind], kind)
+    if kind == 'icp':
+        from profiles import get_profile
+        profile = get_profile(value)
+        require(not profile.requires_catalog or type(value['catalog_min_products']) is int,
+                'Catalog profile requires a numeric catalog_min_products')
     if kind == 'candidate':
         host = domain(value['website'])
         require(value['synthetic'] == host.endswith('.example'), 'Synthetic candidates must use .example; real candidates cannot')

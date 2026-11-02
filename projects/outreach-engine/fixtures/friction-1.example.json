@@ -9,5 +9,6 @@
   "result": "friction",
   "confidence": "medium",
   "reference": null,
-  "cause_hypothesis": null
+  "cause_hypothesis": null,
+  "origin": "synthetic"
 }

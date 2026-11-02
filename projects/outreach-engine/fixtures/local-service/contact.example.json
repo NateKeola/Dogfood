@@ -1,0 +1,14 @@
+{
+  "id": "mainline-1",
+  "kind": "phone",
+  "value": "+12025550102",
+  "route": "business_mainline",
+  "person": null,
+  "role": "Ask for the service operations owner",
+  "source_url": "https://beacon-repairs.example/contact",
+  "checked_at": "2026-11-02T00:00:00Z",
+  "provenance": "official_site",
+  "verification": "not_checked",
+  "verification_source": null,
+  "verified_at": null
+}

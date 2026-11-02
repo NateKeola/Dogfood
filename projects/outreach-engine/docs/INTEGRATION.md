@@ -4,6 +4,8 @@ Outreach-Engine owns **ICP, batches, review checkpoints and local orchestration*
 
 This contract was inspected against workbench commit [`0610a5d81a4f60902cca81a7c20ae24d19887e4e`](https://github.com/NateKeola/Dogfood/tree/0610a5d81a4f60902cca81a7c20ae24d19887e4e/projects/business-research-engine), draft PR #1. There is **no automatic snapshot adapter yet**. The current manual bridge below is usable and deliberately requires re-review. No workbench files, browser tabs, storage or servers were changed.
 
+The industry-agnostic follow-up adds [built-in audit profiles](PROFILES.md) to this orchestration layer. The workbench remains the source of historical observations, not approvals. Use `origin=manual` only for a fresh direct observation, `agent` for suggestions, and leave unknown provenance unspecified. A new recheck can reference the earlier evidence ID; neither an imported origin claim nor an analyst checkbox is independent truth. Existing snapshot dates retain their original precision. Old approvals without the new policy fingerprint require re-review, and the usage-event schema is unchanged.
+
 ## Exact source shape and manual adapter rules
 
 The workbench's private JSON snapshot is `{version: 1, exportedOn, note, candidates}`. Its `exportedOn` and `checkedOn` fields are calendar dates, not exact observation timestamps. Its private summary CSV contains `name,city,region,website,presence,health,priority,fictional`; it lacks sufficient evidence for automatic approval and is not an intake contract.

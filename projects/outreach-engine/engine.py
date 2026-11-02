@@ -15,9 +15,10 @@ import uuid
 
 from validation import (ROOT, MAX_BYTES, Invalid, domain, load_json, normalized_name,
                         require, safe_url, timestamp, utcnow, validate)
+from profiles import (AUDIT_KINDS, DEFAULT_PROFILE, get_profile, profile_catalog,
+                      profile_contract)
 
 GATES = ('identity', 'fit', 'pain', 'contact', 'value', 'call-ready')
-AUDIT_KINDS = ('search-control', 'search-descriptive', 'search-attribute', 'filtering', 'variant', 'guided')
 PROVIDERS = {
     'manual': {'enabled': True, 'purpose': 'Local import and review task preparation', 'network': False},
     'exa': {'enabled': False, 'purpose': 'Optional future licensed discovery', 'network': False},
@@ -137,7 +138,11 @@ class Engine:
     def config(self):
         row = self.db.execute("SELECT value FROM meta WHERE key='icp'").fetchone()
         require(row is not None, 'Initialize an ICP first')
-        return json.loads(row[0])
+        return validate(json.loads(row[0]), 'icp')
+
+    def review_context(self):
+        config = self.config()
+        return digest({'icp': config, 'contract': profile_contract(config)})
 
     def init(self, config):
         validate(config, 'icp')
@@ -279,6 +284,10 @@ class Engine:
         candidate = self.candidate(cid)
         if kind == 'evidence':
             require(domain(data['source_url']) == candidate['domain'] or data['kind'] in ('identity', 'fit'), 'Website behavior evidence must reference the candidate domain')
+            require(data.get('origin') != 'synthetic' or candidate['data']['synthetic'], 'Synthetic evidence cannot qualify a real candidate')
+            if data.get('rechecks_evidence_id'):
+                require(data.get('origin') in ('manual', 'synthetic'), 'Only a new observation may recheck an earlier suggestion')
+                require(data['rechecks_evidence_id'] in {item['id'] for item in self.records(cid, 'evidence')}, 'Unknown earlier evidence reference')
         if kind == 'contact':
             if data['provenance'] == 'official_site':
                 require(domain(data['source_url']) == candidate['domain'], 'Official contact source must be the candidate domain')
@@ -323,7 +332,10 @@ class Engine:
         row = self.db.execute('SELECT revision,data FROM reviews WHERE candidate=? AND gate=?', (cid, gate)).fetchone()
         if row is None or row['revision'] != self.candidate(cid)['revision']:
             return None
-        return json.loads(row['data'])
+        review = json.loads(row['data'])
+        # Missing context identifies a legacy decision. Retain it in the audit,
+        # but never reuse it under changed ICP/profile/provenance rules.
+        return review if review.get('review_context') == self.review_context() else None
 
     def suppressed(self, cid):
         company = self.candidate(cid)
@@ -333,6 +345,7 @@ class Engine:
     def blockers(self, cid, gate, evidence_ids=(), contact_ids=(), acknowledge_conflicts=False):
         candidate = self.candidate(cid)
         data, config = candidate['data'], self.config()
+        profile = get_profile(config)
         reasons = []
         if self.suppressed(cid):
             reasons.append('suppressed_or_opted_out')
@@ -342,7 +355,8 @@ class Engine:
         all_contacts = self.records(cid, 'contact')
         require(set(evidence_ids) <= {x['id'] for x in all_evidence}, 'Unknown evidence reference')
         require(set(contact_ids) <= {x['id'] for x in all_contacts}, 'Unknown contact reference')
-        selected = [x for x in all_evidence if x['id'] in evidence_ids and self.fresh(x['checked_at'])]
+        selected = [x for x in all_evidence if x['id'] in evidence_ids and self.fresh(x['checked_at'])
+                    and (x.get('origin') == 'manual' or (data['synthetic'] and x.get('origin') == 'synthetic'))]
         has = lambda kind, result: any(x['kind'] == kind and x['result'] == result and x['confidence'] in ('medium', 'high') for x in selected)
         conflicts = self.conflicts(cid)
         if gate == 'identity':
@@ -353,7 +367,8 @@ class Engine:
             access = [x for x in all_evidence if x['kind'] == 'access']
             latest_time = max((x['checked_at'] for x in access), default=None)
             latest = [x for x in access if x['checked_at'] == latest_time]
-            if not has('access', 'pass') or not latest or any(x['result'] != 'pass' or x['id'] not in evidence_ids for x in latest):
+            eligible_ids = {x['id'] for x in selected if x['confidence'] in ('medium', 'high')}
+            if not has('access', 'pass') or not latest or any(x['result'] != 'pass' or x['id'] not in eligible_ids for x in latest):
                 reasons.append('latest_access_unknown_blocked_or_not_reviewed')
             if (conflicts['identity'] or any(x.startswith('identity:') for x in conflicts['evidence'])) and not acknowledge_conflicts:
                 reasons.append('identity_conflict_requires_explicit_review')
@@ -364,16 +379,16 @@ class Engine:
                 reasons.append('industry_outside_icp')
             if normalized_name(data['geography']) not in [normalized_name(x) for x in config['geographies']]:
                 reasons.append('geography_outside_icp')
-            if data['catalog_size'] is None or data['catalog_size'] < config['catalog_min_products']:
+            if profile.requires_catalog and (data['catalog_size'] is None or data['catalog_size'] < config['catalog_min_products']):
                 reasons.append('catalog_size_unknown_or_below_icp')
             if not data['maturity_evidence']:
                 reasons.append('maturity_evidence_unknown')
             if any(x.startswith('fit:') for x in conflicts['evidence']) and not acknowledge_conflicts:
                 reasons.append('conflicting_fit_evidence_requires_explicit_review')
         elif gate == 'pain':
-            if not has('search-control', 'pass'):
-                reasons.append('needs_successful_known_product_control')
-            friction = [x for x in selected if x['kind'] in AUDIT_KINDS and x['kind'] != 'search-control' and x['result'] == 'friction' and x['confidence'] in ('medium', 'high')]
+            if not has(profile.control_kind, 'pass'):
+                reasons.append(profile.control_blocker)
+            friction = [x for x in selected if x['kind'] in profile.friction_kinds and x['result'] == 'friction' and x['confidence'] in ('medium', 'high')]
             repeats = {}
             for item in friction:
                 repeats.setdefault((item['kind'], item['test_key']), set()).add(item['checked_at'])
@@ -398,7 +413,7 @@ class Engine:
                     reasons.append('human_' + prior + '_approval_no_longer_valid')
         return reasons
 
-    def review(self, cid, gate, decision, reviewer, rationale, evidence_ids=(), contact_ids=(), acknowledge_conflicts=False, simulation=False, expected_revision=None):
+    def review(self, cid, gate, decision, reviewer, rationale, evidence_ids=(), contact_ids=(), acknowledge_conflicts=False, simulation=False, expected_revision=None, expected_context=None):
         require(gate in GATES and decision in ('approve', 'hold', 'reject'), 'Invalid gate or decision')
         require(isinstance(reviewer, str) and 0 < len(reviewer.strip()) <= 160 and isinstance(rationale, str) and 10 <= len(rationale.strip()) <= 2000, 'Reviewer and specific rationale (10–2000 characters) required')
         require(not any(ord(c) < 32 for c in reviewer + rationale), 'Control characters not accepted')
@@ -409,6 +424,10 @@ class Engine:
             self.db.execute('BEGIN IMMEDIATE')
             candidate = self.candidate(cid)
             require(expected_revision is None or candidate['revision'] == expected_revision, 'Record changed after review; inspect again')
+            context = self.review_context()
+            require(expected_context is None or context == expected_context, 'ICP or profile policy changed after review; inspect again')
+            review['review_context'] = context
+            review['audit_profile'] = get_profile(self.config()).id
             require(not simulation or candidate['data']['synthetic'], 'Simulated reviews are restricted to synthetic candidates')
             blockers = self.blockers(cid, gate, evidence_ids, contact_ids, acknowledge_conflicts)
             require(decision != 'approve' or not blockers, 'Cannot approve: ' + ', '.join(blockers))
@@ -428,6 +447,8 @@ class Engine:
         ready = all(g['decision'] == 'approve' and not g['blockers'] for g in gates.values())
         return {'id': cid, 'name': candidate['data']['name'], 'website': candidate['data']['website'],
                 'synthetic': candidate['data']['synthetic'], 'revision': candidate['revision'],
+                'audit_profile': get_profile(self.config()).id,
+                'evidence_by_origin': {origin: sum(e.get('origin', 'legacy_unspecified') == origin for e in self.records(cid, 'evidence')) for origin in ('manual', 'agent', 'synthetic', 'legacy_unspecified')},
                 'state': ('demo_ready' if candidate['data']['synthetic'] else 'call_ready') if ready else ('suppressed' if self.suppressed(cid) else 'needs_review'),
                 'gates': gates, 'conflicts': self.conflicts(cid),
                 'contact_count': len(self.records(cid, 'contact')), 'email_missing': not any(x['kind'] == 'email' for x in self.records(cid, 'contact')),
@@ -435,7 +456,7 @@ class Engine:
 
     def summary(self):
         statuses = [self.status(cid) for cid in self.ids()]
-        return {'job': self.config()['name'], 'paused': self.paused(), 'candidates': len(statuses),
+        return {'job': self.config()['name'], 'audit_profile': get_profile(self.config()).id, 'paused': self.paused(), 'candidates': len(statuses),
                 'real_candidates': sum(not x['synthetic'] for x in statuses), 'synthetic_candidates': sum(x['synthetic'] for x in statuses),
                 'real_call_ready': sum(x['state'] == 'call_ready' for x in statuses), 'demo_ready': sum(x['state'] == 'demo_ready' for x in statuses),
                 'incomplete_candidates': sum(x['state'] == 'needs_review' for x in statuses),
@@ -481,6 +502,9 @@ class Engine:
                     break
                 revision = self.candidate(cid)['revision']
                 task = self.db.execute('SELECT * FROM tasks WHERE candidate=? AND revision=? AND provider=?', (cid, revision, provider)).fetchone()
+                context = self.review_context()
+                if task and json.loads(task['data']).get('review_context') != context:
+                    task = None
                 if task and (task['status'] != 'retryable_error' or task['attempts'] >= config['max_attempts'] or (task['next_retry'] and task['next_retry'] > utcnow())):
                     continue
                 attempts = task['attempts'] + 1 if task else 1
@@ -494,6 +518,7 @@ class Engine:
                     status = 'retryable_error' if attempts < config['max_attempts'] else 'failed'
                     data = {'error_type': type(exc).__name__, 'reason': 'Local preparation failed; inspect privately before retrying'}
                     next_retry = (dt.datetime.now(dt.timezone.utc) + dt.timedelta(seconds=min(60 * 2 ** (attempts - 1), 300))).replace(microsecond=0).isoformat().replace('+00:00', 'Z')
+                data['review_context'] = context
                 self.db.execute('INSERT OR REPLACE INTO tasks VALUES (?,?,?,?,?,?,?)', (cid, revision, provider, status, attempts, next_retry, compact(data)))
                 run = self.db.execute("SELECT value FROM meta WHERE key='run_id'").fetchone()
                 run_id = run[0] if run else 'run-' + digest(self.config())[:24]
@@ -534,7 +559,8 @@ class Engine:
         private_dir(directory)
         if kind == 'public-template':
             # Fixed original text only. No candidate, contact, source or research fields enter this path.
-            content = (ROOT / 'public-brief-template.txt').read_text(encoding='utf-8')
+            filename = 'public-service-brief-template.txt' if get_profile(self.config()).id == 'local-service-inquiry-v1' else 'public-brief-template.txt'
+            content = (ROOT / filename).read_text(encoding='utf-8')
             extension = 'txt'
         elif kind == 'usage':
             content = ''.join(compact(event) + '\n' for event in self.usage())
@@ -549,7 +575,7 @@ class Engine:
         else:
             output = io.StringIO(newline='')
             writer = csv.writer(output, quoting=csv.QUOTE_ALL)
-            headers = ['classification', 'id', 'business', 'website', 'state', 'phone', 'phone_route', 'person', 'role', 'phone_source', 'phone_checked_at', 'email', 'email_verification', 'email_source', 'email_checked_at', 'verification_source', 'verified_at', 'pain_evidence', 'question', 'demo_status', 'gates_remaining', 'permission_to_contact']
+            headers = ['classification', 'id', 'business', 'website', 'state', 'audit_profile', 'phone', 'phone_route', 'person', 'role', 'phone_source', 'phone_checked_at', 'email', 'email_verification', 'email_source', 'email_checked_at', 'verification_source', 'verified_at', 'pain_evidence', 'question', 'demo_status', 'gates_remaining', 'permission_to_contact']
             writer.writerow(headers)
             for cid in self.ids():
                 status = self.status(cid)
@@ -566,7 +592,7 @@ class Engine:
                 brief = briefs[-1] if briefs else {}
                 pain = [e for e in self.records(cid, 'evidence') if e['result'] == 'friction']
                 remaining = [gate for gate, details in status['gates'].items() if details['decision'] != 'approve' or details['blockers']]
-                row = ['SYNTHETIC DEMO' if status['synthetic'] else 'PRIVATE LOCAL', cid, status['name'], status['website'], status['state'], phone.get('value'), phone.get('route'), phone.get('person'), phone.get('role'), phone.get('source_url'), phone.get('checked_at'), email.get('value'), email.get('verification', 'missing'), email.get('source_url'), email.get('checked_at'), email.get('verification_source'), email.get('verified_at'), compact(pain), brief.get('question'), brief.get('build_status', 'missing'), ', '.join(remaining), 'false']
+                row = ['SYNTHETIC DEMO' if status['synthetic'] else 'PRIVATE LOCAL', cid, status['name'], status['website'], status['state'], status['audit_profile'], phone.get('value'), phone.get('route'), phone.get('person'), phone.get('role'), phone.get('source_url'), phone.get('checked_at'), email.get('value'), email.get('verification', 'missing'), email.get('source_url'), email.get('checked_at'), email.get('verification_source'), email.get('verified_at'), compact(pain), brief.get('question'), brief.get('build_status', 'missing'), ', '.join(remaining), 'false']
                 writer.writerow([csv_cell(value) for value in row])
             content, extension = output.getvalue(), 'csv'
         target = directory / (kind + '.' + extension)
@@ -589,11 +615,12 @@ class Engine:
 
 def human_confirmation(engine, cid, action):
     candidate = engine.candidate(cid)
+    context = engine.review_context()
     require(sys.stdin.isatty(), 'Human review requires an interactive terminal; imports, pipes and model output cannot approve gates')
     print(json.dumps(engine.inspect(cid), indent=2, ensure_ascii=True))
-    challenge = 'CONFIRM ' + cid + ' ' + action + ' r' + str(candidate['revision'])
+    challenge = 'CONFIRM ' + cid + ' ' + action + ' r' + str(candidate['revision']) + ' ' + context[:8]
     require(input('Review the current record above. Type "' + challenge + '": ').strip() == challenge, 'Review not confirmed')
-    return candidate['revision']
+    return candidate['revision'], context
 
 
 def main():
@@ -633,8 +660,10 @@ def main():
     p = commands.add_parser('suppress')
     p.add_argument('candidate')
     p.add_argument('--reason', required=True)
-    for name in ('pause', 'resume', 'summary', 'registry-summary', 'usage', 'providers', 'audit', 'demo'):
+    for name in ('pause', 'resume', 'summary', 'registry-summary', 'usage', 'providers', 'profiles', 'audit'):
         commands.add_parser(name)
+    p = commands.add_parser('demo')
+    p.add_argument('--profile', choices=[p['id'] for p in profile_catalog()], default=DEFAULT_PROFILE)
     args = parser.parse_args()
     require(re.fullmatch(r'[a-z0-9][a-z0-9-]{0,40}', args.workspace), 'Workspace must be a short lowercase name')
     private_dir(ROOT / '.local')
@@ -651,22 +680,23 @@ def main():
         elif command == 'amend':
             data = load_json(args.file)
             validate(data, 'candidate')
-            revision = human_confirmation(engine, args.candidate, 'amend')
+            revision, _ = human_confirmation(engine, args.candidate, 'amend')
             result = engine.amend(args.candidate, data, args.reviewer, args.rationale, expected_revision=revision)
         elif command == 'review':
-            revision = human_confirmation(engine, args.candidate, args.gate + ':' + args.decision)
-            result = engine.review(args.candidate, args.gate, args.decision, args.reviewer, args.rationale, args.evidence, args.contacts, args.acknowledge_conflicts, expected_revision=revision)
+            revision, context = human_confirmation(engine, args.candidate, args.gate + ':' + args.decision)
+            result = engine.review(args.candidate, args.gate, args.decision, args.reviewer, args.rationale, args.evidence, args.contacts, args.acknowledge_conflicts, expected_revision=revision, expected_context=context)
         elif command == 'run': result = engine.run(args.provider, args.limit)
         elif command == 'inspect': result = engine.inspect(args.candidate)
         elif command == 'summary': result = engine.summary()
         elif command == 'providers': result = PROVIDERS
+        elif command == 'profiles': result = profile_catalog()
         elif command == 'audit': result = engine.verify_audit()
         elif command in ('pause', 'resume'): result = engine.pause(command == 'pause')
         elif command == 'export': result = engine.export(args.kind, args.include_demo)
         elif command == 'suppress': result = engine.suppress(args.candidate, args.reason)
         elif command == 'demo':
             from demo import seed_demo
-            result = seed_demo(engine)
+            result = seed_demo(engine, args.profile)
         print(json.dumps(result, indent=2, ensure_ascii=True))
     finally:
         engine.close()

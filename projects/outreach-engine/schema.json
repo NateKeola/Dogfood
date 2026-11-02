@@ -85,7 +85,10 @@
           "uniqueItems": true
         },
         "catalog_min_products": {
-          "type": "integer",
+          "type": [
+            "integer",
+            "null"
+          ],
           "minimum": 1,
           "maximum": 10000000
         },
@@ -139,6 +142,14 @@
           "type": "integer",
           "minimum": 1,
           "maximum": 90
+        },
+        "audit_profile": {
+          "type": "string",
+          "enum": [
+            "catalog-discovery-v1",
+            "local-service-inquiry-v1"
+          ],
+          "description": "Optional selector for trusted built-in audit requirements; omitted selects the legacy catalog profile."
         }
       },
       "required": [
@@ -256,7 +267,12 @@
             "search-attribute",
             "filtering",
             "variant",
-            "guided"
+            "guided",
+            "service-control",
+            "inquiry-route",
+            "quote-clarity",
+            "service-area",
+            "contact-navigation"
           ]
         },
         "test_key": {
@@ -320,6 +336,25 @@
           ],
           "minLength": 1,
           "maxLength": 1000
+        },
+        "origin": {
+          "type": "string",
+          "enum": [
+            "manual",
+            "agent",
+            "synthetic",
+            "legacy_unspecified"
+          ],
+          "description": "Provenance assertion, never approval. Omitted legacy records stay unspecified and cannot satisfy gates."
+        },
+        "rechecks_evidence_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "maxLength": 80,
+          "description": "Optional link from a new observation to an earlier untrusted suggestion or legacy record."
         }
       },
       "required": [

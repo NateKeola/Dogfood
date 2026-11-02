@@ -9,5 +9,6 @@
   "result": "pass",
   "confidence": "medium",
   "reference": null,
-  "cause_hypothesis": null
+  "cause_hypothesis": null,
+  "origin": "synthetic"
 }

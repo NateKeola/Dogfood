@@ -4,6 +4,8 @@ Research checked **November 2, 2026** against the primary pages linked below. Pr
 
 ## Recommended order
 
+**Free-first:** start from an appropriately licensed municipal/open dataset already available locally, or a user-authorized local export. Preserve its attribution, snapshot date and reuse limits; then spend review time on a bounded sample. Free public access is not blanket permission to collect/reuse data. No new dataset has been downloaded and no real leads have been collected in this follow-up. A future download requires its exact source/item, purpose, location and necessity to be explained first. Exa, Apollo, Hunter, Ahrefs and vidIQ remain optional, disabled or unconnected choices; none is required for the local core.
+
 | Need | Minimum pilot choice | Optional next integration | Access, quota, price and tradeoff |
 |---|---|---|---|
 | Company seeds | A permitted local CSV/JSON; official registry subsets | Exa Search API | Key and an approved account budget needed. Auto search: $7/1,000 requests for up to 10 results; Lite $4; Deep $12. More results/content options can add cost. Default search 10 QPS; deep modes 5 QPS. Search discovers candidates, not verified need. [Pricing](https://exa.ai/pricing), [limits](https://docs.exa.ai/reference/rate-limits), [API](https://docs.exa.ai/reference/search) |
@@ -47,3 +49,16 @@ Google Maps/Places must not become the exportable prospect database for this MVP
 Before any real external adapter is implemented: establish permitted use and retention; choose the exact endpoint; obtain user-authorized app credentials through an approved secret store; check the actual account's limits; approve an explicit sample and cost cap; implement least-privilege access, payload minimization, time/size bounds, safe retries and spend reservation/reconciliation; and test with synthetic responses first. Provider credentials are never extracted from assistant connectors. Agents may propose evidence and briefs; only the reviewer may approve gates.
 
 A future browser/network adapter also needs allowlisted public targets, public DNS/IP checks before connection and on every redirect, loopback/private/link-local/metadata blocking, DNS-rebinding defenses, redirect/time/byte caps and no credential forwarding. The current metadata URL validator is intentionally not represented as that implementation.
+
+## Output parity and proprietary coverage
+
+Work backward from a useful decision, then identify the minimum evidence needed. This product can prepare an opportunity list from permitted inputs, compare observed tasks/unknowns across a scoped set of businesses, keep provenance/freshness, and track reviewed outcomes. Current outputs use explicit gate states and per-origin counts rather than a universal opportunity score. If a later score is useful, expose its observed inputs, missingness and rubric; it cannot convert a suggestion or popularity signal into verified demand.
+
+| Desired output | What the local workflow can support | Coverage it does not have |
+|---|---|---|
+| Opportunity list | Permitted local seeds, dedup, profile-specific observations and human-reviewed next steps | A complete census or automatically verified list of willing buyers |
+| Website comparison | The same bounded tasks and evidence rules applied to selected sites | A global backlink/link-history index, broad keyword-volume/ranking coverage or proprietary competitive datasets |
+| Video/idea comparison | Curated permitted references and explicitly observed metrics/context | Platform-wide historical video-performance coverage, hidden analytics or a proprietary recommendation dataset |
+| Value/prototype brief | Original task-specific plan, simulation limits and measurable test | Proven ROI, sales conversion or customer demand without actual evidence |
+
+Ahrefs and vidIQ can remain optional evaluation candidates if a later requirement genuinely needs their available licensed data/workflows. The user does not currently use them; this engine assumes neither accounts nor data rights and does not promise to reproduce their proprietary indexes. Recreating a useful output format or review workflow is different from possessing the data coverage behind it. Any later adapter needs current capability/terms verification and separate access/budget approval; no new product claims or price estimates were researched for this follow-up.

@@ -10,7 +10,8 @@
     "result": "pass",
     "confidence": "medium",
     "reference": null,
-    "cause_hypothesis": null
+    "cause_hypothesis": null,
+    "origin": "synthetic"
   },
   {
     "id": "access-1",
@@ -23,7 +24,8 @@
     "result": "pass",
     "confidence": "medium",
     "reference": null,
-    "cause_hypothesis": null
+    "cause_hypothesis": null,
+    "origin": "synthetic"
   },
   {
     "id": "operations-1",
@@ -36,7 +38,8 @@
     "result": "pass",
     "confidence": "medium",
     "reference": null,
-    "cause_hypothesis": null
+    "cause_hypothesis": null,
+    "origin": "synthetic"
   },
   {
     "id": "fit-1",
@@ -49,7 +52,8 @@
     "result": "pass",
     "confidence": "medium",
     "reference": null,
-    "cause_hypothesis": null
+    "cause_hypothesis": null,
+    "origin": "synthetic"
   },
   {
     "id": "control-1",
@@ -62,7 +66,8 @@
     "result": "pass",
     "confidence": "medium",
     "reference": null,
-    "cause_hypothesis": null
+    "cause_hypothesis": null,
+    "origin": "synthetic"
   },
   {
     "id": "friction-1",
@@ -75,7 +80,8 @@
     "result": "friction",
     "confidence": "medium",
     "reference": null,
-    "cause_hypothesis": null
+    "cause_hypothesis": null,
+    "origin": "synthetic"
   },
   {
     "id": "friction-2",
@@ -88,6 +94,7 @@
     "result": "friction",
     "confidence": "medium",
     "reference": null,
-    "cause_hypothesis": "A query/catalog mismatch is a hypothesis; the search implementation is unknown."
+    "cause_hypothesis": "A query/catalog mismatch is a hypothesis; the search implementation is unknown.",
+    "origin": "synthetic"
   }
 ]

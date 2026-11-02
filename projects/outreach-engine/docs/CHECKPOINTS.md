@@ -9,8 +9,8 @@ The machine-readable contract is [`schema.json`](../schema.json), with `$defs` f
 | 0. Scope | ICP and source/budget proposal | Industry, geography, catalog threshold, buying workflow, maturity signals, exclusions, batch and query caps | Missing scope; no approved source/budget |
 | 1. Discovery/import | Source-attributed candidate records | Source rights and identity candidates; import is not qualification | Invalid row, unknown usage basis, known Maps seed, batch cap |
 | 2. Identity/access | Domain, branch, current operation and business relationship observations | `identity` gate cites fresh identity and operation passes plus the latest public-access pass | Conflicting identity, unverified operation, login, CAPTCHA, 403/429, timeout, unknown or stale access |
-| 3. Fit | Evidence for catalog, industry, geography, maturity and buying workflow | `fit` gate cites positive evidence and reviews every exclusion | Unknown/small catalog, outside scope, missing maturity evidence; age alone never proves need |
-| 4. Bounded audit | Known-product controls and observed discovery tasks | `pain` gate cites a successful exact control and the same friction reproduced at two distinct timestamps | Control fails, generic claim, low confidence, no reproducibility, conflicting evidence without acknowledgement |
+| 3. Fit | Evidence for industry, geography, maturity and buying workflow; catalog size when required by profile | `fit` gate cites positive evidence and reviews every exclusion | Profile-specific fit failure, outside scope, missing maturity evidence; age alone never proves need |
+| 4. Bounded audit | Known-product or known-service control and the selected profile's task observations | `pain` gate cites the profile's successful control and matching friction reproduced at two distinct timestamps | Control fails, wrong profile evidence, generic claim, low confidence, no reproducibility, conflicting evidence without acknowledgement |
 | 5. Contact | Official mainline first, then named professional role and optional licensed records | `contact` gate selects a fresh business phone and checks domain/source association | Missing or stale phone, invalidated number; no inferred phone/email |
 | 6. Value | Original specific brief; idea/cluster references and SEO planning link | `value` gate assesses plausible customer benefit, demo scope, simulation, measurement and pricing assumptions | Missing brief, unverified “built” claim; no automatic demand or ROI claims |
 | 7. Queue | Current gate state, evidence, contact provenance and suggested question | `call-ready` gate requires all five current approvals; remains preparation only | Suppression, stale evidence, changed revision, hold/reject/pending gates |
@@ -19,6 +19,8 @@ The machine-readable contract is [`schema.json`](../schema.json), with `$defs` f
 All reviews are `pending`, `approve`, `hold` or `reject`. Evidence results are `pass`, `friction`, `unknown`, `blocked` or `error`; there is no combined lead score. `blocked` and `error` are access/observation states, not judgments that the business has a problem. Confidence (`low/medium/high`) is an observer judgment, never an independent probability of truth.
 
 ## The search test card
+
+This card applies to `catalog-discovery-v1`. The [local-service profile](PROFILES.md) uses known-service and inquiry/quote checks instead; it never requires an SKU test. All evidence gates require manual observations or synthetic observations for synthetic candidates. Agent suggestions and unspecified legacy evidence cannot qualify a record.
 
 For each site, use a maximum of the configured query count (default **8**, hard maximum **12**) including repeated tests:
 
@@ -53,7 +55,7 @@ No email is required for a calling preparation queue; missing email is explicit.
 
 For future network adapters, this local retry behavior is insufficient by itself: respect `Retry-After`; distinguish blocked/denied/quota/unknown outcomes; persist request IDs and costs; reserve budget before dispatch; reconcile uncertain outcomes before retrying; never retry an irreversible action. No paid adapter exists today, so actual provider requests, spend and outreach counts are exactly zero. Configured budget fields are a future ceiling proposal, not approval or an enforced budget for an unimplemented service.
 
-Every new input revision invalidates prior approvals. Changing a preceding review also clears final call-ready approval. Freshness is reevaluated when listing and exporting, so a once-ready record can become incomplete without new input. Review confirmation is bound to the inspected revision; a concurrent change requires another review. The dry runner and imports cannot approve real records. A local owner or program able to call Python internals can bypass a CLI prompt; authenticated roles and an isolated approval service are prerequisites for multiuser/model execution.
+Every new input revision invalidates prior approvals. Changing a preceding review also clears final call-ready approval. The full ICP, built-in profile and shared policy version are fingerprinted; missing/changed fingerprints invalidate old approvals and re-prepare old tasks. Freshness is reevaluated when listing and exporting, so a once-ready record can become incomplete without new input. Review confirmation is bound to the inspected revision and policy context; a concurrent change requires another review. The dry runner and imports cannot approve real records. A local owner or program able to call Python internals can bypass a CLI prompt; authenticated roles and an isolated approval service are prerequisites for multiuser/model execution.
 
 ## Local-only exports
 

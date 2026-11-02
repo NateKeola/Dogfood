@@ -1,6 +1,6 @@
 # Outreach-Engine
 
-A local orchestration prototype for turning an ideal customer profile into an evidence-backed prospect review queue. Start with 100 **candidates**, qualify observable product-discovery friction, prepare original value briefs, and export a private call-preparation sheet. A candidate is not a qualified lead, a provider result is not independent verification, and a ready row is not permission to contact anyone.
+A local orchestration prototype for turning an ideal customer profile into an evidence-backed prospect review queue. Start with 100 **candidates**, qualify observable customer-task friction, prepare original value briefs, and export a private call-preparation sheet. The shared core supports built-in catalog discovery and local-service inquiry profiles. A candidate is not a qualified lead, a provider result is not independent verification, and a ready row is not permission to contact anyone.
 
 **Working now:** ICP configuration, JSON/CSV import, conservative identity deduplication, bounded evidence capture, professional contact records, six review gates, original prototype briefs, resumable dry runs, suppression and outcome logging, private exports and an inspectable audit trail. **Not implemented:** company discovery APIs, browser automation, model calls, enrichment, CRM sync, a web UI or any communication. These providers are visibly disabled; no credentials, packages, account or budget are needed.
 
@@ -21,6 +21,15 @@ python3 -B engine.py --workspace demo audit
 The demo imports **6 synthetic rows → 5 candidates**, including one exact duplicate, an identity conflict, an inaccessible-site example and missing data. **1 demo-ready, 0 real call-ready, 0 real leads, 0 live audits, 0 outreach.** Demo approval events are labeled simulations. Its brief is *planned*, not a built demo. Use another workspace name to rerun; seeding refuses a nonempty workspace. Fictional evidence timestamps are refreshed to exercise freshness gates, not to claim an observation happened.
 
 Outputs live in ignored `.local/demo/exports/`. Open `queue.csv` in a local spreadsheet or read `summary` in a terminal. No HTTP server or browser is used; desktop/mobile browser review is not applicable to this CLI.
+
+To inspect a second industry using the same core:
+
+```sh
+python3 -B engine.py profiles
+python3 -B engine.py --workspace service-demo demo --profile local-service-inquiry-v1
+```
+
+The service example has two synthetic candidates, one demo-ready and one with an unknown quote path. It requires a known-service control and repeated inquiry/quote friction, with no catalog or SKU requirement. Both profiles retain the same safety and human gates. See [profiles and migration](docs/PROFILES.md): old approvals need re-review under the new policy fingerprint; unspecified legacy and agent-origin evidence cannot satisfy gates.
 
 ## Start a real, private manual job
 
@@ -72,6 +81,8 @@ python3 -B engine.py --workspace pilot review CANDIDATE_ID value approve --revie
 python3 -B engine.py --workspace pilot review CANDIDATE_ID call-ready approve --reviewer "Your name" --rationale "Current evidence, contact route, original value brief and outstanding limits reviewed for preparation only."
 ```
 
+The examples above use the default catalog profile. For the service profile, select its service-control and repeated inquiry/quote evidence IDs instead. Record direct observations with `origin="manual"`; `agent` suggestions and evidence without a known origin remain pending context, not gate evidence. A new manual observation may reference an earlier record with `rechecks_evidence_id`. Confirmation also includes the policy fingerprint.
+
 Use `hold` or `reject` when evidence is missing or unfavorable. `--acknowledge-conflicts` records explicit human reconciliation with a specific rationale; it does not merge identities or delete conflicting observations. Review refuses noninteractive input, stale/insufficient evidence, suppressed records and a changed revision. A local program or user with filesystem access can modify Python or the DB; this is not an authenticated multiuser approval system. Never give a future model the review interface or a general shell tool.
 
 Correct metadata with `amend CANDIDATE_ID FILE --reviewer … --rationale …`, which also requires terminal confirmation. It preserves the identity key and synthetic classification, retains audit hashes and invalidates reviews. A different identity remains a separate candidate. Evidence/contact IDs are immutable: use a new ID for a new observation. The latest brief is current; older versions remain private in the record history.
@@ -91,7 +102,7 @@ python3 -B engine.py --workspace pilot outcome CANDIDATE_ID .local/pilot-input/a
 
 `private.json` includes all research, sources, contacts, reviews, briefs and actual outcome entries. `queue.csv` includes incomplete rows and outstanding gates; `ready.csv` rechecks current approvals and freshness and excludes incomplete or suppressed rows. Synthetic rows are excluded unless `--include-demo` is explicitly passed and remain labeled. Spreadsheet formula prefixes are neutralized, including leading `+` phone values; raw values remain in private JSON. Treat source prose as text and never run imported cells as instructions.
 
-`public-template.txt` exports **only a fixed generic original template**. It never receives any candidate, contact, source, private note or custom brief field. Custom briefs remain private pending a separate public-content review. Nothing is uploaded, emailed, called or published by an export. Every queue row has `permission_to_contact=false`.
+`public-template.txt` exports **only a fixed generic original template for the selected built-in profile**. It never receives any candidate, contact, source, private note or custom brief field. Custom briefs remain private pending a separate public-content review. Nothing is uploaded, emailed, called or published by an export. Every queue row has `permission_to_contact=false`.
 
 Outcome logging records an event that already occurred; it does not execute one. Track attempts, conversations, booked/held meetings, signed/paid pilots, measured results and channel attribution separately. `opt_out` suppresses the domain and currently known contact routes across branches **within this workspace**. Reimports cannot clear suppression. Cross-workspace suppression sync and an authenticated reversal process are future work; consolidate all suppressions before any later contact campaign. The current task authorizes no outreach.
 
@@ -115,3 +126,5 @@ Checks use only the standard library. Tests cover identity collisions, branch se
 For municipal seeds without known websites, use the working [registry staging/promotion module](docs/REGISTRIES.md); null website remains unknown. The [usage-event contract](docs/USAGE.md) exposes local JSONL for the separate spend dashboard.
 
 See [checkpoint/schema details](docs/CHECKPOINTS.md), [integration and cost research](docs/INTEGRATIONS.md), [workbench/SEO contracts](docs/INTEGRATION.md), and [pilot plan](docs/PILOT.md).
+
+The latest follow-up used only the existing checkout and installed standard library: **no new dataset, repository, package or export download, and no real leads collected**. The free-first plan uses permitted municipal/open data or user-authorized local exports, followed by bounded verification. Ahrefs and vidIQ are optional future tools, not dependencies; see the [output-parity limits](docs/INTEGRATIONS.md#output-parity-and-proprietary-coverage).

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "name": "Local service inquiry \u2014 synthetic profile",
+  "industries": [
+    "Home equipment repair"
+  ],
+  "geographies": [
+    "Example region"
+  ],
+  "maturity_signals": [
+    "Current offered services and public operating information; registry status alone is insufficient"
+  ],
+  "catalog_min_products": null,
+  "buying_workflow": "Customer identifies a repair service, checks service area and finds what is needed to request a quote",
+  "excluded_segments": [
+    "Emergency-only services",
+    "Businesses outside the agreed geography",
+    "Sensitive personal or household targeting"
+  ],
+  "batch_limit": 100,
+  "review_chunk": 10,
+  "max_audit_queries": 8,
+  "max_attempts": 3,
+  "provider_budget_cents": 0,
+  "provider_budget_credits": 0,
+  "freshness_days": 14,
+  "audit_profile": "local-service-inquiry-v1"
+}

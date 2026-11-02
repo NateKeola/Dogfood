@@ -8,7 +8,7 @@ from validation import ROOT, domain, load_json, require, validate
 
 
 def main():
-    runtime = ['engine.py', 'validation.py', 'demo.py']
+    runtime = ['engine.py', 'validation.py', 'demo.py', 'profiles.py']
     forbidden = ('socket', 'requests', 'http', 'urllib.request', 'subprocess', 'webbrowser', 'pickle')
     for file in runtime:
         tree = ast.parse((ROOT / file).read_text(), filename=file)
@@ -18,7 +18,7 @@ def main():
             if isinstance(node, ast.Call) and isinstance(node.func, ast.Name):
                 require(node.func.id not in ('eval', 'exec', '__import__'), file + ': dynamic execution added')
     count = 0
-    for path in sorted((ROOT / 'fixtures').glob('*.example.json')):
+    for path in sorted((ROOT / 'fixtures').rglob('*.example.json')):
         data = load_json(path)
         if path.name == 'candidates.example.json': kind, rows = 'candidate', data
         elif path.name == 'evidence.example.json': kind, rows = 'evidence', data

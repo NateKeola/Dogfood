@@ -9,5 +9,6 @@
   "result": "friction",
   "confidence": "medium",
   "reference": null,
-  "cause_hypothesis": "A query/catalog mismatch is a hypothesis; the search implementation is unknown."
+  "cause_hypothesis": "A query/catalog mismatch is a hypothesis; the search implementation is unknown.",
+  "origin": "synthetic"
 }

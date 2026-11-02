@@ -1,0 +1,25 @@
+{
+  "title": "Service inquiry preparation \u2014 original demo plan",
+  "problem": "SYNTHETIC: a visible quote link does not provide the prerequisites it promises.",
+  "improvement": "Show a clear service-area check, preparation checklist and next-step explanation.",
+  "demo_plan": "Build a local fictional three-service guide with a mock quote-preparation path. Do not submit to a real business.",
+  "simulated": "All businesses, service areas, inquiries, prices and appointments are fictional. No form is transmitted.",
+  "benefit_hypothesis": "A clearer preparation route may reduce confusion; demand, saved time and revenue effects are unknown.",
+  "measurement": "Compare whether reviewers can identify the next step and prerequisites on three held-out tasks, with task time and misunderstanding counts.",
+  "scope": [
+    "Fictional service descriptions",
+    "Static service-area explanation",
+    "Quote prerequisite checklist",
+    "Local non-submitting mock flow"
+  ],
+  "pricing_assumptions": "No quoted price. Time-box a prototype to two hours; scope, costs and commercial pricing require a separate agreement.",
+  "question": "What information do you need before you can quote a repair, and where do customers get stuck?",
+  "idea_ids": [],
+  "source_cluster_ids": [],
+  "seo_status": "pending",
+  "seo_reference": "https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md",
+  "build_status": "planned",
+  "artifact_ref": null,
+  "verified_at": null,
+  "verification_notes": null
+}

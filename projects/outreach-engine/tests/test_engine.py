@@ -10,6 +10,7 @@ from unittest.mock import patch
 
 from engine import Engine, GATES, candidate_id, csv_cell, human_confirmation, read_candidates
 from demo import seed_demo
+from profiles import DEFAULT_PROFILE, PROFILES
 from validation import ROOT, Invalid, domain, load_json, safe_url, utcnow, validate
 
 
@@ -445,6 +446,187 @@ class EngineTests(unittest.TestCase):
         self.assertEqual(self.engine.run()['processed'], 0)
         self.assertEqual(len(self.engine.usage()), 100)
         self.assertEqual(self.engine.summary()['incomplete_candidates'], 100)
+
+    def use_service_profile(self):
+        self.engine.close()
+        self.folder = Path(self.temp.name) / 'service-job'
+        self.engine = Engine(self.folder)
+        self.config = fixture('local-service/icp.example.json')
+        self.engine.init(self.config)
+        self.row = fixture('local-service/candidates.example.json')[0]
+        self.row['source']['checked_at'] = recent(10)
+        self.cid = candidate_id(self.row)
+
+    def service_inputs(self):
+        self.use_service_profile()
+        self.import_one()
+        evidence = fixture('local-service/evidence.example.json')
+        for i, item in enumerate(evidence):
+            item['checked_at'] = recent(8 - i)
+            self.engine.add_record(self.cid, 'evidence', item)
+        contact = fixture('local-service/contact.example.json')
+        contact['checked_at'] = recent(1)
+        self.engine.add_record(self.cid, 'contact', contact)
+        self.engine.add_record(self.cid, 'brief', fixture('local-service/brief.example.json'))
+        return [item['id'] for item in evidence]
+
+    def test_two_industries_reuse_core_without_creating_real_leads(self):
+        first = seed_demo(self.engine)['summary']
+        self.use_service_profile()
+        second = seed_demo(self.engine, 'local-service-inquiry-v1')['summary']
+        self.assertEqual((first['audit_profile'], second['audit_profile']), (DEFAULT_PROFILE, 'local-service-inquiry-v1'))
+        self.assertEqual((first['real_candidates'], second['real_candidates']), (0, 0))
+        self.assertEqual((first['demo_ready'], second['demo_ready']), (1, 1))
+        self.assertEqual(second['synthetic_candidates'], 2)
+        self.assertEqual(second['incomplete_candidates'], 1)
+        self.assertEqual(self.engine.run()['processed'], 0)
+        self.engine.suppress(self.engine.ids()[0], 'Same shared suppression gate')
+        self.assertEqual(self.engine.summary()['demo_ready'], 0)
+
+    def test_service_profile_qualifies_without_catalog_or_sku(self):
+        refs = self.service_inputs()
+        self.assertIsNone(self.row['catalog_size'])
+        self.assertFalse(any(e['kind'].startswith('search-') for e in self.engine.records(self.cid, 'evidence')))
+        for gate in GATES:
+            self.approve(gate, refs, ['mainline-1'])
+        self.assertEqual(self.engine.status(self.cid)['state'], 'demo_ready')
+        self.assertEqual(self.engine.status(self.cid)['evidence_by_origin']['synthetic'], 7)
+
+    def test_service_control_and_repetition_cannot_be_waived(self):
+        refs = self.service_inputs()
+        with self.assertRaisesRegex(Invalid, 'known_service_control'):
+            self.approve('pain', ['quote-1', 'quote-2'])
+        with self.assertRaisesRegex(Invalid, 'two_distinct_times'):
+            self.approve('pain', ['service-control-1', 'quote-1'])
+        self.approve('pain', refs)
+
+    def test_profile_specific_pain_cannot_use_other_industry_evidence(self):
+        self.use_service_profile()
+        self.import_one()
+        refs = []
+        for i, record in enumerate(fixture('evidence.example.json')):
+            record.update(source_url=self.row['website'], checked_at=recent(8 - i))
+            self.engine.add_record(self.cid, 'evidence', record)
+            refs.append(record['id'])
+        with self.assertRaisesRegex(Invalid, 'known_service_control'):
+            self.approve('pain', refs)
+
+    def test_catalog_profile_still_requires_catalog_fit_and_search_control(self):
+        self.import_one()
+        refs = []
+        for i, record in enumerate(fixture('local-service/evidence.example.json')):
+            record.update(source_url=self.row['website'], checked_at=recent(8 - i))
+            self.engine.add_record(self.cid, 'evidence', record)
+            refs.append(record['id'])
+        with self.assertRaisesRegex(Invalid, 'known_product_control'):
+            self.approve('pain', refs)
+        self.engine.amend(self.cid, dict(self.row, catalog_size=None), 'Test', 'Catalog size is unverified.')
+        with self.assertRaisesRegex(Invalid, 'catalog_size_unknown'):
+            self.approve('fit', refs)
+
+    def test_imported_profile_cannot_override_policy_or_run_code(self):
+        for extra in ({'skip_suppression': True}, {'pain_requirements': []}, {'require_human': False}, {'command': 'run-untrusted-code'}, {'audit_profile': {'control_kind': None}}, {'audit_profile': 'file:///untrusted.py'}, {'max_audit_queries': 0}):
+            with self.subTest(extra=extra), self.assertRaises(Invalid):
+                validate({**self.config, **extra}, 'icp')
+        with self.assertRaises(TypeError):
+            PROFILES['unsafe'] = PROFILES[DEFAULT_PROFILE]
+        with self.assertRaises(AttributeError):
+            PROFILES[DEFAULT_PROFILE].control_kind = None
+
+    def test_icp_profile_change_rejected_and_legacy_default_preserved(self):
+        self.import_one()
+        self.assertNotIn('audit_profile', self.config)
+        self.assertEqual(self.engine.summary()['audit_profile'], DEFAULT_PROFILE)
+        with self.assertRaisesRegex(Invalid, 'immutable'):
+            self.engine.init({**self.config, 'audit_profile': 'local-service-inquiry-v1', 'catalog_min_products': None})
+        self.assertEqual(self.engine.summary()['audit_profile'], DEFAULT_PROFILE)
+
+    def test_policy_fingerprint_invalidates_old_reviews_and_prepared_tasks(self):
+        self.ready()
+        self.engine.run()
+        with patch('profiles.REVIEW_POLICY_VERSION', 999):
+            self.assertIsNone(self.engine.review_row(self.cid, 'identity'))
+            self.assertEqual(self.engine.status(self.cid)['state'], 'needs_review')
+            self.assertEqual(self.engine.run()['processed'], 1)
+            self.assertEqual(self.engine.run()['processed'], 0)
+
+    def test_old_review_without_context_is_retained_but_not_reused(self):
+        self.ready()
+        with self.engine.db:
+            row = self.engine.db.execute("SELECT data FROM reviews WHERE candidate=? AND gate='identity'", (self.cid,)).fetchone()
+            data = json.loads(row[0]); data.pop('review_context')
+            self.engine.db.execute("UPDATE reviews SET data=? WHERE candidate=? AND gate='identity'", (json.dumps(data), self.cid))
+        self.assertIsNone(self.engine.review_row(self.cid, 'identity'))
+        self.assertEqual(self.engine.summary()['demo_ready'], 0)
+        self.assertGreater(self.engine.verify_audit()['entries'], 0)
+
+    def test_profile_change_after_confirmation_rejects_review(self):
+        refs = self.complete_inputs()
+        context = self.engine.review_context()
+        with patch('profiles.REVIEW_POLICY_VERSION', 999), self.assertRaisesRegex(Invalid, 'policy changed'):
+            self.approve('identity', refs, expected_context=context)
+
+    def test_agent_and_legacy_evidence_do_not_satisfy_pain(self):
+        self.import_one()
+        refs = []
+        for i, record in enumerate(fixture('evidence.example.json')):
+            record.update(checked_at=recent(8 - i), origin='agent')
+            self.engine.add_record(self.cid, 'evidence', record)
+            refs.append(record['id'])
+        with self.assertRaisesRegex(Invalid, 'known_product_control'):
+            self.approve('pain', refs)
+        self.assertEqual(self.engine.status(self.cid)['evidence_by_origin']['agent'], 7)
+        control = fixture('control-1.example.json'); control.pop('origin')
+        control.update(id='legacy-control', checked_at=recent(1))
+        self.engine.add_record(self.cid, 'evidence', control)
+        self.assertEqual(self.engine.status(self.cid)['evidence_by_origin']['legacy_unspecified'], 1)
+        with self.assertRaisesRegex(Invalid, 'known_product_control'):
+            self.approve('pain', refs + ['legacy-control'])
+
+    def test_manual_rechecks_are_distinct_from_suggestions_and_decisions(self):
+        self.import_one()
+        refs = []
+        for i, item in enumerate(fixture('evidence.example.json')):
+            item.update(checked_at=recent(10 - i), origin='agent')
+            self.engine.add_record(self.cid, 'evidence', item)
+            observation = {**item, 'id': 'manual-' + item['id'], 'origin': 'manual',
+                           'rechecks_evidence_id': item['id'], 'checked_at': recent(9 - i)}
+            self.engine.add_record(self.cid, 'evidence', observation)
+            refs.append(observation['id'])
+        self.assertEqual(self.engine.status(self.cid)['gates']['pain']['decision'], 'pending')
+        self.approve('pain', refs)
+        status = self.engine.status(self.cid)
+        self.assertEqual((status['evidence_by_origin']['manual'], status['evidence_by_origin']['agent']), (7, 7))
+        self.assertEqual(status['gates']['pain']['decision'], 'approve')
+
+    def test_latest_access_requires_eligible_origin_and_confidence(self):
+        refs = self.complete_inputs()
+        access = fixture('access-1.example.json')
+        access.update(id='agent-access', origin='agent', checked_at=recent(1))
+        self.engine.add_record(self.cid, 'evidence', access)
+        with self.assertRaisesRegex(Invalid, 'latest_access'):
+            self.approve('identity', refs + ['agent-access'])
+        access.update(id='manual-access-low', origin='manual', confidence='low', checked_at=utcnow())
+        self.engine.add_record(self.cid, 'evidence', access)
+        with self.assertRaisesRegex(Invalid, 'latest_access'):
+            self.approve('identity', refs + ['agent-access', 'manual-access-low'])
+
+    def test_service_unknowns_safety_freshness_and_exports_remain_shared(self):
+        refs = self.service_inputs()
+        unknown = fixture('local-service/evidence.example.json')[-1]
+        unknown.update(id='quote-unknown', result='unknown', checked_at=utcnow())
+        self.engine.add_record(self.cid, 'evidence', unknown)
+        with self.assertRaisesRegex(Invalid, 'two_distinct_times'):
+            self.approve('pain', ['service-control-1', 'quote-1', 'quote-unknown'])
+        with patch.object(self.engine, 'fresh', return_value=False), self.assertRaises(Invalid):
+            self.approve('identity', refs)
+        template = Path(self.engine.export('public-template')['path']).read_text()
+        self.assertIn('local-service inquiry', template)
+        self.assertNotIn('beacon-repairs', template)
+        self.assertNotIn('+1202', template)
+        self.engine.suppress(self.cid, 'Shared safety gate test')
+        with self.assertRaisesRegex(Invalid, 'suppressed'):
+            self.approve('pain', refs)
 
 
 if __name__ == '__main__':
