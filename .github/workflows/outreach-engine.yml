@@ -16,13 +16,14 @@ permissions:
 
 jobs:
   validate:
-    runs-on: ubuntu-latest
+    # Python 3.9 binaries are available for 24.04, not the moving 26.04 default.
+    runs-on: ubuntu-24.04
     strategy:
       matrix:
         python: ['3.9', '3.12']
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: ${{ matrix.python }}
       - name: Offline contract and capability checks
