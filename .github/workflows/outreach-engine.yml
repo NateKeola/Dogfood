@@ -1,0 +1,33 @@
+name: Outreach Engine
+
+on:
+  push:
+    branches: [codex/outreach-engine]
+    paths:
+      - 'projects/outreach-engine/**'
+      - '.github/workflows/outreach-engine.yml'
+  pull_request:
+    paths:
+      - 'projects/outreach-engine/**'
+      - '.github/workflows/outreach-engine.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.9', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Offline contract and capability checks
+        working-directory: projects/outreach-engine
+        run: python -B check.py
+      - name: Workflow and security tests
+        working-directory: projects/outreach-engine
+        run: python -B -m unittest discover -s tests -v

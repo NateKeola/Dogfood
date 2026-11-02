@@ -1,0 +1,13 @@
+{
+  "id": "operations-1",
+  "kind": "operations",
+  "test_key": "current-operations",
+  "source_url": "https://atlas-parts.example/catalog",
+  "checked_at": "2026-11-02T00:00:00Z",
+  "expected": "Independent recent evidence of an operating business, beyond registry status",
+  "observed": "SYNTHETIC: current public catalog and dated trade-service information are consistent with operation; fixture only.",
+  "result": "pass",
+  "confidence": "medium",
+  "reference": null,
+  "cause_hypothesis": null
+}

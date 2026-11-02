@@ -1,0 +1,13 @@
+{
+  "id": "identity-1",
+  "kind": "identity",
+  "test_key": "company-domain",
+  "source_url": "https://atlas-parts.example/catalog",
+  "checked_at": "2026-11-02T00:00:00Z",
+  "expected": "Business identity on official pages matches import",
+  "observed": "SYNTHETIC: Brand and business identity match; fixture, not a live check",
+  "result": "pass",
+  "confidence": "medium",
+  "reference": null,
+  "cause_hypothesis": null
+}

@@ -1,0 +1,13 @@
+{
+  "id": "access-1",
+  "kind": "access",
+  "test_key": "public-access",
+  "source_url": "https://atlas-parts.example/catalog",
+  "checked_at": "2026-11-02T00:00:00Z",
+  "expected": "Catalog is publicly browsable",
+  "observed": "SYNTHETIC: Catalog can be browsed; fixture only",
+  "result": "pass",
+  "confidence": "medium",
+  "reference": null,
+  "cause_hypothesis": null
+}

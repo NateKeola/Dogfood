@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Demo Atlas Parts",
+    "website": "https://atlas-parts.example/",
+    "branch_key": "main",
+    "legal_id": null,
+    "industry": "Industrial supply",
+    "geography": "Example region",
+    "catalog_size": 480,
+    "maturity_evidence": "SYNTHETIC: established trade catalog and repeat-order workflow",
+    "synthetic": true,
+    "source": {
+      "url": "https://atlas-parts.example/",
+      "checked_at": "2026-11-02T00:00:00Z",
+      "usage_rights": "synthetic",
+      "usage_notes": "Fictional fixture only; no real company or website was inspected."
+    }
+  },
+  {
+    "name": "Demo Atlas Parts",
+    "website": "https://www.atlas-parts.example/catalog?ref=demo",
+    "branch_key": "main",
+    "legal_id": null,
+    "industry": "Industrial supply",
+    "geography": "Example region",
+    "catalog_size": 480,
+    "maturity_evidence": "SYNTHETIC: established trade catalog and repeat-order workflow",
+    "synthetic": true,
+    "source": {
+      "url": "https://atlas-parts.example/",
+      "checked_at": "2026-11-02T00:00:00Z",
+      "usage_rights": "synthetic",
+      "usage_notes": "Fictional fixture only; no real company or website was inspected."
+    }
+  },
+  {
+    "name": "Demo Lumen Catalog",
+    "website": "https://lumen-catalog.example/",
+    "branch_key": "main",
+    "legal_id": null,
+    "industry": "Industrial supply",
+    "geography": "Example region",
+    "catalog_size": 480,
+    "maturity_evidence": "SYNTHETIC: established trade catalog and repeat-order workflow",
+    "synthetic": true,
+    "source": {
+      "url": "https://lumen-catalog.example/",
+      "checked_at": "2026-11-02T00:00:00Z",
+      "usage_rights": "synthetic",
+      "usage_notes": "Fictional fixture only; no real company or website was inspected."
+    }
+  },
+  {
+    "name": "Demo Cedar Trade",
+    "website": "https://cedar-trade.example/",
+    "branch_key": "main",
+    "legal_id": null,
+    "industry": "Industrial supply",
+    "geography": "Example region",
+    "catalog_size": null,
+    "maturity_evidence": "SYNTHETIC: established trade catalog and repeat-order workflow",
+    "synthetic": true,
+    "source": {
+      "url": "https://cedar-trade.example/",
+      "checked_at": "2026-11-02T00:00:00Z",
+      "usage_rights": "synthetic",
+      "usage_notes": "Fictional fixture only; no real company or website was inspected."
+    }
+  },
+  {
+    "name": "Demo Identity Conflict",
+    "website": "https://cedar-trade.example/",
+    "branch_key": "main",
+    "legal_id": null,
+    "industry": "Industrial supply",
+    "geography": "Example region",
+    "catalog_size": 480,
+    "maturity_evidence": "SYNTHETIC: established trade catalog and repeat-order workflow",
+    "synthetic": true,
+    "source": {
+      "url": "https://cedar-trade.example/",
+      "checked_at": "2026-11-02T00:00:00Z",
+      "usage_rights": "synthetic",
+      "usage_notes": "Fictional fixture only; no real company or website was inspected."
+    }
+  },
+  {
+    "name": "Demo Atlas Parts",
+    "website": "https://atlas-parts.example/",
+    "branch_key": "east-branch",
+    "legal_id": null,
+    "industry": "Industrial supply",
+    "geography": "Example region",
+    "catalog_size": 480,
+    "maturity_evidence": "SYNTHETIC: established trade catalog and repeat-order workflow",
+    "synthetic": true,
+    "source": {
+      "url": "https://atlas-parts.example/",
+      "checked_at": "2026-11-02T00:00:00Z",
+      "usage_rights": "synthetic",
+      "usage_notes": "Fictional fixture only; no real company or website was inspected."
+    }
+  }
+]

@@ -1,0 +1,886 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/NateKeola/Dogfood/blob/codex/outreach-engine/projects/outreach-engine/schema.json",
+  "title": "Outreach-Engine local record contracts",
+  "$defs": {
+    "source": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000,
+          "format": "uri"
+        },
+        "checked_at": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20,
+          "format": "date-time"
+        },
+        "usage_rights": {
+          "type": "string",
+          "enum": [
+            "public_official",
+            "licensed_export",
+            "synthetic"
+          ]
+        },
+        "usage_notes": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        }
+      },
+      "required": [
+        "url",
+        "checked_at",
+        "usage_rights",
+        "usage_notes"
+      ],
+      "additionalProperties": false
+    },
+    "icp": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "const": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "industries": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 160
+          },
+          "minItems": 1,
+          "maxItems": 20,
+          "uniqueItems": true
+        },
+        "geographies": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 160
+          },
+          "minItems": 1,
+          "maxItems": 20,
+          "uniqueItems": true
+        },
+        "maturity_signals": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000
+          },
+          "minItems": 1,
+          "maxItems": 20,
+          "uniqueItems": true
+        },
+        "catalog_min_products": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10000000
+        },
+        "buying_workflow": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "excluded_segments": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000
+          },
+          "minItems": 1,
+          "maxItems": 20,
+          "uniqueItems": true
+        },
+        "batch_limit": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1000
+        },
+        "review_chunk": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 25
+        },
+        "max_audit_queries": {
+          "type": "integer",
+          "minimum": 3,
+          "maximum": 12
+        },
+        "max_attempts": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 3
+        },
+        "provider_budget_cents": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000000
+        },
+        "provider_budget_credits": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100000
+        },
+        "freshness_days": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 90
+        }
+      },
+      "required": [
+        "version",
+        "name",
+        "industries",
+        "geographies",
+        "maturity_signals",
+        "catalog_min_products",
+        "buying_workflow",
+        "excluded_segments",
+        "batch_limit",
+        "review_chunk",
+        "max_audit_queries",
+        "max_attempts",
+        "provider_budget_cents",
+        "provider_budget_credits",
+        "freshness_days"
+      ],
+      "additionalProperties": false
+    },
+    "candidate": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "website": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000,
+          "format": "uri"
+        },
+        "branch_key": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "legal_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "industry": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "geography": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "catalog_size": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 10000000
+        },
+        "maturity_evidence": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "synthetic": {
+          "type": "boolean"
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        }
+      },
+      "required": [
+        "name",
+        "website",
+        "branch_key",
+        "legal_id",
+        "industry",
+        "geography",
+        "catalog_size",
+        "maturity_evidence",
+        "synthetic",
+        "source"
+      ],
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "identity",
+            "access",
+            "operations",
+            "fit",
+            "search-control",
+            "search-descriptive",
+            "search-attribute",
+            "filtering",
+            "variant",
+            "guided"
+          ]
+        },
+        "test_key": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "source_url": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000,
+          "format": "uri"
+        },
+        "checked_at": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20,
+          "format": "date-time"
+        },
+        "expected": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "observed": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "result": {
+          "type": "string",
+          "enum": [
+            "pass",
+            "friction",
+            "unknown",
+            "blocked",
+            "error"
+          ]
+        },
+        "confidence": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        "reference": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "cause_hypothesis": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "maxLength": 1000
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "test_key",
+        "source_url",
+        "checked_at",
+        "expected",
+        "observed",
+        "result",
+        "confidence",
+        "reference",
+        "cause_hypothesis"
+      ],
+      "additionalProperties": false
+    },
+    "contact": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "phone",
+            "email"
+          ]
+        },
+        "value": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "route": {
+          "type": "string",
+          "enum": [
+            "business_mainline",
+            "direct_professional",
+            "generic_business"
+          ]
+        },
+        "person": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "role": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "source_url": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000,
+          "format": "uri"
+        },
+        "checked_at": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20,
+          "format": "date-time"
+        },
+        "provenance": {
+          "type": "string",
+          "enum": [
+            "official_site",
+            "licensed_provider"
+          ]
+        },
+        "verification": {
+          "type": "string",
+          "enum": [
+            "not_checked",
+            "provider_valid",
+            "provider_invalid",
+            "catch_all",
+            "unknown"
+          ]
+        },
+        "verification_source": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "verified_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "maxLength": 20,
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "value",
+        "route",
+        "person",
+        "role",
+        "source_url",
+        "checked_at",
+        "provenance",
+        "verification",
+        "verification_source",
+        "verified_at"
+      ],
+      "additionalProperties": false
+    },
+    "brief": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "problem": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "improvement": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "demo_plan": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "simulated": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "benefit_hypothesis": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "measurement": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "scope": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000
+          },
+          "minItems": 1,
+          "maxItems": 20,
+          "uniqueItems": true
+        },
+        "pricing_assumptions": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "question": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "idea_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "minItems": 0,
+          "maxItems": 100,
+          "uniqueItems": true
+        },
+        "source_cluster_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80,
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "minItems": 0,
+          "maxItems": 100,
+          "uniqueItems": true
+        },
+        "seo_status": {
+          "type": "string",
+          "enum": [
+            "pending",
+            "reviewed",
+            "not_applicable"
+          ]
+        },
+        "seo_reference": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "maxLength": 2000,
+          "format": "uri"
+        },
+        "build_status": {
+          "type": "string",
+          "enum": [
+            "planned",
+            "built"
+          ]
+        },
+        "artifact_ref": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "verified_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "maxLength": 20,
+          "format": "date-time"
+        },
+        "verification_notes": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "maxLength": 1000
+        }
+      },
+      "required": [
+        "title",
+        "problem",
+        "improvement",
+        "demo_plan",
+        "simulated",
+        "benefit_hypothesis",
+        "measurement",
+        "scope",
+        "pricing_assumptions",
+        "question",
+        "idea_ids",
+        "source_cluster_ids",
+        "seo_status",
+        "seo_reference",
+        "build_status",
+        "artifact_ref",
+        "verified_at",
+        "verification_notes"
+      ],
+      "additionalProperties": false
+    },
+    "outcome": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "event": {
+          "type": "string",
+          "enum": [
+            "contact_attempt",
+            "conversation",
+            "meeting_booked",
+            "meeting_held",
+            "pilot_signed",
+            "pilot_paid",
+            "measured_result",
+            "opt_out"
+          ]
+        },
+        "channel": {
+          "type": "string",
+          "enum": [
+            "phone",
+            "email",
+            "linkedin",
+            "referral",
+            "other"
+          ]
+        },
+        "occurred_at": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20,
+          "format": "date-time"
+        },
+        "attribution": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "measurement": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "amount_cents": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100000000
+        },
+        "currency": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[A-Z]{3}$"
+        }
+      },
+      "required": [
+        "id",
+        "event",
+        "channel",
+        "occurred_at",
+        "attribution",
+        "notes",
+        "measurement",
+        "amount_cents",
+        "currency"
+      ],
+      "additionalProperties": false
+    },
+    "registry_seed": {
+      "type": "object",
+      "properties": {
+        "registry_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120
+        },
+        "business_name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "geography": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "industry": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "source_type": {
+          "type": "string",
+          "enum": [
+            "city_license",
+            "county_license",
+            "state_entity",
+            "professional_license",
+            "chamber"
+          ]
+        },
+        "registration_status": {
+          "type": "string",
+          "enum": [
+            "active",
+            "inactive",
+            "unknown"
+          ]
+        },
+        "registration_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "format": "date"
+        },
+        "website": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri",
+          "maxLength": 2000
+        },
+        "premises": {
+          "type": "string",
+          "enum": [
+            "unknown",
+            "home_based",
+            "commercial"
+          ]
+        },
+        "synthetic": {
+          "type": "boolean"
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        }
+      },
+      "required": [
+        "registry_id",
+        "business_name",
+        "geography",
+        "industry",
+        "source_type",
+        "registration_status",
+        "registration_date",
+        "website",
+        "premises",
+        "synthetic",
+        "source"
+      ],
+      "additionalProperties": false
+    },
+    "usage_event": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "const": 1
+        },
+        "event_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "provider": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "operation": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "units": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1000000000
+        },
+        "unit": {
+          "type": "string",
+          "enum": [
+            "candidate",
+            "request",
+            "page",
+            "credit",
+            "token",
+            "minute"
+          ]
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "run_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "batch_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "amount": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1000000
+        },
+        "currency": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[A-Z]{3}$"
+        },
+        "cost_basis": {
+          "type": "string",
+          "enum": [
+            "estimated",
+            "actual",
+            "unknown"
+          ]
+        },
+        "provenance": {
+          "type": "string",
+          "enum": [
+            "local_execution",
+            "provider_response",
+            "invoice",
+            "rate_card_estimate",
+            "unknown"
+          ]
+        }
+      },
+      "required": [
+        "version",
+        "event_id",
+        "provider",
+        "operation",
+        "units",
+        "unit",
+        "timestamp",
+        "run_id",
+        "batch_id",
+        "amount",
+        "currency",
+        "cost_basis",
+        "provenance"
+      ],
+      "additionalProperties": false
+    }
+  }
+}
