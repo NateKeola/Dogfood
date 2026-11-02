@@ -103,6 +103,11 @@
       "confidence_reason": "The supplied fictional HTML and fictional index intent conflict; production state and business impact are unmeasured.",
       "owner": "Website engineer (fictional role)",
       "effort": "About 1\u20132 hours after environment intent is confirmed; estimate only",
+      "technical_lift": {
+        "classes": ["configuration", "code"],
+        "band": "S",
+        "assumptions": ["Fictional small site has separate environment configuration and an existing testable build; no deployment or access waiting included"]
+      },
       "dependencies": [
         "Confirm production versus staging index policy",
         "Separate authorization to implement and later launch"

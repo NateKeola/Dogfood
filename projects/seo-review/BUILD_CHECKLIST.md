@@ -8,6 +8,7 @@ Use this in the brief, implementation review and release handoff. Record **statu
 - [ ] Define one primary business outcome and its successful event (for example, an accepted inquiry), qualified-lead criteria, owner, baseline or “new site/no baseline,” and comparison window. Identify who will assess lead quality. [S22; workflow]
 - [ ] Map intended customer questions to a manageable page inventory: route, intent, content owner, factual sources, primary action, parent/related links, index intent and canonical target. Include a reason for separate service/location pages. [S02, S05, S08, S10]
 - [ ] Record competitor references as observations and hypotheses. No copied content/assets, assumed demand or invented search volumes. New location pages need distinct useful information and real service, not swapped city names. [S09, S10]
+- [ ] For a campaign, use [INDUSTRY_RESEARCH.md](INDUSTRY_RESEARCH.md): one vertical/geography, separate local-service/wholesale goals, query provenance and a useful page map. Keep missing metrics unknown.
 - [ ] Record what is a demo: fictional prices, mock testimonials (omit from publishable content), disabled forms and prototype-only claims. A prototype is not a live business. [workflow]
 
 ## 2. Implementation checks
@@ -30,8 +31,11 @@ Use this in the brief, implementation review and release handoff. Record **statu
 | HTTPS/security | Verify certificate, HTTPS routing, no mixed-content breakage and working critical resources. Preserve authentication and request protections. Do not loosen access for crawlers or external validators. | S03, S29 |
 | Migration | If URLs change, save old-to-new mappings, backups/ref and rollback owner. Validate relevant permanent redirects, internal links, canonicals and new sitemap. Avoid routing everything to the home page. Plan redirect retention (Google recommends generally at least one year) and monitor old and new routes. | S21 |
 | Measurement | Agree event names, triggers, deduplication and privacy constraints. Instrument only when separately authorized. Validate in a test environment/safe debug path without real submissions; document unavailable production verification. | S22; workflow |
+| AI search / browser agents, if scoped | Use [AI_SEARCH.md](AI_SEARCH.md): record vendor policy intent, actual controls including Google's effective/inherited Search AI setting if accessible, renderable facts and safe semantic interaction tests. Never fail a launch solely for absent llms.txt or agents.txt. | S32–S42, S62 |
 
 For multilingual, ecommerce, video or regulated content, add an explicitly scoped module and current primary guidance before acceptance. A small service site should not inherit irrelevant requirements.
+
+Assign fixes the class/band, assumptions, acceptance and rollback from [TOOLS_AND_LIFT.md](TOOLS_AND_LIFT.md). Existing G1–G7 cover relevant AI work: facts/privacy under G1, intended discovery under G2, content under G3, markup under G4, safe browser interactions under G5 and scoped measurement under G7. Optional machine-readable files are not extra launch gates.
 
 ## 3. Pre-launch gates
 

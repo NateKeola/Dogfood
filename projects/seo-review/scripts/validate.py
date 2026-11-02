@@ -69,6 +69,10 @@ def check_links_and_sources():
 def main():
     report = json.loads((PACKAGE / "examples/synthetic-report.json").read_text())
     validate_report(report)
+    legacy = copy.deepcopy(report)
+    for finding in legacy["findings"]:
+        finding.pop("technical_lift", None)
+    validate_report(legacy)
     source_ids = check_links_and_sources()
     for finding in report["findings"]:
         for source in finding["sources"]:
@@ -86,6 +90,8 @@ def main():
         ("invalid date", lambda x: x.update(reviewed_on="2026-02-30")),
         ("future evidence", lambda x: x["findings"][0]["evidence"][0].update(observed_on="2099-01-01")),
         ("speculative critical issue", lambda x: x["findings"][1].update(priority="P0")),
+        ("lift without assumptions", lambda x: x["findings"][0]["technical_lift"].update(assumptions=[])),
+        ("unsupported lift class", lambda x: x["findings"][0]["technical_lift"].update(classes=["guaranteed-ranking"])),
     ]
     for name, mutate in mutations:
         invalid = copy.deepcopy(report)
@@ -101,7 +107,7 @@ def main():
     for coverage in framework["coverage"]:
         coverage.update(status="unknown", sample="No target supplied", reason="Discovery input needed")
     validate_report(framework)
-    print(f"PASS: schema, synthetic and framework reports, {len(mutations)} evidence-contract checks, local links and {len(source_ids)} source IDs")
+    print(f"PASS: schema, synthetic/framework/legacy reports, {len(mutations)} evidence-contract checks, local links and {len(source_ids)} source IDs")
     print("No external URLs fetched; no factual, privacy or site-level certification performed.")
 
 

@@ -9,6 +9,7 @@ Replace bracketed fields. Keep private observations in an authorized private des
 - Target URL(s), allowed hosts and repository/ref: [values or unknown]
 - Site state and index intent: [concept / prototype / staging / live / migration]
 - Business offer, audience/geographies, primary conversion and qualification rule: [owner-verified facts or unknown]
+- Review depth / campaign type / vertical / research mode / scoped AI surfaces: [triage or scoped-full; local-service/wholesale; qualitative or data-provider evidence]
 - Authorization: read-only; evidence access [list]; implementation [none unless separately instructed]
 - Output destination/visibility: [approved destination]; public suitability review [status]
 - Most important decision and why: [evidence-led recommendation]
@@ -47,6 +48,7 @@ Use one record per independently actionable issue. [findings.schema.json](findin
 | Impact / priority | User/business consequence, affected reach and P0–P3 rationale. No invented traffic loss. |
 | Confidence | High/medium/low plus reason; separate confidence in observation from uncertainty of business impact. |
 | Owner / effort / dependencies | Accountable role or unassigned; estimate range and assumptions; prerequisites. |
+| Technical lift, optional JSON field | Configuration/content/code/integration classes, S/M/L/XL band and explicit assumptions from [TOOLS_AND_LIFT.md](TOOLS_AND_LIFT.md). No estimate is a commercial quote. |
 | Recommended change | Smallest concrete remedy or investigation. Review does not authorize implementation. |
 | Validation | Observable pass criterion, method, environment and owner; distinguish lab/field and code/live evidence. |
 | Rollback | Restore ref/config and trigger for risky changes; otherwise “not applicable” with reason. |
@@ -61,17 +63,21 @@ P0: observed exposure or broad critical breakage. P1: demonstrated important dis
 
 Competitor comparisons are dated observations. Explain what to improve for the customer and what remains a hypothesis. Do not infer conversion performance from an attractive page or a search position.
 
+For campaign research, attach the query evidence table in [INDUSTRY_RESEARCH.md](INDUSTRY_RESEARCH.md). Keep local-service and wholesale objectives separate. Missing volume/difficulty/ranking data remains unknown.
+
 ## Measurement plan
 
 - Authorized source/property scope and filters: [sanitized description; no account identifiers in public output]
 - Baseline and comparison dates/timezone: [dates or no baseline], seasonal/commercial context: [context]
 - Search visibility metrics: [clicks, impressions, CTR, average position with page/query/device/geography scope; unavailable stays unknown]
+- Scoped AI visibility: [vendor/report and covered surfaces; availability; impressions/citations/referrals/conversions kept distinct; sample denominator and conditions; see AI_SEARCH.md]
+- AI access decisions: [vendor/product/host, current/effective/inherited setting or unknown, owner intent and tradeoff; no settings changed]
 - Primary event: [name], success condition: [accepted action], deduplication: [rule], qualification: [rule], denominator: [definition], accountable owner: [role]
 - Secondary events: [e.g. call-link intent, clearly distinguished from completed calls]
 - Performance: [metric/value/unit; field or lab; device; page/origin; collection dates; source/tool version; settings/runs; sufficiency and limitations]
 - Attribution and privacy limits: [consent, missing data, seasonality, concurrent changes, no causal claim without suitable evidence]
 
-Missing values are null/unknown, not zero. A performance tool result is not an SEO or accessibility certificate. No tracking changes, real form submissions or event generation are authorized by a review.
+Missing values are null/unknown, not zero. In particular, retain availability flags when a vendor export converts unavailable markers to zero. A performance tool result is not an SEO or accessibility certificate. No tracking changes, real form submissions or event generation are authorized by a review.
 
 ## Acceptance and follow-up
 

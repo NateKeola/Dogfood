@@ -26,9 +26,16 @@ steps:
     customer questions, verified public facts, index policy and conversion goals.
   - Before release, record evidence and owner decisions for gates G1–G7;
     preserve protected prototype/staging environments.
+  - If campaign research is scoped, use INDUSTRY_RESEARCH.md for one vertical
+    and geography, keeping local-service and wholesale objectives separate.
+  - If AI-search is scoped, use AI_SEARCH.md for current vendor controls,
+    optional-file decisions and bounded evidence; use TOOLS_AND_LIFT.md to
+    estimate work without connecting accounts or changing crawler policies.
 acceptance:
   - SEO readiness is documented using the checklist, with unknowns explicit;
     no rankings, indexing, rich results or commercial outcomes are claimed.
+  - Numeric keyword metrics have source/date/geography; optional AI files are
+    not launch requirements. Fixes include lift assumptions and acceptance.
   - Important routes and the primary customer action have scoped functional,
     mobile and accessibility evidence; production verification remains pending
     until an authorized launch.
