@@ -1,0 +1,5 @@
+scenario,monthly_break_even_price,price_for_target_margin,unrecovered_acquisition_and_setup,monthly_replacement_allowance
+batched_base,35.7816,61.2943,202.871,6.0861
+support_stress,77.4049,132.5956,202.871,6.0861
+five_account_pilot,84.689,145.0733,202.871,6.0861
+high_churn,46.3368,79.3755,202.871,16.2297
