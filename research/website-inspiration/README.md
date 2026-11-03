@@ -86,3 +86,12 @@ The source tracker was read back and the export checked: 20 records, 20 distinct
 - Includes hardware engineering, fusion power, industrial energy, construction robotics, recycling, food, chronic-condition care, biotechnology, retail software, finance and hospitality.
 - Funding descriptions retain unspecified round types, approximate amounts, total-committed-financing and closing-condition qualifiers. Reverion's funding date follows the September 29 release dateline; its page publication label says September 28.
 - Validation: 20 new canonical domains, nine populated fields per record, qualifying announcement dates, and working-tracker readback with prior records preserved. Public research only; no private workspace identifiers.
+
+## November 3 collection
+
+- [2026-11-03 data (JSON)](data/2026-11-03.json) — 20 additional companies; 160 distinct company domains across all eight collections.
+- Funding announcements fall within November 3, 2025–November 3, 2026 and are backed by company/investor announcements or attributable company-issued releases.
+- All 20 sites reviewed by text only. Observations describe inspected content, navigation and messaging, not rendered visual appearance. Render's observation is limited to navigation because its main hero was absent from text extraction.
+- Includes nuclear power, HVAC, building energy, grid monitoring, water technology, consumer beverages, biotechnology, hospitality, healthcare operations, cybersecurity, finance and developer tools.
+- Funding descriptions preserve up-to commitments, more-than amounts, debt/equity splits, secondary transfers, extensions and planned-investment qualifiers. Naboo's funding date follows its February 10 release dateline; the page metadata says February 9.
+- Validation: 20 new canonical domains, all nine required fields populated, qualifying funding dates, and working-tracker readback with prior records preserved. Public research only; no private workspace identifiers.
