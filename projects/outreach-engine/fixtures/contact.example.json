@@ -1,0 +1,14 @@
+{
+  "id": "mainline-1",
+  "kind": "phone",
+  "value": "+12025550100",
+  "route": "business_mainline",
+  "person": null,
+  "role": "Ask for catalog or e-commerce owner",
+  "source_url": "https://atlas-parts.example/contact",
+  "checked_at": "2026-11-02T00:00:00Z",
+  "provenance": "official_site",
+  "verification": "not_checked",
+  "verification_source": null,
+  "verified_at": null
+}

@@ -1,0 +1,14 @@
+{
+  "id": "friction-2",
+  "kind": "search-descriptive",
+  "test_key": "application-query",
+  "source_url": "https://atlas-parts.example/catalog",
+  "checked_at": "2026-11-02T00:02:00Z",
+  "expected": "A100 appears for compatible outdoor use",
+  "observed": "SYNTHETIC: Repeated same visible query; no matching result",
+  "result": "friction",
+  "confidence": "medium",
+  "reference": null,
+  "cause_hypothesis": "A query/catalog mismatch is a hypothesis; the search implementation is unknown.",
+  "origin": "synthetic"
+}

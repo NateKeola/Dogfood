@@ -1,0 +1,14 @@
+{
+  "id": "fit-1",
+  "kind": "fit",
+  "test_key": "icp-fit",
+  "source_url": "https://atlas-parts.example/catalog",
+  "checked_at": "2026-11-02T00:00:00Z",
+  "expected": "Industry, geography, maturity, catalog and exclusions reviewed",
+  "observed": "SYNTHETIC: 480 products, trade buyers, example region; exclusions reviewed",
+  "result": "pass",
+  "confidence": "medium",
+  "reference": null,
+  "cause_hypothesis": null,
+  "origin": "synthetic"
+}

@@ -1,0 +1,34 @@
+name: Outreach Engine
+
+on:
+  push:
+    branches: [codex/outreach-engine]
+    paths:
+      - 'projects/outreach-engine/**'
+      - '.github/workflows/outreach-engine.yml'
+  pull_request:
+    paths:
+      - 'projects/outreach-engine/**'
+      - '.github/workflows/outreach-engine.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    # Python 3.9 binaries are available for 24.04, not the moving 26.04 default.
+    runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        python: ['3.9', '3.12']
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Offline contract and capability checks
+        working-directory: projects/outreach-engine
+        run: python -B check.py
+      - name: Workflow and security tests
+        working-directory: projects/outreach-engine
+        run: python -B -m unittest discover -s tests -v

@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Demo Beacon Repairs",
+    "website": "https://beacon-repairs.example/",
+    "branch_key": "main",
+    "legal_id": null,
+    "industry": "Home equipment repair",
+    "geography": "Example region",
+    "catalog_size": null,
+    "maturity_evidence": "SYNTHETIC: current repair service descriptions and operating information; no age claim.",
+    "synthetic": true,
+    "source": {
+      "url": "https://beacon-repairs.example/",
+      "checked_at": "2026-11-02T00:00:00Z",
+      "usage_rights": "synthetic",
+      "usage_notes": "Fictional fixture only; no real company or website was inspected."
+    }
+  },
+  {
+    "name": "Demo Service Route Unknown",
+    "website": "https://service-route.example/",
+    "branch_key": "main",
+    "legal_id": null,
+    "industry": "Home equipment repair",
+    "geography": "Example region",
+    "catalog_size": null,
+    "maturity_evidence": "SYNTHETIC: current repair service descriptions and operating information; no age claim.",
+    "synthetic": true,
+    "source": {
+      "url": "https://service-route.example/",
+      "checked_at": "2026-11-02T00:00:00Z",
+      "usage_rights": "synthetic",
+      "usage_notes": "Fictional fixture only; no real company or website was inspected."
+    }
+  }
+]

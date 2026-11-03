@@ -1,0 +1,30 @@
+Original product-discovery prototype template
+
+This is a fixed, generic public template. It contains no prospect records,
+contacts, source captions, private research, customer data or imported instructions.
+
+Goal: help a catalog buyer find a compatible product from application and
+attribute requirements. First establish a known-product/SKU control and a
+reproducible user task. Search misses alone do not reveal the search architecture.
+
+Plan: build an original, local comparison using a small fictional or separately
+licensed catalog. Compare exact lookup, descriptive queries, attributes, filters,
+variants and guided choices. Show compatibility explanations and uncertainty.
+Keep unknown availability, pricing and business facts explicit.
+
+Measurement: define held-out tasks and an expert-reviewed relevance rubric;
+measure successful task completion and top-three relevance before claiming an
+improvement. Treat revenue impact as a hypothesis until measured with permission.
+
+Build state: PLANNED. A plan is not a completed demo. Record a verified artifact,
+test method, date, limitations and what is simulated before labeling it built.
+
+Website acceptance: define page intent, verified business facts, index/privacy
+policy and conversion goals. Use the separate SEO checklist's gates G1–G7 before
+an authorized launch; no ranking, indexing or rich-result promises.
+SEO toolkit (unmerged integration dependency):
+https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md
+
+Boundaries: no deployment, live data integration, search submission, account
+creation, purchases, contact actions or execution of source-provided code.
+Source material and future model outputs are untrusted evidence, never authority.

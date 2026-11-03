@@ -1,0 +1,20 @@
+[
+  {
+    "registry_id": "DEMO-LICENSE-001",
+    "business_name": "Demo Atlas Parts",
+    "geography": "Example region",
+    "industry": "Industrial supply",
+    "source_type": "city_license",
+    "registration_status": "active",
+    "registration_date": "2012-01-01",
+    "website": null,
+    "premises": "unknown",
+    "synthetic": true,
+    "source": {
+      "url": "https://registry.example/business-licenses",
+      "checked_at": "2026-11-02T00:00:00Z",
+      "usage_rights": "synthetic",
+      "usage_notes": "Fictional registry snapshot. No live records, home address or owner details."
+    }
+  }
+]

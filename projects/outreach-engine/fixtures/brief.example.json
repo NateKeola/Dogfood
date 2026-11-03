@@ -1,0 +1,25 @@
+{
+  "title": "Application-to-product finder \u2014 original demo plan",
+  "problem": "SYNTHETIC: a compatible product is missed by an application query while its exact SKU is found.",
+  "improvement": "Map application attributes to a small, explicit catalog and explain each recommendation.",
+  "demo_plan": "Build an original local comparison using 12 fictional SKUs and six prewritten buyer queries; record baseline and proposed result relevance.",
+  "simulated": "All catalog entries, stock, customer behavior and pricing are fictional. Search-quality uplift and commercial value are unmeasured.",
+  "benefit_hypothesis": "More buyers may reach a compatible product without knowing its SKU; no revenue uplift is established.",
+  "measurement": "Compare top-three relevant results and completion time on six held-out tasks. Ask a domain expert to validate compatibility before a real pilot.",
+  "scope": [
+    "Local fictional catalog",
+    "Exact lookup control",
+    "Descriptive matching experiment",
+    "Visible compatibility reasons"
+  ],
+  "pricing_assumptions": "No quoted price. Time-box a prototype to two hours; scope, costs and commercial pricing require a separate agreement.",
+  "question": "How do buyers describe the application when they do not know a part number?",
+  "idea_ids": [],
+  "source_cluster_ids": [],
+  "seo_status": "pending",
+  "seo_reference": "https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md",
+  "build_status": "planned",
+  "artifact_ref": null,
+  "verified_at": null,
+  "verification_notes": null
+}

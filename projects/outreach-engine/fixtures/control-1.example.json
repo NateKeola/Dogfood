@@ -1,0 +1,14 @@
+{
+  "id": "control-1",
+  "kind": "search-control",
+  "test_key": "sku-a100",
+  "source_url": "https://atlas-parts.example/catalog",
+  "checked_at": "2026-11-02T00:00:00Z",
+  "expected": "Known A100 SKU appears",
+  "observed": "SYNTHETIC: A100 appears in results",
+  "result": "pass",
+  "confidence": "medium",
+  "reference": null,
+  "cause_hypothesis": null,
+  "origin": "synthetic"
+}

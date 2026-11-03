@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "name": "Product discovery pilot \u2014 synthetic example configuration",
+  "industries": [
+    "Industrial supply",
+    "Trade lighting"
+  ],
+  "geographies": [
+    "Example region"
+  ],
+  "maturity_signals": [
+    "Published catalog and documented trade buying workflow; age alone is not qualification"
+  ],
+  "catalog_min_products": 200,
+  "buying_workflow": "Buyer knows application and constraints but not the exact SKU",
+  "excluded_segments": [
+    "Consumer marketplaces",
+    "Businesses without a browsable catalog",
+    "Segments outside the agreed region"
+  ],
+  "batch_limit": 100,
+  "review_chunk": 10,
+  "max_audit_queries": 8,
+  "max_attempts": 3,
+  "provider_budget_cents": 0,
+  "provider_budget_credits": 0,
+  "freshness_days": 14
+}

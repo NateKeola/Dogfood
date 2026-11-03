@@ -1,0 +1,11 @@
+{
+  "id": "conversation-example",
+  "event": "conversation",
+  "channel": "phone",
+  "occurred_at": "2026-11-02T00:00:00Z",
+  "attribution": "SYNTHETIC manual example; no call took place",
+  "notes": "Fictional illustration of an outcome entry. Never log this as a real event.",
+  "measurement": null,
+  "amount_cents": null,
+  "currency": null
+}
