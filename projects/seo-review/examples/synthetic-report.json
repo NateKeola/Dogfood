@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "report_kind": "synthetic-example",
+  "reviewed_on": "2026-11-02",
+  "target": "https://example.invalid/",
+  "scope": "SYNTHETIC EXAMPLE: fictional service-business release candidate. No website was audited. This reserved invalid-domain URL was not visited.",
+  "limitations": [
+    "Every site observation is invented solely to demonstrate report structure.",
+    "The primary-source guidance is real; it is not evidence of a real site defect.",
+    "All real-world workstream states remain unknown; findings describe hypothetical decisions."
+  ],
+  "coverage": [
+    {
+      "area": "business-intent",
+      "status": "unknown",
+      "sample": "No real pages sampled; denominator not established",
+      "reason": "Synthetic illustration only; this is not completed audit coverage"
+    },
+    {
+      "area": "crawl-index-render",
+      "status": "unknown",
+      "sample": "No real pages sampled; denominator not established",
+      "reason": "Synthetic illustration only; this is not completed audit coverage"
+    },
+    {
+      "area": "architecture-metadata-images",
+      "status": "unknown",
+      "sample": "No real pages sampled; denominator not established",
+      "reason": "Synthetic illustration only; this is not completed audit coverage"
+    },
+    {
+      "area": "content-trust",
+      "status": "unknown",
+      "sample": "No real pages sampled; denominator not established",
+      "reason": "Synthetic illustration only; this is not completed audit coverage"
+    },
+    {
+      "area": "local-presence",
+      "status": "unknown",
+      "sample": "No real pages sampled; denominator not established",
+      "reason": "Synthetic illustration only; this is not completed audit coverage"
+    },
+    {
+      "area": "structured-data",
+      "status": "unknown",
+      "sample": "No real pages sampled; denominator not established",
+      "reason": "Synthetic illustration only; this is not completed audit coverage"
+    },
+    {
+      "area": "experience-security",
+      "status": "unknown",
+      "sample": "No real pages sampled; denominator not established",
+      "reason": "Synthetic illustration only; this is not completed audit coverage"
+    },
+    {
+      "area": "measurement-migration",
+      "status": "unknown",
+      "sample": "No real pages sampled; denominator not established",
+      "reason": "Synthetic illustration only; this is not completed audit coverage"
+    }
+  ],
+  "findings": [
+    {
+      "id": "SEO-001",
+      "area": "crawl-index-render",
+      "target": "https://example.invalid/services/",
+      "status": "fail",
+      "observation": "Hypothetical release-candidate HTML contains noindex although the fictional brief says this service route should be public and indexable.",
+      "evidence": [
+        {
+          "kind": "synthetic",
+          "observed_on": "2026-11-02",
+          "locator": "Fictional fixture described in this example; no URL fetched",
+          "method": "Authored hypothetical input, not a browser or crawler result",
+          "observation": "Fictional initial HTML: <meta name=\"robots\" content=\"noindex\">. Intended production index policy is indexable.",
+          "limitations": "Illustrates a decision only. No actual site, deployment or business was inspected."
+        }
+      ],
+      "classification": "documented-requirement",
+      "guidance_scope": "Google index eligibility for an intended public route, not an instruction to remove staging protection",
+      "sources": [
+        {
+          "id": "S01",
+          "url": "https://developers.google.com/search/docs/essentials/technical",
+          "reviewed_on": "2026-11-02",
+          "source_updated_on": "2025-12-18",
+          "section": "Indexable content",
+          "supports": "Google must be able to access indexable content; index eligibility does not guarantee indexing."
+        },
+        {
+          "id": "S06",
+          "url": "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics",
+          "reviewed_on": "2026-11-02",
+          "source_updated_on": "2026-03-04",
+          "section": "Use robots meta tags carefully",
+          "supports": "Removing initial noindex through JavaScript is unreliable because rendering can be skipped."
+        }
+      ],
+      "impact": "If this fixture described a real release, an intended landing page could remain excluded. No traffic loss is estimated.",
+      "priority": "P1",
+      "priority_reason": "The fictional intended public route has a concrete index blocker; staging noindex is not itself a defect.",
+      "confidence": "high",
+      "confidence_reason": "The supplied fictional HTML and fictional index intent conflict; production state and business impact are unmeasured.",
+      "owner": "Website engineer (fictional role)",
+      "effort": "About 1\u20132 hours after environment intent is confirmed; estimate only",
+      "technical_lift": {
+        "classes": ["configuration", "code"],
+        "band": "S",
+        "assumptions": ["Fictional small site has separate environment configuration and an existing testable build; no deployment or access waiting included"]
+      },
+      "dependencies": [
+        "Confirm production versus staging index policy",
+        "Separate authorization to implement and later launch"
+      ],
+      "recommended_change": "In an authorized implementation, separate production directives from staging controls; remove unintended production noindex at its generating layer. Preserve protected staging.",
+      "validation": "Check initial HTML and X-Robots-Tag for the production candidate; verify staging stays protected. Recheck actual production after authorized launch. Search Console indexing remains a separate later observation.",
+      "rollback": "Restore prior configuration/ref if routing or privacy regresses; release owner verifies staging protection. No change has been made."
+    },
+    {
+      "id": "SEO-002",
+      "area": "experience-security",
+      "target": "https://example.invalid/",
+      "status": "unknown",
+      "observation": "No field performance data exists in this fictional input. A supposed lab score cannot establish a field pass.",
+      "evidence": [],
+      "classification": "ux-practice",
+      "guidance_scope": "Field performance measurement; no claim of current values or ranking effect",
+      "sources": [
+        {
+          "id": "S16",
+          "url": "https://web.dev/articles/vitals",
+          "reviewed_on": "2026-11-02",
+          "source_updated_on": "2024-10-31",
+          "section": "Core Web Vitals and lab tools",
+          "supports": "Assess good LCP, INP and CLS at the 75th percentile by device; Lighthouse load tests do not measure field INP."
+        }
+      ],
+      "impact": "Real visitors could have good or poor performance; neither is established.",
+      "priority": "P2",
+      "priority_reason": "A measurement gap needs an owner and plan, not an invented performance incident.",
+      "confidence": "low",
+      "confidence_reason": "No field sample or actual lab result was supplied.",
+      "owner": "Performance owner (unassigned)",
+      "effort": "Estimate after authorized measurement options are known",
+      "dependencies": [
+        "Authorized public launch and sufficient field data, or separately authorized private measurement"
+      ],
+      "recommended_change": "Record a reproducible lab baseline before launch and review available field evidence afterward. Preserve unknown field status until data is sufficient.",
+      "validation": "Record source, collection window, device, page/origin scope and all three field values or explicit missing-data reasons. Do not convert TBT into INP or missing values into zero.",
+      "rollback": "Not applicable to this read-only investigation; any future instrumentation needs its own rollback plan."
+    },
+    {
+      "id": "SEO-003",
+      "area": "structured-data",
+      "target": "Fictional service-area business LocalBusiness proposal",
+      "status": "not-applicable",
+      "observation": "The fictional business uses a private home address and has no owner-approved public storefront address. The proposed Google LocalBusiness rich-result implementation is ineligible as scoped.",
+      "evidence": [
+        {
+          "kind": "synthetic",
+          "observed_on": "2026-11-02",
+          "locator": "Fictional fixture described in this example; no URL fetched",
+          "method": "Authored hypothetical input, not a browser or crawler result",
+          "observation": "Fictional owner policy: service-area business; home address is private and must not be published.",
+          "limitations": "Illustrates a decision only. No actual site, deployment or business was inspected."
+        }
+      ],
+      "classification": "documented-requirement",
+      "guidance_scope": "Google LocalBusiness rich-result required fields; does not prohibit truthful Schema.org vocabulary use",
+      "sources": [
+        {
+          "id": "S19",
+          "url": "https://developers.google.com/search/docs/appearance/structured-data/local-business",
+          "reviewed_on": "2026-11-02",
+          "source_updated_on": "2026-09-08",
+          "section": "Required properties",
+          "supports": "Name and physical address are required for this Google feature."
+        },
+        {
+          "id": "S12",
+          "url": "https://support.google.com/business/answer/3038177?hl=en",
+          "reviewed_on": "2026-11-02",
+          "source_updated_on": null,
+          "section": "Service-area businesses",
+          "supports": "Service-area businesses should hide their address from customers on the profile."
+        }
+      ],
+      "impact": "Preserves address privacy; no claim that the site is excluded from ordinary search.",
+      "priority": "P2",
+      "priority_reason": "Resolve the proposed feature scope before implementation; privacy must not be traded for eligibility.",
+      "confidence": "high",
+      "confidence_reason": "The hypothetical privacy constraint and documented required field conflict; no real business facts were gathered.",
+      "owner": "Business owner and content engineer (fictional roles)",
+      "effort": "About 30\u201360 minutes to document the decision; estimate only",
+      "dependencies": [
+        "Verify which business facts are approved for publication"
+      ],
+      "recommended_change": "Do not expose or invent an address. Omit this rich-result claim and consider only truthful applicable entity markup without suggesting it substitutes for required LocalBusiness fields.",
+      "validation": "Confirm no private address appears in visible content, JSON-LD, source, assets or public reports. Document the feature eligibility limitation and separately validate any included markup.",
+      "rollback": "If a future authorized change exposes private data, follow the incident/removal process and restore the safe version; no data has been published by this example."
+    }
+  ]
+}

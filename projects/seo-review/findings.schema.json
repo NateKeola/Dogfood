@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence-led SEO findings export",
+  "description": "Structural evidence contract, not a truth checker or publication sanitizer. The accompanying Markdown report carries business context, measurements and launch decisions.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "report_kind", "reviewed_on", "target", "scope", "limitations", "coverage", "findings"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "report_kind": {"enum": ["site-review", "framework-only", "synthetic-example"]},
+    "reviewed_on": {"$ref": "#/$defs/date"},
+    "target": {"type": ["string", "null"], "minLength": 1},
+    "scope": {"$ref": "#/$defs/text"},
+    "limitations": {"$ref": "#/$defs/texts"},
+    "coverage": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["area", "status", "sample", "reason"],
+        "properties": {
+          "area": {"$ref": "#/$defs/area"},
+          "status": {"$ref": "#/$defs/status"},
+          "sample": {"$ref": "#/$defs/text"},
+          "reason": {"$ref": "#/$defs/text"}
+        }
+      }
+    },
+    "findings": {"type": "array", "items": {"$ref": "#/$defs/finding"}}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"report_kind": {"const": "framework-only"}}},
+      "then": {"properties": {"target": {"type": "null"}, "findings": {"maxItems": 0}}}
+    },
+    {
+      "if": {"properties": {"report_kind": {"const": "site-review"}}},
+      "then": {"properties": {"target": {"$ref": "#/$defs/text"}}}
+    }
+  ],
+  "$defs": {
+    "text": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "texts": {"type": "array", "items": {"$ref": "#/$defs/text"}},
+    "date": {"type": "string", "format": "date", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "status": {"enum": ["pass", "fail", "unknown", "not-applicable"]},
+    "area": {"enum": ["business-intent", "crawl-index-render", "architecture-metadata-images", "content-trust", "local-presence", "structured-data", "experience-security", "measurement-migration"]},
+    "evidence": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "observed_on", "locator", "method", "observation", "limitations"],
+      "properties": {
+        "kind": {"enum": ["public-page", "repository", "authorized-export", "tool-result", "synthetic"]},
+        "observed_on": {"$ref": "#/$defs/date"},
+        "locator": {"$ref": "#/$defs/text"},
+        "method": {"$ref": "#/$defs/text"},
+        "observation": {"$ref": "#/$defs/text"},
+        "limitations": {"$ref": "#/$defs/text"}
+      }
+    },
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "url", "reviewed_on", "source_updated_on", "section", "supports"],
+      "properties": {
+        "id": {"$ref": "#/$defs/text"},
+        "url": {"type": "string", "format": "uri", "pattern": "^https://"},
+        "reviewed_on": {"$ref": "#/$defs/date"},
+        "source_updated_on": {"anyOf": [{"$ref": "#/$defs/date"}, {"type": "null"}]},
+        "section": {"$ref": "#/$defs/text"},
+        "supports": {"$ref": "#/$defs/text"}
+      }
+    },
+    "technical_lift": {
+      "type": "object", "additionalProperties": false,
+      "required": ["classes", "band", "assumptions"],
+      "properties": {
+        "classes": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["configuration", "content", "code", "integration"]}},
+        "band": {"enum": ["S", "M", "L", "XL"]},
+        "assumptions": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/text"}}
+      }
+    },
+    "finding": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "area", "target", "status", "observation", "evidence", "classification", "guidance_scope", "sources", "impact", "priority", "priority_reason", "confidence", "confidence_reason", "owner", "effort", "dependencies", "recommended_change", "validation", "rollback"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^SEO-[0-9]{3,}$"},
+        "area": {"$ref": "#/$defs/area"},
+        "target": {"$ref": "#/$defs/text"},
+        "status": {"$ref": "#/$defs/status"},
+        "observation": {"$ref": "#/$defs/text"},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}},
+        "classification": {"enum": ["documented-requirement", "documented-guidance", "ux-practice", "hypothesis"]},
+        "guidance_scope": {"$ref": "#/$defs/text"},
+        "sources": {"type": "array", "items": {"$ref": "#/$defs/source"}},
+        "impact": {"$ref": "#/$defs/text"},
+        "priority": {"enum": ["P0", "P1", "P2", "P3"]},
+        "priority_reason": {"$ref": "#/$defs/text"},
+        "confidence": {"enum": ["high", "medium", "low"]},
+        "confidence_reason": {"$ref": "#/$defs/text"},
+        "owner": {"$ref": "#/$defs/text"},
+        "effort": {"$ref": "#/$defs/text"},
+        "technical_lift": {"$ref": "#/$defs/technical_lift"},
+        "dependencies": {"$ref": "#/$defs/texts"},
+        "recommended_change": {"$ref": "#/$defs/text"},
+        "validation": {"$ref": "#/$defs/text"},
+        "rollback": {"$ref": "#/$defs/text"}
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"status": {"enum": ["pass", "fail"]}}},
+          "then": {"properties": {"evidence": {"minItems": 1}}}
+        },
+        {
+          "if": {"properties": {"classification": {"enum": ["documented-requirement", "documented-guidance"]}}},
+          "then": {"properties": {"sources": {"minItems": 1}}}
+        }
+      ]
+    }
+  }
+}
