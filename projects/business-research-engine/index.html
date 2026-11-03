@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'"
+    />
+    <meta name="color-scheme" content="light" />
+    <title>Research Engine · Dogfood</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="data:," />
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#queue">Skip to candidates</a>
+    <header>
+      <a class="brand" href="./"
+        ><span class="mark">↗</span> Dogfood <span>/</span>
+        <strong>Research engine</strong></a
+      >
+      <nav aria-label="Main">
+        <a
+          href="http://127.0.0.1:4173/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Idea archive ↗</a
+        ><a href="#source-policy">Source rules</a
+        ><a href="WISHLIST.md">Wishlist</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div>
+          <p class="eyebrow">LOCAL WORKSPACE · MANUAL RESEARCH</p>
+          <h1>Find the need.<br /><em>Then prove the value.</em></h1>
+          <p class="lede">
+            Turn permitted business records into a reviewed problem and a small,
+            useful prototype. One evidence trail at a time.
+          </p>
+        </div>
+        <aside class="overview">
+          <p class="eyebrow">YOUR WORKSPACE</p>
+          <div class="stats">
+            <div>
+              <strong id="real-count">0</strong><span>real candidates</span>
+            </div>
+            <div>
+              <strong id="demo-count">0</strong><span>fictional fixtures</span>
+            </div>
+            <div>
+              <strong id="ready-count">0</strong
+              ><span>real candidates ready</span>
+            </div>
+          </div>
+          <p>
+            No provider crawl or automated prospect research has run. Imports
+            are stored only in this browser on this origin. Shared browser users
+            can access them; clearing browser storage removes them.
+          </p>
+          <p id="storage-status" role="status"></p>
+        </aside>
+      </section>
+      <section class="intake" aria-labelledby="intake-title">
+        <div>
+          <p class="eyebrow">01 / BRING YOUR EVIDENCE</p>
+          <h2 id="intake-title">Start with a permitted record.</h2>
+          <p>
+            A blank website field is a reason to investigate. It is never proof
+            that a business has no website or needs a new one.
+          </p>
+          <div class="actions">
+            <button id="load-demo" type="button">Try fictional examples</button
+            ><button id="clear-demo" type="button" class="subtle">
+              Remove fictional examples</button
+            ><a href="templates/intake.csv" download>CSV template ↓</a
+            ><a href="templates/intake.json" download>JSON template ↓</a>
+          </div>
+        </div>
+        <details id="import-panel">
+          <summary>Import CSV / JSON or paste records <span>＋</span></summary>
+          <label
+            >Local file (maximum 2 MB)<input
+              id="import-file"
+              type="file"
+              accept=".csv,.json,text/csv,application/json" /></label
+          ><label
+            >Records to preview<textarea
+              id="import-text"
+              rows="5"
+              spellcheck="false"
+              placeholder="Paste CSV with headers, or a JSON array from the template"
+            ></textarea></label
+          ><button id="preview-import" class="primary" type="button">
+            Preview import
+          </button>
+          <p id="import-status" role="status" class="status"></p>
+          <div id="import-preview" hidden></div>
+          <label id="duplicate-option" hidden class="check"
+            ><input id="keep-duplicates" type="checkbox" />Keep possible
+            duplicates as separate records for branch / DBA review</label
+          ><button id="commit-import" type="button" hidden class="primary">
+            Import unique records
+          </button>
+        </details>
+      </section>
+      <section id="queue" aria-labelledby="queue-title">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">02 / REVIEW → QUALIFY → PROTOTYPE</p>
+            <h2 id="queue-title">A small queue. A clear next action.</h2>
+          </div>
+          <div class="actions">
+            <button id="private-json" type="button">
+              Private workspace snapshot ↓</button
+            ><button id="private-csv" type="button">
+              Private candidate CSV ↓
+            </button>
+          </div>
+        </div>
+        <p class="privacy-note">
+          Exports marked private can include prospect details. Keep them out of
+          public repositories and sharing. Public prototype templates are a
+          separate action and exclude all prospect data.
+        </p>
+        <div class="filters">
+          <label
+            >Search candidates<input
+              id="search"
+              type="search"
+              placeholder="Company, city or domain" /></label
+          ><label
+            >Queue<select id="filter">
+              <option value="all">All records</option>
+              <option value="real">Real candidates</option>
+              <option value="fictional">Fictional fixtures</option>
+              <option value="ready">Ready for prototype</option>
+              <option value="conflict">Conflicting evidence</option>
+            </select></label
+          >
+        </div>
+        <div class="workbench">
+          <div>
+            <p id="queue-count" role="status"></p>
+            <div id="candidate-list"></div>
+            <div id="empty" class="empty">
+              <span>⌁</span>
+              <h3>Research starts with evidence.</h3>
+              <p>
+                Import permitted records or explore clearly fictional test data.
+                No real leads are included.
+              </p>
+            </div>
+          </div>
+          <section
+            id="inspector"
+            class="inspector"
+            aria-label="Selected candidate"
+          >
+            <div class="empty">
+              <h3>Choose a record to review.</h3>
+              <p>
+                Keep identity, website presence, health and actual customer need
+                separate.
+              </p>
+            </div>
+          </section>
+        </div>
+      </section>
+      <section id="source-policy" class="policies">
+        <div>
+          <p class="eyebrow">SOURCE RULES · REVIEWED NOVEMBER 2, 2026</p>
+          <h2>Manual first. Permission always.</h2>
+          <p>
+            No live adapter is enabled, authenticated or budget-approved. This
+            workbench does not fetch prospect websites or send outreach. A
+            registry registration/start date retains its source meaning; it is
+            not a founding date or proof of current operation.
+          </p>
+          <p>
+            <strong>SEO acceptance checklist:</strong>
+            <a
+              href="https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Reviewed planning reference ↗</a
+            >
+            from unmerged draft PR #2. Website briefs link gates G1–G7; no site
+            audit pass is claimed.
+          </p>
+        </div>
+        <div id="provider-list"></div>
+      </section>
+      <footer>
+        <span>Dogfood / Research engine</span
+        ><span>Evidence before claims. Value before pitch.</span
+        ><a href="README.md">Workflow & privacy guide ↗</a>
+      </footer>
+    </main>
+    <div id="notice" role="status" aria-live="polite"></div>
+  </body>
+</html>

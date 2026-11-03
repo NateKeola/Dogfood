@@ -1,0 +1,161 @@
+{
+  "id": "REPLACE_ME",
+  "title": "REPLACE_ME",
+  "summary": "REPLACE_ME",
+  "businessTypes": [
+    "REPLACE_ME"
+  ],
+  "businessUseCase": "REPLACE_ME",
+  "patterns": [
+    "REPLACE_ME"
+  ],
+  "difficulty": "Moderate",
+  "sketch": "service",
+  "kind": "observed",
+  "addedOn": "YYYY-MM-DD",
+  "integrations": [
+    "None for the MVP; use sample data and local interactions. Live services are separate follow-up work."
+  ],
+  "source": {
+    "type": "reel",
+    "name": "REPLACE_ME",
+    "url": "https://www.instagram.com/p/REPLACE_ME/",
+    "publicVisibility": "public",
+    "creator": {
+      "name": "@REPLACE_ME",
+      "url": "https://www.instagram.com/REPLACE_ME/"
+    },
+    "attributionNote": "REPLACE_ME: verify the public creator attribution.",
+    "contentType": "REPLACE_ME: filmed demo, design workflow, or visual concept.",
+    "observedStack": []
+  },
+  "review": {
+    "method": "video-visual-caption",
+    "reviewedOn": "YYYY-MM-DD",
+    "evidenceUrl": "https://www.instagram.com/p/REPLACE_ME/",
+    "notes": "REPLACE_ME: what was reviewed, public visibility evidence, sampling limits and audio coverage.",
+    "observations": [
+      "REPLACE_ME: direct observations only."
+    ],
+    "captionClaims": [],
+    "limitations": [
+      "REPLACE_ME: what was not tested."
+    ],
+    "audioReviewed": false
+  },
+  "build": {
+    "status": "planned",
+    "url": null
+  },
+  "brief": {
+    "goal": "REPLACE_ME",
+    "features": [
+      "REPLACE_ME"
+    ],
+    "steps": [
+      "REPLACE_ME"
+    ],
+    "acceptance": [
+      "REPLACE_ME"
+    ],
+    "outOfScope": [
+      "REPLACE_ME"
+    ],
+    "existingPattern": "REPLACE_ME",
+    "specificImprovement": "REPLACE_ME",
+    "targetBuyerProblem": "REPLACE_ME",
+    "newCapability": "REPLACE_ME",
+    "validationTest": "REPLACE_ME",
+    "missingEvidence": [
+      "REPLACE_ME"
+    ]
+  },
+  "popularity": {
+    "views": {
+      "value": null,
+      "display": null,
+      "status": "unknown",
+      "observedAt": null,
+      "sourceUrl": null
+    },
+    "likes": {
+      "value": null,
+      "display": null,
+      "status": "unknown",
+      "observedAt": null,
+      "sourceUrl": null
+    },
+    "comments": {
+      "value": null,
+      "display": null,
+      "status": "unknown",
+      "observedAt": null,
+      "sourceUrl": null
+    },
+    "followers": {
+      "value": null,
+      "display": null,
+      "status": "unknown",
+      "observedAt": null,
+      "sourceUrl": null
+    },
+    "subscribers": {
+      "value": null,
+      "display": null,
+      "status": "unknown",
+      "observedAt": null,
+      "sourceUrl": null
+    },
+    "reposts": {
+      "value": null,
+      "display": null,
+      "status": "unknown",
+      "observedAt": null,
+      "sourceUrl": null
+    }
+  },
+  "evidence": {
+    "sourceIdentity": {
+      "status": "unknown",
+      "notes": "REPLACE_ME: record supplied review evidence only."
+    },
+    "publicVisibility": {
+      "status": "unknown",
+      "notes": "REPLACE_ME: record supplied review evidence only."
+    },
+    "observedContent": {
+      "status": "none",
+      "notes": "REPLACE_ME: record supplied review evidence only."
+    },
+    "functioningArtifact": {
+      "status": "unverified",
+      "notes": "REPLACE_ME: record supplied review evidence only."
+    },
+    "reproducibleSteps": {
+      "status": "not-tested",
+      "notes": "REPLACE_ME: record supplied review evidence only."
+    },
+    "outcomeClaims": {
+      "status": "unverified",
+      "notes": "REPLACE_ME: record supplied review evidence only."
+    },
+    "aiContentLabel": {
+      "status": "unknown",
+      "notes": "REPLACE_ME: record supplied review evidence only."
+    }
+  },
+  "freshness": {
+    "publishedOn": null,
+    "publicationEvidenceUrl": null,
+    "toolVersionDate": null,
+    "toolVersionLabel": null,
+    "toolVersionEvidenceUrl": null,
+    "role": "undated",
+    "caveat": "Publication and relevant tool/version dates are unverified. Review date is not publication date. Use as pattern inspiration, not current setup guidance."
+  },
+  "novelty": {
+    "status": "unassessed",
+    "notes": "No genuinely new capability or improvement over alternatives has been independently established by this review.",
+    "evidenceUrl": null
+  }
+}

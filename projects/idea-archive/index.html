@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'">
+    <meta name="description" content="Public references. Original directions. Browse small-business website ideas and take a practical brief into your next prototype.">
+    <meta name="color-scheme" content="light">
+    <title>Idea Archive · Dogfood</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231d302d'/%3E%3Cpath d='M9 10h14v4H9zm0 7h14v5H9z' fill='%23dcf38b'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#library">Skip to ideas</a>
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="Idea archive home"><span class="brand-mark" aria-hidden="true">▤</span> Dogfood <span class="brand-divider">/</span> <strong>Idea archive</strong></a>
+      <nav aria-label="Main"><a href="#library">Browse ideas</a><a href="#directions">Prototype directions</a><a href="http://127.0.0.1:4174/" target="_blank" rel="noopener noreferrer">Research engine ↗</a><a href="WISHLIST.md">Wishlist</a><a href="#intake">Add a reference <span aria-hidden="true">↗</span></a></nav>
+    </header>
+    <main>
+      <section class="intro" aria-labelledby="title">
+        <div class="intro-copy"><p class="eyebrow"><span class="status-dot"></span> THE STARTING POINT FOR YOUR NEXT BUILD</p><h1 id="title">Collect the spark.<br><em>Make it your own.</em></h1><p class="intro-description">Good ideas deserve more than a saved link. Explore public examples, find the useful pattern, and leave with an original prototype brief.</p><a class="text-link" href="#library">Find your next idea <span aria-hidden="true">↓</span></a></div>
+        <aside class="collection-note" aria-label="Collection overview"><p class="eyebrow">COLLECTION 001 <span>↗</span></p><h2>From reference<br> to first version.</h2><p>A deliberate starting set of public examples. Every reference comes with an original direction for a small business.</p><div class="stats"><div><strong data-stat="youtube">—</strong><span>YouTube reviewed</span></div><div><strong data-stat="reel">—</strong><span>Reels reviewed</span></div><div><strong data-stat="website">—</strong><span>Website references</span></div><div><strong data-stat="built">—</strong><span>Completed builds</span></div></div><p class="note-foot">Collected November 2, 2026 · all briefs are original</p></aside>
+      </section>
+      <section id="directions" class="library" aria-labelledby="directions-title"><div class="section-heading"><div><p class="eyebrow">FROM PATTERN TO VALUE</p><h2 id="directions-title">Six directions. A concrete next step.</h2></div></div><p class="freshness-note">All 13 earlier references are preserved alongside two new Reels, for 15 total. Related videos are grouped by proposed use. Repeated appearances are a research signal; distinct creators are not proof of independent invention, customer demand or sales. These are briefs, with zero customer demos built.</p><div id="groups" class="groups"></div></section>
+      <section id="library" class="library" aria-labelledby="library-title">
+        <div class="section-heading"><div><p class="eyebrow">THE LIBRARY</p><h2 id="library-title">A few good places to start.</h2></div><span class="quiet">Borrow the principle. Build your own expression.</span></div>
+        <div class="collection-tabs" role="group" aria-label="Collection"><button type="button" data-collection="all" aria-pressed="true">All ideas <span data-count="all">—</span></button><button type="button" data-collection="reel" aria-pressed="false">Instagram Reels <span data-count="reel">—</span></button><button type="button" data-collection="website" aria-pressed="false">Website references <span data-count="website">—</span></button><button type="button" data-collection="youtube" aria-pressed="false">YouTube <span data-count="youtube">—</span></button><button type="button" data-collection="concept" aria-pressed="false">Untested concepts <span data-count="concept">—</span></button></div>
+        <form id="filters" class="filters" role="search">
+          <label class="search-field"><span>Search ideas</span><input id="search" name="search" type="search" placeholder="Search patterns, businesses, or sources…" autocomplete="off"></label>
+          <label><span>Business</span><select id="business"><option value="all">Any business</option></select></label>
+          <label><span>Evidence</span><select id="evidence"><option value="all">Any review method</option><option value="video-visual-caption">Video + caption, muted</option><option value="video-transcript">Sampled video + transcript</option><option value="video-metadata">Sampled video + metadata</option><option value="visual-text">Visual + text</option><option value="text">Text only</option><option value="video">Video + audio</option><option value="none">Unreviewed concept</option></select></label>
+          <label><span>Difficulty</span><select id="difficulty"><option value="all">Any difficulty</option><option value="Easy">Easy</option><option value="Moderate">Moderate</option><option value="Advanced">Advanced</option></select></label>
+          <label><span>Build status</span><select id="build-status"><option value="all">Any status</option><option value="planned">Planned</option><option value="built">Built</option></select></label>
+          <label><span>Discovery order</span><select id="sort"><option value="recent">Evidence, then recent</option><option value="curated">Collection order</option></select></label>
+        </form>
+        <div class="results-bar"><p id="result-count" role="status" aria-live="polite">Loading ideas…</p><button id="clear-filters" class="text-button" type="button">Reset filters <span aria-hidden="true">↺</span></button></div>
+        <p id="freshness-note" class="freshness-note"></p>
+        <div id="cards" class="cards"></div>
+        <div id="empty-state" class="empty-state" hidden><span aria-hidden="true">↗</span><h3 id="empty-title"></h3><p id="empty-description"></p><button id="empty-reset" class="button" type="button">Explore all ideas</button></div>
+        <div id="load-error" class="empty-state" hidden><h3>The archive couldn’t load.</h3><p>Refresh the page or run <code>npm start</code> from the idea-archive folder. This gallery needs a local web server.</p><button id="retry" class="button" type="button">Try again</button></div>
+        <noscript><p>This gallery uses JavaScript for search and briefs. You can also read <a href="data/ideas.json">the idea records</a> directly.</p></noscript>
+      </section>
+      <section id="intake" class="intake" aria-labelledby="intake-title"><div><p class="eyebrow">NEXT INTO THE ARCHIVE</p><h2 id="intake-title">A place for the next great find.</h2><p>Check each reference’s review method and limits before building. A filmed demo does not independently verify the underlying site or backend. New intake is empty: add the next public example with its creator, review evidence, and an original brief.</p></div><div class="intake-action"><a class="button button-dark" href="templates/idea.json" download="idea-template.json">Download intake template <span aria-hidden="true">↓</span></a><a class="text-link" href="README.md">Read the contribution guide <span aria-hidden="true">↗</span></a></div></section>
+      <footer><span>Dogfood / Idea archive</span><p>Public sources. Original briefs. No borrowed assets.</p><a href="https://github.com/NateKeola/Dogfood/tree/main/research/website-inspiration" target="_blank" rel="noopener noreferrer">Research library ↗</a></footer>
+    </main>
+    <dialog id="idea-dialog" aria-labelledby="detail-title"><div class="dialog-top"><span class="eyebrow">REFERENCE → ORIGINAL DIRECTION</span><button class="close-dialog" type="button" aria-label="Close idea details">×</button></div><div id="detail-content"></div></dialog>
+  </body>
+</html>

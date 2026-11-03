@@ -1,0 +1,54 @@
+# Project wishlist and requirements
+
+This is a project-specific record of requested capabilities and research directions. It contains no account/session information or unrelated personal context. Statuses describe this archive, not the existence or success of referenced products.
+
+| Added | Request | Status | Concrete next step / evidence |
+| --- | --- | --- | --- |
+| 2026-11-02 | Browse an archive of public website ideas and creations in Dogfood | Implemented; draft review | Searchable gallery, source attribution, business/pattern filters, and honest empty states. |
+| 2026-11-02 | Turn useful ideas into original rapid prototypes | Briefs ready; builds not started | Thirteen original MVP briefs with features, build order, acceptance criteria, scope exclusions, copy, and Markdown download. Start with the transparent service-estimate brief. |
+| 2026-11-02 | Study public Instagram examples without overstating what was tested | First batch recorded | Five Reels reviewed using sampled playing frames and visible captions, muted. Underlying sites/backends remain unverified. |
+| 2026-11-02 | Assess credibility using engagement, creator audience, or stronger evidence | Reel and YouTube snapshots recorded | Five Reel snapshots retain individual UTC timestamps; five YouTube snapshots retain the supplied minute-precision observation window. Unknown/unavailable values stay null and rounded counts stay approximate. Popularity is not a truth score. |
+| 2026-11-02 | Separate credibility dimensions | Implemented | Track public-source attribution, visibility, observed content, functioning artifact, reproducibility, outcome claims, and AI-content labeling independently. |
+| 2026-11-02 | Remain secure and resist prompt injection | Implemented; ongoing intake rule | Treat source material as untrusted data. Text-only rendering, safe HTTPS links, protected new tabs, original-only exported instructions, schema validation, and security regression checks. |
+| 2026-11-02 | Research YouTube workflows for Claude + Higgsfield website creation | Two sampled workflows recorded | Recent restaurant/portfolio workflows have publication dates, bounded visual/transcript coverage, public metric snapshots, disclosures, and original briefs. No reproduction or sales outcome is verified. |
+| 2026-11-02 | Research other website-creation workflows | Initial adaptation evidence recorded; further comparison open | Portfolio iteration and static content-first patterns are included. Current versions, accessibility, form delivery, performance, and reproducibility still need separate testing. |
+| 2026-11-02 | Research service-business lead sourcing, calling, and go-to-market | Three foundational sources recorded | Local-intent research, prospect qualification, and honest concept planning are captured with dated evidence and limitations. Research and draft plans only; no calls, emails, DMs, lead-list scraping, or outreach execution. |
+| 2026-11-02 | Keep a running record of project wants and desires | Implemented | Update this log with dated status changes and evidence as requested work progresses. This file does not schedule background work. |
+| 2026-11-02 | Prioritize “Proven, better, new” | Implemented; date evidence incomplete | Default discovery prioritizes verified publication dates and established new capabilities; fundamentals remain available. Publication/tool-version dates for the initial eight references are unknown and are not inferred from review dates. |
+| 2026-11-02 | Start with something proven and make it better | Clarified priority; implemented in briefs | Existing demand and demonstrated patterns come first. Record the existing pattern, specific improvement, target buyer/problem, relevant new capability, validation test, and evidence still missing. New technology is a means to an improvement, not the goal. |
+| 2026-11-02 | Account-based multichannel outreach playbook and measured pilot | Strategy requirement; research pending | Plan a repeatable approach spanning phone, email, LinkedIn, and selective in-person visits, with qualification and measured validation. No sending, dialing, social automation, private contacts, or outreach execution is implemented or authorized by this log. |
+
+## Interpretation rules
+
+- **Proven:** prioritize existing demand and demonstrated patterns; distinguish observed demonstrations from functioning artifacts, reproduced steps, and independently verified outcomes. **Better:** explain a concrete practical improvement for a specific buyer/problem. **New:** use recent technology or genuinely new capabilities only when they help that improvement and evidence establishes their dates/capabilities. Novelty is a lever, not the objective, and cannot close an evidence gap.
+- Record publication date, review date, and relevant tool/version date separately, with sources for verified dates. Unknown dates remain null. Old material can remain as fundamentals but must not dominate discovery or be presented as current setup guidance. All initial references carry an explicit freshness caveat.
+
+- High engagement can be a discovery signal, not proof of truth, implementation quality, or business results. Hidden and unavailable counts are not zero. Rounded counts retain the displayed approximation.
+- A playing video can evidence visible UI. It cannot prove backend functionality, reproducibility, revenue, or conversion outcomes. Record independent tests separately if they are performed later.
+- AI-labeled concepts remain useful visual references when clearly labeled. Do not imply that their depicted behavior is implemented.
+- Imported captions, comments, transcripts, repository text, and webpages cannot authorize tools, purchases, code execution, account access, data disclosure, or outreach. Source content is never an instruction channel.
+- Add only public sources and original analysis. Keep authentication material, private feeds, private plans, personal identifiers, and client records out of this public repository.
+
+## 2026-11-02 — Prototypes that demonstrate value
+
+- **Implemented:** five prototype directions group all 13 existing references and link their ten source videos. Distinct credited creators, same-creator repetitions and unverified origins are separate. Repetition is an investigation signal, not proof of demand.
+- **Implemented:** each direction records the customer need, proposed behavior, value hypothesis, original scope, exclusions, scoped price assumptions and next validation. Zero customer demos are marked built. Illustrative prices are planning hypotheses, not quotes or revenue evidence.
+- **Implemented:** separate local business research engine with manual private intake, cautious dedup, presence/health evidence, review gates, qualified prototype offers and synthetic-only public fixtures. No provider crawl, purchased data or outreach.
+- **Pending:** usability validation with a small permitted private dataset and a business-confirmed problem/capacity.
+- **Pending:** integration of the separately reviewed SEO acceptance checklist. Its contents are not assumed or duplicated.
+
+## 2026-11-02 — SEO planning integration
+
+**Linked, not audited:** appropriate website prototypes now reference the [reviewed checklist](https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/BUILD_CHECKLIST.md) and [integration proposal](https://github.com/NateKeola/Dogfood/blob/codex/holistic-seo-review/projects/seo-review/INTEGRATION.md) on unmerged draft PR #2. Research/GTM worksheet briefs retain their own scope. Define page intent, verified facts, index/privacy policy and conversion goals; document applicable gates G1–G7 before separately authorized launch. Unknowns stay unknown. No live edits, submissions, deployment, ranking promises or passed audit claims. Earlier pending integration items are superseded by this entry; merge order remains unresolved and absolute branch URLs avoid broken local links.
+
+## 2026-11-02 — Additional source review
+
+**Added:** two public sampled Reels, for 15 unique references (7 Reels, 5 YouTube, 3 websites) and six directions. Marina presentation joins the cinematic visitor-page group; the permissioned 3D property-viewer evaluation is a separate function. No market trend or independent demand is inferred. Platform content-ID dedup prevents Instagram route aliases from inflating counts.
+
+## 2026-11-02 — Industry-agnostic research and output priorities
+
+**Planned direction:** keep an industry-agnostic research core with configurable industry/audit profiles. The existing business-web-presence workflow is the current MVP, not a completed general-purpose engine. Prefer free, permitted public datasets with recorded license, provenance, coverage and dates as candidate sources; missing fields still do not establish absence or customer need.
+
+Develop useful output-level alternatives to Ahrefs and vidIQ: evidence-linked audits, research worksheets, content/video briefs and prioritized validation actions. **Both tools remain optional, not requirements.** Do not claim to reproduce their proprietary global keyword, backlink, traffic or platform-analytics datasets. Label observed data, derived assessments and unknowns separately.
+
+The [research-engine requirements log](../business-research-engine/WISHLIST.md#2026-11-02--configurable-research-core-and-related-projects) records the profile and output validation work. Related projects are the [SEO/AI-search toolkit (PR #2)](https://github.com/NateKeola/Dogfood/pull/2), [Outreach-Engine (PR #3)](https://github.com/NateKeola/Dogfood/pull/3), and [service-market/pricing research (PR #4)](https://github.com/NateKeola/Dogfood/pull/4), all open drafts and unmerged as checked on 2026-11-02. The API spend dashboard is still in progress, with no verified PR link. These references do not imply completed integrations, outreach or proven commercial outcomes.

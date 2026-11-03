@@ -1,0 +1,31 @@
+name: Idea archive checks
+
+on:
+  pull_request:
+    paths:
+      - 'projects/idea-archive/**'
+      - '.github/workflows/idea-archive.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'projects/idea-archive/**'
+      - '.github/workflows/idea-archive.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/idea-archive
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm run lint
+      - run: npm run validate
+      - run: npm test
+      - run: npm run build
