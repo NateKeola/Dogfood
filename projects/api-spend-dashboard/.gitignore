@@ -1,0 +1,9 @@
+private/
+*.private.json
+*.private.csv
+*.private.jsonl
+.env*
+node_modules/
+test-results/
+playwright-report/
+*.log

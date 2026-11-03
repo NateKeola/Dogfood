@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import http from 'node:http';
+const base='http://127.0.0.1:4176';
+const ok=await fetch(base);
+assert.equal(ok.status,200);
+assert.match(ok.headers.get('content-security-policy'),/connect-src 'none'/);
+assert.equal(ok.headers.get('cache-control'),'no-store');
+assert.match(await ok.text(),/API Spend/);
+for(const path of ['/private/usage.json','/.env','/README.md','/../README.md','/usage-ledger.schema.json','/missing'])assert.equal((await fetch(base+path)).status,404,path);
+assert.equal((await fetch(base,{method:'POST'})).status,404);
+const badHost=await new Promise((resolve,reject)=>{http.get(base,{headers:{Host:'untrusted.example'}},res=>{res.resume();resolve(res.statusCode);}).on('error',reject);});
+assert.equal(badHost,403);
+console.log('HTTP checks passed: public assets, CSP, no-store, private-path denial, POST denial, Host validation.');
