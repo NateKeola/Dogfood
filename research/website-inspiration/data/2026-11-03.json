@@ -1,0 +1,223 @@
+[
+  {
+    "date_added": "2026-11-03",
+    "company": "Alva Energy",
+    "website": "https://alvaenergy.io/",
+    "industry": "Nuclear power / reactor uprates",
+    "funding_date": "2026-02-12",
+    "round_amount": "$33 million Series A, led by Playground Global",
+    "funding_source": "https://alvaenergy.io/alva-energy-launches-with-33-million-to-unlock-10-gwe-of-nuclear-power/",
+    "design_inspiration": "The homepage turns a complex nuclear proposition into four scannable metrics: fleet potential, capacity per reactor, cost, and construction time. Its numbered technology explanation and separate utility versus power-purchaser sections move from technical proof to audience-specific value.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-03",
+    "company": "Mojave Energy Systems",
+    "website": "https://mojavehvac.com/",
+    "industry": "Commercial HVAC / energy efficiency",
+    "funding_date": "2026-09-23",
+    "round_amount": "$19 million Series B, led by Fairtree Elevant Ventures",
+    "funding_source": "https://mojavehvac.com/2026/09/mojave-secures-series-b/",
+    "design_inspiration": "Product navigation is paired with application-specific routes for hospitality, grocery, healthcare, education, industrial buildings, and data centers. The homepage explains its humidity-first category before introducing products, then supports the pitch with performance metrics, FAQs, and a Find a Rep conversion path.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-03",
+    "company": "Novele",
+    "website": "https://www.novele.com/",
+    "industry": "Building energy intelligence / distributed storage",
+    "funding_date": "2026-09-30",
+    "round_amount": "Oversubscribed $17 million Series A, led by Boisei Labs",
+    "funding_source": "https://www.novele.com/newsroom/closes-oversubscribed-17m-series-a",
+    "design_inspiration": "The homepage follows a buyer-friendly sequence: electricity-bill problem, assessment methods, deployment, and business value. It distinguishes BoardOS software from EnergyBoard hardware and repeatedly offers a free screening; illustrative billing examples are explicitly labeled as not customer results.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-03",
+    "company": "Rainmaker",
+    "website": "https://www.rainmaker.com/",
+    "industry": "Climate adaptation / cloud seeding / water technology",
+    "funding_date": "2026-09-21",
+    "round_amount": "$100 million Series B",
+    "funding_source": "https://www.rainmaker.com/blog/announcing-rainmaker-s-usd100m-series-b",
+    "design_inspiration": "The homepage breaks the technology into three intelligible functions: software targeting, drone delivery, and radar validation. It pairs its ambitious mission with direct routes to a white paper, research, use cases, and FAQs, giving skeptical visitors a clear evidence-seeking path.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-03",
+    "company": "Last Energy",
+    "website": "https://www.lastenergy.com/",
+    "industry": "Modular nuclear power / industrial energy",
+    "funding_date": "2025-12-16",
+    "round_amount": "Oversubscribed Series C of more than $100 million, led by Astera Institute",
+    "funding_source": "https://www.lastenergy.com/news-press/last-energy-announces-oversubscribed-100-million-series-c",
+    "design_inspiration": "A brief simplification-focused headline leads directly into the PWR-20 offering and full-service delivery model. The homepage links technical detail to buyer reassurance about ownership, financing, and operation, then identifies customer sectors such as data centers, metals, and chemicals.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-03",
+    "company": "LineVision",
+    "website": "https://www.linevisioninc.com/",
+    "industry": "Electric-grid intelligence / transmission monitoring",
+    "funding_date": "2026-09-17",
+    "round_amount": "Series D totaling up to $37.5 million, led by Centaurus Capital and New System Ventures",
+    "funding_source": "https://www.linevisioninc.com/news/linevision-secures-capital-to-accelerate-global-deployment",
+    "design_inspiration": "Navigation separates solutions, underlying technology, customer case studies, and resources. The homepage connects utility ROI to two named products and follows with attributed customer testimony, security information, lifecycle services, and support, creating a strong enterprise evaluation path.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-03",
+    "company": "Kanin Energy",
+    "website": "https://kaninenergy.com/",
+    "industry": "Industrial waste-heat recovery / onsite power",
+    "funding_date": "2026-09-16",
+    "round_amount": "Up to US$100 million in new equity financing; commitments of up to US$50 million each from S2G Investments and Canada Growth Fund; series not specified",
+    "funding_source": "https://www.s2ginvestments.com/insights/welcome-kanin-energy",
+    "design_inspiration": "The homepage provides separate solution and named-project navigation, then organizes value around cost, reliability, revenue, speed, and environmental impact. Its repeated project-evaluation CTA and practical financing/developer FAQs make a complicated industrial service easier to assess.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-03",
+    "company": "Just Ice Tea",
+    "website": "https://justicetea.com/",
+    "industry": "Consumer food/beverage",
+    "funding_date": "2026-02-18",
+    "round_amount": "US$9 million Series B",
+    "funding_source": "https://justicetea.com/blogs/news/just-ice-tea-raises-9m-unveils-new-watermelon-lime-white-tea-and-peach-white-tea-flavors",
+    "design_inspiration": "Flavor-first messaging leads into a browsable flavor selection, followed by ingredients and Fair Trade impact. Separate Bottles, Cans, and Store Locator navigation gives direct-purchase and retail shoppers clear routes.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-03",
+    "company": "MitoRx Therapeutics",
+    "website": "https://mitorxtherapeutics.com/",
+    "industry": "Biotechnology / obesity therapeutics",
+    "funding_date": "2025-11-17",
+    "round_amount": "£5.5 million pre-Series A (US$7.2 million equivalent stated in release), led by Oshen Holdings",
+    "funding_source": "https://mitorxtherapeutics.com/mitorx-therapeutics-raises-gbp-5-5-million-pre-series-a-round/",
+    "design_inspiration": "The homepage organizes its scientific story into problem, differentiated approach, and program, each linking to deeper detail. Science navigation separately exposes unmet need, approach, and publications, a useful structure for explaining complex research at different depths.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-03",
+    "company": "Valerie Health",
+    "website": "https://valeriehealth.com/",
+    "industry": "Healthcare operations / AI front office",
+    "funding_date": "2025-12-16",
+    "round_amount": "US$30 million Series A, led by Redpoint; US$39 million cumulative funding is not the round amount",
+    "funding_source": "https://www.globenewswire.com/news-release/2025/12/16/3206549/0/en/Valerie-Health-Raises-30M-Series-A-to-Bring-AI-Front-Office-to-Independent-Provider-Groups.html",
+    "design_inspiration": "Outcome-led messaging connects practice growth to reduced workload, then explains three benefits in numbered sections. Testimonials are explicitly differentiated for operators and executives, helping two buyer audiences find relevant proof.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-03",
+    "company": "Trybe",
+    "website": "https://try.be/",
+    "industry": "Wellness / spa and leisure operations software",
+    "funding_date": "2026-01-12",
+    "round_amount": "US$30 million Series A investment from Five Elms Capital",
+    "funding_source": "https://www.fiveelms.com/trybe-announces-30m-series-a-investment-from-five-elms-capital/",
+    "design_inspiration": "Product navigation is grouped around Guest Experience, Front of House, and Back of House rather than a flat feature list. A separate Property Types menu lets hotels, resorts, standalone spas, and bathhouses enter through their own operating context.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-03",
+    "company": "WeatherPromise",
+    "website": "https://www.weatherpromise.com/us",
+    "industry": "Consumer travel / weather guarantees",
+    "funding_date": "2026-01-13",
+    "round_amount": "US$12.8 million Series A, led by Maveron; more than US$22 million total investment",
+    "funding_source": "https://www.prnewswire.co.uk/news-releases/weatherpromise-closes-oversubscribed-series-a-round-led-by-maveron-302659489.html",
+    "design_inspiration": "The homepage translates an unfamiliar product into a simple sequence: add protection when booking, monitor the dashboard, and receive automatic payouts. It explicitly distinguishes the product from travel insurance before presenting technical data and testimonials.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-03",
+    "company": "Slang AI",
+    "website": "https://www.slang.ai/",
+    "industry": "Restaurants / hospitality voice AI",
+    "funding_date": "2026-02-24",
+    "round_amount": "US$36 million Series B package comprising US$28 million equity and US$8 million debt, led by US Venture Partners; US$68 million cumulative funding",
+    "funding_source": "https://www.slang.ai/press-releases/slang-ai-raises-36m-series-b",
+    "design_inspiration": "Superhost packages the technology around a familiar restaurant role, then translates capabilities into guest-experience benefits such as interruptions, language switching, and brand-consistent greetings. Pricing, customer stories, and a trial route are directly accessible in navigation.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-03",
+    "company": "Naboo",
+    "website": "https://www.naboo.app/en-gb",
+    "industry": "Corporate events / travel and hospitality procurement",
+    "funding_date": "2026-02-10",
+    "round_amount": "US$70 million Series B, led by Lightspeed",
+    "funding_source": "https://www.naboo.app/en-gb/blog/product/press-release-2026-february",
+    "design_inspiration": "Two immediate actions serve different intents: submitting an event brief or booking a demo. A concrete advisor example compares venues by travel time, rooms, and recommendation labels, making the service understandable before the longer corporate proof section.",
+    "review_method": "Text",
+    "funding_note": "Funding date uses the explicit February 10, 2026 press-release dateline; article metadata says February 9, 2026."
+  },
+  {
+    "date_added": "2026-11-03",
+    "company": "Cogent Security",
+    "website": "https://www.cogent.com/",
+    "industry": "Cybersecurity / autonomous vulnerability management",
+    "funding_date": "2026-02-18",
+    "round_amount": "$42 million Series A led by Bain Capital Ventures; $53 million total funding after the round",
+    "funding_source": "https://www.cogent.com/newsroom/cogent-security-raises-42m-series-a",
+    "design_inspiration": "The homepage frames the problem as finding versus fixing vulnerabilities, then explains Discover, Assess, and Remediate in numbered steps with operational details. Paired Book a demo and Free risk assessment CTAs offer two levels of commitment.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-03",
+    "company": "Octane",
+    "website": "https://octane.co/",
+    "industry": "Fintech / powersports financing",
+    "funding_date": "2025-12-15",
+    "round_amount": "$100 million Series F equity financing, including new growth capital and amounts for secondary share transfers; led by Valar Ventures",
+    "funding_source": "https://octane.co/o/press-octane-raises-100m-in-series-f-funding-round/",
+    "design_inspiration": "The homepage starts the financing journey with vehicle make/model selection rather than a generic contact form. Credit-impact reassurance and a concise How Octane Works explanation address hesitation near the conversion path.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-03",
+    "company": "Pigment",
+    "website": "https://www.pigment.com/",
+    "industry": "Enterprise planning software",
+    "funding_date": "2026-10-21",
+    "round_amount": "$250 million Series E; $2.3 billion valuation; led by Scaleup Europe Fund managed by EQT; NVIDIA participation described as a planned investment",
+    "funding_source": "https://www.pigment.com/newsroom/pigment-raises-250m-series-e",
+    "design_inspiration": "The homepage pairs a free trial with a demo CTA, then connects named customers to testimonials and case studies. Its Frames gallery makes a broad planning platform concrete through examples such as sales forecasting, executive views, and workforce planning.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-03",
+    "company": "Legora",
+    "website": "https://legora.com/",
+    "industry": "Legal AI software",
+    "funding_date": "2026-10-21",
+    "round_amount": "$550 million Series E; $8.8 billion post-money valuation; led by Atreides Management",
+    "funding_source": "https://legora.com/blog/series-e",
+    "design_inspiration": "A short legal-work promise leads into the Legora aOS, broken into layers including models, integrations, legal capabilities, and governance. Dedicated practice-area paths and a top-level Security link help different professional buyers find relevant proof.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-03",
+    "company": "Render",
+    "website": "https://render.com/",
+    "industry": "Cloud infrastructure / developer tools",
+    "funding_date": "2026-02-17",
+    "round_amount": "$100 million Series C extension; $1.5 billion valuation; $258 million total funding",
+    "funding_source": "https://render.com/blog/series-c-extension",
+    "design_inspiration": "Navigation groups services into Agent execution, Core compute, and Managed data, with plain-language descriptions of each. Migration credits and named migration guides create a direct path for visitors switching providers. Navigation text reviewed; hero unavailable in extraction.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-03",
+    "company": "Temporal",
+    "website": "https://temporal.io/",
+    "industry": "Developer tools / durable application execution",
+    "funding_date": "2026-02-17",
+    "round_amount": "$300 million Series D; $5 billion valuation; led by Andreessen Horowitz",
+    "funding_source": "https://temporal.io/news/temporal-raises-300M-to-make-agentic-ai-real-for-companies",
+    "design_inspiration": "The homepage offers both a hosted free-start path and a Run Locally path for developers. It then translates reliability into stepwise SDK, Workflow, and Activity explanations, followed by concrete use cases and customer talks.",
+    "review_method": "Text"
+  }
+]
