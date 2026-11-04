@@ -95,3 +95,12 @@ The source tracker was read back and the export checked: 20 records, 20 distinct
 - Includes nuclear power, HVAC, building energy, grid monitoring, water technology, consumer beverages, biotechnology, hospitality, healthcare operations, cybersecurity, finance and developer tools.
 - Funding descriptions preserve up-to commitments, more-than amounts, debt/equity splits, secondary transfers, extensions and planned-investment qualifiers. Naboo's funding date follows its February 10 release dateline; the page metadata says February 9.
 - Validation: 20 new canonical domains, all nine required fields populated, qualifying funding dates, and working-tracker readback with prior records preserved. Public research only; no private workspace identifiers.
+
+## November 4 collection
+
+- [2026-11-04 data (JSON)](data/2026-11-04.json) — 20 additional companies; 180 distinct company domains across all nine collections.
+- Funding announcements fall within November 4, 2025–November 4, 2026 and are backed by company/investor announcements or attributable company-issued releases.
+- 2 sites visually reviewed (Heron Power and Crown Affair); 18 reviewed by text only. Each record states its method. Text notes describe inspected content, navigation and messaging, not rendered visual appearance.
+- Includes fusion power, grid hardware, satellite servicing, aquaculture, agriculture, manufacturing, screening, sports wearables, ingredients, beauty, beverages, banking, cybersecurity, education and estate settlement.
+- Funding descriptions retain milestone-based commitments, mixed equity/loans, primary/secondary/debt components, additional Tier 1 capital, undisclosed amounts and more-than qualifiers. Amenitiz's mixed-financing qualifier is also supported by [contemporaneous reporting](https://www.phocuswire.com/amentitiz-raises-45-million-dollars-series-b). Allica and Stepful use dates displayed on their company announcements.
+- Validation: 20 new canonical domains, all nine required fields populated, qualifying funding dates, and working-tracker readback with prior records preserved. Public research only; no private workspace identifiers.

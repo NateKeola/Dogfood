@@ -1,0 +1,222 @@
+[
+  {
+    "date_added": "2026-11-04",
+    "company": "Inertia Enterprises",
+    "website": "https://inertia.com/",
+    "industry": "Fusion energy",
+    "funding_date": "2026-02-11",
+    "round_amount": "US$450 million Series A (milestone-based funding)",
+    "funding_source": "https://rss.globenewswire.com/news-release/2026/02/11/3236274/0/en/inertia-raises-450-million-to-commercialize-the-only-proven-fusion-science.html",
+    "design_inspiration": "A four-step numbered narrative takes readers from proven science to lasers, fuel targets and a grid-scale plant. Short technical sections translate scale into target size, price and homes powered, then move into named leadership and a compact numbers section. Study the staged explanation and separate approach, roadmap and careers links for making complex science approachable.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-04",
+    "company": "Heron Power",
+    "website": "https://heronpower.com/",
+    "industry": "Power electronics / grid infrastructure",
+    "funding_date": "2026-02-18",
+    "round_amount": "US$140 million Series B",
+    "funding_source": "https://www.globenewswire.com/news-release/2026/02/18/3240170/0/en/Heron-Power-Raises-140-Million-to-Build-a-Next-Generation-Power-Grid-in-Series-B-Co-led-by-Andreessen-Horowitz-Breakthrough-Energy-Ventures.html",
+    "design_inspiration": "A full-bleed grid landscape places oversized cream type over blue sky, then reveals the product in its industrial setting as the visitor scrolls. A restrained black Contact button stays prominent. Concise performance claims and separate Solar, Storage and Data Centers routes connect the atmosphere to concrete buyer needs.",
+    "review_method": "Visual + text"
+  },
+  {
+    "date_added": "2026-11-04",
+    "company": "Flexion",
+    "website": "https://flexion.ai/",
+    "industry": "Robotics / autonomous robot intelligence",
+    "funding_date": "2025-11-20",
+    "round_amount": "US$50 million Series A",
+    "funding_source": "https://flexion.ai/news/flexion-raises-50m-to-build-the-brain-of-humanoid-robots-at-scale",
+    "design_inspiration": "A plain-language robot-brain proposition is paired with a Watch video entry point. The explanation breaks the offering into Robot, Task and Reliable autonomous system, followed by dated research updates and open roles labeled by discipline and location. Technology, About, Careers and News links keep product evaluation and recruitment paths distinct. Study the progression from demonstration to explanation to evidence.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-04",
+    "company": "Starfish Space",
+    "website": "https://www.starfishspace.com/",
+    "industry": "Space technology / satellite servicing",
+    "funding_date": "2026-04-07",
+    "round_amount": "Over US$100 million Series B",
+    "funding_source": "https://www.starfishspace.com/press-release/starfish-space-raises-over-100-million-series-b/",
+    "design_inspiration": "The homepage introduces Otter as a satellite companion before explaining the servicing category and linking to the product. Its Otter page separates life extension from disposal, then explains named technology components with familiar analogies such as a jetpack and eyes. Study the friendly naming and progressive technical depth. The homepage still references a summer-2025 launch as upcoming, so avoid copying its date-maintenance practice.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-04",
+    "company": "ARK",
+    "website": "https://www.ark.inc/en/",
+    "industry": "Aquaculture / modular farming hardware",
+    "funding_date": "2026-09-17",
+    "round_amount": "Approximately US$8.5 million Series A (equity investments and loans)",
+    "funding_source": "https://www.ark.inc/en/news/ark-series-a-funding/",
+    "design_inspiration": "Business content explicitly splits visitors into aquaculture operators and seafood buyers. Educational links explain RAS and grouper, while case entries label customer industry and farmed species. A What to Farm section groups species, and Japanese/English switching supports international visitors. Study the combination of audience-specific paths, beginner education and concrete deployment examples for an unfamiliar hardware category.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-04",
+    "company": "CarbonFarm",
+    "website": "https://carbonfarm.tech/",
+    "industry": "Climate technology / rice agriculture",
+    "funding_date": "2026-10-13",
+    "round_amount": "€7 million Series A (oversubscribed)",
+    "funding_source": "https://carbonfarm.tech/posts/carbonfarm-raises-7-million-series-a",
+    "design_inspiration": "The content sequence connects a specific rice-decarbonisation promise to named clients and partners, three impact metrics, two audience needs, and an explanation of field-level measurement. Value-chain decarbonisation and project investment are framed separately. A direct contact invitation and dated, type-labeled updates finish the page. Study how the site connects a climate problem, practical action and measurement credibility without generic sustainability copy.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-04",
+    "company": "Machina Labs",
+    "website": "https://machinalabs.ai/",
+    "industry": "Advanced manufacturing / industrial robotics",
+    "funding_date": "2026-02-04",
+    "round_amount": "US$124 million Series C",
+    "funding_source": "https://machinalabs.ai/resources/machina-labs-raises-124-million-to-scale-manufacturing-infrastructure-for-defense-and-advanced-mobility",
+    "design_inspiration": "A terse production-speed proposition leads to a Start Today contact link, then industry-specific sections for automotive, airframes, aerospace applications and emerging uses. Customer testimonials appear before team provenance and recruitment. The final inquiry prompt names capabilities and design-for-manufacturing as discussion topics. Study the pairing of concrete application paths and credibility with an actionable industrial-sales invitation.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-04",
+    "company": "Teal Health",
+    "website": "https://www.getteal.com/",
+    "industry": "Women's health / at-home screening",
+    "funding_date": "2026-09-22",
+    "round_amount": "$22 million Series A",
+    "funding_source": "https://www.prnewswire.com/news-releases/teal-health-raises-22-million-series-a-to-expand-access-to-the-most-accurate-fda-authorized-at-home-hpv-cervical-cancer-screening-302885728.html",
+    "design_inspiration": "The homepage organizes a potentially intimidating service into a three-step journey: virtual visit, collect and mail, then results. Navigation separates first-time screening, menopause, and trauma-related concerns, while comparison, insurance, and research links answer objections before the order CTA. Useful for combining audience-specific paths with an explicit service sequence and evidence links. Text review only; visual styling and interactions were not assessed.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-04",
+    "company": "Nix Biosensors",
+    "website": "https://nixbiosensors.com/",
+    "industry": "Sports technology / hydration wearables",
+    "funding_date": "2026-09-15",
+    "round_amount": "$10 million Series A",
+    "funding_source": "https://www.prnewswire.com/news-releases/nix-biosensors-closes-series-a-to-bring-hydration-data-to-consumer-health-platforms-302878646.html",
+    "design_inspiration": "The homepage first explains the sensor's practical output, then separates Nix Solo for individual athletes from Nix Pro for coaches and supervisors. Science validation follows the product explanation, and the footer divides consumer programs, B2B programs, and support. Useful for presenting one technology to different buyer roles without mixing their workflows. Text review only; visual styling and interactions were not assessed.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-04",
+    "company": "Melt&Marble",
+    "website": "https://www.meltandmarble.com/",
+    "industry": "Biotechnology / food and personal-care ingredients",
+    "funding_date": "2025-12-08",
+    "round_amount": "€7.3 million (80 MSEK) Series A; separate grants excluded",
+    "funding_source": "https://www.meltandmarble.com/post/melt-marble-secures-7m-to-scale-designer-fats-in-beauty-and-food",
+    "design_inspiration": "Navigation distinguishes applications in food and personal care from named ingredient products and the technology explanation. The homepage moves from ingredient performance to supply resilience and environmental needs, then explains production advantages and links recent commercialization news. Useful for translating a technical platform into buyer-specific applications and tangible product paths. Text review only; visual styling and interactions were not assessed.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-04",
+    "company": "Smartness",
+    "website": "https://www.smartness.com/en/",
+    "industry": "Hospitality technology / property operations",
+    "funding_date": "2026-05-04",
+    "round_amount": "€47 million Series B package, including primary, secondary and debt components",
+    "funding_source": "https://unitedventures.com/2026/05/04/smartness-and-the-end-of-software-as-a-tool/",
+    "design_inspiration": "A goal-led product section maps pricing, guest messaging, property management, marketing, and websites to specific operational benefits. The homepage follows with an ROI calculator link, a before-and-after workflow comparison, metric-led customer stories, and integrations before educational downloads. Useful for making a broad suite understandable through business goals and progressive proof. Text review only; calculator behavior and visual styling were not assessed.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-04",
+    "company": "Emm",
+    "website": "https://www.emm.co/",
+    "industry": "Femtech / menstrual-health wearables",
+    "funding_date": "2025-11-19",
+    "round_amount": "Over $9 million (£6.8 million) oversubscribed Seed",
+    "funding_source": "https://www.emm.co/blog/press-release-blog-19112025",
+    "design_inspiration": "The homepage translates a sensor-based product into four understandable data categories: daily flow, total volume, capacity, and cycle patterns. It then addresses cleaning, leak protection, capacity, and sensors before a three-part use, sync, and insights sequence. Useful for teaching a new hardware category by connecting measurements to everyday decisions and explaining maintenance alongside benefits. Text review only; button behavior and visual styling were not assessed.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-04",
+    "company": "Crown Affair",
+    "website": "https://www.crownaffair.com/",
+    "industry": "Beauty / haircare",
+    "funding_date": "2026-05-08",
+    "round_amount": "Series C investment; amount undisclosed; primarily secondary capital",
+    "funding_source": "https://www.prnewswire.com/news-releases/crown-affair-announces-series-c-investment-led-by-stride-consumer-partners-302766290.html",
+    "design_inspiration": "A quiet gray hero pairs large seasonal lifestyle photography with a concise headline and an outlined Shop Now button. The next product row uses generous white space, matching image proportions, visible color swatches and price-bearing buttons. Persistent Build Your Ritual and Hair Quiz routes balance campaign shopping with guided discovery.",
+    "review_method": "Visual + text"
+  },
+  {
+    "date_added": "2026-11-04",
+    "company": "Hurray's GIRL BEER",
+    "website": "https://girlbeer.com/",
+    "industry": "Consumer beverages / flavored beer",
+    "funding_date": "2026-03-11",
+    "round_amount": "$5 million Seed funding",
+    "funding_source": "https://www.prnewswire.com/news-releases/hurrays-girl-beer-announces-5m-funding-round-and-retail-expansion-into-walmart-kroger-and-albertsons-302710765.html",
+    "design_inspiration": "A recurring joke about Connor carries the brand voice from the hero through product details and testimonials. The content still provides clear paths to flavors, local retail availability, merchandise, and FAQs, separating direct shopping from store discovery. Useful for maintaining a distinctive conversational voice across a practical commerce structure. Text review only; locator behavior, age-gate interaction, and visual styling were not assessed.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-04",
+    "company": "Sokin",
+    "website": "https://sokin.com/",
+    "industry": "Fintech / cross-border business payments",
+    "funding_date": "2025-12-01",
+    "round_amount": "$50M Series B",
+    "funding_source": "https://www.eatonvance.com/insights/press-release/sokin-raises-50m-series-b-following-100-percent-year-on-year-growth.html",
+    "design_inspiration": "The site explains global payments through concrete jobs: receiving funds in local currency accounts, exchanging currencies, and paying internationally. Product and API documentation paths serve both business buyers and developers. Named sports-organization customer stories describe the payment problem and solution, while pricing, regulation and a trust centre remain easy to find in the footer. Borrow this combination of practical use cases and accessible trust information.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-04",
+    "company": "Allica Bank",
+    "website": "https://www.allica.bank/",
+    "industry": "Fintech / small-business banking",
+    "funding_date": "2026-02-25",
+    "round_amount": "$155M Series D (majority common equity plus additional Tier 1 equity capital)",
+    "funding_source": "https://www.allica.bank/press-releases/allica-bank-raises-155m-series-d-round-to-accelerate-uk-growth-and-tech-investment-and-commence-international-expansion",
+    "design_inspiration": "Navigation uses familiar customer tasks: Banking, Saving and Borrowing, with short benefit descriptions attached to individual products. The homepage offers both Get started and Explore business banking, then explains current accounts, borrowing, savings and money management. A dedicated relationship-manager route gives the digital service a human contact point. Adapt the task-based menu and parallel routes for ready-to-act versus researching visitors.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-04",
+    "company": "VulnCheck",
+    "website": "https://www.vulncheck.com/",
+    "industry": "Cybersecurity / exploit intelligence",
+    "funding_date": "2026-02-17",
+    "round_amount": "$25M Series B",
+    "funding_source": "https://www.vulncheck.com/press/vulncheck-raises-25m-series-b-financing",
+    "design_inspiration": "A short outcome-led headline is immediately paired with a demo option and an overview video. The page then explains why urgency matters through a company-reported change in attacker response time, before dividing the platform into four clearly named intelligence capabilities. Recent technical research, a report and community content make expertise inspectable. Borrow the progression from business urgency to product taxonomy to evidence.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-04",
+    "company": "Amenitiz",
+    "website": "https://amenitiz.com/en",
+    "industry": "Hospitality software / independent-hotel operations",
+    "funding_date": "2025-11-11",
+    "round_amount": "$45M in a mix of Series B funding and financing",
+    "funding_source": "https://amenitiz.com/en/blog/amenitiz-raises-45m-series-b-round",
+    "design_inspiration": "The navigation supports two discovery styles: named products and solutions grouped by property type or business goal. The homepage addresses adoption worries directly with human support, no technical skills required and a stated launch timeframe. Customer examples identify properties by name, room count and country, making relevance easy for small operators to assess. Borrow the goal-based navigation and specific, comparable customer proof.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-04",
+    "company": "Stepful",
+    "website": "https://www.stepful.com/",
+    "industry": "Education / healthcare workforce training",
+    "funding_date": "2026-06-09",
+    "round_amount": "$55M Series C",
+    "funding_source": "https://www.stepful.com/post/stepful-announces-55m-series-c-to-scale-its-ai-powered-training-platform-across-the-healthcare-workforce",
+    "design_inspiration": "Program summaries repeat the same decision fields: course length, certification, stated median annual salary and optional clinical hours. Visitors can browse all programs or apply to a specific one. A numbered process then explains choosing a program, completing instruction and pursuing certification and work. Borrow the consistent comparison fields and concrete next-step explanation for education or other considered purchases.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-04",
+    "company": "EverSettled",
+    "website": "https://www.eversettled.com/",
+    "industry": "Legal technology / estate settlement",
+    "funding_date": "2026-07-16",
+    "round_amount": "$5M Seed",
+    "funding_source": "https://seedcamp.com/views/eversettled-raises-5m-to-automate-the-painful-process-of-probate/",
+    "design_inspiration": "The homepage turns an overwhelming process into a plain-language promise about knowing the next step. A sample checklist exposes task categories and completion counts before signup. Free guidance and optional paid support are distinguished, and a four-step explanation clarifies what the service prepares versus what the user reviews, signs and submits. Borrow the visible progress model and explicit responsibility boundaries for sensitive, complex services.",
+    "review_method": "Text"
+  }
+]
