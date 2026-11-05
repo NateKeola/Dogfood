@@ -1,0 +1,222 @@
+[
+  {
+    "date_added": "2026-11-05",
+    "company": "Northwood",
+    "website": "https://www.northwoodspace.io/",
+    "industry": "Space communications / ground infrastructure",
+    "funding_date": "2026-11-02",
+    "round_amount": "US$375M Series C",
+    "funding_source": "https://www.northwoodspace.io/blog/northwood-series-c",
+    "design_inspiration": "A short, outcome-led homepage promises faster space missions, then explains the entire ground layer in one compact hardware/software/network sequence. Useful inspiration for making complex infrastructure understandable quickly and keeping the first page focused on a single customer outcome.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-05",
+    "company": "Varda Space Industries",
+    "website": "https://www.varda.com/",
+    "industry": "Space / orbital pharmaceutical manufacturing",
+    "funding_date": "2026-09-30",
+    "round_amount": "US$251M Series D",
+    "funding_source": "https://www.prnewswire.com/news-releases/varda-announces-251-million-series-d-to-scale-space-based-pharmaceutical-processing-302893651.html",
+    "design_inspiration": "The short 'Space born, Earth bound' positioning is immediately explained with a concrete orbit-to-Earth workflow. Separate Government, Biopharma and Microgravity Research paths serve distinct buyers. Borrow the combination of a memorable mission line, a plain-language explanation and clear audience routing.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-05",
+    "company": "Hydrosat",
+    "website": "https://hydrosat.com/",
+    "industry": "Climate intelligence / agtech / satellite data",
+    "funding_date": "2026-09-21",
+    "round_amount": "US$10M Series B extension",
+    "funding_source": "https://hydrosat.com/2026/09/21/hydrosat-secures-10m-investment-from-suma-capital-in-series-b-extension/",
+    "design_inspiration": "The homepage moves from a global monitoring promise into concrete proof figures, including country coverage, daily collection capacity and earlier risk detection. Water and crop management then leads into customer stories. Borrow this progression from broad capability to measurable scale to specific customer outcomes.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-05",
+    "company": "Apptronik",
+    "website": "https://apptronik.com/",
+    "industry": "Humanoid robotics / industrial automation",
+    "funding_date": "2026-02-11",
+    "round_amount": "US$520M Series A-X extension",
+    "funding_source": "https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a",
+    "design_inspiration": "The 'Robots for Humans' message anchors explanations of mobility, modular form factors and human interaction before separate manufacturing, warehouse and retail applications. Borrow its human-centered feature framing and industry-specific use cases to make unfamiliar hardware feel useful rather than abstract.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-05",
+    "company": "PowerUP Energy Technologies",
+    "website": "https://powerup-tech.com/",
+    "industry": "Clean energy / hydrogen fuel-cell generators",
+    "funding_date": "2025-11-25",
+    "round_amount": "€10M Series A",
+    "funding_source": "https://powerup-tech.com/powerup-secures-e10-million-series-a-to-scale-dual-use-hydrogen-solutions/",
+    "design_inspiration": "The homepage translates fuel-cell technology into four immediate buyer benefits: indoor safety, quiet operation, longevity and energy independence. A named product range follows, then industry routes from telecom to rescue. Borrow the benefits-to-products-to-applications structure for a technical equipment website.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-05",
+    "company": "X-energy",
+    "website": "https://x-energy.com/",
+    "industry": "Advanced nuclear energy / reactors and fuel",
+    "funding_date": "2025-11-24",
+    "round_amount": "Approximately US$700M Series D",
+    "funding_source": "https://x-energy.com/news/x-energy-closes-oversubscribed-700-million-series-d-financing-round-to-continue-expansion-to-meet-global-energy-demand/",
+    "design_inspiration": "The homepage organizes its story around growing energy demand, proven engineering experience, industrial applications and team capability before introducing reactors and fuel. Borrow this order to establish the market need and credibility before presenting a technically complex product portfolio.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-05",
+    "company": "Exowatt",
+    "website": "https://www.exowatt.com/",
+    "industry": "Solar energy / thermal storage / data-center power",
+    "funding_date": "2025-11-13",
+    "round_amount": "US$50M Series A extension",
+    "funding_source": "https://www.exowatt.com/blog/50m-in-additional-funding-to-accelerate-u-s-dispatchable-solar-for-the-ai-era",
+    "design_inspiration": "A full-width rendered solar-installation hero puts orange hardware in the foreground, with a large white headline and matching orange contact buttons. A rounded translucent navigation bar keeps the image visible. Below, Capture, Store and Dispatch explain the mechanism in three steps. Borrow the consistent product/CTA color and simple process narrative.",
+    "review_method": "Visual + text"
+  },
+  {
+    "date_added": "2026-11-05",
+    "company": "Freestyle",
+    "website": "https://freestyle.world/",
+    "industry": "Consumer goods / baby care",
+    "funding_date": "2026-03-11",
+    "round_amount": "US$10M Series A",
+    "funding_source": "https://www.prnewswire.com/news-releases/freestyle-closes-10m-series-a-funding-led-by-silas-capital-302711004.html",
+    "design_inspiration": "Content inspiration: organizes its diaper offer around a compact set of repeated product claims, then moves through social testimonials, a product comparison, verified-buyer quotes, a store locator and monthly delivery. Borrow the distinct paths for first-time trial, retail discovery and replenishment; product-performance claims were not independently evaluated.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-05",
+    "company": "Gate Bioscience",
+    "website": "https://www.gatebio.com/",
+    "industry": "Biotechnology / small-molecule therapeutics",
+    "funding_date": "2025-11-13",
+    "round_amount": "US$65M Series B",
+    "funding_source": "https://www.gatebio.com/gate-bioscience-announces-65-million-oversubscribed-series-b-financing-to-advance-oral-molecular-gate-medicines-into-the-clinic",
+    "design_inspiration": "Content inspiration: a focused mechanism-of-action explanation uses numbered steps 01–03 to describe protein secretion, selective blockage and degradation. The site connects that single mechanism to multiple diseases. Borrow this short, sequential explanation for a technical product rather than leading with an exhaustive feature list.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-05",
+    "company": "Damae Medical",
+    "website": "https://www.damae-medical.com/",
+    "industry": "Medical devices / dermatology imaging",
+    "funding_date": "2025-11-26",
+    "round_amount": "€15M Series B",
+    "funding_source": "https://www.kurmapartners.com/en/news/damae-medical-leve-15-meur-en-serie-b-pour-accelerer-la-transformation-de-la-prise-en-charge-dermatologique-grace-aux-biopsies-digitales-3d-et-a-lia",
+    "design_inspiration": "Content inspiration: moves from three clinical problem statements into the deepLive product, a three-minute presentation, imaging examples, a clinician testimonial and a company milestone timeline. Borrow the evidence-led order and separate brief introduction from deeper scientific material. Clinical statistics were read as company claims, not independently validated.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-05",
+    "company": "Dan-O’s Seasoning",
+    "website": "https://danosseasoning.com/",
+    "industry": "Food / seasonings",
+    "funding_date": "2026-10-21",
+    "round_amount": "US$25M strategic investment",
+    "funding_source": "https://www.prnewswire.com/news-releases/dan-os-seasoning-secures-strategic-investment-of-25m-from-the-newcastle-network-to-bring-bold-flavor-to-more-kitchens-302914987.html",
+    "design_inspiration": "Content inspiration: pairs a seasonal sweet-product launch with best sellers, recipes labeled by the seasoning used, a flavor-selection quiz and a short founder recipe story. Borrow the recipe-to-product connection and quiz to help customers navigate a growing assortment without reading every product page.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-05",
+    "company": "NextFoods",
+    "website": "https://nextfoods.net/",
+    "industry": "Food and beverage / functional nutrition",
+    "funding_date": "2025-12-18",
+    "round_amount": "US$10M Series 3",
+    "funding_source": "https://ecpgrowth.com/2025/12/18/nextfoodsseries3/",
+    "design_inspiration": "Content inspiration: a compact parent-company homepage presents its shared wellness promise, introduces Cheribundi and GoodBelly through distinct consumer benefits, lists four concrete operating values and finishes with partnership/media contact. Borrow the concise portfolio structure when multiple brands need a common corporate story without duplicating their shopping sites.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-05",
+    "company": "EdVisorly",
+    "website": "https://www.edvisorly.com/",
+    "industry": "Education technology / enrollment software",
+    "funding_date": "2026-07-08",
+    "round_amount": "US$13.3M Series A",
+    "funding_source": "https://www.breachwaycapital.com/blog-posts/breachway-capital-invests-in-ai-native-college-enrollment-platform-edvisorly",
+    "design_inspiration": "Content inspiration: opens with enrollment-team capacity constraints, explains each named product by the job it handles, and connects outcome figures to named university case studies. Implementation guidance and buyer FAQs address internal adoption concerns. Borrow that problem-to-product-to-evidence sequence and distinguish each module by its actual workflow.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-05",
+    "company": "Stasher",
+    "website": "https://stasher.com/",
+    "industry": "Travel technology / luggage storage",
+    "funding_date": "2026-09-23",
+    "round_amount": "£3M combined financing: approximately £2M growth financing plus £1M strategic investment",
+    "funding_source": "https://tech.eu/2026/09/23/london-traveltech-stasher-secures-ps3m-for-global-expansion/",
+    "design_inspiration": "Content inspiration: leads with the nearby-storage use case, network size and starting daily price, followed by location-specific customer reviews and practical reassurance about cancellations, payment and support. Borrow the pairing of local relevance with operational trust signals for a marketplace serving an immediate travel need.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-05",
+    "company": "Flex",
+    "website": "https://www.flex.one/",
+    "industry": "Fintech / business financial services",
+    "funding_date": "2025-12-04",
+    "round_amount": "US$60M Series B equity",
+    "funding_source": "https://www.crosslinkcapital.com/news/flex-raises-60m-series-b-to-scale-ai-native-finance/",
+    "design_inspiration": "Organizes a broad financial offering around the business owner's life, then makes eligibility concrete with a country-of-incorporation selector and product-availability list. Borrow the progression from umbrella promise to availability to distinct customer scenarios such as multinational and internet-native operators.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-05",
+    "company": "Outtake",
+    "website": "https://www.outtake.ai/",
+    "industry": "Cybersecurity / digital risk protection",
+    "funding_date": "2026-01-28",
+    "round_amount": "US$40M Series B",
+    "funding_source": "https://finance.yahoo.com/news/outtake-raises-40m-series-b-163000387.html",
+    "design_inspiration": "Structures the story as threat escalation, protection categories, operational metrics, then customer challenge/result examples. Brand, executive, location, and product protection each get concrete threat examples, making a complex security platform easier to scan and map to a buyer's needs.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-05",
+    "company": "Vega",
+    "website": "https://vega.io/",
+    "industry": "Cybersecurity / security analytics",
+    "funding_date": "2026-02-10",
+    "round_amount": "US$120M Series B",
+    "funding_source": "https://www.securityweek.com/vega-raises-120m-in-series-b-funding-to-grow-security-analytics-platform/",
+    "design_inspiration": "Leads with a category-change claim, then explains hunting, detection, triage, and headless operation as one workflow. Follows technical capabilities with speed and cost claims and named customer testimony. Borrow the translation from architectural change to specific work a security team can perform.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-05",
+    "company": "RWX",
+    "website": "https://www.rwx.com/",
+    "industry": "Developer tools / CI-CD infrastructure",
+    "funding_date": "2026-08-04",
+    "round_amount": "US$12M Series A",
+    "funding_source": "https://www.rwx.com/blog/series-a",
+    "design_inspiration": "Opens with a changed developer workflow and immediately explains three practical outcomes: validation before commits, reproducible agent sandboxes, and deployable artifacts. Runtime sections then explain caching, parallelism, compute sizing, and debugging in plain language before the product catalog.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-05",
+    "company": "Meticulous",
+    "website": "https://www.meticulous.ai/",
+    "industry": "Developer tools / automated software testing",
+    "funding_date": "2026-07-14",
+    "round_amount": "US$15M Series A",
+    "funding_source": "https://www.meticulous.ai/blog/series-a",
+    "design_inspiration": "Turns a strong no-effort testing promise into a step-by-step explanation: record real interactions, generate an evolving test suite, inspect pull-request impact. Customer quotes and actual framework-specific installation snippets connect the marketing story directly to implementation.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-05",
+    "company": "Lightfield",
+    "website": "https://lightfield.com/",
+    "industry": "Software / AI-native CRM",
+    "funding_date": "2026-09-09",
+    "round_amount": "US$47M Series A",
+    "funding_source": "https://www.prnewswire.com/news-releases/lightfield-raises-47-million-series-a-to-build-the-crm-for-companies-that-run-on-agents-302874024.html",
+    "design_inspiration": "Uses concrete product examples including buying signals, an outbound draft, a deal review, and churn analysis to explain the CRM. Organizes use cases by sales outcomes and then by team, with testimonials beside relevant workflows. A closing migration offer addresses switching friction.",
+    "review_method": "Text"
+  }
+]
