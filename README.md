@@ -25,3 +25,5 @@ On initialization, the repository was empty: no README, AGENTS.md, Software Fact
 ## Research prompts and categorized ideas — 2026-11-06
 
 - [SMB idea mining and reusable research prompts](research/smb-idea-mining/README.md): evidence-backed SEO, permitted lead sourcing, rights-aware redesign, compliance research, review assistance and after-hours intake. Includes three qualified Reel takeaways, source limits and validation. Documentation only; no outreach or implementation.
+
+The package now also includes an [Astra contractor-license audit app prompt](research/smb-idea-mining/astra-contractor-license-lead-audit-app-prompt.md) and [living audit tools/services shortlist](research/smb-idea-mining/audit-tools-and-services.md), prioritized for evidence-backed call-lead preparation. California is the initial pilot; Washington, Oregon and Arizona remain later adapters. No app or bulk database has been executed.
