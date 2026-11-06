@@ -4,7 +4,7 @@ Prepared 2026-11-06. Documentation-only publication.
 
 ## Scope
 
-Nine original Markdown files, mirrored byte-for-byte between SMB Offerings research/idea-mining and Dogfood research/smb-idea-mining. Repository indexes and SMB status/decision entry are additive and repository-specific. Existing research, gallery code/data, templates and open PR branches are preserved.
+Eleven original Markdown files, mirrored byte-for-byte between SMB Offerings research/idea-mining and Dogfood research/smb-idea-mining. Repository indexes and SMB status/decision entry are additive and repository-specific. Existing research, gallery code/data, templates and open PR branches are preserved.
 
 ## Checks
 
@@ -27,3 +27,9 @@ Next reviewer should run the full SMB documentation validator in an existing aut
 SEO, sourcing, redesign and compliance starting research is synthesized into reusable original prompts. Review/after-hours architecture is a proposed framework with a primary-source starting list, not completed vendor/legal diligence. Reel observations are inherited from the stated visible-caption/playback review, not new full audio transcription.
 
 Repository status is time-sensitive. At inspection SMB #3 and #4 were open drafts; Dogfood had no open PRs. Older files describing five currently open Dogfood drafts are historical and should not be relied on without refreshing the specific PRs.
+
+## Contractor app and living tools extension
+
+The extension adds an Astra application prompt and prioritized tools/services register, updates navigation and current conclusions, and clarifies public project documentation and reference-inspired video boundaries. This defines a California-first call-lead preparation goal with later Washington/Oregon/Arizona adapters. It does not execute bulk matching, scrape Google, call APIs, collect records, build the app or contact prospects.
+
+Recheck source-use permissions, storage/export rules, provider pricing and legal applicability before activating any adapter. A proposed ongoing review cadence is maintenance guidance, not an enabled automation. Publication readback, changed-file scope and both latest PR heads must be reverified for the extension; earlier exact commits remain historical checks.

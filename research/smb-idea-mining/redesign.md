@@ -40,3 +40,9 @@ Verify factual content and asset permissions; chosen URLs and redirects; correct
 - https://wordpress.com/support/instagram/
 
 Platform documentation is a starting point, not a verified entitlement, price quote or permission for a particular asset.
+
+## Reference-inspired original video concepts
+
+Photographs may be studied as visual inspiration rather than reused verbatim in a generated video. Record the reference source and extract general ideas such as lighting, framing, pacing or atmosphere; develop a distinct storyboard and use original or appropriately licensed production material. Do not imply the generated scene depicts real completed work or an actual customer unless verified and authorized.
+
+Reference-only intent, a new medium or generative transformation does not itself establish copyright safety. Review rights and permissions before uploading source images to a third-party generation service; consider recognizable people, logos, protected expression, privacy, publicity and trademark risks. Avoid close recreation of distinctive protected material. Keep reference study, authorized model inputs and final commercial-use approval as separate gates. No media upload or generation is performed by this documentation update.
