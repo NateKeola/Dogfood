@@ -21,3 +21,7 @@ A home for public standalone research and projects that do not have a dedicated 
 On initialization, the repository was empty: no README, AGENTS.md, Software Factory instructions, or implementation workflow was available to consult. This contribution is a documentation/data collection, not an execution of a Software Factory. Follow any repository instructions added later before making future changes.
 
 - [Business research engine](projects/business-research-engine/README.md): local manual candidate intake, evidence review and original prototype offers; real prospect data stays private in browser storage. Synthetic public fixtures only.
+
+## Research prompts and categorized ideas — 2026-11-06
+
+- [SMB idea mining and reusable research prompts](research/smb-idea-mining/README.md): evidence-backed SEO, permitted lead sourcing, rights-aware redesign, compliance research, review assistance and after-hours intake. Includes three qualified Reel takeaways, source limits and validation. Documentation only; no outreach or implementation.
