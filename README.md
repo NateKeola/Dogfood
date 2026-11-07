@@ -5,6 +5,7 @@ A home for public standalone research and projects that do not have a dedicated 
 ## Research
 
 - [Funded-company website inspiration](research/website-inspiration/README.md) — dated, source-linked website references and design observations.
+- [AI real-estate ideas and claim review](research/real-estate-ai/README.md) — Marc Munoz carousel, source-qualified tax claims and three original research hypotheses.
 
 ## Projects
 
