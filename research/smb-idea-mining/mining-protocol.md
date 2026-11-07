@@ -48,3 +48,7 @@ Before launch: functional and accessibility tests, real routing, client approval
 Before claiming impact: agreed baseline, measurement period, attribution limitations and observed outcomes.
 
 No automatic approval, opaque lead score, outreach cadence or account activation follows from these gates.
+
+## Public project documentation boundary — clarified 2026-11-06
+
+Document public-safe SMB/Dogfood project decisions, instructions, research and conclusions fully enough to support future work. A project-correspondence origin does not automatically prohibit an original summary, but publication still requires deliberate content review. Minimize unnecessary personal information and exclude sensitive business details, credentials, actual lead/customer records and private third-party information. This package records reusable project context rather than raw conversations. An instruction to document project work does not authorize exposing unrelated or third-party material.
