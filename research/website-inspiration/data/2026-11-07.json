@@ -1,0 +1,222 @@
+[
+  {
+    "date_added": "2026-11-07",
+    "company": "CREW Carbon",
+    "website": "https://crewcarbon.com/",
+    "industry": "Wastewater treatment and carbon removal",
+    "funding_date": "2026-05-14",
+    "round_amount": "Series A / US$19M equity plus US$6M grants and other non-dilutive funding",
+    "funding_source": "https://crewcarbon.com/crew-raises-25m-of-funding-to-scale-wastewater-treatment-optimization-technology-as-climate-solution/",
+    "design_inspiration": "Warm neutral background, oversized navy type and a coral contact button give industrial content a clear hierarchy. Separate operator and carbon-buyer journeys lead to project spotlights with concrete treatment results.",
+    "review_method": "Visual + text"
+  },
+  {
+    "date_added": "2026-11-07",
+    "company": "Enodia Therapeutics",
+    "website": "https://www.enodiatx.com/",
+    "industry": "Biotechnology / targeted protein degradation",
+    "funding_date": "2026-01-08",
+    "round_amount": "Seed / EUR20.7M",
+    "funding_source": "https://www.enodiatx.com/enodia-therapeutics-secures-20m/",
+    "design_inspiration": "Explains its scientific mechanism progressively: disease problem, Sec61 control point, numerical context, three-step mechanism and institutional origins.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-07",
+    "company": "Matta",
+    "website": "https://matta.ai/",
+    "industry": "Industrial AI / manufacturing",
+    "funding_date": "2025-12-05",
+    "round_amount": "Seed / US$14M",
+    "funding_source": "https://matta.ai/news-updates/14m-to-build-the-first-sentient-factories",
+    "design_inspiration": "Turns a broad factory-AI proposition into four concrete use cases, each linked to a named product, followed by distinct Platform, Agents and Hardware sections.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-07",
+    "company": "Spark Cleantech",
+    "website": "https://www.spark-cleantech.eu/",
+    "industry": "Industrial decarbonization / hydrogen and carbon materials",
+    "funding_date": "2025-12-04",
+    "round_amount": "Series A package / EUR30M, including EUR17M equity",
+    "funding_source": "https://storiesout.com/en/press-releases/spark-cleantech-announces-a-e30-million-series-a-funding-round/",
+    "design_inspiration": "Organizes the story around a waste-to-value transformation, then separates hydrogen and solid-carbon applications while addressing costs and integration objections.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-07",
+    "company": "Basalt Health",
+    "website": "https://basalt.health/",
+    "industry": "Healthcare operations / post-acute admissions",
+    "funding_date": "2026-09-24",
+    "round_amount": "Series A / US$20M",
+    "funding_source": "https://basalt.health/basalt-series-a",
+    "design_inspiration": "Demonstrates the product using a clearly labeled synthetic referral and source-linked findings. A comparison and four-step workflow reinforce the clinician's decision-making role.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-07",
+    "company": "Wint",
+    "website": "https://wint.ai/",
+    "industry": "Water management / building infrastructure",
+    "funding_date": "2026-09-09",
+    "round_amount": "Series D / US$36M",
+    "funding_source": "https://www.prnewswire.com/news-releases/wint-raises-36-million-in-series-d-funding-to-scale-ai-powered-water-intelligence-globally-302873443.html",
+    "design_inspiration": "Two solution-navigation paths, by property asset and water-system type, help technical and commercial visitors find the right entry point. Outcome metrics precede platform detail.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-07",
+    "company": "WOTA",
+    "website": "https://wota.co.jp/en/",
+    "industry": "Decentralized water recycling / physical infrastructure",
+    "funding_date": "2026-04-17",
+    "round_amount": "Series C / amount undisclosed; equity and venture debt, extension ongoing",
+    "funding_source": "https://wota.co.jp/en/news-260417/",
+    "design_inspiration": "Mission-first narrative progresses into concrete handwashing, bathing and residential recycling products, with recovery-rate claims accompanied by maintenance and usage caveats.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-07",
+    "company": "ZincFive",
+    "website": "https://zincfive.com/",
+    "industry": "Nickel-zinc batteries / power infrastructure",
+    "funding_date": "2025-12-04",
+    "round_amount": "Series F / US$30M",
+    "funding_source": "https://zincfive.com/news/zincfive-raises-30-million-in-oversubscribed-series-f-financing/",
+    "design_inspiration": "Product navigation distinguishes complete solutions, batteries and battery management. The homepage moves from chemistry benefits to industry use cases and individual product families.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-07",
+    "company": "ErVimmune",
+    "website": "https://ervimmune.com/",
+    "industry": "Biotechnology / cancer immunotherapy",
+    "funding_date": "2026-01-21",
+    "round_amount": "Series A first closing / EUR17M",
+    "funding_source": "https://ervimmune.com/ervimmune-raises-e17-million-in-series-a-first-closing-to-enter-clinical-development-with-lead-cancer-vaccine-candidate/",
+    "design_inspiration": "Maintains separate homepage streams for company news and scientific publications, supporting investor updates and scientific credibility without conflating them.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-07",
+    "company": "A&B Smart Materials",
+    "website": "https://www.absmartmaterials.com/",
+    "industry": "Sustainable materials / hygiene and agriculture",
+    "funding_date": "2025-12-17",
+    "round_amount": "Pre-seed / GBP1.5M",
+    "funding_source": "https://www.archipelagoventures.vc/insights/ace-fund-invests-in-a-b-smart-materials-high-performance-bio-based-superabsorbent-polymer-sap",
+    "design_inspiration": "Before-and-after absorption content and separate hygiene/agriculture routes make a materials-science product understandable. Lower-page template remnants make this a selective reference.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-07",
+    "company": "Numeric",
+    "website": "https://www.numeric.io/",
+    "industry": "Accounting software",
+    "funding_date": "2025-11-19",
+    "round_amount": "Series B / US$51M",
+    "funding_source": "https://www.numeric.io/blog/numeric-raises-51m-series-b",
+    "design_inspiration": "Vivid purple hero pairs a large white serif headline with a compact email/demo form and contrasting black CTA. Customer logos link to case studies, connecting the bold opening to concrete proof.",
+    "review_method": "Visual + text"
+  },
+  {
+    "date_added": "2026-11-07",
+    "company": "Current",
+    "website": "https://current.com/",
+    "industry": "Consumer fintech",
+    "funding_date": "2026-06-11",
+    "round_amount": "Series E / US$80M",
+    "funding_source": "https://current.com/blog/current-secures-80-million-series-e-at-1-5-billion-valuation-following-third-consecutive-year-of-70-growth/",
+    "design_inspiration": "Navigation uses four everyday actions: Spend, Save, Invest and Advance. Sections translate financial features into concrete paycheck and credit benefits, with disclosures attached to the relevant claim.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-07",
+    "company": "Slash",
+    "website": "https://www.slash.com/",
+    "industry": "Business banking and finance software",
+    "funding_date": "2026-04-16",
+    "round_amount": "Series C / US$100M",
+    "funding_source": "https://www.slash.com/blog/series-c-fundraise-release",
+    "design_inspiration": "Benefit-led headline and email signup precede payment-volume and customer-count proof. Navigation separates products from platform capabilities, with additional industry and geographic solution paths.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-07",
+    "company": "Emversity",
+    "website": "https://emversity.com/",
+    "industry": "Education and workforce training",
+    "funding_date": "2026-01-15",
+    "round_amount": "Series A / US$30M",
+    "funding_source": "https://emversity.com/blog/press/emversity-raises-30-million-series-a-funding",
+    "design_inspiration": "Career-outcome positioning branches into Healthcare, Hospitality & Aviation and Global Careers. Separate routes serve universities and employers, while students can explore programs or talk to a counsellor.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-07",
+    "company": "happyhotel",
+    "website": "https://www.happyhotel.io/en",
+    "industry": "Hospitality revenue-management software",
+    "funding_date": "2026-02-19",
+    "round_amount": "Series A / EUR6.5M",
+    "funding_source": "https://www.happyhotel.io/en/presse/happyhotel-sammelt-6-5-mio-euro-series-a-ein---von-revenue-management-software-zu-ki-agent-fur-hotels",
+    "design_inspiration": "Pairs an expert-consultation CTA with a revenue-potential check. The page identifies three recognizable operating problems before explaining product functions, creating a clear problem-to-solution sequence.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-07",
+    "company": "VibeIQ",
+    "website": "https://vibeiq.com/",
+    "industry": "Retail product-planning software",
+    "funding_date": "2026-08-10",
+    "round_amount": "Growth financing / US$22.5M",
+    "funding_source": "https://www.prnewswire.com/news-releases/vibeiq-raises-22-5-million-to-accelerate-ai-native-product-creation-and-market-expansion-302847024.html",
+    "design_inspiration": "Contrasts a completed commercial plan with an actual product line, then explains duplication, gaps and weak pairings. A working-session CTA offers a concrete next step instead of a generic demo.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-07",
+    "company": "Something & Nothing",
+    "website": "https://somethingandnothing.co/",
+    "industry": "Consumer beverages",
+    "funding_date": "2026-09-29",
+    "round_amount": "Equity funding / US$6.4M",
+    "funding_source": "https://www.bevnet.com/pr/2026/09/29/something--nothing-raises-64-million-to-accelerate-us-growth",
+    "design_inspiration": "Oversized black type and large cans with photographic labels give the sparse hero a gallery-like feel. A culture-and-flavour journal extends the brand beyond shopping; US homepage reviewed after regional redirect.",
+    "review_method": "Visual + text"
+  },
+  {
+    "date_added": "2026-11-07",
+    "company": "Croissant",
+    "website": "https://croissant.com/",
+    "industry": "Fashion commerce and embedded finance",
+    "funding_date": "2026-02-25",
+    "round_amount": "Financing package / US$28M: US$14M funded proceeds plus US$14M incremental debt capacity",
+    "funding_source": "https://www.businesswire.com/news/home/20260225131928/en/Croissant-Raises-$28-Million-to-Scale-Intentional-Commerce",
+    "design_inspiration": "Organizes the proposition around shopping, earning and reselling. Worked checkout examples show prices, credits and rewards, while merchandise illustrates the value beyond abstract financial copy.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-07",
+    "company": "MOTH Drinks",
+    "website": "https://mothdrinks.com/",
+    "industry": "Consumer beverages",
+    "funding_date": "2026-07-21",
+    "round_amount": "Funding round / GBP11M",
+    "funding_source": "https://www.guinnessventures.com/resources/MOTH-raises-11-million",
+    "design_inspiration": "Combines occasion-led gifting with featured products marked New In or Bestseller and direct pack-size choices. Brand explanations, reviews, editorial stories and a stockist map connect online shopping with retail discovery.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-07",
+    "company": "Pathfinder",
+    "website": "https://www.pathfindercard.com/",
+    "industry": "Education payments and fintech",
+    "funding_date": "2026-11-04",
+    "round_amount": "Series A / US$12M",
+    "funding_source": "https://www.globenewswire.com/news-release/2026/11/04/3395249/0/en/multimedia-update-pathfinder-raises-12-million-series-a-to-simplify-how-families-use-education-savings-account-funds.html",
+    "design_inspiration": "Introduces purchase pre-approval and the card as distinct products, then connects them in a reimbursement walkthrough. Parent testimonials, an ESA debit-card comparison and data-protection explanations address adoption concerns.",
+    "review_method": "Text"
+  }
+]
