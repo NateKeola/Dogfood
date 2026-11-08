@@ -1,0 +1,222 @@
+[
+  {
+    "date_added": "2026-11-08",
+    "company": "Mytra",
+    "website": "https://mytra.ai/",
+    "industry": "Industrial robotics / warehouse automation",
+    "funding_date": "2026-01-15",
+    "round_amount": "Series C / US$120M",
+    "funding_source": "https://mytra.ai/news/mytra-raises-120m-series-c",
+    "design_inspiration": "Full-bleed warehouse imagery and a minimal monochrome navigation make the physical system the hero. The page explains bots, software and cells before translating specifications into pallet-picking, dock-buffering and cross-docking applications.",
+    "review_method": "Visual + text"
+  },
+  {
+    "date_added": "2026-11-08",
+    "company": "Automata",
+    "website": "https://www.automata.tech/",
+    "industry": "Lab robotics / life-science automation",
+    "funding_date": "2026-01-29",
+    "round_amount": "Series C / US$45M",
+    "funding_source": "https://www.automata.tech/company-news/automata-raises-45m-series-c-funding",
+    "design_inspiration": "Explains its integrated platform through LINQ Canvas, Python SDK, LINQ Bench and AI integrations. Serves no-code workflow builders and developers separately, then addresses version control, collaboration and open integration.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-08",
+    "company": "R3 Robotics",
+    "website": "https://r3robotics.ai/",
+    "industry": "Industrial robotics / EV disassembly",
+    "funding_date": "2026-02-05",
+    "round_amount": "Series A / EUR14M; separate European grants / EUR6M",
+    "funding_source": "https://hgventures.com/r3-robotics-secures-e20m-to-scale-automated-disassembly-of-electric-vehicle-systems/",
+    "design_inspiration": "Separates Disassembly-as-a-Service, Robotics-as-a-Service and Benchmarking so deployment choices are explicit. Its FAQ distinguishes disassembly from recycling and clarifies the former Circu Li-ion identity, while cost and throughput claims frame the technical detail.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-08",
+    "company": "constellr",
+    "website": "https://www.constellr.com/",
+    "industry": "Space / thermal Earth observation",
+    "funding_date": "2026-02-10",
+    "round_amount": "Series A / EUR37M",
+    "funding_source": "https://www.constellr.com/article/constellr-secures-eu37-million-series-a-funding-to-deliver-defence-grade-thermal-intelligence",
+    "design_inspiration": "Satellite and thermal-map hero imagery, white text and crosshair details connect the visual language to the product. A plain-language optical/radar/thermal comparison and four-step explanation lead into distinct applications, from industrial monitoring to food and water security.",
+    "review_method": "Visual + text"
+  },
+  {
+    "date_added": "2026-11-08",
+    "company": "SatVu",
+    "website": "https://www.satellitevu.com/",
+    "industry": "Space / high-resolution thermal intelligence",
+    "funding_date": "2026-02-17",
+    "round_amount": "Equity funding / GBP30M; series not specified",
+    "funding_source": "https://www.satellitevu.com/news/nato-innovation-fund-backs-thermal-intelligence-with-multi-million-satvu-investment",
+    "design_inspiration": "Uses Yokohama to explain optical imagery, lower-resolution thermal data and its own thermal capabilities. Anchors differentiation in a stated resolution and concrete monitoring tasks, then separates national-security, economic and climate-resilience audiences. Imagery itself was not visually reviewed.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-08",
+    "company": "Overstory",
+    "website": "https://www.overstory.com/",
+    "industry": "Climate / utility risk intelligence",
+    "funding_date": "2025-11-25",
+    "round_amount": "Series B / US$43M; public announcement date",
+    "funding_source": "https://www.prnewswire.com/apac/news-releases/overstory-closes-43m-series-b-to-scale-ai-driven-wildfire-prevention-and-grid-resilience-302625565.html",
+    "design_inspiration": "Organizes the platform around preventing outages, stopping catastrophic wildfires and preparing for storms. Named utility case studies and outcome metrics support those buyer goals, while an interactive-demo link gives a clear next step. The demo was not operated.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-08",
+    "company": "Sperity Health",
+    "website": "https://www.sperityhealth.com/",
+    "industry": "Preventive health / employer benefits",
+    "funding_date": "2025-12-18",
+    "round_amount": "Seed / US$2M",
+    "funding_source": "https://www.sperityhealth.com/newsroom/seed-round",
+    "design_inspiration": "Connects personal health outcomes directly to employer value, then offers a specific Request Employer Brief call to action. Separate Employers, Consultants and Individuals navigation provides a model for serving multiple buyers without mixing their needs.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-08",
+    "company": "Paradigm Health",
+    "website": "https://www.paradigmhealth.ai/",
+    "industry": "Clinical-trial technology",
+    "funding_date": "2025-12-04",
+    "round_amount": "Series B / US$78M",
+    "funding_source": "https://www.paradigmhealth.ai/resources/paradigm-health-raises-78-million-series-b-to-make-clinical-trials-part-of-routine-care-across-the-u-s-and-globally",
+    "design_inspiration": "Builds a problem-to-solution narrative around clinical-research bottlenecks, then splits the journey into Sponsors and Providers. A named research-director testimonial connects the platform story to an enrollment result. Numerical counters were not reliable in text extraction and were excluded from review.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-08",
+    "company": "TandemAI",
+    "website": "https://tandemai.com/",
+    "industry": "Drug discovery / research services",
+    "funding_date": "2025-11-13",
+    "round_amount": "Series A extension / US$22M",
+    "funding_source": "https://tandemai.com/news/tandemai-closes-22m-series-a-extension-round-to-accelerate-ai-driven-drug-discovery/",
+    "design_inspiration": "Combines an immediate free-product trial link with a recent development milestone and product-introduction video link. Homepage copy distinguishes integrated research services from standalone software, making the two commercial paths clear. Video was not watched.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-08",
+    "company": "Lin Health",
+    "website": "https://www.lin.health/",
+    "industry": "Virtual chronic-pain care",
+    "funding_date": "2025-12-09",
+    "round_amount": "Series A / US$11M",
+    "funding_source": "https://www.lin.health/lin-press/lin-health-raises-11-million-series-a",
+    "design_inspiration": "Routes patients, clinicians and health systems separately. Benefits focus on expanded care, shorter waits, reduced burnout and coverage, with outcome claims connected to an evidence section rather than left as isolated marketing statements.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-08",
+    "company": "Auxira Health",
+    "website": "https://www.auxirahealth.com/",
+    "industry": "Virtual cardiology services",
+    "funding_date": "2025-12-15",
+    "round_amount": "Seed / US$7.8M",
+    "funding_source": "https://www.einpresswire.com/article/874922252/auxira-health-raises-7-8-million-to-redefine-how-cardiology-teams-deliver-care",
+    "design_inspiration": "Makes the operating model concrete with a care pod for three cardiologists and an approximate launch timeline. Pairs Request a Call with Run the Numbers, names institutions behind proof points and answers the objection about building internally. No calculator or form was submitted.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-08",
+    "company": "SanegeneBio",
+    "website": "https://www.sanegenebio.com/",
+    "industry": "RNA interference therapeutics",
+    "funding_date": "2025-12-08",
+    "round_amount": "Series B / over US$110M",
+    "funding_source": "https://www.sanegenebio.com/news/20",
+    "design_inspiration": "Moves from a therapeutic mission to a named delivery platform and a concise differentiation explanation. Distinct Technology, Pipeline and Investors paths let scientific and financial readers quickly find the appropriate level of detail.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-08",
+    "company": "Lucky Energy",
+    "website": "https://luckybevco.com/",
+    "industry": "Consumer beverages",
+    "funding_date": "2025-11-12",
+    "round_amount": "Series B / US$25M",
+    "funding_source": "https://www.prnewswire.com/news-releases/lucky-energy-secures-25m-series-b-to-power-national-expansion-and-fuel-the-future-of-energy-drinks-302612116.html",
+    "design_inspiration": "Oversized product packaging, bold lettering and saturated campaign imagery make the homepage carousel distinctive. Clear Drinks, Gummies and Store Locator navigation separates product discovery from retail availability. The perseverance-led brand story adds an emotional layer beyond ingredient claims.",
+    "review_method": "Visual + text"
+  },
+  {
+    "date_added": "2026-11-08",
+    "company": "Preply",
+    "website": "https://preply.com/",
+    "industry": "Education / language tutoring marketplace",
+    "funding_date": "2026-01-21",
+    "round_amount": "Series D / US$150M",
+    "funding_source": "https://preply.com/en/blog/preply-raises-150-million-to-shape-the-future-of-education-through-human-led-ai-enhanced-learning/",
+    "design_inspiration": "Combines tutor and review scale with named tutor examples, explains the purchase journey in three steps and reduces hesitation with a replacement-tutor guarantee. Separate tutor recruitment and corporate training paths serve secondary audiences while retaining the central learner promise.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-08",
+    "company": "Nerd Apply",
+    "website": "https://nerdapply.com/",
+    "industry": "Education / college counseling data",
+    "funding_date": "2026-01-27",
+    "round_amount": "Seed / US$3.2M; syndicated release date",
+    "funding_source": "https://www.vcaonline.com/news/2026012717/nerd-apply-raises-3-2m-seed-round-to-power-outcome-driven-college-counseling/",
+    "design_inspiration": "Explains a sensitive data product through a healthcare-research analogy, explicit privacy language, dataset counts and examples of qualitative admissions questions. Counselor spotlights and named advisors supply audience-specific proof instead of generic praise.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-08",
+    "company": "Omnisient",
+    "website": "https://omnisient.com/",
+    "industry": "Fintech / privacy-preserving data collaboration",
+    "funding_date": "2025-11-25",
+    "round_amount": "Series A / US$12.5M",
+    "funding_source": "https://omnisient.com/blog/fintech-omnisient-raises-12-5m-to-empower-lenders-with-privacy-safe-data-insights-for-underserved-consumers/",
+    "design_inspiration": "Distinct pathways explain value to financial institutions versus retailers and consumer brands. Credit-risk and precision-marketing use cases make the two-sided offering concrete, while privacy, certification and time-to-value claims address buying objections.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-08",
+    "company": "Guardio",
+    "website": "https://guard.io/",
+    "industry": "Consumer cybersecurity",
+    "funding_date": "2025-11-19",
+    "round_amount": "Series B / US$80M",
+    "funding_source": "https://guard.io/blog/guardio-raises-80m-to-lead-the-future-of-personal-cybersecurity-in-the-age-of-ai",
+    "design_inspiration": "Translates cybersecurity into recognizable risks such as malicious texts, stolen social accounts and fake search results. Concrete protection functions, individual testimonials and a human-support promise provide an alternative to technical feature-first messaging.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-08",
+    "company": "Sweet Security",
+    "website": "https://www.sweet.security/",
+    "industry": "Cloud / application cybersecurity",
+    "funding_date": "2025-11-12",
+    "round_amount": "Series B / US$75M",
+    "funding_source": "https://www.sweet.security/press-releases/sweet-security-raises-75m-series-b-and-unveils-the-first-unified-runtime-cnapp-for-cloud-and-ai-security",
+    "design_inspiration": "Organizes a complex security platform around attack, fix and defend. Connects detected risks to remediation, then supports the promise with named security-leader quotes, operational metrics and a clearly scoped 30-minute walkthrough.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-08",
+    "company": "Apono",
+    "website": "https://www.apono.io/",
+    "industry": "Cybersecurity / privileged access management",
+    "funding_date": "2025-11-18",
+    "round_amount": "Series B / US$34M",
+    "funding_source": "https://ventures.swisscom.com/apono-raises-34m-series-b-to-redefine-privileged-access-for-the-agentic-era/",
+    "design_inspiration": "Explains access controls through engineers waiting for tickets, sprawling roles and auditors chasing evidence. Benefits connect security with developer speed before introducing three named modules. The current homepage notes Apono is now part of 1Password.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-08",
+    "company": "Maybern",
+    "website": "https://www.maybern.com/",
+    "industry": "Fintech / private-fund operations software",
+    "funding_date": "2025-11-13",
+    "round_amount": "Series B / US$50M",
+    "funding_source": "https://www.nasdaq.com/press-release/maybern-secures-50-million-series-b-funding-led-battery-ventures-build-new-operating",
+    "design_inspiration": "Uses an investor email and resulting fund-performance answer to explain the product before role-specific pain points for partners, CFOs, controllers and accountants. A six-step distribution/reconciliation example makes the back-office platform tangible. Workflows were read, not tested.",
+    "review_method": "Text"
+  }
+]
