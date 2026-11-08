@@ -25,3 +25,7 @@ On initialization, the repository was empty: no README, AGENTS.md, Software Fact
 ## Research prompts and categorized ideas — 2026-11-06
 
 - [SMB idea mining and reusable research prompts](research/smb-idea-mining/README.md): evidence-backed SEO, permitted lead sourcing, rights-aware redesign, compliance research, review assistance and after-hours intake. Includes three qualified Reel takeaways, source limits and validation. Documentation only; no outreach or implementation.
+
+## Funeral-home voice audit — 2026-11-08
+
+- [RingHouse offer and funeral-home industry audit](research/funeral-home-voice/README.md): public-source pitch analysis, market, incumbents, workflow, risk controls, illustrative economics and validation plan, mirrored from SMB-Offerings. Documentation only; no customer data, outreach or live integration. See [verification and handoff](research/funeral-home-voice/validation.md).
