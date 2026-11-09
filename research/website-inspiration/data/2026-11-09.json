@@ -1,0 +1,222 @@
+[
+  {
+    "date_added": "2026-11-09",
+    "company": "SAIA Agrobotics",
+    "website": "https://saia.tech/",
+    "industry": "Agricultural robotics / greenhouse automation",
+    "funding_date": "2025-11-10",
+    "round_amount": "Series A / EUR10M",
+    "funding_source": "https://startlife.nl/saia-agrobotics-closes-e10m-series-a-to-automate-greenhouse-growing/",
+    "design_inspiration": "Explains an unfamiliar system through Grow, See and Harvest stages, then offers separate greenhouse-demo and business-case requests. The plants-to-robot contrast makes the technical approach easy to grasp. Numerical counters were unreliable in text extraction and excluded.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-09",
+    "company": "Galatek",
+    "website": "https://www.galatek.ai/",
+    "industry": "Industrial automation / life sciences and semiconductors",
+    "funding_date": "2025-12-19",
+    "round_amount": "Series A / approximately US$30M",
+    "funding_source": "https://www.galatek.ai/news/1662.html",
+    "design_inspiration": "Separates life-science and semiconductor buyers, then divides each into individual products and integrated solutions. A download center and distinct robotics, vision, motion-control and optics sections support technical evaluation.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-09",
+    "company": "Azumuta",
+    "website": "https://www.azumuta.com/",
+    "industry": "Manufacturing operations software",
+    "funding_date": "2025-11-13",
+    "round_amount": "Series A / EUR8M",
+    "funding_source": "https://www.azumuta.com/blog/azumuta-raises-8m-series-a/",
+    "design_inspiration": "Organizes navigation three ways: product modules, buyer industries and specific tasks such as kitting or onboarding. Named customer stories and an accessible pricing path help visitors move from a broad platform to a relevant use case.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-09",
+    "company": "Mind Robotics",
+    "website": "https://www.mindrobotics.com/",
+    "industry": "Industrial robotics / physical AI",
+    "funding_date": "2026-03-11",
+    "round_amount": "Series A / US$500M announced; expected to close later that month",
+    "funding_source": "https://www.businesswire.com/news/home/20260311414783/en/",
+    "design_inspiration": "Turns a broad robotics mission into four concrete factory tasks: picking, sorting, fastening and connecting. The Rivian production partnership explains the training-data advantage, while a dedicated recruiting section names the disciplines needed.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-09",
+    "company": "Array Labs",
+    "website": "https://www.arraylabs.io/",
+    "industry": "Space / radar hardware and Earth data",
+    "funding_date": "2026-01-05",
+    "round_amount": "Series A / US$20M",
+    "funding_source": "https://www.arraylabs.io/updates/array-labs-raises-20m-to-scale-radar-manufacturing-prepare-for-launch",
+    "design_inspiration": "Breaks a radar platform into three clear commercial capabilities: turnkey sensors, multistatic systems and elevation datasets. Each has a short purpose statement and deeper link, keeping specialized technology navigable.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-09",
+    "company": "Neural Concept",
+    "website": "https://www.neuralconcept.com/",
+    "industry": "Engineering AI / industrial design software",
+    "funding_date": "2025-12-18",
+    "round_amount": "Series C / US$100M",
+    "funding_source": "https://www.neuralconcept.com/press-release/neural-concept-closes-100m-funding-round",
+    "design_inspiration": "Pairs platform exploration with industry stories, then organizes named customer examples by outcomes such as performance, knowledge reuse and speed to decision. Each proof point links to a fuller case rather than leaving metrics isolated.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-09",
+    "company": "SPAN",
+    "website": "https://www.span.io/",
+    "industry": "Home electrification / smart electrical panels",
+    "funding_date": "2026-03-09",
+    "round_amount": "Strategic investment / US$75M from Eaton; public announcement date",
+    "funding_source": "https://www.span.io/blog/announcing-our-collaboration-with-eaton",
+    "design_inspiration": "Explains electrical hardware through homeowner situations: backup batteries, EVs, HVAC and renovations. Rebates, app exploration and owner stories provide practical next steps, while footnotes qualify battery-life claims.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-09",
+    "company": "Anaphite",
+    "website": "https://anaphite.com/",
+    "industry": "Battery materials / manufacturing technology",
+    "funding_date": "2026-10-15",
+    "round_amount": "Interim financing / GBP6.8M combined grants, investment and debt",
+    "funding_source": "https://anaphite.com/2026/10/15/anaphite-secures-6-8-million-to-accelerate-technology-advancement/",
+    "design_inspiration": "Navigation follows Challenge, Technology and Method. A three-stage formulation-to-powder explanation makes the manufacturing process concrete, followed by distinct OEM, cell-maker, equipment-maker and materials-supplier audiences.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-09",
+    "company": "Equitable Earth",
+    "website": "https://www.eq-earth.com/",
+    "industry": "Climate / carbon-project certification",
+    "funding_date": "2026-01-08",
+    "round_amount": "Financing round / EUR12.6M; stage unspecified in company announcement",
+    "funding_source": "https://www.eq-earth.com/blog/equitable-earth-secures-eu12-6m-to-accelerate-certification-of-nature-based-climate-solutions",
+    "design_inspiration": "Builds trust through three evaluation pillars, an explicit certification timeline and clear governance mechanisms. The short homepage concludes with access to the standard's documentation, giving skeptical readers a direct route to detail.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-09",
+    "company": "Nudge Security",
+    "website": "https://www.nudgesecurity.com/",
+    "industry": "Cybersecurity / SaaS and AI governance",
+    "funding_date": "2025-11-18",
+    "round_amount": "Series A / US$22.5M",
+    "funding_source": "https://www.nudgesecurity.com/press/nudge-security-raises-22-5m-series-a-to-secure-workforce-ai-and-saas",
+    "design_inspiration": "Uses recognizable employee decisions to explain security risk, then moves through discovery, assessment and action. Its primary CTA promises a concrete shadow-app inventory rather than a generic sales demo; a separate product-tour link supports exploration.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-09",
+    "company": "FamilyWell Health",
+    "website": "https://www.familywellhealth.com/",
+    "industry": "Women's mental health services",
+    "funding_date": "2025-11-18",
+    "round_amount": "Series A / US$8M",
+    "funding_source": "https://www.globenewswire.com/news-release/2025/11/18/3190092/0/en/familywell-health-announces-8m-series-a-funding-to-accelerate-nationwide-expansion-of-integrated-women-s-mental-health-care.html",
+    "design_inspiration": "Connects patient-care outcomes with practice revenue before explaining care coordination and the dedicated team. Separate research, resource-library and professional-training paths support different visitor needs.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-09",
+    "company": "Parallel Learning",
+    "website": "https://www.parallellearning.com/",
+    "industry": "Education / special-education teletherapy",
+    "funding_date": "2025-12-09",
+    "round_amount": "Series B / US$20M",
+    "funding_source": "https://www.globenewswire.com/news-release/2025/12/09/3202299/0/en/Parallel-s-Breakthrough-Teletherapy-Platform-and-High-Support-Clinical-Model-Drive-98-Percent-of-Students-to-Meet-or-Exceed-IEP-Goals.html",
+    "design_inspiration": "The About page combines an inclusion-led mission, district testimonials identified by role and state, a personal founder letter and leadership profiles. Homepage fetch timed out; observation is limited to the About page.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-09",
+    "company": "Proxy Foods",
+    "website": "https://proxyfoods.ai/",
+    "industry": "Food science / product-development software",
+    "funding_date": "2026-08-05",
+    "round_amount": "Seed / US$6M",
+    "funding_source": "https://proxyfoods.ai/press/proxy-foods-ai-raises-6m-seed-to-bring-agentic-ai-to-food-beverage-r-d",
+    "design_inspiration": "Separates new product development from reformulation and optimization, then names practical goals such as sensory quality, cleaner labels and production scale-up. Customer logos and repeated demo links connect technical detail to a commercial next step.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-09",
+    "company": "Nopalera",
+    "website": "https://nopalera.co/",
+    "industry": "Beauty / fragrance and personal care",
+    "funding_date": "2026-03-24",
+    "round_amount": "Funding round / US$4M; series not specified",
+    "funding_source": "https://www.prnewswire.com/news-releases/global-beauty-brand-nopalera-raises-4m-in-funding-led-by-morgan-stanley-co-led-by-lattitude-ventures-302723402.html",
+    "design_inspiration": "Cream navigation and warm, full-width product photography create a tactile storefront. A prominent white shopping CTA contrasts with the photographic hero; scent-based browsing complements product categories. Mexican-heritage storytelling, bundles and reviews extend the shopping journey.",
+    "review_method": "Visual + text"
+  },
+  {
+    "date_added": "2026-11-09",
+    "company": "10Beauty",
+    "website": "https://www.10beauty.co/",
+    "industry": "Consumer robotics / beauty services",
+    "funding_date": "2026-07-01",
+    "round_amount": "Funding round / US$23.5M; syndicated company-release date",
+    "funding_source": "https://www.aol.com/articles/10beauty-raises-23-5m-led-150000000.html",
+    "design_inspiration": "Explains robotic manicures as five numbered service steps, then provides color exploration, locations and booking paths. Separates business buyers from consumers and labels the filing step as coming in January 2027. Video and booking flow were not tested.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-09",
+    "company": "KilgourMD",
+    "website": "https://kilgourmd.com/",
+    "industry": "Consumer health / scalp and hair care",
+    "funding_date": "2026-03-26",
+    "round_amount": "Series A / amount undisclosed",
+    "funding_source": "https://www.prnewswire.com/news-releases/kilgourmd-raises-series-a-led-by-prelude-growth-partners-to-accelerate-research--development-pipeline-in-scalp-health-and-hair-regrowth-302726373.html",
+    "design_inspiration": "Provides a Start Here route to the complete system alongside individual products and bundles. Clinical-result links, study-size and duration context, outcome caveats and a four-step application guide support the product story without leaving all detail in a sales claim.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-09",
+    "company": "SynchNeuro",
+    "website": "https://www.synchneuro.com/",
+    "industry": "Medical devices / metabolic monitoring",
+    "funding_date": "2025-11-12",
+    "round_amount": "Seed-stage investment / amount undisclosed",
+    "funding_source": "https://www.boomerang.vc/boomerang-ventures-makes-seed-stage-investment-in-synchneuro-to-advance-brain-based-non-invasive-glucose-monitoring-technology/",
+    "design_inspiration": "A concise brain-signal premise leads into a plain-language device explanation, research origins, team and clinical advisors. Study-enrollment and waitlist paths are accompanied by an explicit investigational-device disclaimer.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-09",
+    "company": "BoodleBox",
+    "website": "https://boodlebox.ai/",
+    "industry": "Education / collaborative AI workspace",
+    "funding_date": "2025-12-10",
+    "round_amount": "Seed / US$5M",
+    "funding_source": "https://www.prnewswire.com/news-releases/boodlebox-secures-5-million-in-funding-to-accelerate-ai-collaboration-in-higher-education-302637377.html",
+    "design_inspiration": "Audience navigation separates education, enterprise and individuals, then breaks each into roles with short benefit descriptions. Demo and free-start options serve different buying stages, while a separate Trust Center addresses adoption concerns.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-09",
+    "company": "Onos Health",
+    "website": "https://onoshealth.com/",
+    "industry": "Healthcare / behavioral-health intelligence",
+    "funding_date": "2026-08-26",
+    "round_amount": "Series A / US$17M",
+    "funding_source": "https://onoshealth.com/news/onos-series-a-announcement/",
+    "design_inspiration": "Two solution-navigation systems let visitors browse by operational challenge or level of care. Technology, responsible AI/security and implementation each get a distinct explanation and destination, addressing buyer objections beyond model capability.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-09",
+    "company": "Kivo Health",
+    "website": "https://kivohealth.com/",
+    "industry": "Healthcare / virtual pulmonary rehabilitation",
+    "funding_date": "2026-10-27",
+    "round_amount": "Series A / US$10M",
+    "funding_source": "https://kivohealth.com/newsroom/kivo-health-raises-10m-series-a",
+    "design_inspiration": "An eligibility CTA serves patients while referral and sales links serve organizations. Named patient stories lead into study-linked outcomes and a four-part explanation covering delivered equipment, a specialist appointment, group sessions and ongoing support.",
+    "review_method": "Text"
+  }
+]
