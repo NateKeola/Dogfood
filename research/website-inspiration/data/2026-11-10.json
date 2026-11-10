@@ -1,0 +1,222 @@
+[
+  {
+    "date_added": "2026-11-10",
+    "company": "Ognomy Sleep",
+    "website": "https://www.ognomy.com/",
+    "industry": "Healthcare / virtual sleep apnea care",
+    "funding_date": "2026-06-30",
+    "round_amount": "Series A / US$20M",
+    "funding_source": "https://www.ognomy.com/resources/ognomy-sleep-raises-series-a",
+    "design_inspiration": "Deep-purple hero uses a glowing two-line headline, white rounded specialist CTA, adjacent gold-star patient proof and outlined Patient Login. Pricing with an insurance caveat and a lower-commitment sleep-apnea quiz separate ready-to-book visitors from people still learning. Homepage screenshot and text reviewed; no intake submitted.",
+    "review_method": "Visual + text"
+  },
+  {
+    "date_added": "2026-11-10",
+    "company": "Parakeet Health",
+    "website": "https://parakeethealth.com/",
+    "industry": "Healthcare / patient-access automation",
+    "funding_date": "2026-10-01",
+    "round_amount": "Series A / US$10M",
+    "funding_source": "https://www.prnewswire.com/news-releases/parakeet-health-raises-10-million-series-a-following-10x-growth-and-rapid-enterprise-adoption-302895793.html",
+    "design_inspiration": "Homepage leads with patient demand converted into revenue rather than generic AI features. Platform, case-study and comparison navigation supports evaluation, while a voice-agent guide offers an educational route beside the contact CTA. Compliance claims and integration sections address buyer concerns; no independent compliance verification performed.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-10",
+    "company": "Readily",
+    "website": "https://www.readily.ai/",
+    "industry": "Healthcare / compliance software",
+    "funding_date": "2026-10-13",
+    "round_amount": "Series A / US$11M",
+    "funding_source": "https://www.readily.ai/newsroom/readily-raises-11-million-series-a",
+    "design_inspiration": "Homepage organizes the product around audit review, regulatory changes and monitoring, each paired with a specific operational problem. Impact figures separate time savings, financial savings and audit coverage, followed by role-labeled testimonials and a demo route. Trust Center navigation supports evaluation; advertised results are not independently verified.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-10",
+    "company": "Photon",
+    "website": "https://photonhealth.com/",
+    "industry": "Healthcare / prescription infrastructure",
+    "funding_date": "2026-04-30",
+    "round_amount": "Series A / US$16M",
+    "funding_source": "https://www.prnewswire.com/news-releases/photon-raises-16m-series-a-to-give-patients-control-over-their-prescriptions-and-bring-transparency-to-pharmacy-302754817.html",
+    "design_inspiration": "Textured coral-to-purple gradient hero, floating white rounded navigation and a large phone mockup showing prescription texts make infrastructure tangible. Cyan Pricing button stands out. Marketplace/network product labels and provider/health-system solution paths segment visitors. Homepage screenshot and text reviewed; no prescription flow tested.",
+    "review_method": "Visual + text"
+  },
+  {
+    "date_added": "2026-11-10",
+    "company": "Scotch",
+    "website": "https://scotchpos.com/",
+    "industry": "Retail technology / liquor-store operations",
+    "funding_date": "2026-06-04",
+    "round_amount": "Series A / US$20M",
+    "funding_source": "https://www.prnewswire.com/news-releases/scotch-raises-20m-series-a-to-modernize-liquor-stores-surpasses-1b-in-payment-volume-302790781.html",
+    "design_inspiration": "Homepage names its exact retail niche and exposes checkout, ordering, receiving and analytics tabs. Named store owners introduce customer stories, while back-office, payments, integrations and pricing routes map the purchase decision. Helpful vertical-SaaS reference for describing everyday workflows; tabs and embedded videos were not interactively tested.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-10",
+    "company": "Ayble Health",
+    "website": "https://www.ayblehealth.com/",
+    "industry": "Healthcare / virtual digestive care",
+    "funding_date": "2026-09-16",
+    "round_amount": "Series A / US$16M",
+    "funding_source": "https://www.prnewswire.com/news-releases/ayble-health-raises-16m-series-a-to-expand-the-nations-most-clinically-validated-virtual-digestive-health-clinic-302880020.html",
+    "design_inspiration": "Navigation clearly separates individuals seeking eligibility/care from organizations offering a benefit. Homepage excerpts of care-team messaging, lab orders, symptom tracking and appointment booking explain the service journey. Parallel Get Care and Start offering Ayble CTAs preserve both audiences; these are page examples, not a tested patient session.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-10",
+    "company": "Take2",
+    "website": "https://www.take2.ai/",
+    "industry": "Healthcare / recruiting software",
+    "funding_date": "2026-02-11",
+    "round_amount": "Series A / US$14M",
+    "funding_source": "https://www.prnewswire.com/news-releases/take2-raises-14m-series-a-to-automate-healthcare-recruiting-with-autonomous-ai-agents-302685108.html",
+    "design_inspiration": "Homepage separates interviewing, sourcing, scheduling and credential verification into distinct agent modules. Sample workflow snippets make handoffs concrete, followed by customer stories and FAQs covering integrations, implementation and pilots. Extracted animated counters showed zero placeholders, so those metrics were not treated as evidence; hiring workflows were not tested.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-10",
+    "company": "Amperos Health",
+    "website": "https://www.amperos.com/",
+    "industry": "Healthcare / revenue-cycle software",
+    "funding_date": "2026-04-22",
+    "round_amount": "Series A / US$16M",
+    "funding_source": "https://www.amperos.com/blog/series-a-announcement",
+    "design_inspiration": "Homepage pairs demo and ROI-calculator routes, then explains end-to-end collections, repetitive first-touch work and complex denials separately. Customer stories and explicit human-expert oversight help clarify the AI service model. Specialty- and buyer-role navigation offers reusable segmentation; ROI calculator and authenticated workflows were not tested.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-10",
+    "company": "Loop AI",
+    "website": "https://www.loopai.com/",
+    "industry": "Food service / restaurant operations software",
+    "funding_date": "2026-02-02",
+    "round_amount": "Series A / US$14M",
+    "funding_source": "https://www.prnewswire.com/news-releases/loop-ai-raises-14m-series-a-302675180.html",
+    "design_inspiration": "Homepage illustrates dashboard questions, marketing comparisons and revenue reconciliation, then explains four steps from connected sources to contextual answers. Integration categories and named operator stories ground the restaurant-specific pitch. Examples are explicitly illustrative; extracted zero counters were not considered real metrics, and walkthrough interactions were not tested.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-10",
+    "company": "Hostie",
+    "website": "https://hostie.ai/",
+    "industry": "Hospitality / restaurant communications",
+    "funding_date": "2026-07-08",
+    "round_amount": "Series A / US$12M",
+    "funding_source": "https://www.prnewswire.com/news-releases/hostie-raises-12m-series-a-to-power-the-future-of-restaurant-hospitality-302820521.html",
+    "design_inspiration": "Homepage gives both booking and hearing-a-demo options, then ties features to missed calls, reservations, team workload and guest-data ownership. Restaurant logos, operator origin story and named customer case studies reinforce the narrow niche. Pricing, integrations and competitor comparisons support evaluation; demo audio was not played.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-10",
+    "company": "Nominal",
+    "website": "https://nominal.io/",
+    "industry": "Hardware engineering software",
+    "funding_date": "2026-11-09",
+    "round_amount": "Series C / US$240M",
+    "funding_source": "https://nominal.io/blog/series-c-news",
+    "design_inspiration": "Separate Analyst and Developers platform routes, direct documentation links, regional sign-in choices, and named customer case studies make a technical platform easier to evaluate.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-10",
+    "company": "Isembard",
+    "website": "https://isembard.com/",
+    "industry": "Advanced manufacturing / AI-powered factories",
+    "funding_date": "2026-03-10",
+    "round_amount": "Series A / US$50M; investor announcement dated March 10 (initial public announcement March 9)",
+    "funding_source": "https://www.iqcapital.vc/news/isembard-raises-50m-series-a-to-open-25-ai-powered-factories-serving-aerospace-and-defence",
+    "design_inspiration": "Homepage text separates request-a-quote, run-a-factory, and join-the-team paths. Locale selector and numbered capability/network sections support different audiences. Review reached German locale via automatic redirect.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-10",
+    "company": "Trener Robotics",
+    "website": "https://trener.ai/",
+    "industry": "Industrial robotics / robot software",
+    "funding_date": "2026-02-10",
+    "round_amount": "Series A / US$32M",
+    "funding_source": "https://trener.ai/news/trener-robotics-raises-32m-series-a-to-bring-physical-intelligence-to-industrial-automation-providing-a-foundational-intelligence-layer-that-enables-software-defined-control-of-robots",
+    "design_inspiration": "Homepage moves from Acteris platform explanation to specific high-mix production problems; separate Platform, Applications and Partners routes and repeated demo CTA serve technical and commercial visitors.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-10",
+    "company": "Algorized",
+    "website": "https://www.algorized.com/",
+    "industry": "Edge AI / industrial sensing",
+    "funding_date": "2026-02-10",
+    "round_amount": "Series A / US$13M",
+    "funding_source": "https://www.prnewswire.com/news-releases/algorized-secures-series-a-to-build-the-edge-native-nervous-system-for-physical-ai-302683153.html",
+    "design_inspiration": "Uses a nervous-system metaphor to explain machine awareness, then links to technology, dated webinars and event demos. Application text distinguishes industrial safety, robotics interaction and in-car sensing.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-10",
+    "company": "CisLunar Industries",
+    "website": "https://www.cislunarindustries.com/",
+    "industry": "Space infrastructure / power electronics",
+    "funding_date": "2026-03-23",
+    "round_amount": "Seed / US$2.6M",
+    "funding_source": "https://www.cislunarindustries.com/post/cislunar-industries-raises-2-6m-in-oversubscribed-seed-round",
+    "design_inspiration": "Homepage explains its position between power sources and space systems before describing supply and reliability constraints. Product CTA leads to EPIC; navigation separately exposes products, patents, team and press.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-10",
+    "company": "Spoor",
+    "website": "https://www.spoor.ai/",
+    "industry": "Climate technology / wildlife monitoring",
+    "funding_date": "2025-12-11",
+    "round_amount": "Series A / EUR8M",
+    "funding_source": "https://www.env.vc/news/spoor-funding.html",
+    "design_inspiration": "Four-step Monitor, Validate, Report, Improve sequence turns technical monitoring into buyer outcomes. Lifecycle sections use Challenge, Solution and Outcomes, with separate project reports and case studies.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-10",
+    "company": "FluoRok",
+    "website": "https://www.fluorok.com/",
+    "industry": "Advanced materials / sustainable chemicals",
+    "funding_date": "2026-11-05",
+    "round_amount": "Series A / US$30M (GBP22.8M); announced package includes approximately US$1.3M (GBP1M) grant funding",
+    "funding_source": "https://www.fluorok.com/news/fluorok-raises-30m-series-a",
+    "design_inspiration": "Homepage connects safer chemistry to manufacturing economics, groups applications into batteries, pharmaceuticals, agrochemicals and upcycling, then explains legacy-process constraints before linking to technology and solutions.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-10",
+    "company": "Green Voltis",
+    "website": "https://www.greenvoltis.com/",
+    "industry": "Energy software / battery trading and optimization",
+    "funding_date": "2026-11-05",
+    "round_amount": "Series A / EUR13.5M",
+    "funding_source": "https://www.greenvoltis.com/articles/green-voltis-raises-13-5-million-series-a",
+    "design_inspiration": "Pairs See How It Works with Book a Demo; short sections translate the platform into trading, dispatch, battery-health and predeployment-simulation jobs. Useful pattern for linking complex infrastructure features to specific buyer tasks.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-10",
+    "company": "Texture",
+    "website": "https://www.texturehq.com/",
+    "industry": "Energy software / grid operations",
+    "funding_date": "2026-05-20",
+    "round_amount": "Series A / US$12.5M",
+    "funding_source": "https://www.texturehq.com/blog/texture-series-a",
+    "design_inspiration": "Homepage immediately offers a demo, then named utility and energy-company testimonials with case-study routes. Customer examples explain distributed assets, battery portfolios and EV charging rather than relying on generic AI claims.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-10",
+    "company": "Vensum Power",
+    "website": "https://www.vensum.com/",
+    "industry": "Power electronics / software-defined converters",
+    "funding_date": "2026-11-06",
+    "round_amount": "Series A / EUR9M",
+    "funding_source": "https://paaomasijoittajat.fi/en/ajankohtaista/news/33174/finnish-deep-tech-company-vensum-power-raises-e9-million-to-bring-near-lossless-power-conversion-to-ai-data-centers-ev-charging-and-energy-storage/",
+    "design_inspiration": "Simple Product, About and Contact navigation; benefit sections explain usable power, varying-load efficiency and maintenance before introducing technical switching methods. This stages complexity for nontechnical and engineering readers.",
+    "review_method": "Text"
+  }
+]
