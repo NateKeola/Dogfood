@@ -1,0 +1,222 @@
+[
+  {
+    "date_added": "2026-11-11",
+    "company": "NEU Battery Materials",
+    "website": "https://www.neumaterials.com/",
+    "industry": "Battery recycling / climate technology",
+    "funding_date": "2026-10-13",
+    "round_amount": "Funding round / US$7.6M; stage not specified in company announcement",
+    "funding_source": "https://www.neumaterials.com/news/neu-battery-materials-closes-funding-round-to-scale-lfp-recycling-and-strengthen-lithium-supply-chain-resilience",
+    "design_inspiration": "Homepage presents crushed batteries, recovery modules and battery-grade lithium as a simple process, then separates battery manufacturers, eMobility/ESS firms and recyclers. A useful technical-to-commercial narrative; forecasts and performance claims were not independently verified.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-11",
+    "company": "Laza Medical",
+    "website": "https://lazamedical.com/",
+    "industry": "Medical devices / cardiac imaging",
+    "funding_date": "2026-11-04",
+    "round_amount": "Series B structured financing / up to US$160M",
+    "funding_source": "https://www.prnewswire.com/news-releases/laza-medical-raises-up-to-160-million-in-series-b-financing-led-by-ge-healthcare-to-advance-intelligent-imaging-for-transforming-the-cath-lab-302929797.html",
+    "design_inspiration": "Moves from clinician workload to four technology modules and three practical benefits. Prominent not-approved-for-sale disclosures distinguish the developmental system from a commercial product. Team credentials follow the product explanation; embedded videos were not played.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-11",
+    "company": "Circularity Fuels",
+    "website": "https://circularityfuels.com/",
+    "industry": "Climate technology / sustainable aviation fuel",
+    "funding_date": "2026-11-05",
+    "round_amount": "Seed / US$7M",
+    "funding_source": "https://www.businesswire.com/news/home/20261105691302/en/Circularity-Fuels-Closes-$7M-Seed-Round-to-Scale-Jet-Fuel-Made-from-Dairy-Biogas",
+    "design_inspiration": "A five-stage carbon journey connects dairy waste, renewable power, two named reactors and aircraft fuel. Numbered stages and brief chemical labels make an industrial conversion process easy to follow, ending with a direct team-contact route. Text only; reactor economics not independently validated.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-11",
+    "company": "PATH",
+    "website": "https://drinkpathwater.com/",
+    "industry": "Consumer beverages / reusable bottled water",
+    "funding_date": "2026-08-26",
+    "round_amount": "Funding round / amount undisclosed",
+    "funding_source": "https://www.prnewswire.com/news-releases/path-closes-new-investment-round-302859735.html",
+    "design_inspiration": "Separates ordinary water shopping, custom designs and collaborations in navigation. Seasonal campaigns lead into bottle variants, retailer proof and a store finder; the refill-rewards app extends the product story into a repeat-use habit. No shopping or app flow tested.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-11",
+    "company": "waterdrop",
+    "website": "https://www.waterdrop.com/",
+    "industry": "Consumer beverages / hydration products",
+    "funding_date": "2026-05-13",
+    "round_amount": "Funding round / more than EUR100M",
+    "funding_source": "https://www.prnewswire.com/news-releases/waterdrop-closes-landmark-funding-round-exceeding-100-million-welcoming-aspeya-atlantic-grupa-and-aleksander-aamodt-kilde-as-partners-in-its-next-chapter-of-global-growth-302771197.html",
+    "design_inspiration": "Navigation groups flavors by the shopper's intended use, such as daily hydration, exercise and energy, while separate bottle/accessory and variety-pack routes support discovery. Seasonal gifting and starter selections offer clear entry points into a broad catalog. US homepage text reviewed; checkout not tested.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-11",
+    "company": "Coast",
+    "website": "https://coastpay.com/",
+    "industry": "Fintech / fleet and field expense management",
+    "funding_date": "2026-10-22",
+    "round_amount": "Growth equity / US$35M",
+    "funding_source": "https://coastpay.com/blog/coast-raises-35m-to-build-the-financial-platform-for-the-physical-economy/",
+    "design_inspiration": "Homepage unifies fuel, field and office expenses, then explains card types, industry-specific customer stories, integrations and controls. Detailed FAQs expose fees and application expectations. Extracted animated counters showed zeros, so they were not treated as real metrics; application and demo were not tested.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-11",
+    "company": "Radiant",
+    "website": "https://www.radiantnuclear.com/",
+    "industry": "Energy / transportable nuclear microreactors",
+    "funding_date": "2025-12-17",
+    "round_amount": "Series D / more than US$300M",
+    "funding_source": "https://www.radiantnuclear.com/news/series-d-announcement",
+    "design_inspiration": "Homepage leads with a major contract announcement, then explains product capacity, transportability and customer use before manufacturing and commercialization videos. A specific conceptual-rendering disclaimer and dated news establish context. Text review only; videos and technical performance not tested.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-11",
+    "company": "Proxima",
+    "website": "https://proximabio.com/",
+    "industry": "Biotechnology / AI drug discovery",
+    "funding_date": "2026-01-13",
+    "round_amount": "Seed / US$80M",
+    "funding_source": "https://www.businesswire.com/news/home/20260113074220/en/Proxima-Raises-$80-Million-Led-by-DCVC-to-Power-the-Next-Generation-of-Proximity-Based-Medicines",
+    "design_inspiration": "Organizes a complex scientific mission around inducing, modulating and blocking protein interactions. Partner logos, dated funding and collaboration news, and an educational lecture series offer several evidence paths before recruiting content. Homepage text reviewed; scientific efficacy not independently assessed.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-11",
+    "company": "Anaheim Bio",
+    "website": "https://www.anaheimbio.com/",
+    "industry": "Biotechnology / inflammatory arthritis therapeutics",
+    "funding_date": "2026-11-05",
+    "round_amount": "Series A / EUR40M",
+    "funding_source": "https://www.prnewswire.com/news-releases/anaheim-bio-launches-with-40-million-series-a-financing-to-advance-ana-1-for-calcium-pyrophosphate-deposition-disease-into-the-clinic-302929911.html",
+    "design_inspiration": "Problem, pillars and approach sections explain the patient need before introducing the mechanism and lead program. Executive and board listings make a newly launched company easier to evaluate. Text extraction reviewed; therapeutic claims remain company statements about a developmental program.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-11",
+    "company": "Medici Brands",
+    "website": "https://www.medicibrands.com/",
+    "industry": "Consumer products / food brand platform",
+    "funding_date": "2026-09-02",
+    "round_amount": "Series B / US$250M",
+    "funding_source": "https://www.prnewswire.com/news-releases/medici-brands-raises-250-million-in-series-b-funding-302867137.html",
+    "design_inspiration": "An extremely short portfolio homepage directs visitors to David, HallPass and Epogee with a brief positioning line for each. Useful reference for a parent brand that prioritizes routing to individual businesses rather than repeating their product catalogs. Text only; linked brand shopping flows not tested.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-11",
+    "company": "Backslash Security",
+    "website": "https://www.backslash.security/",
+    "industry": "Cybersecurity / agentic endpoint security",
+    "funding_date": "2026-02-10",
+    "round_amount": "Series A / US$19M",
+    "funding_source": "https://www.backslash.security/press-releases/backslash-security-raises-19m-series-a-to-secure-vibe-coding-boom-in-the-enterprise-bolsters-board-with-cybersecurity-industry-leader",
+    "design_inspiration": "Homepage explains discovery, risk assessment and enforcement through sample inventories and agent-risk states. Paired demo and free-assessment routes serve different readiness levels, while free-tool links give concrete entry points. Text review only; animated counts and example risks were not treated as operational data.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-11",
+    "company": "Vast",
+    "website": "https://www.vastspace.com/",
+    "industry": "Space infrastructure / commercial space stations",
+    "funding_date": "2026-03-05",
+    "round_amount": "Series A / US$300M equity plus US$200M debt",
+    "funding_source": "https://www.vastspace.com/updates/vast-secures-500m-in-funding-to-accelerate-production-of-haven-space-stations",
+    "design_inspiration": "Homepage moves from mission to named station specifications and detailed hardware-development updates. Dedicated station, satellite, lunar and mission-planning paths make an ambitious roadmap navigable. Strong reference for showing engineering progress instead of relying solely on a future vision; videos were not played.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-11",
+    "company": "Sierra Space",
+    "website": "https://www.sierraspace.com/",
+    "industry": "Aerospace / spacecraft and satellite systems",
+    "funding_date": "2026-03-05",
+    "round_amount": "Series C / US$550M",
+    "funding_source": "https://www.sierraspace.com/press-releases/sierra-space-closes-550-million-in-series-c-round-with-a-valuation-of-8-billion/",
+    "design_inspiration": "Homepage uses short capability sections for satellite missions, electrical power, precision subsystems, spaceplanes and environmental systems. Broader space-economy and defense narratives follow the concrete offerings. Homepage text reviewed; no visual or interaction review.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-11",
+    "company": "Xona",
+    "website": "https://www.xonaspace.com/",
+    "industry": "Space infrastructure / satellite navigation",
+    "funding_date": "2026-03-26",
+    "round_amount": "Series C / US$170M",
+    "funding_source": "https://www.xonaspace.com/news/series-c",
+    "design_inspiration": "Homepage introduces Pulsar with a software-upgrade proposition, then maps the service to agriculture, telecom, logistics and other applications. Receiver and integration ecosystem content provides a practical next step. Useful abstract-to-specific structure for technical infrastructure; animated headings were reviewed as text.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-11",
+    "company": "GitGuardian",
+    "website": "https://www.gitguardian.com/",
+    "industry": "Cybersecurity / credential and identity security",
+    "funding_date": "2026-02-11",
+    "round_amount": "Series C / US$50M",
+    "funding_source": "https://blog.gitguardian.com/series-c-pr/",
+    "design_inspiration": "Homepage organizes credential security around developer, security-operations and identity-management audiences. A detect-to-remediate sequence and named customer stories make the lifecycle concrete, with separate self-serve and demo CTAs. Source-labeled risk statistics strengthen the narrative; product flows were not tested.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-11",
+    "company": "Censys",
+    "website": "https://censys.com/",
+    "industry": "Cybersecurity / internet intelligence",
+    "funding_date": "2026-03-31",
+    "round_amount": "Series D / US$40M equity plus US$30M debt",
+    "funding_source": "https://censys.com/newsroom/censys-raises-70-million-in-strategic-funding-to-expand-its-internet-intelligence-platform/",
+    "design_inspiration": "Homepage connects underlying internet-map data to investigation, adversary tracking, exposure management and supplier-risk jobs. Role-labeled customer testimonials and case-study links precede a platform-tour route and current research. Useful evidence-to-product progression; guided tour was not run.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-11",
+    "company": "Tractian",
+    "website": "https://tractian.com/en",
+    "industry": "Industrial technology / asset health and maintenance",
+    "funding_date": "2026-10-22",
+    "round_amount": "Series D / US$130M",
+    "funding_source": "https://tractian.com/en/blog/tractian-raises-series-d-to-scale-physical-ai",
+    "design_inspiration": "Homepage lets visitors start with specific jobs such as monitoring, diagnostics and plant-wide visibility, then offers meeting and risk-assessment paths. Industry routes and integration names support evaluation. The ROI section states its study source and model-customer assumptions, a useful credibility pattern; assessment was not tested.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-11",
+    "company": "Impossible Objects",
+    "website": "https://impossible-objects.com/",
+    "industry": "Advanced manufacturing / composite 3D printing",
+    "funding_date": "2026-09-11",
+    "round_amount": "Series B / US$40M",
+    "funding_source": "https://impossible-objects.com/news/impossible-objects-raises-40-million-to-bring-industrial-scale-to-3d-printing/",
+    "design_inspiration": "Homepage separates buying a printer, ordering printed parts and requesting a sample. Speed, strength and precision sections progress into comparison tables and a materials explanation. Useful technical-sales structure that moves from benefit to evidence; performance claims were not independently validated and no sample was requested.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-11",
+    "company": "SPARETECH",
+    "website": "https://sparetech.io/",
+    "industry": "Industrial software / spare-parts management",
+    "funding_date": "2026-11-10",
+    "round_amount": "Series B / US$20M",
+    "funding_source": "https://sparetech.io/en/blog/series-b-funding-co-led-by-blume-equity-and-insight-partners",
+    "design_inspiration": "Homepage turns spare-parts management into knowing inventory, stocking necessities and selling surplus. Six product pillars, buyer-role challenges and a four-step data workflow make the offer concrete. An ERP comparison and savings-calculator section support evaluation; calculator interactions were not tested.",
+    "review_method": "Text"
+  },
+  {
+    "date_added": "2026-11-11",
+    "company": "Namespace",
+    "website": "https://namespace.so/",
+    "industry": "Developer infrastructure / build and test environments",
+    "funding_date": "2026-10-05",
+    "round_amount": "Series B / US$42M",
+    "funding_source": "https://namespace.so/blog/series-b",
+    "design_inspiration": "Homepage exposes operating-system options, technical specifications, documentation, CLI and SDK entry points early. Code and sample execution-state text explain how infrastructure becomes usable, followed by product-specific routes. Useful developer-first content architecture; interactive demos and code were not executed.",
+    "review_method": "Text"
+  }
+]
