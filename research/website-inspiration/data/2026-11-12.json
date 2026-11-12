@@ -1,0 +1,222 @@
+[
+  {
+    "date_added": "2026-11-12",
+    "company": "Bunkerhill Health",
+    "website": "https://www.bunkerhillhealth.com/",
+    "industry": "Healthcare AI",
+    "funding_date": "2026-07-16",
+    "round_amount": "Series B; round amount undisclosed; $55M total funding",
+    "funding_source": "https://www.bunkerhillhealth.com/resources/series-b-announcement",
+    "design_inspiration": "Homepage organizes use cases by seven hospital functions, pairing outcome-specific explanations with a repeated demo CTA and a separate trust-center link. Useful model for explaining broad capabilities through concrete operational outcomes.",
+    "review_method": "Text-only: actual company homepage and funding announcement opened; colors, motion and interaction behavior not visually verified."
+  },
+  {
+    "date_added": "2026-11-12",
+    "company": "Zus Health",
+    "website": "https://www.zushealth.com/",
+    "industry": "Healthcare data infrastructure",
+    "funding_date": "2026-11-10",
+    "round_amount": "Series B / US$33M",
+    "funding_source": "https://www.globenewswire.com/news-release/2026/11/10/3399761/0/en/zus-health-raises-33-million-in-series-b-funding-to-accelerate-the-next-generation-of-connected-healthcare.html",
+    "design_inspiration": "Homepage tells a staged Network > Platform > Workflows story, then routes visitors through solutions and customer types. A useful hierarchy for explaining how fragmented inputs become usable information.",
+    "review_method": "Text-only: actual company homepage and funding announcement opened; colors, motion and interaction behavior not visually verified."
+  },
+  {
+    "date_added": "2026-11-12",
+    "company": "Visibuilt",
+    "website": "https://www.visibuilt.com/",
+    "industry": "Biobased construction materials",
+    "funding_date": "2026-07-15",
+    "round_amount": "Seed / EUR3.34M",
+    "funding_source": "https://www.visibuilt.com/visibuilt-raises-eur-3-34-million-to-bring-biobased-binders-closer-to-market/",
+    "design_inspiration": "Homepage pairs project browsing with a collaboration CTA, explains the material before showing recognition, and separates named products. Good example of balancing an emerging technology story with tangible applications.",
+    "review_method": "Text-only: actual company homepage and funding announcement opened; colors, motion and interaction behavior not visually verified."
+  },
+  {
+    "date_added": "2026-11-12",
+    "company": "Tyce",
+    "website": "https://www.tyce.ai/",
+    "industry": "Construction and preconstruction software",
+    "funding_date": "2026-10-19",
+    "round_amount": "Pre-seed / US$2M (CA$2.8M)",
+    "funding_source": "https://www.tyce.ai/news/pre-seed-funding",
+    "design_inspiration": "Homepage segments content by proposal, estimating and contract teams; an embedded draft cost-estimate example makes the output concrete. Demo CTAs bracket role-specific feature groups and customer quotations.",
+    "review_method": "Text-only: actual company homepage and funding announcement opened; colors, motion and interaction behavior not visually verified."
+  },
+  {
+    "date_added": "2026-11-12",
+    "company": "OnSite",
+    "website": "https://www.on-site.io/",
+    "industry": "Construction and facilities collaboration",
+    "funding_date": "2026-04-08",
+    "round_amount": "Seed / S$1.7M (US$1.3M)",
+    "funding_source": "https://www.on-site.io/blogs/onsite-raise-announcement/",
+    "design_inspiration": "An explicitly illustrative chat-to-report story follows one maintenance job through request, answer, evidence, approval and report. Source-linked answers and review-required states explain human oversight rather than hiding it.",
+    "review_method": "Text-only: actual company homepage and funding announcement opened; colors, motion and interaction behavior not visually verified."
+  },
+  {
+    "date_added": "2026-11-12",
+    "company": "Sitegeist",
+    "website": "https://sitegeist-robotics.com/",
+    "industry": "Construction robotics",
+    "funding_date": "2026-02-16",
+    "round_amount": "Pre-seed / EUR4M",
+    "funding_source": "https://sitegeist-robotics.com/sitegeist-raises-e4m-pre-seed-funding-to-bring-automated-ai-enabled-modular-robots-on/",
+    "design_inspiration": "The homepage presents three concrete applications, then a separate custom-needs route. Its task-led navigation and direct automation CTA offer a concise pattern for specialized services with bespoke projects.",
+    "review_method": "Text-only: actual company homepage and funding announcement opened; colors, motion and interaction behavior not visually verified."
+  },
+  {
+    "date_added": "2026-11-12",
+    "company": "Aviwell",
+    "website": "https://aviwell.fr/en/",
+    "industry": "Animal-health biotechnology",
+    "funding_date": "2026-01-23",
+    "round_amount": "Series A / EUR11M",
+    "funding_source": "https://aviwell.fr/en/pages/press-release.php?item=aviwell-closes-%E2%82%AC11-million-series-a-investment-round-to-scale-ai%E2%80%91drivenmicrobiota-platform-for-sustainable-animal-nutrition",
+    "design_inspiration": "A numbered three-stage discovery explanation bridges the scientific headline and service CTA. Separate biology, data science and AI explanations, an introduction-video link, and bilingual navigation make a technical offer easier to explore.",
+    "review_method": "Text-only: actual company homepage and funding announcement opened; colors, motion and interaction behavior not visually verified."
+  },
+  {
+    "date_added": "2026-11-12",
+    "company": "Claimlane",
+    "website": "https://www.claimlane.com/",
+    "industry": "Aftersales and warranty software",
+    "funding_date": "2026-11-05",
+    "round_amount": "Series A / EUR 5.6 million",
+    "funding_source": "https://www.claimlane.com/resources/blog/series-a-announcement",
+    "design_inspiration": "Feature navigation separates AI agent, self-service portal, workflows, analytics and warranty registration; each pairs task-specific bullets with product screenshots and exploration links. Interactive-demo CTA is prominent; demo not exercised.",
+    "review_method": "Text-only review of actual homepage via web extraction; no visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-12",
+    "company": "Nanopath",
+    "website": "https://nanopath.com/",
+    "industry": "Women's health diagnostics",
+    "funding_date": "2026-11-10",
+    "round_amount": "Series B / USD 25 million including USD 2 million non-dilutive grants",
+    "funding_source": "https://www.prnewswire.com/news-releases/nanopath-announces-25-million-series-b-financing-to-advance-molecular-testing-for-womens-health-302934485.html",
+    "design_inspiration": "Compact homepage moves from a focused diagnostic mission into three image-linked pathways: vision, technology and team. Useful model for a small science-led site with limited public product detail.",
+    "review_method": "Text-only review of actual homepage via web extraction; no visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-12",
+    "company": "Finches",
+    "website": "https://www.finches.ai/",
+    "industry": "Agricultural supply-chain intelligence",
+    "funding_date": "2026-10-08",
+    "round_amount": "Pre-seed / EUR 2 million",
+    "funding_source": "https://www.finches.ai/press",
+    "design_inspiration": "Illustrative alert connects a named crop, threshold, contract and next action; explicit illustrative-data and AI-image labels keep the example honest. Procurement, agronomy and quality sections explain the same product by role.",
+    "review_method": "Text-only review of actual homepage via web extraction; no visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-12",
+    "company": "Adaptive",
+    "website": "https://www.adaptive.build/",
+    "industry": "Construction financial operations",
+    "funding_date": "2026-09-17",
+    "round_amount": "Series B / USD 30 million",
+    "funding_source": "https://www.adaptive.build/blog/why-we-built-an-ai-project-accountant-and-raised-30m-to-build-more-of-it",
+    "design_inspiration": "Named agent roles and example completed tasks turn a broad AI offering into concrete jobs. Walkthrough and phone-demo routes give different exploration options; case studies include the customer's accounting stack. No demo call made.",
+    "review_method": "Text-only review of actual homepage via web extraction; no visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-12",
+    "company": "THEKER",
+    "website": "https://www.theker.ai/",
+    "industry": "Industrial robotics",
+    "funding_date": "2026-06-11",
+    "round_amount": "Series A / USD 85 million",
+    "funding_source": "https://www.cathaycapital.com/theker-raises-85m-in-europes-largest-ever-robotics-series-a-led-by-crv-with-backing-from-samsung-and-lvmh/",
+    "design_inspiration": "Minimal landing page pairs a short production-oriented hero with two Spline embeds and a tightly limited company/careers navigation. Useful reference for a restrained interactive hero; embeds were detected in page content, not visually evaluated.",
+    "review_method": "Text-only review of actual homepage via web extraction; no visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-12",
+    "company": "Kalepa",
+    "website": "https://kalepa.com/",
+    "industry": "Insurance underwriting software",
+    "funding_date": "2026-11-05",
+    "round_amount": "Series B / USD 75 million",
+    "funding_source": "https://kalepa.com/news-posts/kalepa-raises-75-million-series-b",
+    "design_inspiration": "Seven numbered workflow stages explain the journey from submission to portfolio management. Risk-example snippets, customer evidence and role/segment navigation provide several routes through a complex offering.",
+    "review_method": "Text-only review of actual homepage via web extraction; no visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-12",
+    "company": "Project Omega",
+    "website": "https://www.projectomega.com/",
+    "industry": "Nuclear energy and fuel recycling",
+    "funding_date": "2026-11-09",
+    "round_amount": "Series A / US$80 million",
+    "funding_source": "https://www.projectomega.com/newsroom/series-a",
+    "design_inspiration": "Numbered application sections lead into a one-input/three-products explanation and process diagrams; a useful pattern for connecting a technical platform to distinct customer outcomes.",
+    "review_method": "Text-only review of live homepage and image descriptions; no rendered visual or interaction test."
+  },
+  {
+    "date_added": "2026-11-12",
+    "company": "Renewable Metals",
+    "website": "https://www.renewable-metals.com/",
+    "industry": "Battery recycling",
+    "funding_date": "2026-04-20",
+    "round_amount": "Series A / A$12 million",
+    "funding_source": "https://www.cefc.com.au/media/media-release/renewable-metals-raises-12-million-series-a-to-scale-next-generation-lithium-ion-battery-recycling-technology/",
+    "design_inspiration": "Problem-led opening flows into a demonstration-plant update and four concise benefit sections: recovery, cost, sustainability and robustness. Concrete operational evidence precedes the team and news sections.",
+    "review_method": "Text-only review of live homepage and primary investor release; visual styling and interactions not tested."
+  },
+  {
+    "date_added": "2026-11-12",
+    "company": "Oishii",
+    "website": "https://oishii.com/",
+    "industry": "Vertical farming and premium produce",
+    "funding_date": "2026-05-13",
+    "round_amount": "Series C first closing / US$150 million",
+    "funding_source": "https://www.prnewswire.com/news-releases/oishii-announces-first-closing-of-150m-in-series-c-financing-as-it-scales-its-indoor-smart-farm-model-302770199.html",
+    "design_inspiration": "Distinct fruit pages and store-finder calls to action separate product discovery from farm education. Homepage alternates product launches, an in-person kiosk, media coverage and individual varieties with short positioning lines.",
+    "review_method": "Text-only review of live homepage and company-issued press release; imagery and carousel behavior not visually tested."
+  },
+  {
+    "date_added": "2026-11-12",
+    "company": "Immutrin",
+    "website": "https://www.immutrin.com/",
+    "industry": "Biotechnology / antibody therapeutics",
+    "funding_date": "2026-03-24",
+    "round_amount": "Series A / £65 million (US$87 million)",
+    "funding_source": "https://www.immutrin.com/assets/pdf/Immutrin-Press-Release-240326.pdf",
+    "design_inspiration": "A tightly focused single-page hierarchy moves from therapeutic mission to leadership, board, scientific founders and downloadable press releases. Role-specific credibility sections make a complex scientific venture easier to evaluate.",
+    "review_method": "Text-only live homepage and company PDF review; no rendered visual inspection or interaction testing."
+  },
+  {
+    "date_added": "2026-11-12",
+    "company": "Resurrect Bio",
+    "website": "https://www.resurrect.bio/",
+    "industry": "Agricultural biotechnology",
+    "funding_date": "2026-05-13",
+    "round_amount": "Series A final close / US$10.3 million total",
+    "funding_source": "https://www.resurrect.bio/news/our-series-a-is-complete-with-a-total-of-10-million-raised",
+    "design_inspiration": "Clear crop-disease problem statement, quantified problem sections and a feature comparison table connect the science to buyer benefits. Partner CTA appears early, before the longer technical explanation.",
+    "review_method": "Text-only live homepage and company funding announcement; comparison structure inspected, visual presentation not tested."
+  },
+  {
+    "date_added": "2026-11-12",
+    "company": "Zadient Technologies",
+    "website": "https://zadient.com/",
+    "industry": "Semiconductor materials",
+    "funding_date": "2025-11-20",
+    "round_amount": "Series A equity / €35 million",
+    "funding_source": "https://cdnwmsi.e-i.com/SITW/wm/global/1.0.0/corporate/communiques/cm-impact-actionnaire-zadient-technologies/20_11_2025_CP_CM-Impact-actionnaire-Zadient-Technologies-EN.pdf",
+    "design_inspiration": "Navigation separates products, markets and technology, while the homepage maps the value chain from source materials to wafers, chips and end-use industries. Contact routes distinguish sales, procurement and investors.",
+    "review_method": "Text-only live homepage and investor PDF review; value-chain labels and navigation inspected, not rendered visuals."
+  },
+  {
+    "date_added": "2026-11-12",
+    "company": "Ore Energy",
+    "website": "https://www.oreenergy.com/",
+    "industry": "Long-duration energy storage",
+    "funding_date": "2026-08-05",
+    "round_amount": "Series A / US$43 million (€38 million)",
+    "funding_source": "https://www.oreenergy.com/news/ore-energy-raises-43m-series-a-to-scale-multi-day-iron-air-energy-storage",
+    "design_inspiration": "Sequential problem-to-solution narrative introduces the storage gap, then isolates iron, water and air before explaining the battery. Short material-led chapters are useful inspiration for a technical scroll story, although motion itself was not observed.",
+    "review_method": "Text-only live homepage and company announcement; date verified on https://www.oreenergy.com/news; no visual or scroll interaction testing."
+  }
+]

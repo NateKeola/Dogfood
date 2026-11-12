@@ -168,3 +168,12 @@ The source tracker was read back and the export checked: 20 records, 20 distinct
 - Includes battery recycling, sustainable aviation fuel, nuclear energy, medical imaging, biotechnology, consumer beverages and food, fleet finance, space infrastructure, cybersecurity, industrial maintenance, composite printing, spare-parts software and developer infrastructure.
 - Funding descriptions preserve structured up-to financing, undisclosed stage or amount, more-than amounts and equity/debt splits. Laza Medical's financing is up to US$160M; Vast and Censys separately identify equity and debt. Text-extracted animated counters were not treated as verified business metrics.
 - Validation: 20 new canonical domains against all 300 prior public records and the working tracker, all nine fields populated, qualifying dates, and public-only content checked. Previous snapshots remain unchanged. No private workspace identifiers are included.
+
+## November 12 collection
+
+- [2026-11-12 data (JSON)](data/2026-11-12.json) - 20 additional companies; 340 distinct company domains across all seventeen collections.
+- Funding announcements fall within November 12, 2025 to November 12, 2026, backed by company/investor announcements or attributable company-issued releases.
+- All 20 sites reviewed by text only. Notes describe inspected content, navigation and messaging, not rendered appearance or tested interactions. No signup, purchase or authenticated workflow was submitted.
+- Includes healthcare data, diagnostics, construction software and robotics, biobased materials, animal health, agricultural biotechnology, insurance, nuclear energy, battery recycling, indoor farming, semiconductor materials and energy storage.
+- Funding descriptions preserve undisclosed-round amounts versus cumulative funding, non-dilutive grant components, first and final closes, and equity qualifiers. Bunkerhill Health reports US$55M total funding, not the amount of its Series B. Nanopath's US$25M announcement includes US$2M in non-dilutive grants.
+- Validation: 20 new canonical domains against all 320 prior public records, nine populated fields per record, qualifying dates, and public-only content checked. Previous snapshots and index content preserved. No private workspace identifiers are included.
