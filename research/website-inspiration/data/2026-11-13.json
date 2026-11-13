@@ -1,0 +1,222 @@
+[
+  {
+    "date_added": "2026-11-13",
+    "company": "Orakl Oncology",
+    "website": "https://www.orakl-oncology.com/",
+    "industry": "Techbio / oncology drug development",
+    "funding_date": "2026-11-12",
+    "round_amount": "Series A / US$34 million",
+    "funding_source": "https://www.norrsken.vc/news/orakl-oncology",
+    "design_inspiration": "Numbered three-layer engine explanation connects biological models, datasets and predictions. Separate hospital-alliance and biopharma-partner paths help different buyers find their next step.",
+    "review_method": "Text-only review of actual homepage and primary investor announcement; no rendered visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-13",
+    "company": "Cellbox Solutions",
+    "website": "https://cellbox-solutions.com/",
+    "industry": "Life-sciences logistics / live-cell transport",
+    "funding_date": "2026-10-20",
+    "round_amount": "Series A final close / EUR 5 million total, including March 2026 first tranche",
+    "funding_source": "https://cellbox-solutions.com/news/cellbox-solutions-closes-first-tranche-ofcellbox-solutions-completes-series-a-financing-with-total-proceeds-of-eur-5-million",
+    "design_inspiration": "Product navigation separates ground and flight transport, with distinct application and logistics-service routes. Product-fit explanations and use-case reports make a technical equipment offering easier to navigate.",
+    "review_method": "Text-only review of actual homepage and company funding release; no rendered visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-13",
+    "company": "Archeon Medical",
+    "website": "https://archeon-medical.com/",
+    "industry": "Emergency medical devices",
+    "funding_date": "2026-10-06",
+    "round_amount": "Series A equity / US$9 million (EUR 7.5 million)",
+    "funding_source": "https://archeon-medical.com/archeon-medical-secures-9m-series-a/",
+    "design_inspiration": "Product-specific navigation distinguishes overview, technical specifications and the research lab. Educational and distributor routes allow buyers to move from explanation to evidence or purchasing support without one overloaded page.",
+    "review_method": "Text-only review of actual homepage and company funding release; no rendered visual or interaction testing. Clinical marketing claims not independently validated."
+  },
+  {
+    "date_added": "2026-11-13",
+    "company": "Syntetica",
+    "website": "https://www.syntetica.co/",
+    "industry": "Circular materials / nylon recycling",
+    "funding_date": "2026-07-16",
+    "round_amount": "Series A / US$30 million",
+    "funding_source": "https://masholdings.com/media-centre/syntetica-raises-30m-series-a-with-investment-from-lululemon-to-advance-solutions-for-nylon-recycling/",
+    "design_inspiration": "Concise waste-to-materials narrative separates Explore the product from Explore the technology. A closing-the-loop video section, backer area and dated news offer deeper routes without burdening the opening proposition.",
+    "review_method": "Text-only review of actual homepage and participating investor announcement; video and rendered visuals not tested."
+  },
+  {
+    "date_added": "2026-11-13",
+    "company": "VitalFluid",
+    "website": "https://www.vitalfluid.com/",
+    "industry": "Agriculture / plasma-activated crop protection",
+    "funding_date": "2026-08-25",
+    "round_amount": "Series A / EUR 17.2 million funding package, including EUR 2.7 million RVO Innovation Credit",
+    "funding_source": "https://www.invest-nl.nl/en/news/invest-nl-invests-in-an-alternative-to-chemical-crop-protection ; https://graduateventure.com/insights/follow-on-investment-vitalfluid-raises-eu17-2m-series-a",
+    "design_inspiration": "A lightning metaphor introduces the technology, then the homepage moves through grower challenges, solution and named product. FAQ navigation and a simple name/email/message contact form reduce the distance from education to inquiry.",
+    "review_method": "Text-only review of actual homepage and primary investor announcements; no rendered visual or interaction testing. Homepage contains some stale copy, not used to establish funding date."
+  },
+  {
+    "date_added": "2026-11-13",
+    "company": "Primordial Labs",
+    "website": "https://www.primordial-labs.com/",
+    "industry": "Human-machine interfaces / defense software",
+    "funding_date": "2026-11-10",
+    "round_amount": "Series A / US$18 million",
+    "funding_source": "https://ballisticventures.com/why-we-invested-in-primordial-labs/",
+    "design_inspiration": "Plain-language opening is followed by mission, named product, categorized use cases and attributed operator testimonials. A single contact route keeps a technically broad platform focused on the buyer's next action.",
+    "review_method": "Text-only review of actual homepage and primary investor announcement; no rendered visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-13",
+    "company": "Foundry Robotics",
+    "website": "https://foundryrobotics.ai/",
+    "industry": "Robotics / contract manufacturing",
+    "funding_date": "2026-10-29",
+    "round_amount": "Series A / US$100 million; date is financing counsel announcement",
+    "funding_source": "https://www.goodwinlaw.com/en/news-and-events/news/2026/10/announcements-technology-goodwin-advises-foundry-robotics-100-million-series-a-financing",
+    "design_inspiration": "Three benefit sections precede separate commercial and defense routes. Numbered hardware categories show concrete manufacturing outputs, while the logo strip is explicitly labeled Team Experience rather than implying customer relationships.",
+    "review_method": "Text-only review of actual homepage and financing counsel's primary announcement; no rendered visual or interaction testing. Company press release was dated October 28, counsel corroboration October 29."
+  },
+  {
+    "date_added": "2026-11-13",
+    "company": "altM",
+    "website": "https://www.altm.bio/",
+    "industry": "Biobased specialty chemicals",
+    "funding_date": "2026-11-05",
+    "round_amount": "Series A / US$10.3M",
+    "funding_source": "https://www.altm.bio/blogs/altm-raises-10-3-million-to-scale-production-of-specialty-chemicals-from-agricultural-residue",
+    "design_inspiration": "Input-to-output hero language translates agricultural residue into products. Problem, solution and process navigation provides a clear technical narrative; named product families make the offering tangible.",
+    "review_method": "Text-only review of live homepage and company funding announcement. Rendered visuals and interactions not tested."
+  },
+  {
+    "date_added": "2026-11-13",
+    "company": "UniSieve",
+    "website": "https://unisieve.com/",
+    "industry": "Industrial gas separation and membranes",
+    "funding_date": "2026-10-08",
+    "round_amount": "Series A / US$9M",
+    "funding_source": "https://unisieve.com/resources/unisieve-raises-9m-to-scale-high-precision-membrane-solution-for-industrial-separations",
+    "design_inspiration": "Business-benefit sections lead into a feed, permeate and retentate mechanism explanation, then complete-system delivery. An engineer-specific contact CTA suits a technical buying journey.",
+    "review_method": "Text-only review of live homepage and company funding announcement. Diagram labels inspected as text; rendered visuals and interactions not tested."
+  },
+  {
+    "date_added": "2026-11-13",
+    "company": "Coframe",
+    "website": "https://www.coframe.com/",
+    "industry": "Marketing and conversion optimization software",
+    "funding_date": "2026-11-09",
+    "round_amount": "Series A / US$25M",
+    "funding_source": "https://www.antler.co/blog/why-we-invested-in-coframes-25-million-series-a",
+    "design_inspiration": "Separates free website analysis from demo CTAs. Numbered platform capabilities, a manual-workflow comparison and comparison with agencies make the service scope concrete before the sales conversation.",
+    "review_method": "Text-only review of live homepage's agent-readable content and investor funding announcement. Rendered visuals and interactions not tested."
+  },
+  {
+    "date_added": "2026-11-13",
+    "company": "IMIO",
+    "website": "https://www.imio.co/",
+    "industry": "Agricultural biologicals",
+    "funding_date": "2026-10-20",
+    "round_amount": "US$12M; stage not specified in company announcement",
+    "funding_source": "https://www.imio.co/blog/fundraise",
+    "design_inspiration": "Two application routes distinguish row crops from produce. A technical-feature versus practical-benefit table translates the science into customer outcomes, alongside field stories and a simple contact CTA.",
+    "review_method": "Text-only review of live homepage and company funding announcement. Rendered visuals and interactions not tested."
+  },
+  {
+    "date_added": "2026-11-13",
+    "company": "Optivolt",
+    "website": "https://optivolt.com/",
+    "industry": "Solar power electronics",
+    "funding_date": "2026-10-21",
+    "round_amount": "Series A / US$32M",
+    "funding_source": "https://www.techstars.com/blog/startup-spotlight/optivolt-raises-32m-series-a-to-build-the-brain-for-solar-panels",
+    "design_inspiration": "Homeowner benefits progress from energy generation to storage compatibility and monitoring, followed by detailed panel specifications and a downloadable spec sheet. Savings and waitlist CTAs serve different readiness levels.",
+    "review_method": "Text-only review of live homepage and portfolio investor/accelerator funding announcement. Rendered visuals, savings tool and interactions not tested."
+  },
+  {
+    "date_added": "2026-11-13",
+    "company": "SYMX.AI",
+    "website": "https://symx.ai/",
+    "industry": "Industrial fleet intelligence",
+    "funding_date": "2026-10-26",
+    "round_amount": "Series A / US$6M",
+    "funding_source": "https://symx.ai/news/series-a-and-global-partnership-with-yokohama/",
+    "design_inspiration": "Concrete equipment readings and recommended actions demonstrate predictive maintenance instead of only describing AI. Separate product and industry navigation helps visitors reach relevant material, with customers and partners clearly grouped.",
+    "review_method": "Text-only review of live homepage and company funding announcement. Rendered visuals and interactions not tested."
+  },
+  {
+    "date_added": "2026-11-13",
+    "company": "Marble Imaging",
+    "website": "https://www.marble-imaging.de/",
+    "industry": "Earth observation and geospatial intelligence",
+    "funding_date": "2026-11-09",
+    "round_amount": "Seed extension / EUR 6 million",
+    "funding_source": "https://www.marble-imaging.de/news/marble-imaging-raises-additional-6-million-led-by-cherry-ventures",
+    "design_inspiration": "Numbered sections connect four operational use cases to a three-stage technology explanation and dated milestone timeline. Technical specification labels and geographic coordinates reinforce the domain identity. Useful reference for making complex infrastructure legible.",
+    "review_method": "Text-only review of actual homepage via web extraction; no visual, motion or interactive behavior verification."
+  },
+  {
+    "date_added": "2026-11-13",
+    "company": "Tumbleweed",
+    "website": "https://www.tumbleweed.com/",
+    "industry": "Space infrastructure and microgravity research",
+    "funding_date": "2026-11-03",
+    "round_amount": "Seed / EUR 6.9 million",
+    "funding_source": "https://www.tumbleweed.com/press-kit",
+    "design_inspiration": "Explains a technical space service through a familiar shipping-box metaphor. Homepage exposes Pod sizes, prices and dimensions, a three-step process, and a banana-for-scale hover cue. Strong inspiration for approachable technical product education; hover behavior itself was not tested.",
+    "review_method": "Text-only review of actual homepage via web extraction; no visual, motion or interactive behavior verification."
+  },
+  {
+    "date_added": "2026-11-13",
+    "company": "SRTD Biotech",
+    "website": "https://srtd-biotech.com/",
+    "industry": "Biotechnology and precision mRNA therapeutics",
+    "funding_date": "2026-11-09",
+    "round_amount": "Seed / EUR 31.5 million",
+    "funding_source": "https://srtd-biotech.com/news/srtd-biotech-raises-a-e31-5-million-seed-round-to-develop-next-generation-precision-mrna-therapeutics/",
+    "design_inspiration": "Homepage breaks a complex therapeutic platform into AI discovery, seRNA construction and delivery, then separates disease applications with links to the pipeline. Useful hierarchy for explaining an integrated service without forcing readers into technical detail first.",
+    "review_method": "Text-only review of actual homepage via web extraction; no visual, motion or interactive behavior verification."
+  },
+  {
+    "date_added": "2026-11-13",
+    "company": "Ambio",
+    "website": "https://www.ambiomaterials.com/",
+    "industry": "Recycled plastics procurement",
+    "funding_date": "2026-10-14",
+    "round_amount": "Seed / EUR 5.1 million",
+    "funding_source": "https://www.ambiomaterials.com/en/ambio-raises-5-1-million-for-recycled-plastics-procurement",
+    "design_inspiration": "Combines a four-step buyer journey, example batch-history module, polymer-specific category links and named regional sales contacts. Separate recycler route keeps supplier and buyer needs distinct. Relevant to catalog-led B2B onboarding and trust.",
+    "review_method": "Text-only review of actual homepage via web extraction; no visual, motion or interactive behavior verification."
+  },
+  {
+    "date_added": "2026-11-13",
+    "company": "Gravity Gardens",
+    "website": "https://www.gravity-gardens.com/",
+    "industry": "Agricultural seed technology",
+    "funding_date": "2026-09-09",
+    "round_amount": "EUR 2.6 million funding round; investor announcement labels its participation pre-seed",
+    "funding_source": "https://www.graduate.nl/insights/new-pre-seed-investment-gravity-gardens",
+    "design_inspiration": "A numbered narrative moves from market pressure to a side-by-side treatment comparison, results, facility and team. Source-attributed statistics and an at-a-glance panel separate evidence from positioning. Facility image captions describe the scientific work behind the offer.",
+    "review_method": "Text-only review of actual homepage via web extraction; no visual, motion or interactive behavior verification."
+  },
+  {
+    "date_added": "2026-11-13",
+    "company": "Solaq",
+    "website": "https://www.solaq.nl/",
+    "industry": "Water technology and atmospheric water generation",
+    "funding_date": "2026-09-03",
+    "round_amount": "Pre-seed / amount undisclosed in investor announcement",
+    "funding_source": "https://www.graduate.nl/insights/new-pre-seed-investment-solaq",
+    "design_inspiration": "Pairs a short benefit statement with three technical differentiators, audience-specific use cases and detailed deployment FAQs. Social-feed placeholders explain their cookie dependency and retain direct LinkedIn links, a useful graceful-fallback pattern.",
+    "review_method": "Text-only review of actual homepage via web extraction; no visual, motion or interactive behavior verification."
+  },
+  {
+    "date_added": "2026-11-13",
+    "company": "Primal Soles",
+    "website": "https://www.primalsoles.com/",
+    "industry": "Circular footwear and hospitality products",
+    "funding_date": "2025-12-01",
+    "round_amount": "Pre-seed / amount undisclosed in investor announcement",
+    "funding_source": "https://www.graduate.nl/insights/new-pre-seed-investment-primal-soles",
+    "design_inspiration": "Homepage gives consumer footwear and hospitality slippers distinct collection routes, followed by comfort, circularity and certification pillars. Bulk-order contact sits alongside direct shopping, demonstrating how one site can serve retail and B2B buyers without merging their journeys.",
+    "review_method": "Text-only review of actual homepage via web extraction; no visual, motion or interactive behavior verification."
+  }
+]

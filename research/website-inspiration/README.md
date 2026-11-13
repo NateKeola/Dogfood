@@ -177,3 +177,12 @@ The source tracker was read back and the export checked: 20 records, 20 distinct
 - Includes healthcare data, diagnostics, construction software and robotics, biobased materials, animal health, agricultural biotechnology, insurance, nuclear energy, battery recycling, indoor farming, semiconductor materials and energy storage.
 - Funding descriptions preserve undisclosed-round amounts versus cumulative funding, non-dilutive grant components, first and final closes, and equity qualifiers. Bunkerhill Health reports US$55M total funding, not the amount of its Series B. Nanopath's US$25M announcement includes US$2M in non-dilutive grants.
 - Validation: 20 new canonical domains against all 320 prior public records, nine populated fields per record, qualifying dates, and public-only content checked. Previous snapshots and index content preserved. No private workspace identifiers are included.
+
+## November 13 collection
+
+- [2026-11-13 data (JSON)](data/2026-11-13.json) - 20 additional companies; 360 distinct company domains across all eighteen collections.
+- Funding announcements fall within November 13, 2025 to November 13, 2026, backed by company, investor or financing-counsel announcements.
+- All 20 sites reviewed by text only. Notes describe inspected content, navigation and messaging, not rendered appearance or tested interactions. No signup, purchase or authenticated workflow was submitted.
+- Includes oncology, live-cell logistics, emergency medical devices, circular materials, agricultural technology, industrial membranes, robotics, solar electronics, fleet intelligence, geospatial data, space infrastructure, water technology and footwear.
+- Funding descriptions preserve final-close totals, equity qualifiers, mixed funding packages, undisclosed stages and amounts. VitalFluid's EUR 17.2M package includes EUR 2.7M Innovation Credit. Foundry Robotics uses its financing counsel's October 29 announcement, with the company's October 28 release noted. Gravity Gardens retains the investor's pre-seed participation label rather than imposing a round stage.
+- Validation: 20 new canonical domains against all 340 prior public records, nine populated fields per record, qualifying dates, and public-only content checked. Previous snapshots and index content preserved. No private workspace identifiers are included.
