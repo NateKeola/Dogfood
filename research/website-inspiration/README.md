@@ -186,3 +186,12 @@ The source tracker was read back and the export checked: 20 records, 20 distinct
 - Includes oncology, live-cell logistics, emergency medical devices, circular materials, agricultural technology, industrial membranes, robotics, solar electronics, fleet intelligence, geospatial data, space infrastructure, water technology and footwear.
 - Funding descriptions preserve final-close totals, equity qualifiers, mixed funding packages, undisclosed stages and amounts. VitalFluid's EUR 17.2M package includes EUR 2.7M Innovation Credit. Foundry Robotics uses its financing counsel's October 29 announcement, with the company's October 28 release noted. Gravity Gardens retains the investor's pre-seed participation label rather than imposing a round stage.
 - Validation: 20 new canonical domains against all 340 prior public records, nine populated fields per record, qualifying dates, and public-only content checked. Previous snapshots and index content preserved. No private workspace identifiers are included.
+
+## November 14 collection
+
+- [2026-11-14 data (JSON)](data/2026-11-14.json) - 20 additional companies; 380 distinct company domains across all nineteen collections.
+- Funding announcements fall within November 14, 2025 to November 14, 2026. Sources include company and investor announcements, attributable company releases, financing counsel and a regional startup authority.
+- All 20 sites reviewed by text only. Notes describe inspected content, navigation and messaging, not rendered appearance or tested interactions.
+- Includes finance, recycling, carbon utilization, space infrastructure, education, food delivery, agricultural biotechnology, drug development, biobased construction, semiconductors, optics, robotic manufacturing, geothermal energy and sustainable packaging.
+- Funding descriptions preserve undisclosed amounts and stages, cumulative-funding distinctions, extensions and first closes. Vateris reports USD 10 million cumulative capital, not the amount of its strategic investment. Kinderpedia's EUR 500,000 investment completes its EUR 2.7 million round. Shellworks uses its financing adviser's announcement date; one.five uses Startup City Hamburg's report.
+- Validation: 20 new canonical domains against all 360 prior public records, nine populated fields per record, qualifying dates, and public-only content checked. Previous snapshots and index content preserved. No private workspace identifiers are included.
