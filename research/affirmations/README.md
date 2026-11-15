@@ -2,7 +2,7 @@
 
 A source-linked collection of currently gathered affirmations. This is public-source reference material, not a personal journal, behavioral tracker, or record of anyone's finances or beliefs.
 
-Updated: 2026-11-13 (America/Los_Angeles).
+Updated: 2026-11-14 (America/Los_Angeles).
 
 ## Coverage and use
 
@@ -60,3 +60,21 @@ Status: Original paraphrases of observed caption themes. Partial coverage of an 
 26. I meet uncertainty with steadiness and confidence.
 27. I hold a sense that my life is coming together.
 28. I receive good things with calm and gratitude.
+
+## Set D: Hopeful expectations and calm confidence
+
+Source: [Jesse Bax / @iamjessebax, reel DY2UpOyNTRx](https://www.instagram.com/reels/DY2UpOyNTRx/).
+
+Added: 2026-11-14 (America/Los_Angeles).
+
+Status: Direct playback and visible captions reviewed. The following are original paraphrases, not a verbatim transcript or a claim that every caption was captured. The on-screen attribution to Neville Goddard was not independently verified.
+
+This reel substantially overlaps Set C. Its observed themes of trust, receiving good things, timing, imagined fulfillment, abundance, encouraging news, confidence and gratitude are already represented by entries 19–24 and 26–28. The sense of being supported is covered by entry 18. Those entries are not duplicated here.
+
+Additional paraphrased prompts:
+
+29. I choose hopeful expectations while staying open to how life unfolds.
+30. I look forward to noticing more beauty in my everyday life.
+31. I let doubt and fear loosen their grip on me.
+
+The reel presents manifestation beliefs as certainties. These entries retain their reflective intent without treating supernatural or financial outcomes as guaranteed.
