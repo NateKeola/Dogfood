@@ -1,0 +1,222 @@
+[
+  {
+    "date_added": "2026-11-15",
+    "company": "Aerska",
+    "website": "https://www.aerska.com/",
+    "industry": "RNA therapeutics / neuroscience",
+    "funding_date": "2026-05-20",
+    "round_amount": "US$10M investment forming part of Series A; original Series A US$39M, cumulative funding US$70M",
+    "funding_source": "https://ghicfunds.org/2026/05/20/ghic-announces-10-million-investment-in-aerska-to-advance-systemic-delivery-of-rna-medicines-to-the-brain",
+    "design_inspiration": "Homepage introduces three scientific pillars, then expands each into its own explanatory section before leadership. Useful pattern for making a complex platform progressively understandable.",
+    "review_method": "Text-only review of live website content and navigation via web retrieval; no visual, animation or interaction testing."
+  },
+  {
+    "date_added": "2026-11-15",
+    "company": "BrainChild Bio",
+    "website": "https://brainchildbio.com/",
+    "industry": "Cell therapy / oncology",
+    "funding_date": "2026-09-08",
+    "round_amount": "US$116M Series A",
+    "funding_source": "https://brainchildbio.com/press-release/brainchild-bio-closes-116-million-series-a-financing/",
+    "design_inspiration": "Concise disease-focused hero leads to Science, with separate Pipeline and BCB Cares navigation. A short mission statement and attributed CEO quote connect technical work to the people served.",
+    "review_method": "Text-only review of live website content and navigation via web retrieval; no visual, animation or interaction testing."
+  },
+  {
+    "date_added": "2026-11-15",
+    "company": "OMass Therapeutics",
+    "website": "https://www.omass.com/",
+    "industry": "Drug discovery / small-molecule therapeutics",
+    "funding_date": "2026-10-15",
+    "round_amount": "US$310M (£230M) Series C",
+    "funding_source": "https://www.omass.com/2026/10/15/omass-therapeutics-announces-310-million-series-c-financing-to-advance-portfolio-of-small-molecule-therapeutics-in-endocrinology-and-immunology/",
+    "design_inspiration": "Compact conceptual headline is paired with a technical explanation and separate read-more and video links. Science, Pipeline and Publications are distinct routes for visitors wanting different depths of evidence.",
+    "review_method": "Text-only review of live website content and navigation via web retrieval; no visual, animation or interaction testing."
+  },
+  {
+    "date_added": "2026-11-15",
+    "company": "Avenue Biosciences",
+    "website": "https://www.avenuebiosciences.com/",
+    "industry": "Protein engineering / biotechnology tools",
+    "funding_date": "2026-01-12",
+    "round_amount": "US$5.7M seed extension; total raised US$8.7M",
+    "funding_source": "https://www.avenuebiosciences.com/press-release/funding-announcement-first-platform-modulating-secretory-pathway-for-therapeutic-protein-manufacturing",
+    "design_inspiration": "Numbered homepage sections move from challenge statistics to solution, platform and applications. A four-stage library/display/analysis/validation explanation makes an invisible technical service concrete.",
+    "review_method": "Text-only review of live website content and navigation via web retrieval; no visual, animation or interaction testing."
+  },
+  {
+    "date_added": "2026-11-15",
+    "company": "bit.bio",
+    "website": "https://www.bit.bio/",
+    "industry": "Human cell models / life-science research tools",
+    "funding_date": "2026-11-04",
+    "round_amount": "US$25M Series D",
+    "funding_source": "https://www.bit.bio/news/bit.bio-secures-25-million-as-demand-for-its-human-cell-models-reaches-record-levels",
+    "design_inspiration": "Catalog navigation offers three entry points: cell type, disease area and application/assay. Search spans products and protocols, with separate technical and ordering support hubs. Strong reference for multi-intent catalog discovery.",
+    "review_method": "Text-only review of live website content and navigation via web retrieval; no visual, animation or interaction testing."
+  },
+  {
+    "date_added": "2026-11-15",
+    "company": "InduPro",
+    "website": "https://www.induprotx.com/",
+    "industry": "Proximity biology / cancer therapeutics",
+    "funding_date": "2026-08-12",
+    "round_amount": "US$77M Series B",
+    "funding_source": "https://www.induprotx.com/indupro-closes-77-million-series-b-financing-and-doses-first-patient-in-phase-1-study-of-lead-oncology-program-idp-001/",
+    "design_inspiration": "Short three-part positioning introduces the main proposition, while navigation separates Approach from Pipeline and splits Press Releases from Publications. Useful architecture for explaining a platform without mixing scientific evidence and company news.",
+    "review_method": "Text-only review of live website content and navigation via web retrieval; no visual, animation or interaction testing."
+  },
+  {
+    "date_added": "2026-11-15",
+    "company": "Nuclera",
+    "website": "https://www.nuclera.com/",
+    "industry": "Protein screening / laboratory instruments",
+    "funding_date": "2026-01-13",
+    "round_amount": "US$12M Series C extension; Series C total US$87M",
+    "funding_source": "https://www.nuclera.com/nuclera-extends-series-c-funding-to-87m-to-advance-antibody-engineering/",
+    "design_inspiration": "Homepage pairs capability statements with time-to-output milestones, a three-step workflow and an attributed researcher testimonial. Navigation distinguishes buying a system from accessing the technology as a service.",
+    "review_method": "Text-only review of live website content and navigation via web retrieval; no visual, animation or interaction testing."
+  },
+  {
+    "date_added": "2026-11-15",
+    "company": "Mediar Therapeutics",
+    "website": "https://www.mediartx.com/",
+    "industry": "Fibrosis therapeutics",
+    "funding_date": "2026-01-07",
+    "round_amount": "US$76M Series B",
+    "funding_source": "https://www.mediartx.com/wp-content/uploads/2026/01/Mediar-Series-B-Press-Release-FINAL.pdf",
+    "design_inspiration": "Clinical-study status links appear before the main navigation, making patient-relevant next steps easy to find. The main narrative progresses from mechanism to pipeline to team, with a dedicated accessibility statement in the footer.",
+    "review_method": "Text-only review of live website content and navigation via web retrieval; no visual, animation or interaction testing."
+  },
+  {
+    "date_added": "2026-11-15",
+    "company": "Specific Biologics",
+    "website": "https://www.specificbiologics.com/",
+    "industry": "Gene editing / genetic disease therapeutics",
+    "funding_date": "2026-11-02",
+    "round_amount": "US$35M Series A",
+    "funding_source": "https://www.prnewswire.com/news-releases/specific-biologics-announces-oversubscribed-us-35-million-series-a-financing-to-advance-gene-editing-therapy-for-als-812519649.html",
+    "design_inspiration": "Homepage separates the Dualase platform from the therapeutic pipeline, each with its own learn-more route, then gives a dated news chronology. Useful example of separating reusable technology from specific applications.",
+    "review_method": "Text-only review of live website content and navigation via web retrieval; no visual, animation or interaction testing."
+  },
+  {
+    "date_added": "2026-11-15",
+    "company": "Blue Arbor Technologies",
+    "website": "https://bluearbortech.com/",
+    "industry": "Medical devices / prosthetic control",
+    "funding_date": "2026-10-28",
+    "round_amount": "US$10.5M Series A",
+    "funding_source": "https://bluearbortech.com/blue-arbor-technologies-raises-10-5-million-series-a-led-by-ottobock/",
+    "design_inspiration": "Product section explains the external sensing unit, signal path and how it is worn, rather than stopping at an abstract benefit. Explore, Innovation and Investor routes support different audience needs.",
+    "review_method": "Text-only review of live website content and navigation via web retrieval; no visual, animation or interaction testing."
+  },
+  {
+    "date_added": "2026-11-15",
+    "company": "Standard Nuclear",
+    "website": "https://www.standardnuclear.com/",
+    "industry": "Advanced nuclear fuel",
+    "funding_date": "2026-01-26",
+    "round_amount": "Series A / US$140 million announced; includes two US$70 million tranches in 2025 and January 2026",
+    "funding_source": "https://ir.standardnuclear.com/news-events/press-releases/detail/86/standard-nuclear-begins-production-of-advanced-haleu-fuel-and-raises-140-million-in-series-a-funding ; tranche qualification: https://ir.standardnuclear.com/sec-filings/all-sec-filings/content/0001628280-26-059189/nucl-20260630.htm",
+    "design_inspiration": "Homepage explains a complex supply chain in five labeled stages, from mining to fuel fabrication, before offering technology and newsroom links. Useful model for a clear stepwise technical explainer.",
+    "review_method": "Text-only: opened actual company homepage and reviewed extracted page structure, navigation and copy; no visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-15",
+    "company": "Duna",
+    "website": "https://duna.com/",
+    "industry": "Business identity and compliance software",
+    "funding_date": "2026-02-05",
+    "round_amount": "Series A / EUR30 million",
+    "funding_source": "https://duna.com/news/duna-raises-30-million-series-a",
+    "design_inspiration": "Demo CTA appears beside an outcome-led introduction, followed by quantified benefits, customer testimony and specific onboarding capabilities. Good pattern for connecting evidence to a service pitch.",
+    "review_method": "Text-only: opened actual company homepage and reviewed extracted page structure, navigation and copy; no visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-15",
+    "company": "Gigablue",
+    "website": "https://www.gigablue.co/",
+    "industry": "Marine carbon removal",
+    "funding_date": "2026-01-25",
+    "round_amount": "Series A first close / US$20 million",
+    "funding_source": "https://www.gigablue.co/blog/gigablue-announces-20-million-series-a-first-close-at-davos-2026",
+    "design_inspiration": "Science navigation separates carrier technology, process and verification, each with explanatory descriptions; separate contact and carbon-removal CTAs distinguish education from conversion.",
+    "review_method": "Text-only: opened actual company homepage and reviewed extracted page structure, navigation and copy; no visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-15",
+    "company": "SolidWatts",
+    "website": "https://www.solidwatts.ch/",
+    "industry": "Industrial process heating",
+    "funding_date": "2026-03-26",
+    "round_amount": "Seed / CHF1.8 million",
+    "funding_source": "https://www.solidwatts.ch/powering-change-1-8m-seed-round-fuels-the-future-of-industrial-efficiency/",
+    "design_inspiration": "Application-based navigation names concrete tasks such as adhesive curing and industrial drying; homepage also separates industry, investor and partner paths. Useful audience and use-case organization.",
+    "review_method": "Text-only: opened actual company homepage and reviewed extracted page structure, navigation and copy; no visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-15",
+    "company": "Cocoon Carbon",
+    "website": "https://www.cocooncarbon.com/",
+    "industry": "Low-carbon construction materials",
+    "funding_date": "2026-04-02",
+    "round_amount": "Series A / US$15 million; date is financing counsel announcement, not closing date",
+    "funding_source": "https://www.goodwinlaw.com/en/news-and-events/news/2026/04/announcements-technology-goodwin-advises-cocoon",
+    "design_inspiration": "Minimal navigation separates product, process and company story. Homepage moves from the circular steel-to-cement explanation to named product LoopCem and a product-specific CTA.",
+    "review_method": "Text-only: opened actual company homepage and reviewed extracted page structure, navigation and copy; no visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-15",
+    "company": "LI.FI",
+    "website": "https://li.fi/",
+    "industry": "Blockchain interoperability infrastructure",
+    "funding_date": "2025-12-11",
+    "round_amount": "Series A extension / US$29 million",
+    "funding_source": "https://li.fi/knowledge-hub/li-fi-secures-usd29m-in-series-a-extension-led-by-multicoin-and-coinfund-to",
+    "design_inspiration": "Pairs self-serve integration and sales-contact CTAs under the same proposition, with distinct developer, product and use-case navigation. Useful for serving technical evaluators and business buyers without separate homepages.",
+    "review_method": "Text-only: opened actual company homepage and reviewed extracted page structure, navigation and copy; no visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-15",
+    "company": "Bleap",
+    "website": "https://www.bleap.finance/",
+    "industry": "Digital payments and financial accounts",
+    "funding_date": "2026-01-28",
+    "round_amount": "Seed / US$6 million",
+    "funding_source": "https://www.bleap.finance/fr-fr/blog/bleap-raises-6m-seed-round",
+    "design_inspiration": "Product navigation separates card, cashback, trading and savings, while a comparison tool helps visitors evaluate options. Homepage benefit modules each have a learn-more route before the main account CTA.",
+    "review_method": "Text-only: opened actual company homepage and reviewed extracted page structure, navigation and copy; no visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-15",
+    "company": "Rogo",
+    "website": "https://rogo.com/",
+    "industry": "Financial-services AI software",
+    "funding_date": "2026-04-29",
+    "round_amount": "Series D / US$160 million",
+    "funding_source": "https://rogo.com/blog/series-d",
+    "design_inspiration": "Homepage presents concrete task examples such as model review and investment-memo reading, then a sample data table. This makes a broad AI promise tangible before a demo request.",
+    "review_method": "Text-only: opened actual company homepage and reviewed extracted page structure, navigation and copy; no visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-15",
+    "company": "Antora Energy",
+    "website": "https://www.antora.com/",
+    "industry": "Thermal energy storage",
+    "funding_date": "2026-07-30",
+    "round_amount": "Series C / US$550 million",
+    "funding_source": "https://www.antora.com/insights/series-c",
+    "design_inspiration": "A numbered three-stage explanation connects electricity, stored heat and output, followed by a named deployment and modular-scaling benefits. Strong process-to-proof content sequence.",
+    "review_method": "Text-only: opened actual company homepage and reviewed extracted page structure, navigation and copy; no visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-15",
+    "company": "Gigaton",
+    "website": "https://gigaton.co/",
+    "industry": "Industrial AI control",
+    "funding_date": "2026-06-03",
+    "round_amount": "Series A / US$26 million",
+    "funding_source": "https://albion.vc/spotlight/news/gigaton-raises-26m-series-a/",
+    "design_inspiration": "Combines product exploration and demo CTAs with a named Heidelberg Materials case study showing operational metrics and implementation duration. Materials navigation organizes cement, glass and steel use cases.",
+    "review_method": "Text-only: opened actual company homepage and reviewed extracted page structure, navigation and copy; no visual or interaction testing."
+  }
+]
