@@ -4,6 +4,8 @@ A home for public standalone research and projects that do not have a dedicated 
 
 ## Research
 
+- [Holistic living reference collection](research/holistic-living/README.md): public-source themes with explicit evidence and review limits.
+
 - [Affirmation reference collection](research/affirmations/README.md): source-linked supplied wording and clearly labeled reel paraphrases.
 
 - [Funded-company website inspiration](research/website-inspiration/README.md) — dated, source-linked website references and design observations.
