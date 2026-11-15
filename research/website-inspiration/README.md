@@ -195,3 +195,12 @@ The source tracker was read back and the export checked: 20 records, 20 distinct
 - Includes finance, recycling, carbon utilization, space infrastructure, education, food delivery, agricultural biotechnology, drug development, biobased construction, semiconductors, optics, robotic manufacturing, geothermal energy and sustainable packaging.
 - Funding descriptions preserve undisclosed amounts and stages, cumulative-funding distinctions, extensions and first closes. Vateris reports USD 10 million cumulative capital, not the amount of its strategic investment. Kinderpedia's EUR 500,000 investment completes its EUR 2.7 million round. Shellworks uses its financing adviser's announcement date; one.five uses Startup City Hamburg's report.
 - Validation: 20 new canonical domains against all 360 prior public records, nine populated fields per record, qualifying dates, and public-only content checked. Previous snapshots and index content preserved. No private workspace identifiers are included.
+
+## November 15 collection
+
+- [2026-11-15 data (JSON)](data/2026-11-15.json) - 20 additional companies; 400 distinct company domains across all twenty collections.
+- Funding announcements fall within November 15, 2025 to November 15, 2026, backed by company/investor announcements, attributable company releases or financing counsel.
+- All 20 sites reviewed by text only. Notes describe inspected content, navigation and messaging, not rendered appearance or tested interactions.
+- Includes therapeutics, research tools, medical devices, nuclear fuel, carbon removal, industrial heating, construction materials, financial technology, identity verification, thermal storage and industrial AI.
+- Funding descriptions preserve extensions, first closes, cumulative-funding distinctions and tranches. Aerska's USD 10M investment forms part of its Series A, with USD 70M cumulative funding. Standard Nuclear's announced USD 140M includes two USD 70M tranches in 2025 and January 2026. Cocoon Carbon uses its financing counsel's announcement date.
+- Validation: 20 new canonical domains checked against all 380 prior public records and the working tracker, nine populated fields per record, qualifying dates, and exact working-tracker readback. Prior values and the personal notes column were preserved. Native dates, links and text formatting were checked through the API; rendered tracker layout was not verified. Public research only; no private workspace identifiers.
