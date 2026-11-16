@@ -4,6 +4,8 @@ A home for public standalone research and projects that do not have a dedicated 
 
 ## Research
 
+- [Agentic systems reference collection](research/agentic-systems/README.md): ByteByteGo context mining, source limits, engineering patterns and validation experiments.
+
 - [Holistic living reference collection](research/holistic-living/README.md): public-source themes with explicit evidence and review limits.
 
 - [Affirmation reference collection](research/affirmations/README.md): source-linked supplied wording and clearly labeled reel paraphrases.
