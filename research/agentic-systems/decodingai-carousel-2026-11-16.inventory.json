@@ -1,0 +1,49 @@
+{
+  "review_date": "2026-11-16",
+  "source_url": "https://www.instagram.com/p/DfuaXnRmTbE/",
+  "account": "decodingai.vs",
+  "method": "Direct browser inspection: caption and all eight carousel items; six repository cards visually read. Audio not transcribed.",
+  "items": [
+    {
+      "carousel_item": 2,
+      "card_number": 1,
+      "repository": "Anil-matcha/Open-Generative-AI",
+      "category": "AI media studio"
+    },
+    {
+      "carousel_item": 3,
+      "card_number": 3,
+      "repository": "Fincept-Corporation/FinceptTerminal",
+      "category": "Financial terminal"
+    },
+    {
+      "carousel_item": 4,
+      "card_number": 2,
+      "repository": "AgriciDaniel/claude-ads",
+      "category": "Ad audit skill"
+    },
+    {
+      "carousel_item": 5,
+      "card_number": 4,
+      "repository": "HKUDS/Vibe-Trading",
+      "category": "Trading research agent"
+    },
+    {
+      "carousel_item": 6,
+      "card_number": 5,
+      "repository": "jo-inc/camofox-browser",
+      "category": "Agent browser"
+    },
+    {
+      "carousel_item": 7,
+      "card_number": 6,
+      "repository": "heygen-com/hyperframes",
+      "category": "Video from code"
+    }
+  ],
+  "limits": [
+    "Opening and closing items contained video; this inventory is based on visible text, not audio.",
+    "Promotional claims about free usage, revenue, replacement value, model counts and unblocked scraping are not verified by observing the post.",
+    "No affiliation inferred between decodingai.vs and other similarly named publishers."
+  ]
+}
