@@ -4,6 +4,8 @@ Public-source research for choosing, testing, and operating agentic system desig
 
 ## Collections
 
+- [Six repositories from Decoding AI's carousel, 2026-11-16](decodingai-six-repos-2026-11-16.md): directly inspected carousel, all six repository reviews, reusable architecture, license/cost/security gates and three experiments. [Source inventory](decodingai-carousel-2026-11-16.inventory.json).
+
 - [ByteByteGo context mine, 2026-11-16](bytebytego-2026-11-16.md): ten newsletter references, two primary engineering cross-checks, a build checklist, and three experiments. Instagram was inaccessible; this is explicitly a newsletter-based substitute, not a full account crawl.
 
 ## Evidence rules
