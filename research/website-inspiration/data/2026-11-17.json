@@ -1,0 +1,222 @@
+[
+  {
+    "company": "Aikido Security",
+    "website": "https://www.aikido.dev/",
+    "industry": "Cybersecurity / developer security",
+    "funding_date": "2026-01-14",
+    "round_amount": "$60M Series B",
+    "funding_source": "https://www.aikido.dev/blog/aikido-funding-series-b",
+    "design_inspiration": "Group a broad product catalog under lifecycle and outcome headings, such as securing prompt to production and blocking attacks, alongside a clear free-start CTA.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-17"
+  },
+  {
+    "company": "depthfirst",
+    "website": "https://depthfirst.com/",
+    "industry": "AI software security",
+    "funding_date": "2026-03-31",
+    "round_amount": "$80M Series B",
+    "funding_source": "https://depthfirst.com/post/series-b-announcement/",
+    "design_inspiration": "Pair platform-exploration and demo CTAs, then explain the platform through numbered pillars and benefit-labelled product navigation.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-17"
+  },
+  {
+    "company": "Escape",
+    "website": "https://escape.tech/",
+    "industry": "Offensive / application security",
+    "funding_date": "2026-03-10",
+    "round_amount": "$18M Series A",
+    "funding_source": "https://escape.tech/blog/escape-raises-18m-series-a/",
+    "design_inspiration": "Use a product-launch announcement strip and short product-navigation descriptions explaining the job each offering performs, leading to a demo CTA.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-17"
+  },
+  {
+    "company": "RADICL",
+    "website": "https://radicl.com/",
+    "industry": "Managed cybersecurity / compliance",
+    "funding_date": "2026-02-03",
+    "round_amount": "$31M Series A",
+    "funding_source": "https://radicl.com/resources/series-a-announcement",
+    "design_inspiration": "Offer separate navigation paths by industry, buyer role, and compliance or use case so visitors can locate a relevant service without knowing product names.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-17"
+  },
+  {
+    "company": "Talos",
+    "website": "https://www.talos.com/",
+    "industry": "Institutional digital-asset infrastructure",
+    "funding_date": "2026-01-29",
+    "round_amount": "$45M Series B extension; Series B total reaches $150M",
+    "funding_source": "https://www.talos.com/insights/talos-extends-series-b-to-150m-in-strategic-fundraise",
+    "design_inspiration": "Explain the platform around an end-to-end trade lifecycle and include an institution-type selector to make the content relevant to different buyers; selector interaction was not tested.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-17"
+  },
+  {
+    "company": "Spiko",
+    "website": "https://www.spiko.io/",
+    "industry": "Cash-management fintech",
+    "funding_date": "2026-10-06",
+    "round_amount": "$90M Series B",
+    "funding_source": "https://www.spiko.io/blog/weve-raised-90m-to-make-cash-earn-for-everyone",
+    "design_inspiration": "Combine self-service and meeting CTAs with explicit net-of-fees framing, quantified platform proof, and customer logos beneath the product pitch.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-17"
+  },
+  {
+    "company": "TabaPay",
+    "website": "https://tabapay.com/",
+    "industry": "Payment infrastructure",
+    "funding_date": "2026-09-02",
+    "round_amount": "$155M strategic growth financing, including primary capital and a secondary transaction",
+    "funding_source": "https://ftvcapital.com/2026/tabapay-closes-155-million-strategic-growth-financing-led-by-ftv-capital-and-announces-planned-acquisition-of-transact-bank/",
+    "design_inspiration": "Lead with regulated-industry positioning and concrete payment, payout, and repayment use cases before sales contact; separate corporate announcements from the main product pitch.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-17"
+  },
+  {
+    "company": "Resolve AI",
+    "website": "https://resolve.ai/",
+    "industry": "AI site reliability / production operations",
+    "funding_date": "2026-02-04",
+    "round_amount": "$125M Series A",
+    "funding_source": "https://resolve.ai/news/resolveai-raises-125-million-series-a",
+    "design_inspiration": "Organize AI agents by real operational jobs, including on-call, incidents, and proactive tasks, and provide a build-versus-buy calculator alongside demo conversion.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-17"
+  },
+  {
+    "company": "NetBird",
+    "website": "https://netbird.io/",
+    "industry": "Open-source zero-trust networking",
+    "funding_date": "2026-01-13",
+    "round_amount": "$10M Series A",
+    "funding_source": "https://www.nautacapital.com/news-insights/netbird-10m-series-a",
+    "design_inspiration": "Separate hosted and open-source routes with paired hero CTAs, then explain technical capabilities through repeated concise feature-and-bullet sections.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-17"
+  },
+  {
+    "company": "Lema",
+    "website": "https://www.lema.ai/",
+    "industry": "Third-party risk / exposure security",
+    "funding_date": "2026-02-09",
+    "round_amount": "$24M combined seed and Series A funding announced at emergence from stealth",
+    "funding_source": "https://www.newswire.com/news/lema-ai-raises-24m-to-replace-check-the-box-compliance-with-the-first-agentic",
+    "design_inspiration": "Open with a recognizable vendor-risk problem, contrast checkbox compliance with continuous exposure management, then show concrete analysis examples instead of generic AI claims.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-17"
+  },
+  {
+    "date_added": "2026-11-17",
+    "company": "Agile Robots",
+    "website": "https://www.agile-robots.com/en/",
+    "industry": "Industrial robotics",
+    "funding_date": "2026-11-12",
+    "round_amount": "Series F / US$500M (release dateline Nov 12; page metadata Nov 10)",
+    "funding_source": "https://www.agile-robots.com/en/news/detail/physical-ai-leader-agile-robots-raises-500-million-series-f-funding/",
+    "design_inspiration": "Product-first CTA followed by distinct quality, company and Physical AI sections; latest-news module anchors current progress.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-17",
+    "company": "Genesis AI",
+    "website": "https://www.genesis.ai/",
+    "industry": "General-purpose robotics",
+    "funding_date": "2026-11-17",
+    "round_amount": "Series A / US$500M",
+    "funding_source": "https://finance.yahoo.com/technology/ai/articles/genesis-ai-raises-500m-series-140000887.html",
+    "design_inspiration": "Eno waitlist asks commercial versus home use, then intended-use context and email; a compact qualification flow instead of a generic contact form.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-17",
+    "company": "Maven Robotics",
+    "website": "https://www.mavenrobotics.ai/",
+    "industry": "Industrial robotics",
+    "funding_date": "2026-09-10",
+    "round_amount": "Series A / US$100M",
+    "funding_source": "https://www.globenewswire.com/news-release/2026/09/10/3359782/0/en/maven-robotics-raises-100m-series-a-for-the-world-s-first-general-purpose-robotics-system-for-industrial-work.html",
+    "design_inspiration": "Short introduction moves from vision to real-world industrial problems and practical capabilities, closing with separate careers and contact links.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-17",
+    "company": "Formic",
+    "website": "https://formic.co/",
+    "industry": "Manufacturing automation",
+    "funding_date": "2026-10-23",
+    "round_amount": "US$50M growth capital: Series B plus debt (investor publication date; announcement reported Oct 22)",
+    "funding_source": "https://www.safar.partners/ai-it-robotics/formic-raises-50-million-to-scale-physical-ai-across-american-manufacturing/",
+    "design_inspiration": "Numbered Solutions, Technology, Results and Customer Stories sections connect named factory tasks to business outcomes; on-site evaluation CTA makes the next step concrete.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-17",
+    "company": "Cosmos",
+    "website": "https://www.cosmos.so/",
+    "industry": "Consumer visual discovery",
+    "funding_date": "2026-01-20",
+    "round_amount": "Series A / US$15M",
+    "funding_source": "https://www.cosmos.so/blog/the-future-of-cosmos",
+    "design_inspiration": "Search-led entry pairs color search, collections and similar-image discovery with clear feature explanations; users can show, blur or hide AI-generated images.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-17",
+    "company": "Nous",
+    "website": "https://www.nous.co/",
+    "industry": "Consumer household AI",
+    "funding_date": "2026-10-26",
+    "round_amount": "Funding / US$17M; round label not specified in company announcement",
+    "funding_source": "https://www.nous.co/blog/weve-raised-17m-to-get-nous-into-every-household",
+    "design_inspiration": "Outcome-led household-admin promise leads into postcode entry, trust evidence and four task categories, with concrete completed-task examples explaining the service.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-17",
+    "company": "Open Cosmos",
+    "website": "https://www.open-cosmos.com/",
+    "industry": "Satellite infrastructure and data",
+    "funding_date": "2026-09-14",
+    "round_amount": "Funding / EUR300M; round label not specified",
+    "funding_source": "https://www.open-cosmos.com/news/open-cosmos-raises-e300-million-satellite-intelligence-connectivity",
+    "design_inspiration": "Breaks a broad space offering into Missions, OpenConstellation, Data & AI and Secure Connectivity, each with a plain-language explanation and next-step link.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-17",
+    "company": "Orbem",
+    "website": "https://www.orbem.ai/",
+    "industry": "AI imaging for food and health",
+    "funding_date": "2026-01-20",
+    "round_amount": "Series B / EUR55.5M",
+    "funding_source": "https://www.innovationindustries.com/news/orbem-secures-eu55-5-million-series-b",
+    "design_inspiration": "Object-to-scan-to-data sequence explains the core concept before routing visitors to poultry, fruit, nuts and health applications with specific outcomes.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-17",
+    "company": "Voltus",
+    "website": "https://www.voltus.co/",
+    "industry": "Energy flexibility and virtual power plants",
+    "funding_date": "2026-10-08",
+    "round_amount": "Series D / US$225M",
+    "funding_source": "https://www.voltus.co/press/voltus-series-d-funding",
+    "design_inspiration": "Postal-code earnings estimate and optional multi-site CSV input make the benefit tangible early; navigation separates solutions, customer types and geographies.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-17",
+    "company": "Halter",
+    "website": "https://www.halterhq.com/en-us",
+    "industry": "Agricultural technology",
+    "funding_date": "2026-03-25",
+    "round_amount": "Series E / US$220M (company page date; US wire announcement Mar 24)",
+    "funding_source": "https://www.halterhq.com/en-us/news/halter-raises-220m-in-series-e-to-accelerate-global-expansion-of-virtual-fencing",
+    "design_inspiration": "Organizes rancher benefits into fencing, pasture management and herd visibility, then explains collar, satellite and app; a prominent data-sale commitment addresses trust.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  }
+]
