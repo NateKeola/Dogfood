@@ -1,0 +1,222 @@
+[
+  {
+    "company": "Collective",
+    "website": "https://www.collective.com/",
+    "industry": "Solo-business financial services",
+    "funding_date": "2026-10-29",
+    "round_amount": "$40M Series B plus $60M growth facility",
+    "funding_source": "https://www.collective.com/blog/collective-raises-100m",
+    "design_inspiration": "Pair the start CTA with a savings question, name actual customer professions in the hero, and offer practical calculators as an alternative entry path.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-18"
+  },
+  {
+    "company": "Ambrook",
+    "website": "https://ambrook.com/",
+    "industry": "Small-business accounting and payments",
+    "funding_date": "2026-08-04",
+    "round_amount": "$30M Series B",
+    "funding_source": "https://www.homebrew.co/blog-posts/ambrook-is-building-financial-tools-for-the-real-economy-and-raises-30-million-series-b",
+    "design_inspiration": "Put trial duration, live onboarding, and support assurances next to email signup; follow with industry-specific entry links and customer stories anchored to quantified outcomes.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-18"
+  },
+  {
+    "company": "Emergent",
+    "website": "https://emergent.sh/",
+    "industry": "AI application development",
+    "funding_date": "2026-07-17",
+    "round_amount": "$130M Series C",
+    "funding_source": "https://www.prnewswire.com/news-releases/emergent-raises-series-c-at-1-5-billion-valuation-becomes-unicorn-in-a-year-of-launch-302828600.html",
+    "design_inspiration": "Explain the product through three simple stages, Describe, Refine, and Launch, repeating the same start-building CTA; answer code ownership and coding-experience objections in FAQs.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-18"
+  },
+  {
+    "company": "Nevis",
+    "website": "https://www.neviswealth.com/",
+    "industry": "Wealth-management software",
+    "funding_date": "2026-10-26",
+    "round_amount": "$70M Series B",
+    "funding_source": "https://stories.eqtventures.com/articles/the-ai-operating-system-for-wealth-advisors-why-we-led-nevis-70m-funding-round",
+    "design_inspiration": "Structure the platform around agents, desktop, data, and workflows, then separate customer outcomes from a dedicated security and data-privacy section.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-18"
+  },
+  {
+    "company": "Ryft",
+    "website": "https://ryftpay.com/",
+    "industry": "Embedded payment infrastructure",
+    "funding_date": "2026-09-17",
+    "round_amount": "£20M Series B",
+    "funding_source": "https://ryftpay.com/blog/ryft-secures-20m-series-b-to-fuel-european-and-us-expansion",
+    "design_inspiration": "Offer both business use-case navigation and developer documentation; include a sandbox-request CTA and link customer cost-saving claims to full case studies.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-18"
+  },
+  {
+    "company": "Probook",
+    "website": "https://www.probook.ai/",
+    "industry": "Home-services operations software",
+    "funding_date": "2026-06-23",
+    "round_amount": "$34M Series A plus $6M seed announced together",
+    "funding_source": "https://www.globenewswire.com/fr/news-release/2026/6/23/3316215/0/en/probook-raises-40m-from-andreessen-horowitz-and-sequoia-to-scale-the-ai-operating-system-for-home-services.html",
+    "design_inspiration": "Lead with the specific dispatch job, show customer outcomes labelled by technician or location scale, then demonstrate booking, dispatch, and rescheduling with concrete sample workflow content.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-18"
+  },
+  {
+    "company": "Dust",
+    "website": "https://dust.tt/",
+    "industry": "Enterprise AI collaboration",
+    "funding_date": "2026-05-18",
+    "round_amount": "$40M Series B",
+    "funding_source": "https://www.globenewswire.com/news-release/2026/05/18/3296726/0/en/dust-raises-40m-to-make-ai-multiplayer-inside-the-enterprise.html",
+    "design_inspiration": "Connect customer logos directly to case studies and provide department-labelled use-case buttons below numbered platform pillars; button behavior was not tested.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-18"
+  },
+  {
+    "company": "GovDash",
+    "website": "https://www.govdash.com/",
+    "industry": "Government-contracting software",
+    "funding_date": "2026-01-15",
+    "round_amount": "$30M Series B",
+    "funding_source": "https://www.govdash.com/blog/press-govdash-raises-30m-series-b-to-help-companies-win-and-manage-government-contracts-with-ai",
+    "design_inspiration": "Organize content by the contracting lifecycle, from sourcing and capture to pricing, proposals, and contract management, giving each stage a concise outcome and an exploration link.",
+    "review_method": "Text-only review of official site's markdown representation; no visual or interaction testing. Funding date follows release dateline, not page metadata.",
+    "date_added": "2026-11-18"
+  },
+  {
+    "company": "North.cloud",
+    "website": "https://north.cloud/",
+    "industry": "Cloud financial operations software",
+    "funding_date": "2026-10-15",
+    "round_amount": "$60M Series B",
+    "funding_source": "https://north.cloud/newsroom/north-series-b-release",
+    "design_inspiration": "Separate audience navigation for engineering, finance, and resellers from task navigation; explain the product with action verbs such as Allocate, Analyze, Monitor, Optimize, and Ask.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-18"
+  },
+  {
+    "company": "Numa",
+    "website": "https://numa.com/",
+    "industry": "Automotive dealership software",
+    "funding_date": "2026-11-16",
+    "round_amount": "$45M Series C",
+    "funding_source": "https://www.prnewswire.com/news-releases/numa-triples-arr-raises-45m-series-c-to-run-the-entire-dealership-302940271.html",
+    "design_inspiration": "Group product navigation into service, sales, and dealership-wide needs, giving each link a short job description; provide separate manufacturer-specific entry points.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-18"
+  },
+  {
+    "date_added": "2026-11-18",
+    "company": "Stoke Space",
+    "website": "https://www.stokespace.com/",
+    "industry": "Reusable space transportation",
+    "funding_date": "2026-09-08",
+    "round_amount": "Series E / US$1B (initial closing announced)",
+    "funding_source": "https://www.stokespace.com/news/stoke-space-series-e",
+    "design_inspiration": "Explains reusability through four named hardware components, then routes visitors to Nova details; navigation separates civil, defense and commercial customers and distinguishes Pathfinder from Block 2.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-18",
+    "company": "Jaipur Robotics",
+    "website": "https://jaipurrobotics.com/",
+    "industry": "Industrial AI and waste-to-energy",
+    "funding_date": "2026-09-07",
+    "round_amount": "Seed / EUR4.3M",
+    "funding_source": "https://jaipurrobotics.com/news/waste-to-energy-ai-jaipur-robotics-raises-eur-4-3m-to-bring-computer-vision-to-waste-plants-worldwide",
+    "design_inspiration": "Moves from quantified operational pain to an impact section, with per-plant/per-year qualifiers; three concrete product explanations end in a free-consultation CTA.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-18",
+    "company": "Alethio Therapeutics",
+    "website": "https://alethiotherapeutics.com/",
+    "industry": "Blood-cancer biotechnology",
+    "funding_date": "2026-11-05",
+    "round_amount": "Series A / US$90M (GBP67M)",
+    "funding_source": "https://alethiotherapeutics.com/alethio-therapeutics-raises-90-million-67-million-in-oversubscribed-series-a-financing-to-advance-a-new-generation-of-therapies-for-myeloproliferative-neoplasms/",
+    "design_inspiration": "Starts with patient unmet need before introducing the ARTEMIS discovery engine and pipeline, each with its own deeper-reading link; investment enquiries have an explicit contact invitation.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-18",
+    "company": "Aptadir Therapeutics",
+    "website": "https://aptadir.com/",
+    "industry": "RNA therapeutics",
+    "funding_date": "2026-09-29",
+    "round_amount": "Seed / EUR40M (US$45M)",
+    "funding_source": "https://www.globenewswire.com/news-release/2026/09/29/3370373/0/en/aptadir-raises-a-40m-45m-seed-financing-to-advance-first-in-class-demethylating-medicines.html",
+    "design_inspiration": "Explains limitations of existing approaches before its RNA mechanism, then gives separate Team, Platform and Pipeline routes; Publications is directly accessible from the main navigation.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-18",
+    "company": "Kasvu Therapeutics",
+    "website": "https://www.kasvutx.com/",
+    "industry": "Neuroscience biotechnology",
+    "funding_date": "2026-09-24",
+    "round_amount": "Series A / EUR30M",
+    "funding_source": "https://www.kasvutx.com/news-series-a-funding-round",
+    "design_inspiration": "Builds a problem-to-solution narrative around mental-health burden, then groups its intended product differentiation under three short benefit headings: Effective, Sustainable and Broad therapeutic potential.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-18",
+    "company": "Adaptyv Bio",
+    "website": "https://www.adaptyvbio.com/",
+    "industry": "Automated protein-testing laboratories",
+    "funding_date": "2026-08-25",
+    "round_amount": "Series A / US$40M",
+    "funding_source": "https://www.adaptyvbio.com/blog/series-a",
+    "design_inspiration": "A numbered four-step workflow explains choosing data, uploading designs, running experiments and receiving results; service-specific navigation and separate Test your proteins, meeting and sign-in paths serve different user readiness levels.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-18",
+    "company": "Nouscom",
+    "website": "https://nouscom.com/",
+    "industry": "Cancer immunotherapy",
+    "funding_date": "2026-10-19",
+    "round_amount": "Series D / EUR120M (US$135M)",
+    "funding_source": "https://nouscom.com/2026/10/19/nouscom-raises-e120-million-135-million-in-oversubscribed-series-d-financing-and-will-present-long-term-cancer-interception-clinical-data-in-lynch-syndrome-carriers-at-esmo/",
+    "design_inspiration": "Places linked scientific publications beside the platform explanation, then introduces named clinical programmes and dated news; the navigation separates scientific publications, presentations and press releases.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-18",
+    "company": "Neurosterix",
+    "website": "https://neurosterix.com/",
+    "industry": "Neuropsychiatric therapeutics",
+    "funding_date": "2026-11-11",
+    "round_amount": "Series B / US$105M (Addex shareholder announcement Nov 11; company release Nov 12)",
+    "funding_source": "https://www.addextherapeutics.com/en/investors/ad-hoc-announcements-art-53-lr/addex-spin-out-neurosterix-closes-105-million-series-b-financing/",
+    "design_inspiration": "Pairs the science and pipeline summaries with explicit educational CTAs; Patients and Investors & Media are distinct top-level navigation paths rather than one generic company-information section.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-18",
+    "company": "Marrow Therapeutics",
+    "website": "https://www.marrowtx.com/",
+    "industry": "Genetic medicines for blood disorders",
+    "funding_date": "2026-11-17",
+    "round_amount": "Series B / US$120M; announced alongside prior US$53M Series A (US$173M combined)",
+    "funding_source": "https://www.marrowtx.com/news/marrow-therapeutics-launches-with-173-million-to-develop-genetic-medicines-for-bone-marrow-disorders/",
+    "design_inspiration": "Patient-first introduction leads to distinct progress, approach and team links; Patients & Caregivers has its own navigation item, and a dated launch release provides evidence of company progress.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-18",
+    "company": "Traitomic",
+    "website": "https://www.traitomic.com/",
+    "industry": "Agricultural and microbial trait development",
+    "funding_date": "2026-11-17",
+    "round_amount": "Series A / EUR20M",
+    "funding_source": "https://eifo.dk/videnshub/eifo-investerer-i-traitomic",
+    "design_inspiration": "Uses a short sequential narrative from customers' biological needs to commercial traits, with five numbered markers and repeated process links; four navigation choices keep offer, method, company and contact distinct.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  }
+]
