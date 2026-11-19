@@ -1,0 +1,222 @@
+[
+  {
+    "date_added": "2026-11-19",
+    "company": "Spott",
+    "website": "https://spott.io/",
+    "industry": "Recruitment AI / ATS and CRM",
+    "funding_date": "2026-09-22",
+    "round_amount": "Series A / US$21M",
+    "funding_source": "https://spott.io/series-a",
+    "design_inspiration": "Role-specific hero for agency recruiters; navigation groups capabilities into Intelligence, Data, Engagement and Operations, making a broad platform legible. Demo and free-start paths sit together.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-19",
+    "company": "Unleash",
+    "website": "https://www.getunleash.io/",
+    "industry": "Developer tools / feature management",
+    "funding_date": "2026-03-04",
+    "round_amount": "Series B / US$35M",
+    "funding_source": "https://www.getunleash.io/blog/series-b",
+    "design_inspiration": "Homepage exposes example feature-flag controls and a code snippet, followed by separate developer-freedom and enterprise-governance explanations. Good example of explaining a technical product through its own page; controls were not tested.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-19",
+    "company": "firmly",
+    "website": "https://www.firmly.ai/",
+    "industry": "Agentic commerce infrastructure",
+    "funding_date": "2026-11-05",
+    "round_amount": "Series A / US$15M",
+    "funding_source": "https://www.firmly.ai/blog/series-a",
+    "design_inspiration": "Splits visitors into platform and merchant journeys, then shows explicitly illustrative purchase flows for AI agents, publishers, marketplaces, ads and CTV. Concrete catalog-and-checkout examples make abstract infrastructure tangible.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-19",
+    "company": "LanceDB",
+    "website": "https://www.lancedb.com/",
+    "industry": "Multimodal AI data infrastructure",
+    "funding_date": "2026-11-17",
+    "round_amount": "Series B / US$57.5M",
+    "funding_source": "https://www.lancedb.com/blog/lancedb-series-b-funding",
+    "design_inspiration": "Leads with the research outcome, then organizes capabilities into Curation, Feature Engineering, Training, and Search + Retrieval. Named customer quotes and scoped performance figures provide a proof layer after the workflow explanation.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-19",
+    "company": "Sapiom",
+    "website": "https://www.sapiom.ai/",
+    "industry": "AI-agent payment infrastructure",
+    "funding_date": "2026-08-05",
+    "round_amount": "Series A / US$35M",
+    "funding_source": "https://www.sapiom.ai/blog/series-a/",
+    "design_inspiration": "Detailed example payment workspace shows pending approvals, purchase limits and order-confirmation states. Product sections clearly distinguish available infrastructure from early-access recovery, issuing and voice features.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-19",
+    "company": "Sequel",
+    "website": "https://sequel.io/",
+    "industry": "Video marketing and audience intelligence",
+    "funding_date": "2026-11-18",
+    "round_amount": "US$15M round; page title labels Series B",
+    "funding_source": "https://sequel.io/blog/sequel-closes-15m-round-led-by-sorenson-capital",
+    "design_inspiration": "Product navigation consistently uses Build, Scale and Convert; agent explanations map to before, after and ongoing event work. Useful pattern for organizing an AI service around the customer's lifecycle rather than model features.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-19",
+    "company": "Wonderful",
+    "website": "https://www.wonderful.ai/",
+    "industry": "Enterprise AI workflow platform",
+    "funding_date": "2026-09-02",
+    "round_amount": "Series C / US$550M",
+    "funding_source": "https://www.wonderful.ai/blog-articles/wonderful-raises-550m-series-c",
+    "design_inspiration": "Brief transformation positioning is followed by enterprise proof and concrete case-study links about telecom, collections, billing and internal IT. Demonstrates how to keep a broad AI positioning grounded in specific operating workflows.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-19",
+    "company": "HiddenLayer",
+    "website": "https://www.hiddenlayer.com/",
+    "industry": "AI cybersecurity",
+    "funding_date": "2026-09-02",
+    "round_amount": "Series B / US$100M",
+    "funding_source": "https://www.hiddenlayer.com/news/hiddenlayer-100m-series-b-ai-security",
+    "design_inspiration": "Explains four buyer risks before presenting four corresponding security capabilities, followed by integrations and proof figures. A clear problem-to-solution structure for a complex technical category.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-19",
+    "company": "General Flash",
+    "website": "https://generalflash.com/",
+    "industry": "Critical metals manufacturing",
+    "funding_date": "2026-11-17",
+    "round_amount": "Seed and Series A / US$128M combined equity",
+    "funding_source": "https://generalflash.com/",
+    "design_inspiration": "Numbered sections explain the ore-to-oxide-to-metal-to-parts value chain and isolate the company’s role; separate Buy metal and Supply oxide inquiry choices address both sides of its market, with a Pause motion control exposed in the page text.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-19",
+    "company": "Bedrock Energy",
+    "website": "https://bedrockenergy.com/",
+    "industry": "Geothermal heating and cooling",
+    "funding_date": "2026-11-16",
+    "round_amount": "Funding / US$24M; stage not specified in company announcement",
+    "funding_source": "https://bedrockenergy.com/press-releases/",
+    "design_inspiration": "Connects property-owner benefits to three concrete delivery services: geo-loop design, borehole drilling and end-to-end projects. The benefits section separates resilience, efficiency and comfort before introducing the work involved.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-19",
+    "company": "Provectus Algae",
+    "website": "https://www.provectusalgae.com/",
+    "industry": "Industrial biotechnology and agricultural biosolutions",
+    "funding_date": "2026-11-17",
+    "round_amount": "Series A extension / US$4.3M",
+    "funding_source": "https://www.businesswire.com/news/home/20261117012196/en/Provectus-Algae-Closes-Series-A-Extension-as-Breakthrough-Programs-Move-Toward-Commercial-Scale",
+    "design_inspiration": "A four-stage sequence moves from selecting a commercial problem through discovery, development and scale; market-problem figures include source notes, while separate platform and partnership CTAs accommodate learning and buying intent.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-19",
+    "company": "RadianX",
+    "website": "https://radianx.co/",
+    "industry": "Perovskite photovoltaic hardware",
+    "funding_date": "2026-11-05",
+    "round_amount": "Seed venture and project financing / US$9M combined; seed amount not separately disclosed",
+    "funding_source": "https://www.prnewswire.com/news-releases/radianx-secures-9-million-in-venture-and-project-financing-for-perovskite-photovoltaics-302930191.html",
+    "design_inspiration": "Introduces a surface-area power calculator beside measurable performance specifications, then distinguishes rigid, semitransparent and flexible product formats; benefits are grouped into product, operations and financial outcomes.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-19",
+    "company": "Viridi",
+    "website": "https://viriditech.com/",
+    "industry": "Sustainable chemicals and CO2 utilisation",
+    "funding_date": "2026-11-03",
+    "round_amount": "Funding / GBP2.2M; stage not specified in company announcement",
+    "funding_source": "https://viridico2.co.uk/latest-news/viridi-brings-in-top-ventures-as-strategic-investor-to-scale-co2-based-surfactants-across-asia/",
+    "design_inspiration": "Uses familiar everyday-product examples to explain an industrial catalyst, then separates improving existing products from creating new materials. Drop-in compatibility with existing infrastructure is addressed before application-specific detail.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-19",
+    "company": "Ansa Biotechnologies",
+    "website": "https://ansabio.com/",
+    "industry": "Synthetic DNA / life-science tools",
+    "funding_date": "2026-11-18",
+    "round_amount": "$71.5M Series C",
+    "funding_source": "https://www.businesswire.com/news/home/20261118601923/en/Ansa-Biotechnologies-Raises-$71.5-Million-in-Oversubscribed-Series-C-Round-to-Scale-Guaranteed-DNA-Synthesis",
+    "design_inspiration": "Translate technical capability into a dedicated 'What that means' section of research outcomes, followed by named scientist testimonials and application-specific entry points.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-19",
+    "company": "Seawolf Therapeutics",
+    "website": "https://www.seawolftx.com/",
+    "industry": "DNA therapeutics / biotechnology",
+    "funding_date": "2026-11-16",
+    "round_amount": "$100M combined seed and Series A funding announced at launch",
+    "funding_source": "https://www.aol.com/articles/seawolf-therapeutics-debuts-100-million-100000000.html",
+    "design_inspiration": "Keep the homepage focused on one DNA-medicine positioning statement and a Discover CTA, with only five main navigation destinations: About, Technology, News, Careers, and Contact.",
+    "review_method": "Text-only review of official homepage HTML retrieved directly; web-search fetch was unavailable. No visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-19",
+    "company": "Biograil",
+    "website": "https://biograil.com/",
+    "industry": "Oral biologic drug-delivery technology",
+    "funding_date": "2026-11-04",
+    "round_amount": "€20M financing round; series not specified",
+    "funding_source": "https://biograil.com/2026/11/04/press-release-biograil-raises-eur-20-million-financing-round-to-advance-preparations-forclinical-trials-2/",
+    "design_inspiration": "Pair a named technology and plain-language delivery benefit with a technology explainer video; keep publications and scientific-advisory-board information directly accessible in navigation.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-19",
+    "company": "Big Picture Bio",
+    "website": "https://bigpicturebio.com/",
+    "industry": "AI oncology drug discovery",
+    "funding_date": "2026-09-17",
+    "round_amount": "£1.5M pre-seed plus £700,000 non-dilutive Innovate UK funding",
+    "funding_source": "https://www.bio-itworld.com/news/2026/09/18/big-picture-bio-founded-to-identify-design-and-optimise-promising-cancer-combination-therapies",
+    "design_inspiration": "Build a numbered explanation of the science, then separate validation claims from partnership possibilities; link prospective prediction claims to the original public posts.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-19",
+    "company": "Magnitude Biosciences",
+    "website": "https://magnitudebiosciences.com/",
+    "industry": "Drug-discovery screening / laboratory automation",
+    "funding_date": "2026-09-15",
+    "round_amount": "£1.3M funding round; also unlocks a £217,000 grant",
+    "funding_source": "https://magnitudebiosciences.com/magnitude-secures-investment-to-scale-vivoscan/",
+    "design_inspiration": "Offer a View Example Data CTA beside the platform introduction, and organize service links by research area. Extracted homepage also contains placeholder copy, so borrow the information structure, not the unfinished content.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing."
+  },
+  {
+    "date_added": "2026-11-19",
+    "company": "Athlete To Athlete",
+    "website": "https://athletetoathlete.com/",
+    "industry": "Youth sports mentorship",
+    "funding_date": "2026-11-12",
+    "round_amount": "US$8M Series A",
+    "funding_source": "https://www.prnewswire.com/news-releases/athlete-to-athlete-raises-8-million-series-a-led-by-rally-ventures-to-expand-youth-sports-mentorship-302935560.html",
+    "design_inspiration": "The parent-facing matching CTA leads into sample mentor profiles that pair sport and school with the mentor’s coaching focus, so readers can understand the match before starting.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-19",
+    "company": "Dodai",
+    "website": "https://dodai.co/",
+    "industry": "Electric motorcycles and battery swapping",
+    "funding_date": "2026-04-28",
+    "round_amount": "US$13M Series A, comprising US$8M equity and US$5M debt",
+    "funding_source": "https://dodai.co/news/ibewjbxwi18ja2uwk542o8peqyqppj",
+    "design_inspiration": "The homepage separates vehicles, batteries and swap stations, then explains why it started in Ethiopia and reports deployment figures for that market.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  }
+]
