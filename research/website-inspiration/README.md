@@ -231,3 +231,12 @@ The source tracker was read back and the export checked: 20 records, 20 distinct
 - Includes small-business finance, payments, software development, wealth operations, home services, government contracting, cloud operations, automotive software, space transportation, industrial waste processing, agricultural traits, laboratory automation and therapeutics.
 - Funding descriptions preserve debt-facility distinctions, combined round announcements and initial closes. Collective includes a US$60M growth facility alongside US$40M equity. Probook separately identifies seed and Series A funding. Stoke reports an initial closing; Marrow distinguishes its US$120M Series B from earlier Series A funding. Nevis uses its lead investor's dated announcement; Ryft's date is corroborated by coverage linked from its company announcement. GovDash follows the release dateline rather than page metadata. Neurosterix uses the shareholder announcement date, with the next-day company release noted.
 - Validation: 20 new canonical domains against all 440 prior public records and the working tracker; nine populated fields, qualifying dates and exact tracker readback. All prior values and personal notes preserved; native dates, links, wrapping and font verified through the API; filter expanded to all records. Rendered tracker layout not verified because the browser required sign-in. Public research only; no private workspace identifiers.
+
+## November 19 collection
+
+- [2026-11-19 data (JSON)](data/2026-11-19.json) — 20 additional companies; 480 distinct company domains across all 24 collections.
+- Funding announcements fall within November 19, 2025 to November 19, 2026 and are backed by company announcements or attributable company-issued releases.
+- All 20 sites reviewed by text only. Observations describe content, navigation and messaging, not rendered appearance or tested interactions.
+- Includes recruitment, developer infrastructure, conversational commerce, events, critical materials, geothermal energy, photovoltaics, therapeutics, youth sports mentoring, and electric mobility.
+- Round descriptions preserve equity and debt, project financing, extensions, combined rounds, grant distinctions and unspecified stages.
+- Validation: 20 new names and domains against previous public records and the working tracker; nine populated fields per record and exact tracker readback. Public research only.
