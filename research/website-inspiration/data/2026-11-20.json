@@ -1,0 +1,222 @@
+[
+  {
+    "company": "Traversal",
+    "website": "https://www.traversal.com/",
+    "industry": "AI site reliability engineering",
+    "funding_date": "2026-11-03",
+    "round_amount": "$120M Series B",
+    "funding_source": "https://www.traversal.com/blog/traversal-series-b-120-million-ai-sre",
+    "design_inspiration": "Pair demo and product-exploration CTAs with a concrete incident example: the homepage text includes a dependency chain, failure rates and root-cause explanation, making an abstract AI promise inspectable.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-20"
+  },
+  {
+    "company": "Kindo",
+    "website": "https://www.kindo.ai/",
+    "industry": "Enterprise AI agent management",
+    "funding_date": "2026-11-12",
+    "round_amount": "$30M funding round (series unspecified; $57.6M cumulative)",
+    "funding_source": "https://www.kindo.ai/resources/press-kindo-raises-57-million-ai-agent-management",
+    "design_inspiration": "Organize navigation by use case and buyer team, then provide a free shadow-AI assessment alongside the sales demo. This gives problem-aware visitors a lower-commitment entry point.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-20"
+  },
+  {
+    "company": "Payhawk",
+    "website": "https://payhawk.com/",
+    "industry": "Fintech / spend management",
+    "funding_date": "2026-11-18",
+    "round_amount": "$280M all-equity Series C (subject to standard regulatory approvals)",
+    "funding_source": "https://payhawk.com/blog/payhawk-series-c-280m-funding",
+    "design_inspiration": "Group products by finance jobs such as procurement and accounts payable; add free benchmarking, savings and payment-fee calculators so visitors can investigate value before requesting a demo.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-20"
+  },
+  {
+    "company": "Confido",
+    "website": "https://www.confidotech.com/",
+    "industry": "CPG finance and operations software",
+    "funding_date": "2026-09-22",
+    "round_amount": "$55M Series B",
+    "funding_source": "https://www.confidotech.com/blogs/confido-raises-55m-series-b-to-scale-the-ai-operating-system-for-cpg-brands",
+    "design_inspiration": "Connect four product sections to role-specific destinations for operations, sales, accounting and finance, then follow with quantified customer outcomes and an integration directory. Useful structure for a multi-buyer offer.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-20"
+  },
+  {
+    "company": "Veremark",
+    "website": "https://www.veremark.com/",
+    "industry": "Employment screening / workplace trust software",
+    "funding_date": "2026-02-03",
+    "round_amount": "$26M Series B funding package, including a multi-million-dollar debt facility",
+    "funding_source": "https://www.veremark.com/blog/veremark-secures-26-million-to-drive-global-expansion-and-launch-new-services",
+    "design_inspiration": "Explain the service in three steps from ordering checks to receiving a verified profile, then split growth and enterprise paths by hiring volume with different self-service and demo CTAs.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-20"
+  },
+  {
+    "company": "Vendelux",
+    "website": "https://vendelux.com/",
+    "industry": "B2B event marketing software",
+    "funding_date": "2026-07-08",
+    "round_amount": "$50M Series B",
+    "funding_source": "https://vendelux.com/series-b-announcement",
+    "design_inspiration": "Follow the hero with a recognizable event-spend problem narrative, and offer both free-trial and demo routes. Role-specific navigation separates event marketers, revenue operations, CMOs and sales leaders.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-20"
+  },
+  {
+    "company": "Spade",
+    "website": "https://spade.com/",
+    "industry": "Fintech / transaction-data intelligence",
+    "funding_date": "2026-03-24",
+    "round_amount": "$40M Series B",
+    "funding_source": "https://spade.com/resources/spade-series-b-owning-the-data-layer-for-financial-services/",
+    "design_inspiration": "Translate data infrastructure into use-case sections such as authorization and rewards, pairing the authorization section with a stated latency metric. Keep developer documentation accessible beside the sales route.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-20"
+  },
+  {
+    "company": "Patlytics",
+    "website": "https://www.patlytics.ai/",
+    "industry": "Legal technology / patent software",
+    "funding_date": "2026-04-08",
+    "round_amount": "$40M Series B",
+    "funding_source": "https://www.patlytics.ai/news/patlytics-raises-40-million-series-b",
+    "design_inspiration": "Show a specific patent-analysis example immediately after the hero: a user request, processing steps and an evidence-linked claim chart with strengths and gaps. Concrete sample outputs clarify the workflow.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-20"
+  },
+  {
+    "company": "Larridin",
+    "website": "https://larridin.com/",
+    "industry": "AI ROI and workforce analytics",
+    "funding_date": "2026-11-02",
+    "round_amount": "$30M Series A",
+    "funding_source": "https://larridin.com/press-releases/larridin-raises-30-million-in-series-a-to-prove-ais-impact-across-the-human-and-agent-workforce",
+    "design_inspiration": "Place an explicitly labeled example ROI summary near the hero, connecting spend, returned hours and departmental breakdowns. Pair it with separate demo and platform-exploration CTAs to support different readiness levels.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-20"
+  },
+  {
+    "company": "Tembo",
+    "website": "https://www.tembomoney.com/",
+    "industry": "Consumer fintech / savings and mortgage platform",
+    "funding_date": "2026-02-12",
+    "round_amount": "£16M growth investment",
+    "funding_source": "https://greshamhouseventures.com/gresham-house-leads-16m-round-in-tembo/",
+    "design_inspiration": "Segment mortgage navigation by life stage, including first-time buyers, movers and remortgagers, while giving savings products their own group. Short descriptions explain who each route serves before the visitor clicks.",
+    "review_method": "Text-only review of official homepage extracted content; no visual or interaction testing.",
+    "date_added": "2026-11-20"
+  },
+  {
+    "date_added": "2026-11-20",
+    "company": "VitriVax",
+    "website": "https://vitrivaxbio.com/",
+    "industry": "Vaccine biotechnology",
+    "funding_date": "2026-11-18",
+    "round_amount": "Series C / US$87M",
+    "funding_source": "https://vitrivaxbio.com/vitrivax-announces-87-million-series-c-financing-to-advance-lyme-disease-vaccine-candidate/",
+    "design_inspiration": "A compact homepage separates the company approach from the technology explanation, while the About menu gives distinct routes to the operating team, scientific advisers and board. A consultation CTA provides a clear next step for partners.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-20",
+    "company": "Promise Robotics",
+    "website": "https://promiserobotics.com/",
+    "industry": "Construction robotics",
+    "funding_date": "2026-11-17",
+    "round_amount": "Series B / CAD40M",
+    "funding_source": "https://www.prnewswire.com/news-releases/promise-robotics-raises-40-million-cad-series-b-to-scale-the-production-infrastructure-powering-homebuilding-302941746.html",
+    "design_inspiration": "Breaks its platform into three numbered layers: AI core, orchestration and robotic execution. Separate homebuilder-benefit and how-it-works links connect the technical explanation to quantified business outcomes and a named customer testimonial.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-20",
+    "company": "Ramon.Space",
+    "website": "https://ramon.space/",
+    "industry": "Space computing hardware",
+    "funding_date": "2026-11-17",
+    "round_amount": "Series B / US$124M",
+    "funding_source": "https://ramon.space/press/ramon-space-raises-124-million-series-b-leading-the-next-era-of-computing-in-orbit/",
+    "design_inspiration": "Frames a specialist hardware platform through four applications: remote sensing, communications payloads, orbital edge computing and exploration. Contact and newsletter routes are separated, with quality-policy and certification links in the footer.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-20",
+    "company": "Harbinger",
+    "website": "https://harbingermotors.com/",
+    "industry": "Commercial electric vehicles",
+    "funding_date": "2026-11-05",
+    "round_amount": "Series D / US$240M",
+    "funding_source": "https://harbingermotors.com/newsroom/harbinger-raises-240-million-series-d-funding-round/",
+    "design_inspiration": "Organizes fleet resources around planning, incentives and ownership rather than only products. Product navigation includes range and configuration details; spec downloads, a cost-calculator link, dealer search and a test-drive CTA address successive buyer questions.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-20",
+    "company": "Remedy Robotics",
+    "website": "https://www.remedyrobotics.com/",
+    "industry": "Endovascular medical robotics",
+    "funding_date": "2026-11-16",
+    "round_amount": "Series B / US$62M",
+    "funding_source": "https://www.prnewswire.com/news-releases/remedy-robotics-raises-62-million-series-b-to-bring-life-saving-cardiovascular-intervention-to-patients-everywhere-302939871.html",
+    "design_inspiration": "Moves from an access problem with a linked research statistic to separate hardware and operator-console explanations, then dated clinical milestones. Learning and demo CTAs coexist with an explicit investigational-device disclaimer.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-20",
+    "company": "Galvanize Therapeutics",
+    "website": "https://galvanizetx.com/",
+    "industry": "Medical-device technology",
+    "funding_date": "2026-11-16",
+    "round_amount": "Series D / US$130M",
+    "funding_source": "https://www.prnewswire.com/news-releases/galvanize-therapeutics-raises-130-million-in-oversubscribed-series-d-financing-to-accelerate-commercial-growth-and-advance-pef-innovation-302939618.html",
+    "design_inspiration": "Separates science, products, clinical evidence and patient navigation. Product benefits sit alongside regulatory scope, while a physician-finder route differs from an information-request form that asks for role and area of interest.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-20",
+    "company": "Path Robotics",
+    "website": "https://www.path-robotics.com/",
+    "industry": "Industrial welding robotics",
+    "funding_date": "2026-11-10",
+    "round_amount": "Series E / US$300M",
+    "funding_source": "https://www.path-robotics.com/news/path-robotics-announces-300-million-series-e-led-by-georgian",
+    "design_inspiration": "Leads with productivity, cost and operating-support propositions before explaining the welding model. Distinct stationary-cell and mobile-welding routes lead into named customer perspectives and industry-specific examples of fabricated components.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-20",
+    "company": "Dcubed",
+    "website": "https://dcubed.space/",
+    "industry": "Space hardware and solar arrays",
+    "funding_date": "2026-11-18",
+    "round_amount": "Series A+ / EUR27.2M",
+    "funding_source": "https://www.htgf.de/en/dcubed-raises-oversubscribed-27-2-million-round/",
+    "design_inspiration": "Splits release actuators and solar arrays into clear product groups with lead-time labels and subcategory links. A dedicated Proof navigation groups success stories and quality assurance, while paired explore-products and quote CTAs suit different buying stages.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-20",
+    "company": "Humble Robotics",
+    "website": "https://humblerobotics.ai/",
+    "industry": "Autonomous electric freight vehicles",
+    "funding_date": "2026-11-05",
+    "round_amount": "Series A / US$51M (company announcement Nov 5; counsel source published Nov 11)",
+    "funding_source": "https://www.goodwinlaw.com/en/news-and-events/news/2026/11/announcements-technology-goodwin-advises-humble-robotics-51-million-series-a",
+    "design_inspiration": "Explains the offering through a numbered operating model, service-support and safety sequence rather than autonomy technology alone. A subsequent economics section translates the cabless design and electric powertrain into capacity and fuel-dependency benefits.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  },
+  {
+    "date_added": "2026-11-20",
+    "company": "Botsync",
+    "website": "https://www.botsync.co/",
+    "industry": "Industrial mobile robotics",
+    "funding_date": "2026-11-18",
+    "round_amount": "Funding / US$11M; stage not specified in company announcement",
+    "funding_source": "https://www.botsync.co/blog/weve-raised-us11-million-to-help-factories-run-as-one",
+    "design_inspiration": "Offers parallel navigation by industry and by material-flow stage: inbound, production, storage and outbound. Hardware models and orchestration modules remain distinct, with operational proof metrics and separate partner paths for selling and integration.",
+    "review_method": "Text-only: official homepage content inspected; no visual rendering or interaction testing."
+  }
+]
