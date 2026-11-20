@@ -240,3 +240,12 @@ The source tracker was read back and the export checked: 20 records, 20 distinct
 - Includes recruitment, developer infrastructure, conversational commerce, events, critical materials, geothermal energy, photovoltaics, therapeutics, youth sports mentoring, and electric mobility.
 - Round descriptions preserve equity and debt, project financing, extensions, combined rounds, grant distinctions and unspecified stages.
 - Validation: 20 new names and domains against previous public records and the working tracker; nine populated fields per record and exact tracker readback. Public research only.
+
+## November 20 collection — 500-domain milestone
+
+- [2026-11-20 data (JSON)](data/2026-11-20.json) - 20 additional companies; 500 distinct company domains across all 25 collections. This completes the collection target.
+- Funding announcements fall within November 20, 2025 to November 20, 2026, backed by company/investor announcements, attributable company-issued releases or financing counsel.
+- All 20 sites reviewed by text only. Notes describe inspected content, navigation and messaging, not rendered appearance or tested interactions.
+- Includes software operations, enterprise AI, financial services, consumer-goods operations, employment screening, events, legal technology, vaccines, construction and industrial robotics, space hardware, commercial vehicles and medical technology.
+- Funding descriptions preserve debt components, regulatory conditions, cumulative-funding distinctions and unspecified stages. Promise Robotics is CAD40M, not US$40M. Kindo's latest round is US$30M versus US$57.6M cumulative. Humble's November 5 company announcement is corroborated by its November 11 financing-counsel source. Botsync's company announcement does not specify a stage.
+- Validation: 20 new canonical domains against all 480 prior public records and the working tracker; nine populated fields, qualifying dates and exact tracker readback. Prior values and personal notes unchanged. Native dates, links, wrapping and fonts verified through the API, and the existing filter range extended to cover all 500 entries without changing criteria. Rendered tracker layout was not verified. Public research only; no private workspace identifiers.
