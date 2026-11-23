@@ -12,6 +12,8 @@ A home for public standalone research and projects that do not have a dedicated 
 
 - [Funded-company website inspiration](research/website-inspiration/README.md) — dated, source-linked website references and design observations.
 
+- [Content production and editing](research/content-production/README.md): page-indexed Vibe Editing Playbook and a reusable short-form review workflow.
+
 ## Projects
 
 - [Idea archive](projects/idea-archive/README.md) — a searchable gallery of public website references and original small-business prototype briefs. Includes an intake template for future verified Reels.
