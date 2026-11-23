@@ -2,6 +2,8 @@
 
 **Scope:** Book identified from the [original reel by @different_script](https://www.instagram.com/reels/Df7v-eHxt3P/). A full, readable scan of the exact edition was not located. This is an edition-level overview and a guide to the archival images, not a page-by-page review, transcript, or set of medical instructions.
 
+**Looking for the actual frames?** See the [exact reel screenshots and timestamped page index](reel-df7v-ehxt3p/README.md). The archival plates below are separate background material.
+
 ## What the book is
 
 The reel shows the cover of *The New American Family Physician*, with Lyman, Fenger, and Belfield on the cover. [The 1899 revised edition record](https://cabinetforthecurious.com/library/new-american-family-physician-the/) identifies Geo. M. Hill Co., Chicago, and also credits H. Webster Jones. The original U.S. edition is [in the public domain](https://www.copyright.gov/what-is-copyright/index.html). The missing pages are an access issue, not a copyright issue.
